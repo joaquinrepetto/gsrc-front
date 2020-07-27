@@ -1,0 +1,394 @@
+import React from "react";
+import banner1 from "../assets/img/imag-slider-3-home.jpg";
+import banner2 from "../assets/img/imag-slider-1-home.jpg";
+import banner3 from "../assets/img/imag-slider-2-home.jpg";
+
+import new1 from "../assets/news/new1.jpg";
+import new2 from "../assets/news/new2.jpg";
+import new3 from "../assets/news/new3.jpg";
+import new4 from "../assets/news/new4.jpg";
+
+import value1 from "../assets/values/AT_BestInClass_icon.jpg";
+import value2 from "../assets/values/AT_Stewardship_icon.jpg";
+import value3 from "../assets/values/AT_Independence_icon (1).jpg";
+import value4 from "../assets/values/AT_Seamless_icon.jpg";
+import value5 from "../assets/values/AT_Transparency_icon.jpg";
+
+export default function Home() {
+  return (
+    <div>
+      <div class="main-content">
+        <div
+          class="home-carousel orbit"
+          data-orbit
+          style={{ paddingTop: "25px" }}
+        >
+          <div class="row large-collapse medium-collapse small-collapse">
+            <div class="column">
+              <ul class="orbit-container">
+                <li class="orbit-slide is-active">
+                  <picture>
+                    <source
+                      srcset={banner1}
+                      media="(min-width: 0) and (max-width: 39.9375em)"
+                    />
+                    <source srcset={banner1} media="(max-width: 63.9375em)" />
+                    <source srcset={banner1} media="(min-width: 64em)" />
+
+                    <img srcset={banner1} alt="Three" />
+                  </picture>
+
+                  <nav class="orbit-bullets mobile">
+                    <button class="is-active" data-slide="0">
+                      <span class="show-for-sr">First slide details.</span>
+                      <span class="show-for-sr">Current Slide</span>
+                    </button>
+                    <button data-slide="1">
+                      <span class="show-for-sr">Second slide details.</span>
+                    </button>
+                    <button data-slide="2">
+                      <span class="show-for-sr">Third slide details.</span>
+                    </button>
+                  </nav>
+
+                  <div class="detail-text">
+                    <h1>Andersen Argentina</h1>
+                    <p>
+                      Desde el 2020 somos el producto de la unión de dos
+                      prestigiosos estudios en Argentina: GSRC y MODO Law.
+                      Reconocidos como líderes en Precios de Transferencia e
+                      impuestos en el mercado.
+                    </p>
+                    <a class="button cta hollow-light" href="nuestraFirma.html">
+                      Más Información{" "}
+                    </a>
+                  </div>
+                </li>
+                <li class="orbit-slide ">
+                  <picture class="image">
+                    <source
+                      srcset={banner2}
+                      media="(min-width: 0) and (max-width: 39.9375em)"
+                    />
+                    <source srcset={banner2} media="(max-width: 63.9375em)" />
+                    <source srcset={banner2} media="(min-width: 64em)" />
+
+                    <img srcset={banner2} alt="One" />
+                  </picture>
+
+                  <nav class="orbit-bullets mobile">
+                    <button class="is-active" data-slide="0">
+                      <span class="show-for-sr">First slide details.</span>
+                      <span class="show-for-sr">Current Slide</span>
+                    </button>
+                    <button data-slide="1">
+                      <span class="show-for-sr">Second slide details.</span>
+                    </button>
+                    <button data-slide="2">
+                      <span class="show-for-sr">Third slide details.</span>
+                    </button>
+                  </nav>
+                  <div class="detail-text">
+                    <h1>Nuestros Servicios</h1>
+
+                    <p>
+                      Somos una Firma intgral de servicios legales, tributarios
+                      y contables con sede en Buenos Aires, brindando
+                      asesoramiento a empresas y personas en el ámbito local e
+                      internacional.
+                    </p>
+                    <a class="button cta hollow-light" href="services.html">
+                      Más información
+                    </a>
+                  </div>
+                </li>
+
+                <li class="orbit-slide">
+                  <picture>
+                    <source
+                      srcset={banner3}
+                      media="(min-width: 0) and (max-width: 39.9375em)"
+                    />
+                    <source srcset={banner3} media="(max-width: 63.9375em)" />
+                    <source srcset={banner3} media="(min-width: 64em)" />
+
+                    <img srcset={banner3} alt="Two" />
+                  </picture>
+
+                  <nav class="orbit-bullets mobile">
+                    <button class="is-active" data-slide="0">
+                      <span class="show-for-sr">First slide details.</span>
+                      <span class="show-for-sr">Current Slide</span>
+                    </button>
+                    <button data-slide="1">
+                      <span class="show-for-sr">Second slide details.</span>
+                    </button>
+                    <button data-slide="2">
+                      <span class="show-for-sr">Third slide details.</span>
+                    </button>
+                  </nav>
+
+                  <div class="detail-text">
+                    <h1>Nuestro Equipo</h1>
+                    <p>
+                      Contamos con un equipo multidisciplinario integrado por
+                      abogados, economistas y contadores tributaristas que
+                      brindan servicios integrales a las necesidades de los
+                      clientes.
+                    </p>
+                    <a class="button cta hollow-light" href="nuestraFirma.html">
+                      Más Información
+                    </a>
+                  </div>
+                </li>
+              </ul>
+
+              <nav class="orbit-bullets">
+                <button class="is-active" data-slide="0">
+                  <span class="show-for-sr">First slide details.</span>
+                  <span class="show-for-sr">Current Slide</span>
+                </button>
+                <button data-slide="1">
+                  <span class="show-for-sr">Second slide details.</span>
+                </button>
+                <button data-slide="2">
+                  <span class="show-for-sr">Third slide details.</span>
+                </button>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="headline-scroller orbit" data-orbit>
+          <div class="row large-collapse">
+            <div class="column small-4">
+              <hr />
+            </div>
+            <div class="column small-4">
+              <h2
+                style={{
+                  color: "#AB0E1E",
+                  border: "none",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  paddingTop: "25px",
+                  fontSize: "25px",
+                  fontWeight: "800",
+                }}
+              >
+                Haciendo negocios en Argentina
+              </h2>
+            </div>
+            <div class="column small-4">
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column medium-3">
+            <img src={new1} width="100%" />
+          </div>
+          <div class="column medium-3">
+            <img src={new2} width="100%" />
+          </div>
+          <div class="column medium-3">
+            <img src={new3} width="100%" />
+          </div>
+          <div class="column medium-3">
+            <img src={new4} width="100%" />
+          </div>
+        </div>
+
+        <div class="row" style={{ paddingTop: "15px" }}>
+          <div class="column medium-3">
+            <h4>
+              COVID-19 Guía de beneficios Tributarios a nivel mundial: País por
+              País
+            </h4>
+          </div>
+          <div class="column medium-3">
+            <h4>Doing Business en Argentina</h4>
+          </div>
+          <div class="column medium-3">
+            <h4>
+              Residencia fiscal en Uruguay - Pérdida de la residencia fiscal en
+              Argentina
+            </h4>
+          </div>
+          <div class="column medium-3">
+            <h4>
+              Crisis económica pandemia COVID-19 en Precios de Transferencia
+            </h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column medium-3">
+            <p>
+              Vea y/o descargue la guía de alivio fisico global, que ofrece una
+              visión general de la respuesta a COVID-19 por cada país [...]
+            </p>
+          </div>
+          <div class="column medium-3">
+            <p>
+              Argentina está situada en el extremo sur del continente americnao,
+              siendo el octavo país más grande del mundo y el segundo de América
+              Latina en términos [...]
+            </p>
+          </div>
+          <div class="column medium-3">
+            En los últimos tiempos se ha incrementado el interés por parte de
+            personas humanas residentes en Argentina para cambiar su residencia
+            fiscal a Uruguay [...]
+          </div>
+          <div class="column medium-3">
+            Les acercamos nuestras reflexiones para asistirlos en las
+            adecuaciones de Precios de Transferencia que pueden requerir ante la
+            crisis del COVID-19. [...]
+          </div>
+        </div>
+
+        <div class="row" style={{ paddingBottom: "100px" }}>
+          <div class="column medium-3">
+            <p>
+              <a href="servicesLearnMore.html" class="button cta hollow-dark">
+                Ver más{" "}
+              </a>
+            </p>
+          </div>
+          <div class="column medium-3">
+            <p>
+              <a href="servicesLearnMore.html" class="button cta hollow-dark">
+                Ver más{" "}
+              </a>
+            </p>
+          </div>
+          <div class="column medium-3">
+            <p>
+              <a href="servicesLearnMore.html" class="button cta hollow-dark">
+                Ver más{" "}
+              </a>
+            </p>
+          </div>
+          <div class="column medium-3">
+            <p>
+              <a href="servicesLearnMore.html" class="button cta hollow-dark">
+                Ver más{" "}
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="headline-scroller orbit" data-orbit>
+          <div class="row large-collapse">
+            <div class="column small-4">
+              <hr />
+            </div>
+            <div class="column small-4">
+              <h2
+                style={{
+                  border: "none",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  paddingTop: "25px",
+                  fontSize: "25px",
+                  fontWeight: "800",
+                }}
+              >
+                Nuestros Valores
+              </h2>
+            </div>
+            <div class="column small-4">
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style={{ textAlign: "center" }}>
+          <div class="col-lg-15 col-sm-6">
+            <img src={value1} style={{ width: "30%" }} />
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <img src={value2} style={{ width: "30%" }} />
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <img src={value3} style={{ width: "30%" }} />
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <img src={value4} style={{ width: "30%" }} />
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <img src={value5} style={{ width: "30%" }} />
+          </div>
+        </div>
+
+        <div class="row" style={{ textAlign: "center", paddingTop: "40px" }}>
+          <div class="col-lg-15 col-sm-6">
+            <h3>Excelencia</h3>
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <h3>Compromiso</h3>
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <h3>Independencia</h3>
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <h3>Globalidad</h3>
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <h3>Transparencia</h3>
+          </div>
+        </div>
+
+        <div class="row" style={{ textAlign: "center", paddingTop: "10px" }}>
+          <div class="col-lg-15 col-sm-6">
+            <p class="values">
+              Nuestro objetivo es ser el punto de referencia de calidad en
+              nuestra industria y el estándar por el cual se midan otras firmas.
+            </p>
+          </div>
+          <div class=" col-lg-15 col-sm-6">
+            <p class="values">
+              Contratamos a los mejores profesionales einvertimos en nuestra
+              gente para asegurar un legado.
+            </p>
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <p class="values">
+              La plataforma Andersen nos permite asesorar a los clientes
+              objetivamente. Los únicos consejos y soluciones que ofrecemos son
+              aquellos que construyan lo mejor para nuestro cliente.
+            </p>
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <p class="values">
+              Nuestra firma está construida como una firma global. Compartimos
+              un interés en proporcionar el más alto nivel de servicios al
+              cliente, independientemente de su ubicación.
+            </p>
+          </div>
+          <div class="col-lg-15 col-sm-6">
+            <p class="values">
+              {" "}
+              Valoramos la comunicación abierta, el intercambio de información y
+              la toma de decisiones de forma participativa.
+            </p>
+          </div>
+        </div>
+
+        <div class="callout" style={{ marginTop: "50px" }}>
+          <p>Nuestra firma ha sido reconocida como</p>
+          <p style={{ fontWeight: "900" }}>
+            Empresa Líder Mundial en Impuestos y
+          </p>
+          <p style={{ fontWeight: "900" }}>
+            Empresa Líder en Precios de Transferencia
+          </p>
+        </div>
+      </div>
+
+      <div class="door"></div>
+    </div>
+  );
+}

@@ -66,7 +66,7 @@ export default function Services() {
 
                 <p>
                   <Link to="/servicioslegales">
-                    <a className="learn-more">
+                    <a className="learn-more button cta hollow-dark">
                       Más información{" "}
                       <span className="fa fa-arrow-right"></span>
                     </a>
@@ -81,7 +81,7 @@ export default function Services() {
                 </a>
               </div>
               <div className="text">
-                <h3 className="title">Servicios tributarios y contables</h3>
+                <h3 className="title">Servicios Tributarios y Contables</h3>
                 <p>
                   El departamento Tributario-Contable de la firma está integrado
                   por contadores y abogados especializados en temas fiscales,
@@ -92,7 +92,10 @@ export default function Services() {
 
                 <p>
                   <Link to="/servicioscontables">
-                    <a href="servicesLearnMore.html" className="learn-more">
+                    <a
+                      href="servicesLearnMore.html"
+                      className="learn-more button cta hollow-dark"
+                    >
                       {" "}
                       Más información{" "}
                       <span className="fa fa-arrow-right"></span>
@@ -108,7 +111,7 @@ export default function Services() {
                 </a>
               </div>
               <div className="text">
-                <h3 className="title">Servicios de consultoría</h3>
+                <h3 className="title">Servicios de Consultoría</h3>
                 <p>
                   Preparamos valuaciones para clientes operando en todos los
                   sectores, tanto para operaciones de M&A como para revisiones
@@ -117,7 +120,7 @@ export default function Services() {
 
                 <p>
                   <Link to="/serviciosconsultoria">
-                    <a className="learn-more">
+                    <a className="learn-more button cta hollow-dark">
                       Más información{" "}
                       <span className="fa fa-arrow-right"></span>
                     </a>
@@ -143,7 +146,7 @@ export default function Services() {
 
                 <p>
                   <Link to="/servicioswealth">
-                    <a className="learn-more">
+                    <a className="learn-more button cta hollow-dark">
                       Más información{" "}
                       <span className="fa fa-arrow-right"></span>
                     </a>

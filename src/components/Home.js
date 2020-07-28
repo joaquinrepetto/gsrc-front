@@ -50,10 +50,24 @@ const hardcodedNews = [
 
 export default function Home() {
   const [news, setNews] = useState([]);
+  const [activeSlide, setActiveSlide] = useState(0);
 
   useEffect(() => {
     loadNews();
   }, []);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (activeSlide === 2) {
+        setActiveSlide(0);
+        console.log(activeSlide, "aca");
+      } else {
+        setActiveSlide(activeSlide + 1);
+        console.log(activeSlide, "aca");
+      }
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, [activeSlide]);
 
   const loadNews = async () => {
     try {
@@ -74,140 +88,184 @@ export default function Home() {
           <div className="row large-collapse medium-collapse small-collapse">
             <div className="column">
               <ul className="orbit-container">
-                <li className="orbit-slide is-active">
-                  <picture>
-                    <source
-                      srcset={banner1}
-                      media="(min-width: 0) and (max-width: 39.9375em)"
-                    />
-                    <source srcset={banner1} media="(max-width: 63.9375em)" />
-                    <source srcset={banner1} media="(min-width: 64em)" />
+                {activeSlide === 0 && (
+                  <li className="orbit-slide is-active">
+                    <picture>
+                      <source
+                        srcset={banner1}
+                        media="(min-width: 0) and (max-width: 39.9375em)"
+                      />
+                      <source srcset={banner1} media="(max-width: 63.9375em)" />
+                      <source srcset={banner1} media="(min-width: 64em)" />
 
-                    <img srcset={banner1} alt="Three" />
-                  </picture>
+                      <img srcset={banner1} alt="Three" />
+                    </picture>
 
-                  <nav className="orbit-bullets mobile">
-                    <button className="is-active" data-slide="0">
-                      <span className="show-for-sr">First slide details.</span>
-                      <span className="show-for-sr">Current Slide</span>
-                    </button>
-                    <button data-slide="1">
-                      <span className="show-for-sr">Second slide details.</span>
-                    </button>
-                    <button data-slide="2">
-                      <span className="show-for-sr">Third slide details.</span>
-                    </button>
-                  </nav>
+                    <nav className="orbit-bullets mobile">
+                      <button className="is-active" data-slide="0">
+                        <span className="show-for-sr">
+                          First slide details.
+                        </span>
+                        <span className="show-for-sr">Current Slide</span>
+                      </button>
+                      <button data-slide="1">
+                        <span className="show-for-sr">
+                          Second slide details.
+                        </span>
+                      </button>
+                      <button data-slide="2">
+                        <span className="show-for-sr">
+                          Third slide details.
+                        </span>
+                      </button>
+                    </nav>
 
-                  <div className="detail-text">
-                    <h1>Andersen Argentina</h1>
-                    <p>
-                      Desde el 2020 somos el producto de la unión de dos
-                      prestigiosos estudios en Argentina: GSRC y MODO Law.
-                      Reconocidos como líderes en Precios de Transferencia e
-                      impuestos en el mercado.
-                    </p>
-                    <a
-                      className="button cta hollow-light"
-                      href="nuestraFirma.html"
-                    >
-                      Más Información{" "}
-                    </a>
-                  </div>
-                </li>
+                    <div className="detail-text">
+                      <h1>Andersen Argentina</h1>
+                      <p>
+                        Desde el 2020 somos el producto de la unión de dos
+                        prestigiosos estudios en Argentina: GSRC y MODO Law.
+                        Reconocidos como líderes en Precios de Transferencia e
+                        impuestos en el mercado.
+                      </p>
+                      <a
+                        className="button cta hollow-light"
+                        href="nuestraFirma.html"
+                      >
+                        Más Información{" "}
+                      </a>
+                    </div>
+                  </li>
+                )}
 
-                <li className="orbit-slide ">
-                  <picture className="image">
-                    <source
-                      srcset={banner2}
-                      media="(min-width: 0) and (max-width: 39.9375em)"
-                    />
-                    <source srcset={banner2} media="(max-width: 63.9375em)" />
-                    <source srcset={banner2} media="(min-width: 64em)" />
+                {activeSlide === 1 && (
+                  <li className="orbit-slide ">
+                    <picture className="image">
+                      <source
+                        srcset={banner2}
+                        media="(min-width: 0) and (max-width: 39.9375em)"
+                      />
+                      <source srcset={banner2} media="(max-width: 63.9375em)" />
+                      <source srcset={banner2} media="(min-width: 64em)" />
 
-                    <img srcset={banner2} alt="One" />
-                  </picture>
+                      <img srcset={banner2} alt="One" />
+                    </picture>
 
-                  <nav className="orbit-bullets mobile">
-                    <button className="is-active" data-slide="0">
-                      <span className="show-for-sr">First slide details.</span>
-                      <span className="show-for-sr">Current Slide</span>
-                    </button>
-                    <button data-slide="1">
-                      <span className="show-for-sr">Second slide details.</span>
-                    </button>
-                    <button data-slide="2">
-                      <span className="show-for-sr">Third slide details.</span>
-                    </button>
-                  </nav>
-                  <div className="detail-text">
-                    <h1>Nuestros Servicios</h1>
+                    <nav className="orbit-bullets mobile">
+                      <button className="is-active" data-slide="0">
+                        <span className="show-for-sr">
+                          First slide details.
+                        </span>
+                        <span className="show-for-sr">Current Slide</span>
+                      </button>
+                      <button data-slide="1">
+                        <span className="show-for-sr">
+                          Second slide details.
+                        </span>
+                      </button>
+                      <button data-slide="2">
+                        <span className="show-for-sr">
+                          Third slide details.
+                        </span>
+                      </button>
+                    </nav>
+                    <div className="detail-text">
+                      <h1>Nuestros Servicios</h1>
 
-                    <p>
-                      Somos una Firma intgral de servicios legales, tributarios
-                      y contables con sede en Buenos Aires, brindando
-                      asesoramiento a empresas y personas en el ámbito local e
-                      internacional.
-                    </p>
-                    <a className="button cta hollow-light" href="services.html">
-                      Más información
-                    </a>
-                  </div>
-                </li>
+                      <p>
+                        Somos una Firma intgral de servicios legales,
+                        tributarios y contables con sede en Buenos Aires,
+                        brindando asesoramiento a empresas y personas en el
+                        ámbito local e internacional.
+                      </p>
+                      <a
+                        className="button cta hollow-light"
+                        href="services.html"
+                      >
+                        Más información
+                      </a>
+                    </div>
+                  </li>
+                )}
 
-                <li className="orbit-slide">
-                  <picture>
-                    <source
-                      srcset={banner3}
-                      media="(min-width: 0) and (max-width: 39.9375em)"
-                    />
-                    <source srcset={banner3} media="(max-width: 63.9375em)" />
-                    <source srcset={banner3} media="(min-width: 64em)" />
+                {activeSlide === 2 && (
+                  <li className="orbit-slide">
+                    <picture>
+                      <source
+                        srcset={banner3}
+                        media="(min-width: 0) and (max-width: 39.9375em)"
+                      />
+                      <source srcset={banner3} media="(max-width: 63.9375em)" />
+                      <source srcset={banner3} media="(min-width: 64em)" />
 
-                    <img srcset={banner3} alt="Two" />
-                  </picture>
+                      <img srcset={banner3} alt="Two" />
+                    </picture>
 
-                  <nav className="orbit-bullets mobile">
-                    <button className="is-active" data-slide="0">
-                      <span className="show-for-sr">First slide details.</span>
-                      <span className="show-for-sr">Current Slide</span>
-                    </button>
-                    <button data-slide="1">
-                      <span className="show-for-sr">Second slide details.</span>
-                    </button>
-                    <button data-slide="2">
-                      <span className="show-for-sr">Third slide details.</span>
-                    </button>
-                  </nav>
+                    <nav className="orbit-bullets mobile">
+                      <button className="is-active" data-slide="0">
+                        <span className="show-for-sr">
+                          First slide details.
+                        </span>
+                        <span className="show-for-sr">Current Slide</span>
+                      </button>
+                      <button data-slide="1">
+                        <span className="show-for-sr">
+                          Second slide details.
+                        </span>
+                      </button>
+                      <button data-slide="2">
+                        <span className="show-for-sr">
+                          Third slide details.
+                        </span>
+                      </button>
+                    </nav>
 
-                  <div className="detail-text">
-                    <h1>Nuestro Equipo</h1>
-                    <p>
-                      Contamos con un equipo multidisciplinario integrado por
-                      abogados, economistas y contadores tributaristas que
-                      brindan servicios integrales a las necesidades de los
-                      clientes.
-                    </p>
-                    <a
-                      className="button cta hollow-light"
-                      href="nuestraFirma.html"
-                    >
-                      Más Información
-                    </a>
-                  </div>
-                </li>
+                    <div className="detail-text">
+                      <h1>Nuestro Equipo</h1>
+                      <p>
+                        Contamos con un equipo multidisciplinario integrado por
+                        abogados, economistas y contadores tributaristas que
+                        brindan servicios integrales a las necesidades de los
+                        clientes.
+                      </p>
+                      <a
+                        className="button cta hollow-light"
+                        href="nuestraFirma.html"
+                      >
+                        Más Información
+                      </a>
+                    </div>
+                  </li>
+                )}
               </ul>
 
               <nav className="orbit-bullets">
-                <button className="is-active" data-slide="0">
+                <button
+                  className={activeSlide == 0 && "is-active"}
+                  data-slide="0"
+                >
                   <span className="show-for-sr">First slide details.</span>
-                  <span className="show-for-sr">Current Slide</span>
+                  {activeSlide === 0 && (
+                    <span className="show-for-sr">Current Slide</span>
+                  )}
                 </button>
-                <button data-slide="1">
+                <button
+                  data-slide="1"
+                  className={activeSlide == 1 && "is-active"}
+                >
                   <span className="show-for-sr">Second slide details.</span>
+                  {activeSlide === 1 && (
+                    <span className="show-for-sr">Current Slide</span>
+                  )}
                 </button>
-                <button data-slide="2">
+                <button
+                  data-slide="2"
+                  className={activeSlide == 2 && "is-active"}
+                >
                   <span className="show-for-sr">Third slide details.</span>
+                  {activeSlide === 2 && (
+                    <span className="show-for-sr">Current Slide</span>
+                  )}
                 </button>
               </nav>
             </div>

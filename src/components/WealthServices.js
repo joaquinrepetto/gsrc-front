@@ -50,7 +50,9 @@ export default function WealthServices() {
             <nav className="sidebar full">
               <ul className="lvl-1 veritcal-menu" data-accordion-menu>
                 <li>
-                  <a href="#">Servicios Wealth Management & Family Office</a>
+                  <a style={{ color: "#AC0E20" }}>
+                    Servicios Wealth Management & Family Office
+                  </a>
                   {/* <ul className="lvl-2 vertical nested">
                     <li>
                       <a onClick={() => setTab(0)}>

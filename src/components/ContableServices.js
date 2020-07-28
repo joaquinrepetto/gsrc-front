@@ -55,19 +55,41 @@ export default function ContableServices() {
             <nav className="sidebar full">
               <ul className="lvl-1 veritcal-menu" data-accordion-menu>
                 <li>
-                  <a href="#">Servicios Tributarios y Contables</a>
+                  <a style={{ color: "#AC0E20" }}>
+                    Servicios Tributarios y Contables
+                  </a>
                   <ul className="lvl-2 vertical nested">
                     <li>
-                      <a onClick={() => setTab(0)}>Precios de Transferencia</a>
+                      <a
+                        onClick={() => setTab(0)}
+                        style={{ color: tab === 0 ? "#AC0E20" : null }}
+                      >
+                        Precios de Transferencia
+                      </a>
                     </li>
                     <li>
-                      <a onClick={() => setTab(1)}>Payroll</a>
+                      <a
+                        onClick={() => setTab(1)}
+                        style={{ color: tab === 1 ? "#AC0E20" : null }}
+                      >
+                        Payroll
+                      </a>
                     </li>
                     <li>
-                      <a onClick={() => setTab(2)}>Outsourcing</a>
+                      <a
+                        onClick={() => setTab(2)}
+                        style={{ color: tab === 2 ? "#AC0E20" : null }}
+                      >
+                        Outsourcing
+                      </a>
                     </li>
                     <li>
-                      <a onClick={() => setTab(3)}>Sociedades</a>
+                      <a
+                        onClick={() => setTab(3)}
+                        style={{ color: tab === 3 ? "#AC0E20" : null }}
+                      >
+                        Sociedades
+                      </a>
                     </li>
                   </ul>
                 </li>
@@ -357,8 +379,7 @@ export default function ContableServices() {
                 </p>
               </div>
             )}
-            {(tab === 3) &
-            (
+            {tab === 3 && (
               <div className="primary-intro">
                 <h2>Sociedades</h2>
                 <h5>Consultoría y Asesoramiento:</h5>
@@ -384,9 +405,6 @@ export default function ContableServices() {
                   • Redacción de actas de Directorio y Asambleas Accionistas.
                 </p>
                 <p>• Experiencia en Concursos Preventivos y Quiebras.</p>
-                <p>• </p>
-                <p>• </p>
-                <p>• </p>
               </div>
             )}
           </div>

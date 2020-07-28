@@ -93,7 +93,10 @@ export default function Navbar() {
             </a>
           </div>
           <div className="column small-10" style={{ paddingTop: "5%" }}>
-            <nav className="main-nav">
+            <nav
+              className="main-nav"
+              onMouseEnter={() => setShowServices(false)}
+            >
               <div className="row large-collapse">
                 <div>
                   <ul className="lvl-1 dropdown menu" data-dropdown-menu>
@@ -108,6 +111,7 @@ export default function Navbar() {
                       <Link to="/servicios">
                         <a
                           onMouseOver={() => setShowServices(true)}
+                          // onMouseLeave={() => setShowServices(false)}
                           onClick={() => setShowServices(!showServices)}
                         >
                           Servicios
@@ -115,27 +119,31 @@ export default function Navbar() {
                       </Link>
                       {showServices && (
                         <ul
+                          onMouseOver={() => setShowServices(true)}
                           onMouseLeave={() => setShowServices(false)}
                           className="lvl-2 menu row"
-                          style={{ position: "absolute", zIndex: "1000" }}
+                          style={{
+                            position: "absolute",
+                            zIndex: "1000",
+                          }}
                         >
-                          <li style={{ width: "100%" }}>
+                          <li style={{ width: "100%", fontSize: "15px" }}>
                             <Link to="/servicioslegales">
                               <a>Servicios Legales</a>
                             </Link>
                           </li>
-                          <li style={{ width: "100%" }}>
+                          <li style={{ width: "100%", fontSize: "15px" }}>
                             <Link to="/servicioscontables">
                               <a>Servicios Tributarios y Contables</a>
                             </Link>
                           </li>
-                          <li style={{ width: "100%" }}>
+                          <li style={{ width: "100%", fontSize: "15px" }}>
                             <Link to="/serviciosconsultoria">
                               {" "}
                               <a>Servicios de Consultoría</a>
                             </Link>
                           </li>
-                          <li style={{ width: "100%" }}>
+                          <li style={{ width: "100%", fontSize: "15px" }}>
                             <Link to="/servicioswealth">
                               <a>
                                 Servicios de Wealth Management & Family Office

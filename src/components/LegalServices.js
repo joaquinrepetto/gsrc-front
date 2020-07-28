@@ -51,19 +51,30 @@ export default function LegalServices() {
             <nav class="sidebar full">
               <ul class="lvl-1 veritcal-menu" data-accordion-menu>
                 <li>
-                  <a>Servicios Legales</a>
+                  <a style={{ color: "#AC0E20" }}>Servicios Legales</a>
                   <ul class="lvl-2 vertical nested is-active">
                     <li>
-                      <a onClick={() => setTab(0)}>Legal</a>
-                    </li>
-                    <li>
-                      <a onClick={() => setTab(1)}>
-                        Asuntos Fiscales, Legales y Contenciosos
+                      <a
+                        onClick={() => setTab(0)}
+                        style={{ color: tab === 0 ? "#AC0E20" : null }}
+                      >
+                        Legal
                       </a>
                     </li>
                     <li>
-                      <a onClick={() => setTab(2)}>
-                        Derecho Aduanero y Comercio Exterior
+                      <a
+                        onClick={() => setTab(1)}
+                        style={{ color: tab === 1 ? "#AC0E20" : null }}
+                      >
+                        Asuntos Fiscales
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(2)}
+                        style={{ color: tab === 2 ? "#AC0E20" : null }}
+                      >
+                        Derecho Aduanero
                       </a>
                     </li>
                   </ul>
@@ -170,7 +181,7 @@ export default function LegalServices() {
             {tab === 0 && (
               <div class="primary-intro">
                 <h2>Legal</h2>
-                <p class="intro">
+                <p>
                   Servicios legales que se adaptan a tus necesidades. Contamos
                   con especialistas en contencioso tributario y derecho
                   corporativo.
@@ -179,7 +190,7 @@ export default function LegalServices() {
             )}
             {tab === 1 && (
               <div class="primary-intro">
-                <h2>Asuntos Fiscales, Legales y Contenciosos</h2>
+                <h2>Asuntos Fiscales</h2>
                 <p>
                   La sinergia entre abogados y contadores, que define nuestra
                   firma, permite que nuestra División de Asesoría Legal y Fiscal
@@ -243,7 +254,7 @@ export default function LegalServices() {
             )}
             {tab === 2 && (
               <div class="primary-intro">
-                <h2>Derecho Aduanero y Comercio Exterior</h2>
+                <h2>Derecho Aduanero</h2>
                 <h5>Regulación aduanera:</h5>
                 <p>
                   Brindamos asesoramiento a compañías tanto locales como

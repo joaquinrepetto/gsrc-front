@@ -50,20 +50,31 @@ export default function ConsultorServices() {
             <nav className="sidebar full">
               <ul className="lvl-1 veritcal-menu" data-accordion-menu>
                 <li>
-                  <a href="#">Servicios de Consultoría</a>
+                  <a style={{ color: "#AC0E20" }}>Servicios de Consultoría</a>
                   <ul className="lvl-2 vertical nested">
                     <li>
-                      <a onClick={() => setTab(0)}>
+                      <a
+                        onClick={() => setTab(0)}
+                        style={{ color: tab === 0 ? "#AC0E20" : null }}
+                      >
                         Consultoría y Compliance Tributario
                       </a>
                     </li>
                     <li>
-                      <a onClick={() => setTab(1)}>
+                      <a
+                        onClick={() => setTab(1)}
+                        style={{ color: tab === 1 ? "#AC0E20" : null }}
+                      >
                         Consultoría Organizacional y Sistemas
                       </a>
                     </li>
                     <li>
-                      <a onClick={() => setTab(2)}>Tecnología</a>
+                      <a
+                        onClick={() => setTab(2)}
+                        style={{ color: tab === 2 ? "#AC0E20" : null }}
+                      >
+                        Tecnología
+                      </a>
                     </li>
                   </ul>
                 </li>
@@ -265,8 +276,7 @@ export default function ConsultorServices() {
                 </p>
               </div>
             )}
-            {(tab === 3) &
-            (
+            {tab === 3 && (
               <div className="primary-intro">
                 <h2>Sociedades</h2>
                 <h5>Consultoría y Asesoramiento:</h5>

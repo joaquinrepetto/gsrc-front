@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -34,35 +35,48 @@ export default function Footer() {
             <h5>Menú</h5>
             <ul>
               <li>
-                <a href="nuestraFirma.html">Nuestra Firma</a>
+                <Link to="/nuestrafirma">
+                  <a>Nuestra Firma</a>
+                </Link>
               </li>
               <li>
-                <a href="services.html">Servicios</a>
+                <Link to="/servicios">
+                  <a>Servicios</a>
+                </Link>
               </li>
               <li>
-                <a href="profesionales.html">Profesionales</a>
+                <Link to="/profesionales">
+                  <a>Profesionales</a>
+                </Link>
               </li>
               <li>
-                <a href="#">Noticias</a>
+                <Link to="/noticias">
+                  <a>Noticias</a>
+                </Link>
               </li>
             </ul>
           </nav>
           <nav class="column large-3 medium-3 small-6">
             <ul>
               <li>
-                <a href="#"></a>
+                <Link to="/trabaja">
+                  <a>Trabaja en Andersen</a>
+                </Link>
               </li>
               <li>
-                <a href="#">Trabaja en Andersen</a>
+                <Link to="/oficinas">
+                  <a>Oficinas</a>
+                </Link>
               </li>
               <li>
-                <a href="oficinas.html">Oficinas</a>
+                <Link to="/presenciaglobal">
+                  <a>Presencia Global</a>
+                </Link>
               </li>
               <li>
-                <a href="presenciaGlobal.html">Presencia Global</a>
-              </li>
-              <li>
-                <a href="#">Contactános</a>
+                <Link to="/contacto">
+                  <a>Contactános</a>
+                </Link>
               </li>
             </ul>
           </nav>

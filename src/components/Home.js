@@ -1,4 +1,5 @@
 import React from "react";
+
 import banner1 from "../assets/img/imag-slider-3-home.jpg";
 import banner2 from "../assets/img/imag-slider-1-home.jpg";
 import banner3 from "../assets/img/imag-slider-2-home.jpg";
@@ -64,6 +65,7 @@ export default function Home() {
                     </a>
                   </div>
                 </li>
+
                 <li class="orbit-slide ">
                   <picture class="image">
                     <source

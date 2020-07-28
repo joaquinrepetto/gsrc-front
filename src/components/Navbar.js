@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const locations = [
@@ -22,6 +22,8 @@ const locations = [
 ];
 
 export default function Navbar() {
+  const [showServices, setShowServices] = useState(false);
+
   return (
     <div>
       <header className="top-nav-bar">
@@ -104,29 +106,44 @@ export default function Navbar() {
                     </li>
                     <li className="item-2" style={{ fontSize: "15px" }}>
                       <Link to="/servicios">
-                        <a>Servicios</a>
+                        <a
+                          onMouseOver={() => setShowServices(true)}
+                          onClick={() => setShowServices(!showServices)}
+                        >
+                          Servicios
+                        </a>
                       </Link>
-                      <span></span>
-                      {/* <ul className="lvl-2 menu row">
-                        <li>
-                          <a href="servicesLearnMore.html">Servicios Legales</a>
-                        </li>
-                        <li>
-                          <a href="servicesLearnMore.html">
-                            Servicios Tributarios y Contables
-                          </a>
-                        </li>
-                        <li>
-                          <a href="servicesLearnMore.html">
-                            Servicios de Consultoría
-                          </a>
-                        </li>
-                        <li>
-                          <a href="servicesLearnMore.html">
-                            Servicios de Wealth Management & Family Office
-                          </a>
-                        </li>
-                      </ul> */}
+                      {showServices && (
+                        <ul
+                          onMouseLeave={() => setShowServices(false)}
+                          className="lvl-2 menu row"
+                          style={{ position: "absolute", zIndex: "1000" }}
+                        >
+                          <li style={{ width: "100%" }}>
+                            <Link to="/servicioslegales">
+                              <a>Servicios Legales</a>
+                            </Link>
+                          </li>
+                          <li style={{ width: "100%" }}>
+                            <Link to="/servicioscontables">
+                              <a>Servicios Tributarios y Contables</a>
+                            </Link>
+                          </li>
+                          <li style={{ width: "100%" }}>
+                            <Link to="/serviciosconsultoria">
+                              {" "}
+                              <a>Servicios de Consultoría</a>
+                            </Link>
+                          </li>
+                          <li style={{ width: "100%" }}>
+                            <Link to="/servicioswealth">
+                              <a>
+                                Servicios de Wealth Management & Family Office
+                              </a>
+                            </Link>
+                          </li>
+                        </ul>
+                      )}
                     </li>
                     <li className="item-2" style={{ fontSize: "15px" }}>
                       <Link to="/profesionales">

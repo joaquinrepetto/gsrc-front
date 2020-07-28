@@ -152,7 +152,10 @@ export default function Navbar() {
                       </Link>
                     </li>
                     <li className="item-3" style={{ fontSize: "15px" }}>
-                      <a href="#">Noticias</a>
+                      <Link to="/noticias">
+                        {" "}
+                        <a>Noticias</a>
+                      </Link>
                     </li>
                     <li className="item-4" style={{ fontSize: "15px" }}>
                       <Link to="/trabaja">

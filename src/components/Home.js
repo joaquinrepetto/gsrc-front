@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import banner1 from "../assets/img/imag-slider-3-home.jpg";
 import banner2 from "../assets/img/imag-slider-1-home.jpg";
@@ -15,19 +15,66 @@ import value3 from "../assets/values/AT_Independence_icon (1).jpg";
 import value4 from "../assets/values/AT_Seamless_icon.jpg";
 import value5 from "../assets/values/AT_Transparency_icon.jpg";
 
+const hardcodedNews = [
+  {
+    id: 1,
+    title:
+      "COVID-19 Guía de beneficios Tributarios a nivel mundial: País por País",
+    description:
+      "Vea y/o descargue la guía de alivio fisico global, que ofrece una visión general de la respuesta a COVID-19 por cada país [...]",
+    image: new1,
+  },
+  {
+    id: 2,
+    title: "Doing Business en Argentina",
+    description:
+      "Argentina está situada en el extremo sur del continente americnao, siendo el octavo país más grande del mundo y el segundo de América Latina en términos [...]",
+    image: new2,
+  },
+  {
+    id: 3,
+    title:
+      "Residencia fiscal en Uruguay - Pérdida de la residencia fiscal en Argentina",
+    description:
+      "En los últimos tiempos se ha incrementado el interés por parte de personas humanas residentes en Argentina para cambiar su residencia fiscal a Uruguay [...]",
+    image: new3,
+  },
+  {
+    id: 4,
+    title: "Crisis económica pandemia COVID-19 en Precios de Transferencia",
+    description:
+      "Les acercamos nuestras reflexiones para asistirlos en las adecuaciones de Precios de Transferencia que pueden requerir ante la crisis del COVID-19. [...]",
+    image: new4,
+  },
+];
+
 export default function Home() {
+  const [news, setNews] = useState([]);
+
+  useEffect(() => {
+    loadNews();
+  }, []);
+
+  const loadNews = async () => {
+    try {
+      setNews(hardcodedNews);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <div>
-      <div class="main-content">
+      <div className="main-content">
         <div
-          class="home-carousel orbit"
+          className="home-carousel orbit"
           data-orbit
           style={{ paddingTop: "25px" }}
         >
-          <div class="row large-collapse medium-collapse small-collapse">
-            <div class="column">
-              <ul class="orbit-container">
-                <li class="orbit-slide is-active">
+          <div className="row large-collapse medium-collapse small-collapse">
+            <div className="column">
+              <ul className="orbit-container">
+                <li className="orbit-slide is-active">
                   <picture>
                     <source
                       srcset={banner1}
@@ -39,20 +86,20 @@ export default function Home() {
                     <img srcset={banner1} alt="Three" />
                   </picture>
 
-                  <nav class="orbit-bullets mobile">
-                    <button class="is-active" data-slide="0">
-                      <span class="show-for-sr">First slide details.</span>
-                      <span class="show-for-sr">Current Slide</span>
+                  <nav className="orbit-bullets mobile">
+                    <button className="is-active" data-slide="0">
+                      <span className="show-for-sr">First slide details.</span>
+                      <span className="show-for-sr">Current Slide</span>
                     </button>
                     <button data-slide="1">
-                      <span class="show-for-sr">Second slide details.</span>
+                      <span className="show-for-sr">Second slide details.</span>
                     </button>
                     <button data-slide="2">
-                      <span class="show-for-sr">Third slide details.</span>
+                      <span className="show-for-sr">Third slide details.</span>
                     </button>
                   </nav>
 
-                  <div class="detail-text">
+                  <div className="detail-text">
                     <h1>Andersen Argentina</h1>
                     <p>
                       Desde el 2020 somos el producto de la unión de dos
@@ -60,14 +107,17 @@ export default function Home() {
                       Reconocidos como líderes en Precios de Transferencia e
                       impuestos en el mercado.
                     </p>
-                    <a class="button cta hollow-light" href="nuestraFirma.html">
+                    <a
+                      className="button cta hollow-light"
+                      href="nuestraFirma.html"
+                    >
                       Más Información{" "}
                     </a>
                   </div>
                 </li>
 
-                <li class="orbit-slide ">
-                  <picture class="image">
+                <li className="orbit-slide ">
+                  <picture className="image">
                     <source
                       srcset={banner2}
                       media="(min-width: 0) and (max-width: 39.9375em)"
@@ -78,19 +128,19 @@ export default function Home() {
                     <img srcset={banner2} alt="One" />
                   </picture>
 
-                  <nav class="orbit-bullets mobile">
-                    <button class="is-active" data-slide="0">
-                      <span class="show-for-sr">First slide details.</span>
-                      <span class="show-for-sr">Current Slide</span>
+                  <nav className="orbit-bullets mobile">
+                    <button className="is-active" data-slide="0">
+                      <span className="show-for-sr">First slide details.</span>
+                      <span className="show-for-sr">Current Slide</span>
                     </button>
                     <button data-slide="1">
-                      <span class="show-for-sr">Second slide details.</span>
+                      <span className="show-for-sr">Second slide details.</span>
                     </button>
                     <button data-slide="2">
-                      <span class="show-for-sr">Third slide details.</span>
+                      <span className="show-for-sr">Third slide details.</span>
                     </button>
                   </nav>
-                  <div class="detail-text">
+                  <div className="detail-text">
                     <h1>Nuestros Servicios</h1>
 
                     <p>
@@ -99,13 +149,13 @@ export default function Home() {
                       asesoramiento a empresas y personas en el ámbito local e
                       internacional.
                     </p>
-                    <a class="button cta hollow-light" href="services.html">
+                    <a className="button cta hollow-light" href="services.html">
                       Más información
                     </a>
                   </div>
                 </li>
 
-                <li class="orbit-slide">
+                <li className="orbit-slide">
                   <picture>
                     <source
                       srcset={banner3}
@@ -117,20 +167,20 @@ export default function Home() {
                     <img srcset={banner3} alt="Two" />
                   </picture>
 
-                  <nav class="orbit-bullets mobile">
-                    <button class="is-active" data-slide="0">
-                      <span class="show-for-sr">First slide details.</span>
-                      <span class="show-for-sr">Current Slide</span>
+                  <nav className="orbit-bullets mobile">
+                    <button className="is-active" data-slide="0">
+                      <span className="show-for-sr">First slide details.</span>
+                      <span className="show-for-sr">Current Slide</span>
                     </button>
                     <button data-slide="1">
-                      <span class="show-for-sr">Second slide details.</span>
+                      <span className="show-for-sr">Second slide details.</span>
                     </button>
                     <button data-slide="2">
-                      <span class="show-for-sr">Third slide details.</span>
+                      <span className="show-for-sr">Third slide details.</span>
                     </button>
                   </nav>
 
-                  <div class="detail-text">
+                  <div className="detail-text">
                     <h1>Nuestro Equipo</h1>
                     <p>
                       Contamos con un equipo multidisciplinario integrado por
@@ -138,35 +188,38 @@ export default function Home() {
                       brindan servicios integrales a las necesidades de los
                       clientes.
                     </p>
-                    <a class="button cta hollow-light" href="nuestraFirma.html">
+                    <a
+                      className="button cta hollow-light"
+                      href="nuestraFirma.html"
+                    >
                       Más Información
                     </a>
                   </div>
                 </li>
               </ul>
 
-              <nav class="orbit-bullets">
-                <button class="is-active" data-slide="0">
-                  <span class="show-for-sr">First slide details.</span>
-                  <span class="show-for-sr">Current Slide</span>
+              <nav className="orbit-bullets">
+                <button className="is-active" data-slide="0">
+                  <span className="show-for-sr">First slide details.</span>
+                  <span className="show-for-sr">Current Slide</span>
                 </button>
                 <button data-slide="1">
-                  <span class="show-for-sr">Second slide details.</span>
+                  <span className="show-for-sr">Second slide details.</span>
                 </button>
                 <button data-slide="2">
-                  <span class="show-for-sr">Third slide details.</span>
+                  <span className="show-for-sr">Third slide details.</span>
                 </button>
               </nav>
             </div>
           </div>
         </div>
 
-        <div class="headline-scroller orbit" data-orbit>
-          <div class="row large-collapse">
-            <div class="column small-4">
+        <div className="headline-scroller orbit" data-orbit>
+          <div className="row large-collapse">
+            <div className="column small-4">
               <hr />
             </div>
-            <div class="column small-4">
+            <div className="column small-4">
               <h2
                 style={{
                   color: "#AB0E1E",
@@ -181,113 +234,110 @@ export default function Home() {
                 Haciendo negocios en Argentina
               </h2>
             </div>
-            <div class="column small-4">
+            <div className="column small-4">
               <hr />
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="column medium-3">
-            <img src={new1} width="100%" />
+        <div className="row">
+          <div className="column medium-3">
+            <img src={news[0] ? news[0].image : null} width="100%" />
           </div>
-          <div class="column medium-3">
-            <img src={new2} width="100%" />
+          <div className="column medium-3">
+            <img src={news[1] ? news[1].image : null} width="100%" />
           </div>
-          <div class="column medium-3">
-            <img src={new3} width="100%" />
+          <div className="column medium-3">
+            <img src={news[2] ? news[2].image : null} width="100%" />
           </div>
-          <div class="column medium-3">
-            <img src={new4} width="100%" />
-          </div>
-        </div>
-
-        <div class="row" style={{ paddingTop: "15px" }}>
-          <div class="column medium-3">
-            <h4>
-              COVID-19 Guía de beneficios Tributarios a nivel mundial: País por
-              País
-            </h4>
-          </div>
-          <div class="column medium-3">
-            <h4>Doing Business en Argentina</h4>
-          </div>
-          <div class="column medium-3">
-            <h4>
-              Residencia fiscal en Uruguay - Pérdida de la residencia fiscal en
-              Argentina
-            </h4>
-          </div>
-          <div class="column medium-3">
-            <h4>
-              Crisis económica pandemia COVID-19 en Precios de Transferencia
-            </h4>
+          <div className="column medium-3">
+            <img src={news[3] ? news[3].image : null} width="100%" />
           </div>
         </div>
 
-        <div class="row">
-          <div class="column medium-3">
+        <div className="row" style={{ paddingTop: "15px" }}>
+          <div className="column medium-3">
+            <h4>{news[0] ? news[0].title : null}</h4>
+          </div>
+          <div className="column medium-3">
+            <h4>{news[1] ? news[1].title : null}</h4>
+          </div>
+          <div className="column medium-3">
+            <h4>{news[2] ? news[2].title : null}</h4>
+          </div>
+          <div className="column medium-3">
+            <h4>{news[3] ? news[3].title : null}</h4>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="column medium-3">
             <p>
-              Vea y/o descargue la guía de alivio fisico global, que ofrece una
-              visión general de la respuesta a COVID-19 por cada país [...]
+              {news[0] ? news[0].description.slice(0, 120) + " [...]" : null}
             </p>
           </div>
-          <div class="column medium-3">
+          <div className="column medium-3">
             <p>
-              Argentina está situada en el extremo sur del continente americnao,
-              siendo el octavo país más grande del mundo y el segundo de América
-              Latina en términos [...]
+              {news[1] ? news[1].description.slice(0, 120) + " [...]" : null}
             </p>
           </div>
-          <div class="column medium-3">
-            En los últimos tiempos se ha incrementado el interés por parte de
-            personas humanas residentes en Argentina para cambiar su residencia
-            fiscal a Uruguay [...]
+          <div className="column medium-3">
+            {news[2] ? news[2].description.slice(0, 120) + " [...]" : null}
           </div>
-          <div class="column medium-3">
-            Les acercamos nuestras reflexiones para asistirlos en las
-            adecuaciones de Precios de Transferencia que pueden requerir ante la
-            crisis del COVID-19. [...]
+          <div className="column medium-3">
+            {news[3] ? news[3].description.slice(0, 120) + " [...]" : null}
           </div>
         </div>
 
-        <div class="row" style={{ paddingBottom: "100px" }}>
-          <div class="column medium-3">
+        <div className="row" style={{ paddingBottom: "100px" }}>
+          <div className="column medium-3">
             <p>
-              <a href="servicesLearnMore.html" class="button cta hollow-dark">
+              <a
+                href="servicesLearnMore.html"
+                className="button cta hollow-dark"
+              >
                 Ver más{" "}
               </a>
             </p>
           </div>
-          <div class="column medium-3">
+          <div className="column medium-3">
             <p>
-              <a href="servicesLearnMore.html" class="button cta hollow-dark">
+              <a
+                href="servicesLearnMore.html"
+                className="button cta hollow-dark"
+              >
                 Ver más{" "}
               </a>
             </p>
           </div>
-          <div class="column medium-3">
+          <div className="column medium-3">
             <p>
-              <a href="servicesLearnMore.html" class="button cta hollow-dark">
+              <a
+                href="servicesLearnMore.html"
+                className="button cta hollow-dark"
+              >
                 Ver más{" "}
               </a>
             </p>
           </div>
-          <div class="column medium-3">
+          <div className="column medium-3">
             <p>
-              <a href="servicesLearnMore.html" class="button cta hollow-dark">
+              <a
+                href="servicesLearnMore.html"
+                className="button cta hollow-dark"
+              >
                 Ver más{" "}
               </a>
             </p>
           </div>
         </div>
 
-        <div class="headline-scroller orbit" data-orbit>
-          <div class="row large-collapse">
-            <div class="column small-4">
+        <div className="headline-scroller orbit" data-orbit>
+          <div className="row large-collapse">
+            <div className="column small-4">
               <hr />
             </div>
-            <div class="column small-4">
+            <div className="column small-4">
               <h2
                 style={{
                   border: "none",
@@ -301,76 +351,82 @@ export default function Home() {
                 Nuestros Valores
               </h2>
             </div>
-            <div class="column small-4">
+            <div className="column small-4">
               <hr />
             </div>
           </div>
         </div>
 
-        <div class="row" style={{ textAlign: "center" }}>
-          <div class="col-lg-15 col-sm-6">
+        <div className="row" style={{ textAlign: "center" }}>
+          <div className="col-lg-15 col-sm-6">
             <img src={value1} style={{ width: "30%" }} />
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <img src={value2} style={{ width: "30%" }} />
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <img src={value3} style={{ width: "30%" }} />
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <img src={value4} style={{ width: "30%" }} />
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <img src={value5} style={{ width: "30%" }} />
           </div>
         </div>
 
-        <div class="row" style={{ textAlign: "center", paddingTop: "40px" }}>
-          <div class="col-lg-15 col-sm-6">
+        <div
+          className="row"
+          style={{ textAlign: "center", paddingTop: "40px" }}
+        >
+          <div className="col-lg-15 col-sm-6">
             <h3>Excelencia</h3>
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <h3>Compromiso</h3>
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <h3>Independencia</h3>
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <h3>Globalidad</h3>
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <h3>Transparencia</h3>
           </div>
         </div>
 
-        <div class="row" style={{ textAlign: "center", paddingTop: "10px" }}>
-          <div class="col-lg-15 col-sm-6">
-            <p class="values">
+        <div
+          className="row"
+          style={{ textAlign: "center", paddingTop: "10px" }}
+        >
+          <div className="col-lg-15 col-sm-6">
+            <p className="values">
               Nuestro objetivo es ser el punto de referencia de calidad en
               nuestra industria y el estándar por el cual se midan otras firmas.
             </p>
           </div>
-          <div class=" col-lg-15 col-sm-6">
-            <p class="values">
+          <div className=" col-lg-15 col-sm-6">
+            <p className="values">
               Contratamos a los mejores profesionales einvertimos en nuestra
               gente para asegurar un legado.
             </p>
           </div>
-          <div class="col-lg-15 col-sm-6">
-            <p class="values">
+          <div className="col-lg-15 col-sm-6">
+            <p className="values">
               La plataforma Andersen nos permite asesorar a los clientes
               objetivamente. Los únicos consejos y soluciones que ofrecemos son
               aquellos que construyan lo mejor para nuestro cliente.
             </p>
           </div>
-          <div class="col-lg-15 col-sm-6">
-            <p class="values">
+          <div className="col-lg-15 col-sm-6">
+            <p className="values">
               Nuestra firma está construida como una firma global. Compartimos
               un interés en proporcionar el más alto nivel de servicios al
               cliente, independientemente de su ubicación.
             </p>
           </div>
-          <div class="col-lg-15 col-sm-6">
+          <div className="col-lg-15 col-sm-6">
             <p class="values">
               {" "}
               Valoramos la comunicación abierta, el intercambio de información y

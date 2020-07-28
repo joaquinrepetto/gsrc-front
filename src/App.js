@@ -15,6 +15,7 @@ import Proffessionals from "./components/Proffessionals";
 import Offices from "./components/Offices";
 import GlobalPresence from "./components/GlobalPresence";
 import WorkWithUs from "./components/WorkWithUs";
+import News from "./components/News";
 import Contact from "./components/Contact";
 
 class App extends React.Component {
@@ -41,6 +42,7 @@ class App extends React.Component {
             <Route path="/servicioswealth" component={WealthServices} exact />
             <Route path="/profesionales" component={Proffessionals} exact />
             <Route path="/oficinas" component={Offices} exact />
+            <Route path="/noticias" component={News} exact />
             <Route path="/presenciaGlobal" component={GlobalPresence} exact />
             <Route path="/trabaja" component={WorkWithUs} exact />
             <Route path="/contacto" component={Contact} exact />

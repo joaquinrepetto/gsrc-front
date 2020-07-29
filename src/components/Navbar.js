@@ -151,9 +151,7 @@ export default function Navbar() {
                           </li>
                           <li style={{ width: "100%", fontSize: "15px" }}>
                             <Link to="/servicioswealth">
-                              <a>
-                                Servicios de Wealth Management & Family Office
-                              </a>
+                              <a>Wealth Management & Family Office</a>
                             </Link>
                           </li>
                         </ul>

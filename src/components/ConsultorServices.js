@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import banner from "../assets/img/images-servicios-10.jpg";
 import banner2 from "../assets/img/image001.png";
 
 export default function ConsultorServices() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [tab, setTab] = useState(0);
   return (
     <div>

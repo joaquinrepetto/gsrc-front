@@ -39,7 +39,7 @@ export default function OurFirm() {
                     Somos una firma miembro de Andersen Global presentando
                     servicios de: Consultoría en Tributación, Precios de
                     Transferencia, Outsorcing, Payroll, Sociedades, Consultoría
-                    Legal y Consultoróa em Sistemas.
+                    Legal y Consultoría en Sistemas.
                   </p>
                 </div>
               </div>

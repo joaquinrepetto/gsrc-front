@@ -111,7 +111,7 @@ export default function Services() {
                 </a>
               </div>
               <div className="text">
-                <h3 className="title">Servicios de Consultoría</h3>
+                <h3 className="title">Business Process Outsourcing (BPO)</h3>
                 <p>
                   Preparamos valuaciones para clientes operando en todos los
                   sectores, tanto para operaciones de M&A como para revisiones
@@ -119,7 +119,7 @@ export default function Services() {
                 </p>
 
                 <p>
-                  <Link to="/serviciosconsultoria">
+                  <Link to="/bpo">
                     <a className="learn-more button cta hollow-dark">
                       Más información{" "}
                       <span className="fa fa-arrow-right"></span>

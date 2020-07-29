@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import banner from "../assets/img/images-servicios-09.jpg";
 import banner2 from "../assets/img/image001.png";
 
 export default function Soc() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [tab, setTab] = useState(0);
   return (
     <div>

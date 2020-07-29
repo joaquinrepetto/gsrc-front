@@ -8,6 +8,7 @@ import socio1 from "../assets/partners/ceci.jpg";
 import socio2 from "../assets/partners/AndresSaladino.jpg";
 import socio3 from "../assets/partners/felixRolando.jpg";
 import socio4 from "../assets/partners/GabrielaClerc.jpg";
+import socio5 from "../assets/partners/SusanaCarlassara.jpg";
 
 const socios = [
   {
@@ -78,7 +79,7 @@ const socios = [
   {
     id: 25,
     type: "socio",
-    image: sinCara,
+    image: socio5,
     name: "Carmen Susana Vaccaro",
     mail: "susana.vaccaro@ar.Andersen.com",
     desc1:

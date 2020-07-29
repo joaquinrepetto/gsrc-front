@@ -42,7 +42,10 @@ export default function WorkWithUs() {
         </div>
       </div>
       <div className="row" style={{ paddingBottom: "50px" }}>
-        <div className="column small-12 medium-6">
+        <div className="column medium-2">
+          <h1></h1>
+        </div>
+        <div className="column small-12 medium-9">
           <h4>Trabaja en Andersen</h4>
           <h6 style={{ fontSize: "1.3rem" }}>
             Forma parte de una organización líder
@@ -71,11 +74,12 @@ export default function WorkWithUs() {
           </p>
           <p>
             {" "}
-            Puedes completar el siguietne formulario o enviarnos tu C.V a:
+            Enviarnos tu C.V a:
             <span style={{ color: "#AD0D21" }}> info@ar.andersen.com</span>
           </p>
         </div>
-        <div className="column small-12 medium-6">
+        <div className="column medium-3"></div>
+        {/* <div className="column small-12 medium-6">
           <form>
             <label>
               Nombre
@@ -110,7 +114,7 @@ export default function WorkWithUs() {
               />
             </form>
           </form>
-        </div>
+        </div> */}
       </div>
       <div class="door"></div>
     </div>

@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function OurFirm() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [activeText, setActiveText] = useState("qnd");
 
   return (

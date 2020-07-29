@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 import banner from "../assets/img/images-servicios-10.jpg";
-import banner2 from "../assets/img/image001.png";
 
 export default function ConsultorServices() {
   useEffect(() => {
@@ -314,8 +313,11 @@ export default function ConsultorServices() {
           </div>
         </div>
       </div>
-      <div style={{ textAlign: "center", padding: "50px" }}>
-        <img src={banner2} />
+      <div className="callout3">
+        <h1 style={{ color: "white" }}>Revolucionando la práctica legal</h1>
+        <h3 style={{ color: "white" }}>
+          Integramos derecho, impuestos y tecnología
+        </h3>
       </div>
 
       <div className="door"></div>

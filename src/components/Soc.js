@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import banner from "../assets/img/images-servicios-09.jpg";
-import banner2 from "../assets/img/image001.png";
 
 export default function Soc() {
   useEffect(() => {
@@ -211,10 +210,12 @@ export default function Soc() {
         </div>
       </div>
 
-      <div style={{ textAlign: "center", padding: "50px" }}>
-        <img src={banner2} />
+      <div className="callout3">
+        <h1 style={{ color: "white" }}>Revolucionando la práctica legal</h1>
+        <h3 style={{ color: "white" }}>
+          Integramos derecho, impuestos y tecnología
+        </h3>
       </div>
-
       <div className="door"></div>
     </div>
   );

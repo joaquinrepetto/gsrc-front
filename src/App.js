@@ -19,6 +19,7 @@ import Soc from "./components/Soc";
 import News from "./components/News";
 import Contact from "./components/Contact";
 import TermsAndConditions from "./components/TermsAndConditions";
+import ProfessionalProfile from "./components/ProfessionalProfile";
 
 class App extends React.Component {
   render() {
@@ -40,6 +41,7 @@ class App extends React.Component {
             <Route path="/bpo" component={Bpo} exact />
             <Route path="/servicioswealth" component={WealthServices} exact />
             <Route path="/profesionales" component={Proffessionals} exact />
+            <Route path="/perfil" component={ProfessionalProfile} />
             <Route path="/oficinas" component={Offices} exact />
             <Route path="/noticias" component={News} exact />
             <Route path="/presenciaGlobal" component={GlobalPresence} exact />

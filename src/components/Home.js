@@ -53,6 +53,10 @@ export default function Home() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     loadNews();
   }, []);
 

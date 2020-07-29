@@ -49,6 +49,10 @@ const hardcodedNews = [
 ];
 
 export default function News() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [news, setNews] = useState([]);
 
   useEffect(() => {

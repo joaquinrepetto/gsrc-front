@@ -4,6 +4,9 @@ import useScript from "../utils/useScript";
 
 export default function Offices() {
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
     // 1
     const script = document.createElement("script");
 

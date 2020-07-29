@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import legal1 from "../assets/placeholders/legal1.jpg";
@@ -7,6 +7,9 @@ import legal3 from "../assets/placeholders/colleagues.png";
 import legal4 from "../assets/placeholders/family-bubbles.jpg";
 
 export default function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="hero services">

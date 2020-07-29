@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import pg1 from "../assets/placeholders/global-reach.png";
 import pg2 from "../assets/placeholders/client-service.png";
@@ -6,6 +6,9 @@ import pg3 from "../assets/placeholders/shared-values.png";
 import pg4 from "../assets/placeholders/one-firm.png";
 
 export default function GlobalPresence() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div class="hero global">

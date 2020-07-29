@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function WorkWithUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       {" "}
@@ -38,7 +41,7 @@ export default function WorkWithUs() {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row" style={{ paddingBottom: "50px" }}>
         <div className="column small-12 medium-6">
           <h4>Trabaja en Andersen</h4>
           <h6 style={{ fontSize: "1.3rem" }}>
@@ -85,6 +88,10 @@ export default function WorkWithUs() {
                 <input type="text" name="name" />
               </label>
             </form>
+            <label>
+              Adjuntar CV
+              <input type="file" />
+            </label>
 
             <form>
               <label>
@@ -105,6 +112,7 @@ export default function WorkWithUs() {
           </form>
         </div>
       </div>
+      <div class="door"></div>
     </div>
   );
 }

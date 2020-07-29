@@ -112,10 +112,7 @@ export default function Footer() {
 
           <p class="site-copyright">
             <Link to="/terminos">
-              <a>
-                Términos &amp; Condiciones | Política de privacidad | Aviso de
-                coockies
-              </a>
+              <a>Términos &amp; Condiciones</a>
             </Link>
           </p>
         </div>

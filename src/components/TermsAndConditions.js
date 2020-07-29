@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       {" "}
@@ -190,6 +193,7 @@ export default function Contact() {
           </p>
         </div>
       </div>
+      <div class="door"></div>
     </div>
   );
 }

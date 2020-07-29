@@ -9,12 +9,13 @@ import OurFirm from "./components/OurFirm";
 import Services from "./components/Services";
 import LegalServices from "./components/LegalServices";
 import ContableServices from "./components/ContableServices";
-import ConsultorServices from "./components/ConsultorServices";
+import Bpo from "./components/Bpo";
 import WealthServices from "./components/WealthServices";
 import Proffessionals from "./components/Proffessionals";
 import Offices from "./components/Offices";
 import GlobalPresence from "./components/GlobalPresence";
 import WorkWithUs from "./components/WorkWithUs";
+import Soc from "./components/Soc";
 import News from "./components/News";
 import Contact from "./components/Contact";
 import TermsAndConditions from "./components/TermsAndConditions";
@@ -35,11 +36,8 @@ class App extends React.Component {
               component={ContableServices}
               exact
             />
-            <Route
-              path="/serviciosconsultoria"
-              component={ConsultorServices}
-              exact
-            />
+            <Route path="/sociedades" component={Soc} exact />
+            <Route path="/bpo" component={Bpo} exact />
             <Route path="/servicioswealth" component={WealthServices} exact />
             <Route path="/profesionales" component={Proffessionals} exact />
             <Route path="/oficinas" component={Offices} exact />

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import banner from "../assets/img/images-servicios-11.jpg";
+import banner2 from "../assets/img/image001.png";
 
 export default function WealthServices() {
   const [tab, setTab] = useState(0);
@@ -232,7 +233,9 @@ export default function WealthServices() {
           </div>
         </div>
       </div>
-
+      <div style={{ textAlign: "center", padding: "50px" }}>
+        <img src={banner2} />
+      </div>
       <div className="door"></div>
     </div>
   );

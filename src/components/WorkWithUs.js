@@ -73,7 +73,36 @@ export default function WorkWithUs() {
           </p>
         </div>
         <div className="column small-12 medium-6">
-          <h1>Ver contact form </h1>
+          <form>
+            <label>
+              Nombre
+              <input type="text" name="name" />
+            </label>
+
+            <form>
+              <label>
+                Email
+                <input type="text" name="name" />
+              </label>
+            </form>
+
+            <form>
+              <label>
+                Mensaje
+                <input style={{ height: "12rem" }} type="text" name="name" />
+              </label>
+              <input
+                style={{
+                  background: "#AC0E20",
+                  color: "white",
+                  padding: "10px 15px",
+                  border: "none",
+                }}
+                type="submit"
+                value="Enviar"
+              />
+            </form>
+          </form>
         </div>
       </div>
     </div>

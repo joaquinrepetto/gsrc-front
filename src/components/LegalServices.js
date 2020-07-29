@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import banner from "../assets/img/images-servicios-08.jpg";
+import banner2 from "../assets/img/image001.png";
 
 export default function LegalServices() {
   const [tab, setTab] = useState(0);
@@ -66,7 +67,7 @@ export default function LegalServices() {
                         onClick={() => setTab(1)}
                         style={{ color: tab === 1 ? "#AC0E20" : null }}
                       >
-                        Asuntos Fiscales
+                        Asuntos Fiscales, Legales y Contenciosos
                       </a>
                     </li>
                     <li>
@@ -74,7 +75,15 @@ export default function LegalServices() {
                         onClick={() => setTab(2)}
                         style={{ color: tab === 2 ? "#AC0E20" : null }}
                       >
-                        Derecho Aduanero
+                        Derecho Aduanero y Comercio Exterior
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(3)}
+                        style={{ color: tab === 3 ? "#AC0E20" : null }}
+                      >
+                        Tecnología
                       </a>
                     </li>
                   </ul>
@@ -190,7 +199,7 @@ export default function LegalServices() {
             )}
             {tab === 1 && (
               <div class="primary-intro">
-                <h2>Asuntos Fiscales</h2>
+                <h2>Asuntos Fiscales, Legales y Contenciosos</h2>
                 <p>
                   La sinergia entre abogados y contadores, que define nuestra
                   firma, permite que nuestra División de Asesoría Legal y Fiscal
@@ -254,7 +263,7 @@ export default function LegalServices() {
             )}
             {tab === 2 && (
               <div class="primary-intro">
-                <h2>Derecho Aduanero</h2>
+                <h2>Derecho Aduanero y Comercio Exterior</h2>
                 <h5>Regulación aduanera:</h5>
                 <p>
                   Brindamos asesoramiento a compañías tanto locales como
@@ -302,10 +311,23 @@ export default function LegalServices() {
                 </p>
               </div>
             )}
+            {tab === 3 && (
+              <div class="primary-intro">
+                <h2>Tecnología</h2>
+                <p>
+                  Asesoramiento en legal tech. Entendemos tus necesidades con un
+                  grupo de expertos en legales y tecnología, hacemos un
+                  diagnóstico y proponemos soluciones. Somos tu socio en la
+                  transformación digital.
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </div>
-
+      <div style={{ textAlign: "center", padding: "50px" }}>
+        <img src={banner2} />
+      </div>
       <div class="door"></div>
     </div>
   );

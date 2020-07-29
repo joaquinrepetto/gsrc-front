@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-import banner from "../assets/img/images-servicios-10.jpg";
+import banner from "../assets/img/images-servicios-09.jpg";
 import banner2 from "../assets/img/image001.png";
 
-export default function ConsultorServices() {
+export default function Soc() {
   const [tab, setTab] = useState(0);
   return (
     <div>
@@ -15,13 +16,17 @@ export default function ConsultorServices() {
           <div className="column medium-8">
             <div className="breadcrumbs service-sub">
               <span className="crumb home">
-                <a href="/">Inicio</a>
+                <Link to="/">
+                  <a>Inicio</a>
+                </Link>
               </span>
               <span className="crumb interior">
-                <a href="#">Servicios</a>
+                <Link to="/servicios">
+                  <a>Servicios</a>
+                </Link>
               </span>
               <span className="crumb child">
-                <a href="#">Servicios Consultoría</a>
+                <a>Sociedades</a>
               </span>
             </div>
           </div>
@@ -51,30 +56,14 @@ export default function ConsultorServices() {
             <nav className="sidebar full">
               <ul className="lvl-1 veritcal-menu" data-accordion-menu>
                 <li>
-                  <a style={{ color: "#AC0E20" }}>Servicios de Consultoría</a>
+                  <a style={{ color: "#AC0E20" }}>Sociedades</a>
                   <ul className="lvl-2 vertical nested">
                     <li>
                       <a
                         onClick={() => setTab(0)}
                         style={{ color: tab === 0 ? "#AC0E20" : null }}
                       >
-                        Consultoría y Compliance Tributario
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        onClick={() => setTab(1)}
-                        style={{ color: tab === 1 ? "#AC0E20" : null }}
-                      >
-                        Consultoría Organizacional y Sistemas
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        onClick={() => setTab(2)}
-                        style={{ color: tab === 2 ? "#AC0E20" : null }}
-                      >
-                        Tecnología
+                        Sociedades
                       </a>
                     </li>
                   </ul>
@@ -189,96 +178,6 @@ export default function ConsultorServices() {
           <div className="column large-8 medium-8 small-12 top-story">
             {tab === 0 && (
               <div className="primary-intro">
-                <h2>Consultoría y Compliance Tributario</h2>
-                <p>
-                  Entendemos el asesoramiento como actitud proactiva para
-                  procurar ahorros fiscales oportunos, dentro del marco legal.
-                  Consideramos que la liquidación de las obligaciones fiscales
-                  comienza antes del cierre del ejercicio fiscal, para apreciar
-                  su impacto y permitir planificar en la búsqueda de la
-                  optimización impositiva.
-                </p>
-                <h5>Ofrecemos:</h5>
-                <p>
-                  • Asesoramiento jurídico-impositivo y planificación de
-                  negocios en asuntos vinculados con normativas y/o
-                  transacciones internacionales, nacionales, provinciales o
-                  municipales.
-                </p>
-                <p>
-                  • Asistencia y estrategias durante el desarrollo de
-                  inspecciones.
-                </p>
-                <p>
-                  • Confección y/o revisión de declaraciones juradas de
-                  cumplimiento mensual y/o anual.
-                </p>
-                <p>
-                  • Asesoramiento en gravámenes nacionales, provinciales y
-                  municipales.
-                </p>
-                <p>• Planificación fiscal internacional.</p>
-                <p>
-                  • Procedimientos de debida diligencia en adquisiciones de
-                  empresas.
-                </p>
-                <p>• Estructuración de reorganizaciones libres de impuestos.</p>
-                <p>• Cálculo del Impuesto Diferido.</p>
-                <p>
-                  • Análisis de posiciones de impuestos de dudosa
-                  recuperabilidad.
-                </p>
-                <p>• Recupero de créditos fiscales.</p>
-                <p>• Recupero de saldos a favor de impuestos provinciales.</p>
-                <p>• Asesoramiento en materia previsional.</p>
-              </div>
-            )}
-            {tab === 1 && (
-              <div className="primary-intro">
-                <h2>Consultoría Organizacional y Sistemas</h2>
-                <p>
-                  • Contamos con un equipo de profesionales con amplia
-                  experiencia en proyectos de complejos desarrollada en
-                  importantes empresas multinacionales y consultoras
-                  internacionales.
-                </p>
-                <p>
-                  • Contamos con una visión integral de proyectos de alta
-                  complejidad.
-                </p>
-                <p>
-                  • Gerenciamos proyectos de consultoría en organización de
-                  empresas y otros entes en general.
-                </p>
-                <p>
-                  • Diseñamos y asistimos a empresas en procesos de
-                  redimensionamiento y reorganización.
-                </p>
-                <p>
-                  • Contamos con metodología para el desarrollo de proyectos de
-                  control de gestión, informes de avances y tableros de comando.
-                </p>
-                <p>
-                  • Desarrollamos proyectos de implementación de sistemas
-                  administrativos, comerciales, recursos humanos,
-                  abastecimiento, industriales bajo diferentes plataformas
-                  (entre otros SAP, ORACLE, JDEDWARDS, META 4)
-                </p>
-              </div>
-            )}
-            {tab === 2 && (
-              <div className="primary-intro">
-                <h2>Tecnología</h2>
-                <p>
-                  Asesoramiento en legal tech. Entendemos tus necesidades con un
-                  grupo de expertos en legales y tecnología, hacemos un
-                  diagnóstico y proponemos soluciones. Somos tu socio en la
-                  transformación digital.
-                </p>
-              </div>
-            )}
-            {tab === 3 && (
-              <div className="primary-intro">
                 <h2>Sociedades</h2>
                 <h5>Consultoría y Asesoramiento:</h5>
                 <p>
@@ -303,14 +202,12 @@ export default function ConsultorServices() {
                   • Redacción de actas de Directorio y Asambleas Accionistas.
                 </p>
                 <p>• Experiencia en Concursos Preventivos y Quiebras.</p>
-                <p>• </p>
-                <p>• </p>
-                <p>• </p>
               </div>
             )}
           </div>
         </div>
       </div>
+
       <div style={{ textAlign: "center", padding: "50px" }}>
         <img src={banner2} />
       </div>

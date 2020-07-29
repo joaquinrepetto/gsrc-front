@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import banner from "../assets/img/images-servicios-09.jpg";
+import banner2 from "../assets/img/image001.png";
 
 export default function ContableServices() {
   const [tab, setTab] = useState(0);
@@ -72,21 +73,30 @@ export default function ContableServices() {
                         onClick={() => setTab(1)}
                         style={{ color: tab === 1 ? "#AC0E20" : null }}
                       >
-                        Payroll
+                        Consultoría y Compliance Tributario
                       </a>
                     </li>
+
                     <li>
                       <a
                         onClick={() => setTab(2)}
                         style={{ color: tab === 2 ? "#AC0E20" : null }}
                       >
-                        Outsourcing
+                        Payroll
                       </a>
                     </li>
                     <li>
                       <a
                         onClick={() => setTab(3)}
                         style={{ color: tab === 3 ? "#AC0E20" : null }}
+                      >
+                        Outsourcing
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(4)}
+                        style={{ color: tab === 4 ? "#AC0E20" : null }}
                       >
                         Sociedades
                       </a>
@@ -327,56 +337,73 @@ export default function ContableServices() {
             )}
             {tab === 1 && (
               <div className="primary-intro">
-                <h2>Payroll</h2>
-                <h5>Consultoría y asesoramiento:</h5>
+                <h2>Consultoría y Compliance Tributario</h2>
                 <p>
-                  Opinión sobre los aspectos generales y particulares,
-                  ofreciendo alternativas y herramientas para la toma de
-                  decisiones.
+                  Entendemos el asesoramiento como actitud proactiva para
+                  procurar ahorros fiscales oportunos, dentro del marco legal.
+                  Consideramos que la liquidación de las obligaciones fiscales
+                  comienza antes del cierre del ejercicio fiscal, para apreciar
+                  su impacto y permitir planificar en la búsqueda de la
+                  optimización impositiva.
                 </p>
-                <h5>
-                  Liquidación de sueldos y jornales y cargas sociales/fiscales:
-                </h5>
+                <p>Ofrecemos:</p>
+
                 <p>
-                  {" "}
-                  • Liquidación de sueldos y sus cargas sociales y fiscales.
+                  • Asesoramiento jurídico-impositivo y planificación de
+                  negocios en asuntos vinculados con normativas y/o
+                  transacciones internacionales, nacionales, provinciales o
+                  municipales.
                 </p>
-                <p>• Preparación de nóminas confidenciales.</p>
-                <p>• Confección y emisión de los recibos de haberes.</p>
-                <p>• Emisión del libro de sueldos rubricado.</p>
-                <p>• Confección de asientos contables.</p>
                 <p>
-                  • Emisión de reportes especiales a pedido de las empresas.
+                  • Asistencia y estrategias durante el desarrollo de
+                  inspecciones.
                 </p>
-                <p>• Asesoramiento en caso de desvinculación laboral.</p>
-                <p>• Proyecciones de costos laborales y/o remuneraciones.</p>
                 <p>
-                  • Atención de inspecciones y/o contestación de requerimientos
-                  de organismos de control.
+                  • Confección y/o revisión de declaraciones juradas de
+                  cumplimiento mensual y/o anual.
                 </p>
+                <p>
+                  • Asesoramiento en gravámenes nacionales, provinciales y
+                  municipales.
+                </p>
+                <p>• Planificación fiscal internacional.</p>
+                <p>
+                  • Procedimientos de debida diligencia en adquisiciones de
+                  empresas.
+                </p>
+                <p>• Estructuración de reorganizaciones libres de impuestos.</p>
+                <p>• Cálculo del Impuesto Diferido</p>
+                <p>
+                  • Análisis de posiciones de impuestos de dudosa
+                  recuperabilidad.
+                </p>
+                <p>• Recupero de créditos fiscales.</p>
+                <p>• Recupero de saldos a favor de impuestos provinciales.</p>
+                <p>• Asesoramiento en materia previsional.</p>
               </div>
             )}
             {tab === 2 && (
               <div className="primary-intro">
-                <h2>Outsourcing</h2>
+                <h2>Asignaciones Internacionales</h2>
                 <p>
-                  Sabemos implementar fórmulas operativas eficientes para la
-                  tercerización de procesos. Nuestros servicios incluyen:
+                  • Entrevistas de entrada y de salida: asesoría fiscal para los
+                  expatriados frente a sus obligaciones tributarias derivadas
+                  del ingreso o salida de Argentina.
                 </p>
-                <h5>Procesos administrativos:</h5>
-                <p>• Establecimiento de circuitos administrativos.</p>
-                <p>• Facturación.</p>
-                <p>• Tesorería.</p>
-                <p>• Toma de inventarios.</p>
-                <h5>Aspectos contables, laborales e impositivos:</h5>
-                <p>• Contabilidad. </p>
-                <p>• Análisis de cuentas y conciliaciones.</p>
-                <p>• Control presupuestario.</p>
-                <p>• Reportes mensuales.</p>
-                <p>• Liquidación de impuestos y tasas.</p>
                 <p>
-                  • Liquidación de nómina y obligaciones de la Seguridad Social.
+                  • Elaboración de Declaraciones de Ingresos y Bienes
+                  Personales: preparación de Declaraciones anuales de Renta y
+                  Bienes Personales, de acuerdo con la legislación tributaria
+                  vigente.
                 </p>
+                <p>
+                  • Elaboración de cálculos de impuestos hipotéticos
+                  (Hypothetical Tax)
+                </p>
+                <p>• Elaboración de Tax Equalization</p>
+                <p>• Solicitud de Permisos de Trabajo</p>
+                <p>• Solicitud de Certificados de Movimientos Migratorios</p>
+                <p>• Preparación de cálculos de Gross Up</p>
               </div>
             )}
             {tab === 3 && (
@@ -409,6 +436,10 @@ export default function ContableServices() {
             )}
           </div>
         </div>
+      </div>
+
+      <div style={{ textAlign: "center", padding: "50px" }}>
+        <img src={banner2} />
       </div>
 
       <div className="door"></div>

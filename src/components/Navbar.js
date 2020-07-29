@@ -138,9 +138,15 @@ export default function Navbar() {
                             </Link>
                           </li>
                           <li style={{ width: "100%", fontSize: "15px" }}>
-                            <Link to="/serviciosconsultoria">
+                            <Link to="/bpo">
                               {" "}
-                              <a>Servicios de Consultoría</a>
+                              <a>Business Process Outsourcing (BPO)</a>
+                            </Link>
+                          </li>
+                          <li style={{ width: "100%", fontSize: "15px" }}>
+                            <Link to="/sociedades">
+                              {" "}
+                              <a>Sociedades</a>
                             </Link>
                           </li>
                           <li style={{ width: "100%", fontSize: "15px" }}>

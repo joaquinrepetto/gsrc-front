@@ -206,11 +206,11 @@ export default function LegalServices() {
                   servicios, tales como:
                 </p>
                 <p>
-                  {" "}
                   • Defensa de los contribuyentes antes de la imposición de
                   sanciones (multas, suspensiones comerciales, exclusiones de
                   registro, etc.) por parte de las autoridades fiscales.
                 </p>
+
                 <p>
                   • Realización de trámites ante organismos fiscales nacionales,
                   provinciales y municipales.

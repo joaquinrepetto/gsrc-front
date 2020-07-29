@@ -65,7 +65,7 @@ export default function Home() {
         setActiveSlide(activeSlide + 1);
         console.log(activeSlide, "aca");
       }
-    }, 3000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, [activeSlide]);
 

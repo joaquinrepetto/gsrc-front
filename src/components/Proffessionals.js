@@ -37,7 +37,7 @@ const socios = [
   {
     image: sinCara,
     name: "Juan Manuel de Cabo",
-    mail: "juan.fischer@uy.Andersen.com",
+    mail: "juan.decabo@ar.Andersen.com",
   },
   {
     image: sinCara,
@@ -58,6 +58,84 @@ const socios = [
     image: sinCara,
     name: "Alejandro Tkachuk",
     mail: "juan.fischer@uy.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Bartolome Homar Mas",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Diego Kelln",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+];
+
+const managers = [
+  {
+    image: sinCara,
+    name: " Pablo Lo Vento",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "María José Ermocida",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Martín Depaola",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Mariana Vallejo",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Mariano Federico del Amo",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Julieta Firpo",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Zulema Gouveia",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Victor del Valle",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Fernanda Cons",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Juan Fuster",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Francisco Peris",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Pedro Negri Aranguren",
+    mail: "juan.fischer@ar.Andersen.com",
+  },
+  {
+    image: sinCara,
+    name: "Valentina Kripper",
+    mail: "valentina.kripper@ar.Andersen.com",
   },
 ];
 
@@ -149,7 +227,7 @@ export default function Proffessionals() {
         </div>
       </div>
 
-      <div
+      {/* <div
         class="headline-scroller orbit"
         data-orbit
         style={{ paddingTop: "50px" }}
@@ -252,7 +330,7 @@ export default function Proffessionals() {
             </table>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div
         class="headline-scroller orbit"
@@ -279,209 +357,29 @@ export default function Proffessionals() {
                   <th></th>
                 </tr>
 
-                <tr>
-                  <td class="img-perfil">
-                    <img
-                      src="assets/img/sin-foto.gif"
-                      style={{ height: "100%" }}
-                      alt=""
-                    />
-                  </td>
-                  <td class="nombre" style={{ paddingLeft: "15px" }}>
-                    <a href="cv_juan_federico_fischer.php">Pablo Lo Vento</a>
-                  </td>
-                  <td class="areas">
-                    Socio
-                    <br />
-                  </td>
-                  <td class="correo">
-                    <a href="mailto:juan.fischer@uy.Andersen.com">
+                {managers.map((manager) => (
+                  <tr>
+                    <td class="img-perfil">
                       <img
-                        src="assets/img/partners/sobre.png"
-                        alt="juan.fischer@uy.Andersen.com"
+                        src={manager.image}
+                        style={{ height: "100%" }}
+                        alt=""
                       />
-                    </a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="img-perfil">
-                    <img
-                      src="assets/img/sin-foto.gif"
-                      style={{ height: "100%" }}
-                      alt=""
-                    />
-                  </td>
-                  <td class="nombre" style={{ paddingLeft: "15px" }}>
-                    <a href="cv_juan_federico_fischer.php">
-                      María José Ermocida
-                    </a>
-                  </td>
-                  <td class="areas">
-                    Socio
-                    <br />
-                  </td>
-                  <td class="correo">
-                    <a href="mailto:juan.fischer@uy.Andersen.com">
-                      <img
-                        src="assets/img/partners/sobre.png"
-                        alt="juan.fischer@uy.Andersen.com"
-                      />
-                    </a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="img-perfil">
-                    <img
-                      src="assets/img/sin-foto.gif"
-                      style={{ height: "100%" }}
-                      alt=""
-                    />
-                  </td>
-                  <td class="nombre" style={{ paddingLeft: "15px" }}>
-                    <a href="cv_juan_federico_fischer.php">Martín Depaola</a>
-                  </td>
-                  <td class="areas">
-                    Socio
-                    <br />
-                  </td>
-                  <td class="correo">
-                    <a href="mailto:juan.fischer@uy.Andersen.com">
-                      <img
-                        src="assets/img/partners/sobre.png"
-                        alt="juan.fischer@uy.Andersen.com"
-                      />
-                    </a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="img-perfil">
-                    <img
-                      src="assets/img/sin-foto.gif"
-                      style={{ height: "100%" }}
-                      alt=""
-                    />
-                  </td>
-                  <td class="nombre" style={{ paddingLeft: "15px" }}>
-                    <a href="cv_juan_federico_fischer.php">Mariana Vallejo</a>
-                  </td>
-                  <td class="areas">
-                    Socio
-                    <br />
-                  </td>
-                  <td class="correo">
-                    <a href="mailto:juan.fischer@uy.Andersen.com">
-                      <img
-                        src="assets/img/partners/sobre.png"
-                        alt="juan.fischer@uy.Andersen.com"
-                      />
-                    </a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="img-perfil">
-                    <img
-                      src="assets/img/sin-foto.gif"
-                      style={{ height: "100%" }}
-                      alt=""
-                    />
-                  </td>
-                  <td class="nombre" style={{ paddingLeft: "15px" }}>
-                    <a href="cv_juan_federico_fischer.php">
-                      Mariano Federico del Amo
-                    </a>
-                  </td>
-                  <td class="areas">
-                    Socio
-                    <br />
-                  </td>
-                  <td class="correo">
-                    <a href="mailto:juan.fischer@uy.Andersen.com">
-                      <img
-                        src="assets/img/partners/sobre.png"
-                        alt="juan.fischer@uy.Andersen.com"
-                      />
-                    </a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="img-perfil">
-                    <img
-                      src="assets/img/sin-foto.gif"
-                      style={{ height: "100%" }}
-                      alt=""
-                    />
-                  </td>
-                  <td class="nombre" style={{ paddingLeft: "15px" }}>
-                    <a href="cv_juan_federico_fischer.php">Julieta Firpo</a>
-                  </td>
-                  <td class="areas">
-                    Socio
-                    <br />
-                  </td>
-                  <td class="correo">
-                    <a href="mailto:juan.fischer@uy.Andersen.com">
-                      <img
-                        src="assets/img/partners/sobre.png"
-                        alt="juan.fischer@uy.Andersen.com"
-                      />
-                    </a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="img-perfil">
-                    <img
-                      src="assets/img/sin-foto.gif"
-                      style={{ height: "100%" }}
-                      alt=""
-                    />
-                  </td>
-                  <td class="nombre" style={{ paddingLeft: "15px" }}>
-                    <a href="cv_juan_federico_fischer.php">Zulema Gouveia</a>
-                  </td>
-                  <td class="areas">
-                    Socio
-                    <br />
-                  </td>
-                  <td class="correo">
-                    <a href="mailto:juan.fischer@uy.Andersen.com">
-                      <img
-                        src="../assets/partners/sobre.png"
-                        alt="juan.fischer@uy.Andersen.com"
-                      />
-                    </a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="img-perfil">
-                    <img
-                      src="assets/img/sin-foto.gif"
-                      style={{ height: "100%" }}
-                      alt=""
-                    />
-                  </td>
-                  <td class="nombre" style={{ paddingLeft: "15px" }}>
-                    <a href="cv_juan_federico_fischer.php">Victor del Valle</a>
-                  </td>
-                  <td class="areas">
-                    Socio
-                    <br />
-                  </td>
-                  <td class="correo">
-                    <a href="mailto:juan.fischer@uy.Andersen.com">
-                      <img
-                        src="assets/img/partners/sobre.png"
-                        alt="juan.fischer@uy.Andersen.com"
-                      />
-                    </a>
-                  </td>
-                </tr>
+                    </td>
+                    <td class="nombre" style={{ paddingLeft: "15px" }}>
+                      <a href="profesionalesPerfil.html">{manager.name}</a>
+                    </td>
+                    <td class="areas">
+                      Manager
+                      <br />
+                    </td>
+                    <td class="correo">
+                      <a href="mailto:juan.fischer@uy.Andersen.com">
+                        <img src={sobre} alt="juan.fischer@uy.Andersen.com" />
+                      </a>
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>

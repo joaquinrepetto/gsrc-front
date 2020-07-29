@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import banner1 from "../assets/img/imag-slider-3-home.jpg";
 import banner2 from "../assets/img/imag-slider-1-home.jpg";
@@ -132,12 +133,11 @@ export default function Home() {
                         Reconocidos como líderes en Precios de Transferencia e
                         impuestos en el mercado.
                       </p>
-                      <a
-                        className="button cta hollow-light"
-                        href="nuestraFirma.html"
-                      >
-                        Más Información{" "}
-                      </a>
+                      <Link to="/nuestrafirma">
+                        <a className="button cta hollow-light">
+                          Más Información{" "}
+                        </a>
+                      </Link>
                     </div>
                   </li>
                 )}
@@ -182,12 +182,11 @@ export default function Home() {
                         brindando asesoramiento a empresas y personas en el
                         ámbito local e internacional.
                       </p>
-                      <a
-                        className="button cta hollow-light"
-                        href="services.html"
-                      >
-                        Más información
-                      </a>
+                      <Link to="/services">
+                        <a className="button cta hollow-light">
+                          Más Información{" "}
+                        </a>
+                      </Link>
                     </div>
                   </li>
                 )}
@@ -232,12 +231,11 @@ export default function Home() {
                         brindan servicios integrales a las necesidades de los
                         clientes.
                       </p>
-                      <a
-                        className="button cta hollow-light"
-                        href="nuestraFirma.html"
-                      >
-                        Más Información
-                      </a>
+                      <Link to="/nuestrafirma">
+                        <a className="button cta hollow-light">
+                          Más Información{" "}
+                        </a>
+                      </Link>
                     </div>
                   </li>
                 )}

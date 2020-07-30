@@ -182,7 +182,7 @@ export default function Home() {
                         brindando asesoramiento a empresas y personas en el
                         ámbito local e internacional.
                       </p>
-                      <Link to="/services">
+                      <Link to="/servicios">
                         <a className="button cta hollow-light">
                           Más Información{" "}
                         </a>
@@ -231,7 +231,7 @@ export default function Home() {
                         brindan servicios integrales a las necesidades de los
                         clientes.
                       </p>
-                      <Link to="/nuestrafirma">
+                      <Link to="/profesionales">
                         <a className="button cta hollow-light">
                           Más Información{" "}
                         </a>

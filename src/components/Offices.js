@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ScriptTag from "react-script-tag";
 import { Helmet } from "react-helmet";
 import useScript from "../utils/useScript";
@@ -92,7 +92,6 @@ export default function Offices() {
   return (
     <div>
       <div class="main-content">
-        <ScriptTag src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" />
         <Helmet>
           <link
             rel="stylesheet"
@@ -104,31 +103,9 @@ export default function Offices() {
             type="text/css"
           ></link>
         </Helmet>
-        <ScriptTag
-          src="https://global.andersen.com/assets/scripts/ammap_3.20.17/ammap/ammap.js"
-          type="text/javascript"
-        />
+
         {/* <!-- map file should be included after ammap.js --> */}
-        <ScriptTag
-          src="https://global.andersen.com/assets/scripts/ammap_3.20.17/ammap/maps/js/worldLow.js"
-          type="text/javascript"
-        />
-        <scScriptTagript
-          src="https://global.andersen.com/assets/scripts/ammap_3.20.17/ammap/plugins/responsive/responsive.min.js"
-          type="text/javascript"
-        />
-        <ScriptTag
-          src="https://andersen.com/offices/united_states_offices"
-          type="text/javascript"
-        />
-        <ScriptTag
-          src="https://andersen.com/offices/countries_list"
-          type="text/javascript"
-        />
-        <ScriptTag
-          type="text/javascript"
-          src="https://andersen.com/offices/world_map"
-        />
+
         {/* <!-- MAP CONTAINER --> */}
         <div id="map-container">
           <div class="map-filter-form">
@@ -139,10 +116,6 @@ export default function Offices() {
                 <select name="country" id="country_select">
                   <option value="World">Choose</option>
                 </select>
-                <ScriptTag
-                  type="text/javascript"
-                  src="https://global.andersen.com/assets/scripts/mapc/map-dropdown-filter.js"
-                />
               </p>
             </form>
           </div>
@@ -152,30 +125,70 @@ export default function Offices() {
           </form>
           <div id="individual_offices"></div>
         </div>
-
-        <ScriptTag
-          src="https://global.andersen.com/assets/scripts/mapc/indiv_offices.js"
-          type="text/javascript"
-        />
-        <ScriptTag
-          src="https://global.andersen.com/assets/scripts/mapc/indiv_offices2.js"
-          type="text/javascript"
-        />
-        <ScriptTag
-          src="https://global.andersen.com/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"
-          type="text/javascript"
-        />
-        <ScriptTag src="https://global.andersen.com/assets/scripts/Semantic-UI-master/dist/semantic.min.js" />
-        <ScriptTag
-          src="https://global.andersen.com/assets/js/flip.min.js"
-          type="text/javascript"
-        />
-        <ScriptTag
-          src="https://global.andersen.com/assets/js/main.js"
-          type="text/javascript"
-        />
       </div>
       <div class="door"></div>
+      <ScriptTag src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" />
+
+      <ScriptTag
+        src="https://global.andersen.com/assets/scripts/ammap_3.20.17/ammap/ammap.js"
+        type="text/javascript"
+      />
+
+      <ScriptTag
+        src="https://global.andersen.com/assets/scripts/ammap_3.20.17/ammap/maps/js/worldLow.js"
+        type="text/javascript"
+      />
+
+      <ScriptTag
+        src="https://global.andersen.com/assets/scripts/ammap_3.20.17/ammap/plugins/responsive/responsive.min.js"
+        type="text/javascript"
+      />
+
+      <ScriptTag
+        src="https://andersen.com/offices/united_states_offices"
+        type="text/javascript"
+      />
+
+      <ScriptTag
+        src="https://andersen.com/offices/countries_list"
+        type="text/javascript"
+      />
+
+      <ScriptTag
+        type="text/javascript"
+        src="https://andersen.com/offices/world_map"
+      />
+
+      <ScriptTag
+        type="text/javascript"
+        src="https://global.andersen.com/assets/scripts/mapc/map-dropdown-filter.js"
+      />
+
+      <ScriptTag
+        src="https://global.andersen.com/assets/scripts/mapc/indiv_offices.js"
+        type="text/javascript"
+      />
+
+      <ScriptTag
+        src="https://global.andersen.com/assets/scripts/mapc/indiv_offices2.js"
+        type="text/javascript"
+      />
+
+      <ScriptTag
+        src="https://global.andersen.com/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"
+        type="text/javascript"
+      />
+
+      <ScriptTag src="https://global.andersen.com/assets/scripts/Semantic-UI-master/dist/semantic.min.js" />
+
+      <ScriptTag
+        src="https://global.andersen.com/assets/js/flip.min.js"
+        type="text/javascript"
+      />
+      <ScriptTag
+        src="https://global.andersen.com/assets/js/main.js"
+        type="text/javascript"
+      />
     </div>
   );
 }

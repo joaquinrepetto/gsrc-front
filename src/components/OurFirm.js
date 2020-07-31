@@ -40,10 +40,10 @@ export default function OurFirm() {
                 <div className="text">
                   <h1>Nuestra firma</h1>
                   <p>
-                    Somos una firma miembro de Andersen Global presentando
+                    Somos una firma miembro de Andersen Global prestando
                     servicios de: Consultoría en Tributación, Precios de
-                    Transferencia, Outsorcing, Payroll, Sociedades, Consultoría
-                    Legal y Consultoría en Sistemas.
+                    Transferencia, Outsourcing Contable e Impositivo, Sociedades
+                    y Consultoría Legal.
                   </p>
                 </div>
               </div>
@@ -93,7 +93,7 @@ export default function OurFirm() {
                   Misión
                 </button>
               </div>
-              <div className="tab">
+              {/* <div className="tab">
                 <button
                   className="tablinks"
                   style={{
@@ -105,70 +105,78 @@ export default function OurFirm() {
                 >
                   Valores centrales
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="column large-6 medium-6 small-6">
               {activeText === "qnd" && (
                 <div className="tabcontent" style={{ display: "block" }}>
                   <h3 style={{ color: "#AD0D21" }}>¿Qué nos distingue?</h3>
-                  <p>
-                    • El conocimiento profundo de las materias que son motivo de
-                    asesoramiento y del ambiente de negocios local e
-                    internacional en el que actúa el cliente.
-                  </p>
-                  <p>
-                    • Una modalidad de trabajo que incluye análisis en detalle a
-                    costos razonables.
-                  </p>
-                  <p>
-                    • Atención personalizada eficiente y oportuna. En lugar de
-                    una estructura impersonal y estandarizada, ofrecemos un
-                    servicio organizado y controlado por los socios, enfocado a
-                    atender las necesidades específicas con un criterio de
-                    optimización de resultados.
-                  </p>
-                  <p>
-                    • Para brindar servicios profesionales de alta calidad hemos
-                    adoptado la cultura de la excelencia: sentir placer por
-                    hacer nuestro trabajo del mejor modo y actuar siempre
-                    anticipándonos a las necesidades y a los problemas de la
-                    empresa.
-                  </p>
-                  <p>
-                    • Un equipo profesional calificado, conformado por
-                    Contadores Públicos, Abogados y Economistas, que desarrollan
-                    sus tareas bajo la premisa de capacitación permanente.
-                    Nuestros más de 100 expertos profesionales están
-                    comprometidos en la incesante búsqueda de alternativas y el
-                    análisis inteligente, con el objetivo de volcar sus
-                    conclusiones en la práctica diaria.
-                  </p>
+                  <ul>
+                    <li style={{ listStyleType: "disc" }}>
+                      El conocimiento profundo de las materias que son motivo de
+                      asesoramiento y del ambiente de negocios local e
+                      internacional en el que actúa el cliente.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Una modalidad de trabajo que incluye análisis en detalle a
+                      costos razonables.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Atención personalizada eficiente y oportuna. En lugar de
+                      una estructura impersonal y estandarizada, ofrecemos un
+                      servicio organizado y controlado por los socios, enfocado
+                      a atender las necesidades específicas con un criterio de
+                      optimización de resultados.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Para brindar servicios profesionales de alta calidad hemos
+                      adoptado la cultura de la excelencia: sentir placer por
+                      hacer nuestro trabajo del mejor modo y actuar siempre
+                      anticipándonos a las necesidades y a los problemas de la
+                      empresa.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Un equipo profesional calificado, conformado por
+                      Contadores Públicos, Abogados y Economistas, que
+                      desarrollan sus tareas bajo la premisa de capacitación
+                      permanente. Nuestros más de 100 expertos profesionales
+                      están comprometidos en la incesante búsqueda de
+                      alternativas y el análisis inteligente, con el objetivo de
+                      volcar sus conclusiones en la práctica diaria.
+                    </li>
+                  </ul>
                 </div>
               )}
               {console.log(activeText)}
               {activeText === "compr" && (
                 <div className="tabcontent" style={{ display: "block" }}>
                   <h3 style={{ color: "#AD0D21" }}>Compromiso</h3>
+
                   <p>
                     Merecen enumerarse los siguientes elementos distintivos y
                     cualidades que sustentan nuestra amplia trayectoria:
                   </p>
-                  <p>
-                    • La provisión de soluciones prácticas en tiempo oportuno,
-                  </p>
-                  <p>
-                    • La resolución de cualquier consulta que el cliente
-                    solicite de forma ágil,
-                  </p>
-                  <p>
-                    • Una relación cordial para así lograr una comunicación
-                    efectiva
-                  </p>
-                  <p>• Ética profesional</p>
-                  <p>
-                    • Fluida relación para el óptimo desenvolvimiento de los
-                    objetivos.
-                  </p>
+                  <ul>
+                    <li style={{ listStyleType: "disc" }}>
+                      La provisión de soluciones prácticas en tiempo oportuno.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      La resolución de cualquier consulta que el cliente
+                      solicite de forma ágil.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Una relación cordial para así lograr una comunicación
+                      efectiva.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      {" "}
+                      Fluida relación para el óptimo desenvolvimiento de los
+                      objetivos.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Ética profesional.
+                    </li>
+                  </ul>
                 </div>
               )}
 
@@ -190,47 +198,52 @@ export default function OurFirm() {
                 <div className="tabcontent" style={{ display: "block" }}>
                   <h3 style={{ color: "#AD0D21" }}>Valores centrales</h3>
                   <p>
-                    • Estamos convencidos que la clave para crear una firma
+                    Estamos convencidos que la clave para crear una firma
                     profesional verdaderamente confiable está en los valores que
                     guían a la gente que conforma nuestro equipo de trabajo.
                     Estos son nuestros valores clave:
                   </p>
-                  <p>
-                    • Somos leales a nuestros compromisos. Brindamos más
-                    servicio del que nos comprometemos.
-                  </p>
-                  <p>
-                    • Siempre brindamos respuestas sin demoras. Sentimos la
-                    necesidad de atender con urgencia cualquier cuestión
-                    relacionada con nuestros clientes.
-                  </p>
-                  <p>
-                    • Requerimos completa honestidad e integridad en todo lo que
-                    hacemos.
-                  </p>
-                  <p>
-                    • Creemos que el trabajo es una parte importante de nuestra
-                    vida y que debe realizarse con alegría.
-                  </p>
-                  <p>
-                    • Nos gusta competir y creemos que ello genera lo mejor de
-                    nosotros.
-                  </p>
-                  <p>• Insistimos en brindar siempre nuestro mejor esfuerzo.</p>
-                  <p>
-                    • No toleramos que se incurra en errores por desidia o falta
-                    de esfuerzo suficiente.
-                  </p>
-                  <p>
-                    • Respetamos la individualidad y creemos que las personas a
-                    las que se las trata con respeto y se les asigna
-                    responsabilidad, responden con su mejor parte.
-                  </p>
-                  <p>
-                    • Creemos que un claro entendimiento de nuestra misión,
-                    nuestros valores centrales y lo que esperamos de cada uno de
-                    nosotros es central para nuestro éxito.
-                  </p>
+                  <ul>
+                    {" "}
+                    <li style={{ listStyleType: "disc" }}>
+                      Somos leales a nuestros compromisos. Brindamos más
+                      servicio del que nos comprometemos.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Siempre brindamos respuestas sin demoras. Sentimos la
+                      necesidad de atender con urgencia cualquier cuestión
+                      relacionada con nuestros clientes.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Requerimos completa honestidad e integridad en todo lo que
+                      hacemos.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Creemos que el trabajo es una parte importante de nuestra
+                      vida y que debe realizarse con alegría.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Nos gusta competir y creemos que ello genera lo mejor de
+                      nosotros.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Insistimos en brindar siempre nuestro mejor esfuerzo.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      No toleramos que se incurra en errores por desidia o falta
+                      de esfuerzo suficiente.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Respetamos la individualidad y creemos que las personas a
+                      las que se las trata con respeto y se les asigna
+                      responsabilidad, responden con su mejor parte.
+                    </li>
+                    <li style={{ listStyleType: "disc" }}>
+                      Creemos que un claro entendimiento de nuestra misión,
+                      nuestros valores centrales y lo que esperamos de cada uno
+                      de nosotros es central para nuestro éxito.
+                    </li>
+                  </ul>
                 </div>
               )}
             </div>

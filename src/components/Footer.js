@@ -58,7 +58,7 @@ export default function Footer() {
           </nav>
           <nav class="column large-3 medium-3 small-6">
             <ul>
-              <li>
+              <li style={{ marginTop: "43px" }}>
                 <Link to="/trabaja">
                   <a>Trabaja en Andersen</a>
                 </Link>
@@ -90,7 +90,7 @@ export default function Footer() {
                 <a href="#">[C1013AAQ] - CABA - Argentina</a>
               </li>
               <li>
-                <a href="#">(54 11) 4390-9700 - info@gsrc.com.ar</a>
+                <a href="#">(54 11) 4390-9700 - info@ar.Andersen.com</a>
               </li>
             </ul>
           </nav>
@@ -98,16 +98,17 @@ export default function Footer() {
 
         <div class="row column">
           <p class="site-copyright">
-            Andersen Tax LLC es una firma miembro de Argentina de Andersen
-            Global, una asociación suiza compuesta por firmas miembro legalmente
-            separadas e independientes ubicadas en todo el mundo que prestan
-            servicios bajo su propio nombre o la marca "Andersen Tax" o
-            "Andersen Tax & Legal "o" Andersen Legal ". Andersen Global no
-            proporciona ningún servicio y no tiene responsabilidad por ninguna
-            acción de las firmas miembro, y las firmas miembro no tienen
-            responsabilidad por ninguna acción de Andersen Global. El uso de
-            este sitio web está sujeto a los términos y condiciones que lo
-            rigen. Lea estos términos y condiciones antes de usar el sitio web.
+            © Andersen Tax LLC, ANDERSEN GSRC y MODO LAW son las firmas
+            argentinas miembros de Andersen Global, una &#39;verein&#39; suiza
+            compuesta por entidades jurídicas independientes, localizadas
+            alrededor del mundo y que proporcionan servicios bajo su propio
+            nombre o las marcas “Andersen Tax” o “Andersen Tax &amp; Legal”.
+            Andersen Global no presta servicios y no tiene responsabilidad sobre
+            las acciones de otras firmas miembro, que tampoco poseen
+            responsabilidad por ninguna acción realizada por Andersen Global. El
+            uso de esta página web, está sujeto a sus propios términos y
+            condiciones. Por favor, lea los términos y condiciones, antes del
+            uso de esta página web.
           </p>
 
           <p class="site-copyright">

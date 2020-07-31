@@ -201,71 +201,92 @@ export default function ConsultorServices() {
                   optimización impositiva.
                 </p>
                 <h5>Ofrecemos:</h5>
-                <p>
-                  • Asesoramiento jurídico-impositivo y planificación de
-                  negocios en asuntos vinculados con normativas y/o
-                  transacciones internacionales, nacionales, provinciales o
-                  municipales.
-                </p>
-                <p>
-                  • Asistencia y estrategias durante el desarrollo de
-                  inspecciones.
-                </p>
-                <p>
-                  • Confección y/o revisión de declaraciones juradas de
-                  cumplimiento mensual y/o anual.
-                </p>
-                <p>
-                  • Asesoramiento en gravámenes nacionales, provinciales y
-                  municipales.
-                </p>
-                <p>• Planificación fiscal internacional.</p>
-                <p>
-                  • Procedimientos de debida diligencia en adquisiciones de
-                  empresas.
-                </p>
-                <p>• Estructuración de reorganizaciones libres de impuestos.</p>
-                <p>• Cálculo del Impuesto Diferido.</p>
-                <p>
-                  • Análisis de posiciones de impuestos de dudosa
-                  recuperabilidad.
-                </p>
-                <p>• Recupero de créditos fiscales.</p>
-                <p>• Recupero de saldos a favor de impuestos provinciales.</p>
-                <p>• Asesoramiento en materia previsional.</p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento jurídico-impositivo y planificación de
+                    negocios en asuntos vinculados con normativas y/o
+                    transacciones internacionales, nacionales, provinciales o
+                    municipales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asistencia y estrategias durante el desarrollo de
+                    inspecciones.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Confección y/o revisión de declaraciones juradas de
+                    cumplimiento mensual y/o anual.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en gravámenes nacionales, provinciales y
+                    municipales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Planificación fiscal internacional.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Procedimientos de debida diligencia en adquisiciones de
+                    empresas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Estructuración de reorganizaciones libres de impuestos.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Cálculo del Impuesto Diferido.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Análisis de posiciones de impuestos de dudosa
+                    recuperabilidad.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Recupero de créditos fiscales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Recupero de saldos a favor de impuestos provinciales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en materia previsional.
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 1 && (
               <div className="primary-intro">
                 <h2>Consultoría Organizacional y Sistemas</h2>
-                <p>
-                  • Contamos con un equipo de profesionales con amplia
-                  experiencia en proyectos de complejos desarrollada en
-                  importantes empresas multinacionales y consultoras
-                  internacionales.
-                </p>
-                <p>
-                  • Contamos con una visión integral de proyectos de alta
-                  complejidad.
-                </p>
-                <p>
-                  • Gerenciamos proyectos de consultoría en organización de
-                  empresas y otros entes en general.
-                </p>
-                <p>
-                  • Diseñamos y asistimos a empresas en procesos de
-                  redimensionamiento y reorganización.
-                </p>
-                <p>
-                  • Contamos con metodología para el desarrollo de proyectos de
-                  control de gestión, informes de avances y tableros de comando.
-                </p>
-                <p>
-                  • Desarrollamos proyectos de implementación de sistemas
-                  administrativos, comerciales, recursos humanos,
-                  abastecimiento, industriales bajo diferentes plataformas
-                  (entre otros SAP, ORACLE, JDEDWARDS, META 4)
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Contamos con un equipo de profesionales con amplia
+                    experiencia en proyectos de complejos desarrollada en
+                    importantes empresas multinacionales y consultoras
+                    internacionales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Contamos con una visión integral de proyectos de alta
+                    complejidad.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Gerenciamos proyectos de consultoría en organización de
+                    empresas y otros entes en general.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Diseñamos y asistimos a empresas en procesos de
+                    redimensionamiento y reorganización.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Diseñamos y asistimos a empresas en procesos de
+                    redimensionamiento y reorganización.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Contamos con metodología para el desarrollo de proyectos de
+                    control de gestión, informes de avances y tableros de
+                    comando.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Desarrollamos proyectos de implementación de sistemas
+                    administrativos, comerciales, recursos humanos,
+                    abastecimiento, industriales bajo diferentes plataformas
+                    (entre otros SAP, ORACLE, JDEDWARDS, META 4).
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 2 && (
@@ -283,41 +304,50 @@ export default function ConsultorServices() {
               <div className="primary-intro">
                 <h2>Sociedades</h2>
                 <h5>Consultoría y Asesoramiento:</h5>
-                <p>
-                  {" "}
-                  • Opinión sobre los aspectos generales y particulares,
-                  ofreciendo alternativas y herramientas para la toma de
-                  decisiones.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    {" "}
+                    Opinión sobre los aspectos generales y particulares,
+                    ofreciendo alternativas y herramientas para la toma de
+                    decisiones.
+                  </li>
+                </ul>
+
                 <h5>Servicios:</h5>
-                <p>
-                  • Constitución e inscripción de sociedades, uniones
-                  transitorias de empresas y agrupaciones de colaboración
-                  empresarial.
-                </p>
-                <p>• Modificación de Estatutos Sociales.</p>
-                <p>
-                  • Fusiones, absorciones, escisiones y disoluciones de
-                  sociedades: preparación de la documentación y tramitación ante
-                  los Organismos de Control.
-                </p>
-                <p>
-                  • Redacción de actas de Directorio y Asambleas Accionistas.
-                </p>
-                <p>• Experiencia en Concursos Preventivos y Quiebras.</p>
-                <p>• </p>
-                <p>• </p>
-                <p>• </p>
+                <ul>
+                  {" "}
+                  <li style={{ listStyleType: "disc" }}>
+                    Constitución e inscripción de sociedades, uniones
+                    transitorias de empresas y agrupaciones de colaboración
+                    empresarial.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Modificación de Estatutos Sociales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Fusiones, absorciones, escisiones y disoluciones de
+                    sociedades: preparación de la documentación y tramitación
+                    ante los Organismos de Control.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Redacción de actas de Directorio y Asambleas Accionistas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Experiencia en Concursos Preventivos y Quiebras.
+                  </li>
+                </ul>
               </div>
             )}
           </div>
         </div>
       </div>
       <div className="callout3">
-        <h1 style={{ color: "white" }}>Revolucionando la práctica legal</h1>
-        <h3 style={{ color: "white" }}>
+        <h1 style={{ color: "white", marginTop: "20px" }}>
+          Andersen, un nombre del pasado, la Firma del futuro
+        </h1>
+        {/* <h3 style={{ color: "white" }}>
           Integramos derecho, impuestos y tecnología
-        </h3>
+        </h3> */}
       </div>
 
       <div className="door"></div>

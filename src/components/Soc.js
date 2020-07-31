@@ -182,28 +182,36 @@ export default function Soc() {
               <div className="primary-intro">
                 <h2>Sociedades</h2>
                 <h5>Consultoría y Asesoramiento:</h5>
-                <p>
-                  {" "}
-                  • Opinión sobre los aspectos generales y particulares,
-                  ofreciendo alternativas y herramientas para la toma de
-                  decisiones.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Opinión sobre los aspectos generales y particulares,
+                    ofreciendo alternativas y herramientas para la toma de
+                    decisiones.
+                  </li>
+                </ul>
+
                 <h5>Servicios:</h5>
-                <p>
-                  • Constitución e inscripción de sociedades, uniones
-                  transitorias de empresas y agrupaciones de colaboración
-                  empresarial.
-                </p>
-                <p>• Modificación de Estatutos Sociales.</p>
-                <p>
-                  • Fusiones, absorciones, escisiones y disoluciones de
-                  sociedades: preparación de la documentación y tramitación ante
-                  los Organismos de Control.
-                </p>
-                <p>
-                  • Redacción de actas de Directorio y Asambleas Accionistas.
-                </p>
-                <p>• Experiencia en Concursos Preventivos y Quiebras.</p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Constitución e inscripción de sociedades, uniones
+                    transitorias de empresas y agrupaciones de colaboración
+                    empresarial.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Modificación de Estatutos Sociales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Fusiones, absorciones, escisiones y disoluciones de
+                    sociedades: preparación de la documentación y tramitación
+                    ante los Organismos de Control.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Redacción de actas de Directorio y Asambleas Accionistas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Experiencia en Concursos Preventivos y Quiebras.
+                  </li>
+                </ul>
               </div>
             )}
           </div>
@@ -211,10 +219,12 @@ export default function Soc() {
       </div>
 
       <div className="callout3">
-        <h1 style={{ color: "white" }}>Revolucionando la práctica legal</h1>
-        <h3 style={{ color: "white" }}>
+        <h1 style={{ color: "white", marginTop: "20px" }}>
+          Andersen, un nombre del pasado, la Firma del futuro
+        </h1>
+        {/* <h3 style={{ color: "white" }}>
           Integramos derecho, impuestos y tecnología
-        </h3>
+        </h3> */}
       </div>
       <div className="door"></div>
     </div>

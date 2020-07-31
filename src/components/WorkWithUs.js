@@ -64,17 +64,17 @@ export default function WorkWithUs() {
             <br />
             Nuestra gente es nuestra principal fortaleza. Nuestra gente y su
             experiencia es lo que nos distingue. Invertimos en ellos y nos
-            compremetemos en su savance en la organización.
+            comproemetemos en sus avances en la organización.
           </p>
           <p>
             {" "}
             Contratamos personas inteligentes, apasionadas y motivadas. Buscamos
             profesionales dedicados y creativos, que aporten experiencias que
-            generen los meores resultados para nuestros clientes.
+            generen los mejores resultados para nuestros clientes.
           </p>
           <p>
             {" "}
-            Enviarnos tu C.V a:
+            Envianos tu C.V a:
             <span style={{ color: "#AD0D21" }}> info@ar.andersen.com</span>
           </p>
         </div>

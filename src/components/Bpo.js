@@ -200,22 +200,36 @@ export default function Bpo() {
                 <h5>
                   Liquidación de sueldos y jornales y cargas sociales/fiscales:
                 </h5>
-                <p>
-                  • Liquidación de sueldos y sus cargas sociales y fiscales.
-                </p>
-                <p>• Preparación de nóminas confidenciales.</p>
-                <p>• Confección y emisión de los recibos de haberes.</p>
-                <p>• Emisión del libro de sueldos rubricado.</p>
-                <p>• Confección de asientos contables.</p>
-                <p>
-                  • Emisión de reportes especiales a pedido de las empresas.
-                </p>
-                <p>• Asesoramiento en caso de desvinculación laboral.</p>
-                <p>• Proyecciones de costos laborales y/o remuneraciones.</p>
-                <p>
-                  • Atención de inspecciones y/o contestación de requerimientos
-                  de organismos de control.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Liquidación de sueldos y sus cargas sociales y fiscales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Preparación de nóminas confidenciales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Confección y emisión de los recibos de haberes.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Emisión del libro de sueldos rubricado.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Confección de asientos contables.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Emisión de reportes especiales a pedido de las empresas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en caso de desvinculación laboral.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Proyecciones de costos laborales y/o remuneraciones.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Atención de inspecciones y/o contestación de requerimientos
+                    de organismos de control.
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 1 && (
@@ -227,19 +241,34 @@ export default function Bpo() {
                   tercerización de procesos. Nuestros servicios incluyen:
                 </p>
                 <h5>Procesos Administrativos:</h5>
-                <p>• Establecimiento de circuitos administrativos.</p>
-                <p>• Facturación.</p>
-                <p>• Tesorería.</p>
-                <p>• Toma de inventarios.</p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Establecimiento de circuitos administrativos.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Facturación.</li>
+                  <li style={{ listStyleType: "disc" }}>Tesorería.</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Toma de inventarios.
+                  </li>
+                </ul>
+
                 <h5>Aspectos Contables, Laborales e Impositivos:</h5>
-                <p>• Contabilidad.</p>
-                <p>• Análisis de cuentas y conciliaciones.</p>
-                <p>• Control presupuestario.</p>
-                <p>• Reportes mensuales,</p>
-                <p>• Liquidación de impuestos y tasas.</p>
-                <p>
-                  • Liquidación de nómina y obligaciones de la Seguridad Social.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>Contabilidad.</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Análisis de cuentas y conciliaciones.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Control presupuestario.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Reportes mensuales.</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Liquidación de impuestos y tasas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Liquidación de nómina y obligaciones de la Seguridad Social.
+                  </li>
+                </ul>
               </div>
             )}
           </div>
@@ -247,10 +276,12 @@ export default function Bpo() {
       </div>
 
       <div className="callout3">
-        <h1 style={{ color: "white" }}>Revolucionando la práctica legal</h1>
-        <h3 style={{ color: "white" }}>
+        <h1 style={{ color: "white", marginTop: "20px" }}>
+          Andersen, un nombre del pasado, la Firma del futuro
+        </h1>
+        {/* <h3 style={{ color: "white" }}>
           Integramos derecho, impuestos y tecnología
-        </h3>
+        </h3> */}
       </div>
 
       <div className="door"></div>

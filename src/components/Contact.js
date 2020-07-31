@@ -50,7 +50,7 @@ export default function Contact() {
 
             <form>
               <label>
-                Email
+                Email *
                 <input type="text" name="name" />
               </label>
             </form>
@@ -62,7 +62,7 @@ export default function Contact() {
             </form>
             <form>
               <label>
-                Mensaje
+                Mensaje *
                 <input style={{ height: "12rem" }} type="text" name="name" />
               </label>
               <input
@@ -83,16 +83,12 @@ export default function Contact() {
             <div className="row">
               <div className="column medium-12">
                 <h6 style={{ color: "#AC0E20", fontWeight: "600" }}>
-                  BUENOS AIRES
+                  OFICINAS EN BUENOS AIRES
                 </h6>
               </div>
             </div>
             <div className="row">
               <div className="column medium-6">
-                <p>
-                  {" "}
-                  <strong>Office Managing Directors</strong>
-                </p>
                 <p style={{ margin: "0px" }}>Talcahuano 833 - Piso 10</p>
                 <p style={{ margin: "0px" }}>
                   C1013AAQ - Buenos Aires - Argentina
@@ -117,7 +113,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p style={{ margin: "0px" }}>www.ar.andersen.com</p>
-                  <p>info@ar.andersen.com</p>
+                  <p>info@ar.Andersen.com</p>
                 </div>
               </div>
             </div>

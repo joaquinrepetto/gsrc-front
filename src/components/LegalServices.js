@@ -67,7 +67,10 @@ export default function LegalServices() {
                     <li>
                       <a
                         onClick={() => setTab(1)}
-                        style={{ color: tab === 1 ? "#AC0E20" : null }}
+                        style={{
+                          color: tab === 1 ? "#AC0E20" : null,
+                          lineHeight: "20px",
+                        }}
                       >
                         Asuntos Fiscales, Legales y Contenciosos
                       </a>
@@ -92,100 +95,6 @@ export default function LegalServices() {
                 </li>
               </ul>
             </nav>
-
-            <div class="right-rail mobile">
-              <div class="right-rail-container">
-                <div class="people-container">
-                  <ul class="people">
-                    <h4>Managing Directors</h4>
-
-                    <li class="person">
-                      <div class="image">
-                        <img
-                          src="assets/img/placeholders/headshot-1.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="name">Michael Kohner</div>
-                    </li>
-
-                    <li class="person">
-                      <div class="image">
-                        <img
-                          src="assets/img/placeholders/headshot-2.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="name">
-                        Yichen Shepard
-                        <div class="location">San Francisco, CA</div>
-                      </div>
-                    </li>
-                  </ul>
-
-                  <a href="javascript:;" class="more">
-                    <span class="fa fa-caret-right" aria-hidden="true"></span>
-                    View More
-                  </a>
-                </div>
-
-                <ul class="insights">
-                  <h4>Insights &amp; Resources</h4>
-
-                  <li class="insight">
-                    <div class="type">
-                      <span class="fa fa-file-text" aria-hidden="true"></span>{" "}
-                      tax release
-                    </div>
-
-                    <h5 class="title">
-                      Filing Requirements Related to Indirect Investments in
-                      Foreign Entities
-                    </h5>
-                  </li>
-
-                  <li class="insight">
-                    <div class="type">
-                      <span class="fa fa-file-text" aria-hidden="true"></span>{" "}
-                      tax release
-                    </div>
-
-                    <h5 class="title">
-                      Private Equity Funds "Trade or Business" Operator or
-                      "Investor"
-                    </h5>
-                  </li>
-
-                  <li class="insight">
-                    <div class="type">
-                      <span
-                        class="fa fa-file-text-o white"
-                        aria-hidden="true"
-                      ></span>{" "}
-                      white paper
-                    </div>
-
-                    <h5 class="title">Special FATCA Update</h5>
-                  </li>
-                </ul>
-
-                <a href="javascript:;" class="more">
-                  <span class="fa fa-caret-right" aria-hidden="true"></span>{" "}
-                  View More
-                </a>
-              </div>
-
-              <div class="newsletter">
-                <h4>From the Newsletter</h4>
-
-                <div class="inner right-rail-container">
-                  <img src="assets/img/placeholders/light.jpg" alt="" />
-                  <h5 class="title">
-                    Avoiding Hazards in Transferring Carried Interests
-                  </h5>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div class="column large-8 medium-8 small-12 top-story">
@@ -216,51 +125,56 @@ export default function LegalServices() {
                   Legal y Fiscal ofrece a los clientes una amplia gama de
                   servicios, tales como:
                 </p>
-                <p>
-                  • Defensa de los contribuyentes antes de la imposición de
-                  sanciones (multas, suspensiones comerciales, exclusiones de
-                  registro, etc.) por parte de las autoridades fiscales.
-                </p>
-
-                <p>
-                  • Realización de trámites ante organismos fiscales nacionales,
-                  provinciales y municipales.
-                </p>
-                <p>
-                  • Realización de trámites ante el Tribunal Fiscal Nacional de
-                  Argentina y el Tribunal Fiscal de Apelaciones de la Provincia
-                  de Buenos Aires.
-                </p>
-                <p>
-                  • Llevar a cabo procedimientos ante tribunales federales y
-                  provinciales en todos los casos.
-                </p>
-                <p>
-                  • Presentación de reclamos y procedimientos para la
-                  recuperación de impuestos pagados en exceso.
-                </p>
-                <p>
-                  • Realización de trámites ante la Dirección General de Aduanas
-                  y tribunales judiciales argentinos en materia aduanera.
-                </p>
-                <p>
-                  • Asesoramiento sobre regímenes para la promoción de ciertas
-                  industrias mediante la concesión de beneficios fiscales y
-                  asuntos relacionados.
-                </p>
-                <p>• Apoyo en materia de cambio de divisas.</p>
-                <p>
-                  • Apoyo en procedimientos relacionados con asuntos penales,
-                  fiscales y cambiarios de divisas.
-                </p>
-                <p>
-                  • Diseño de estrategias que involucren acciones procesales
-                  especiales, tales como la búsqueda de sentencias
-                  declaratorias, medidas cautelares, procedimientos de
-                  protección legal para pagos atrasados ​​(amparo) y otros
-                  procedimientos de protección.
-                </p>
-                <p>• Defensa contra reclamos por aplicación de impuestos.</p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Defensa de los contribuyentes antes de la imposición de
+                    sanciones (multas, suspensiones comerciales, exclusiones de
+                    registro, etc.) por parte de las autoridades fiscales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Realización de trámites ante organismos fiscales nacionales,
+                    provinciales y municipales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Realización de trámites ante el Tribunal Fiscal Nacional de
+                    Argentina y el Tribunal Fiscal de Apelaciones de la
+                    Provincia de Buenos Aires.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Llevar a cabo procedimientos ante tribunales federales y
+                    provinciales en todos los casos.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Presentación de reclamos y procedimientos para la
+                    recuperación de impuestos pagados en exceso.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Realización de trámites ante la Dirección General de Aduanas
+                    y tribunales judiciales argentinos en materia aduanera.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento sobre regímenes para la promoción de ciertas
+                    industrias mediante la concesión de beneficios fiscales y
+                    asuntos relacionados.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Apoyo en materia de cambio de divisas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Apoyo en procedimientos relacionados con asuntos penales,
+                    fiscales y cambiarios de divisas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Diseño de estrategias que involucren acciones procesales
+                    especiales, tales como la búsqueda de sentencias
+                    declaratorias, medidas cautelares, procedimientos de
+                    protección legal para pagos atrasados ​​(amparo) y otros
+                    procedimientos de protección.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Defensa contra reclamos por aplicación de impuestos.
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 2 && (
@@ -294,23 +208,35 @@ export default function LegalServices() {
                   operaciones de comercio exterior de las empresas.
                 </p>
                 <h5>Otros servicios:</h5>
-                <p>• Régimen de Origen y Preferencias Arancelarias.</p>
-                <p>• Clasificación Arancelaria y Valoración Aduanera.</p>
-                <p>
-                  • Certificados de importación y trámites de licencias de
-                  importación.
-                </p>
-                <p>• Régimen de importaciones y exportaciones temporarias.</p>
-                <p>• Infracciones Aduaneras y Disciplinarias.</p>
-                <p>
-                  • Asesoramiento en prácticas desleales del comercio,
-                  investigaciones de dumping subsidios y salvaguardias.
-                </p>
-                <p>• Repeticiones y Reintegros.</p>
-                <p>
-                  • Temas Cambiarios. Seguimiento de sumarios en el Banco
-                  Central de la República Argentina.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Régimen de Origen y Preferencias Arancelarias.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Clasificación Arancelaria y Valoración Aduanera.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Certificados de importación y trámites de licencias de
+                    importación.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Régimen de importaciones y exportaciones temporarias.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Infracciones Aduaneras y Disciplinarias.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en prácticas desleales del comercio,
+                    investigaciones de dumping subsidios y salvaguardias.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Repeticiones y Reintegros.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Temas Cambiarios. Seguimiento de sumarios en el Banco
+                    Central de la República Argentina.
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 3 && (
@@ -328,10 +254,12 @@ export default function LegalServices() {
         </div>
       </div>
       <div className="callout3">
-        <h1 style={{ color: "white" }}>Revolucionando la práctica legal</h1>
-        <h3 style={{ color: "white" }}>
+        <h1 style={{ color: "white", marginTop: "20px" }}>
+          Andersen, un nombre del pasado, la Firma del futuro
+        </h1>
+        {/* <h3 style={{ color: "white" }}>
           Integramos derecho, impuestos y tecnología
-        </h3>
+        </h3> */}
       </div>
       <div class="door"></div>
     </div>

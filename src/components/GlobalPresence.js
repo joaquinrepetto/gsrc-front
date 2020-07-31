@@ -56,9 +56,10 @@ export default function GlobalPresence() {
         <div class="row">
           <div class="column small-12">
             <h2 class="globalp">
-              Andersen es el miembro fundador de Andersen Global, una asociación
-              internacional de firmas miembro, compuesta por profesionales que
-              prestan servicios legales y tributario-contables en todo el mundo.
+              Andersen es la firma miembro Argentina de Andersen Global, una
+              asociación internacional de firmas miembro, compuesta por
+              profesionales que prestan servicios legales y tributario-contables
+              en todo el mundo.
             </h2>
           </div>
         </div>
@@ -131,7 +132,7 @@ export default function GlobalPresence() {
                   </a>
                 </div>
                 <div class="text">
-                  <h3 class="title">One Firm</h3>
+                  <h3 class="title">Una sola firma</h3>
                   <p>
                     Andersen Global se constituyó para crear una firma duradera,
                     una firma que ofrezca el mejor y más completo servicio legal

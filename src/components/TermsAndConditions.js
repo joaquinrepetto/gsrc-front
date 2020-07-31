@@ -104,7 +104,7 @@ export default function Contact() {
             directos o indirectos, imprevistos, emergentes o punitivos,
             resultantes del acceso o uso de este Sitio Web.
           </p>
-          <h6 style={{ fontSize: "1.3rem" }}>4. Enlaces a otras páginas we</h6>
+          <h6 style={{ fontSize: "1.3rem" }}>4. Enlaces a otras páginas web</h6>
           <p>
             Este Sitio Web puede contener enlaces o links a otros sitios y
             páginas web que son gestionadas por terceros sobre los que Andersen
@@ -186,10 +186,19 @@ export default function Contact() {
           </p>
           <h6 style={{ fontSize: "1.3rem" }}>9. Datos de contacto</h6>
           <p>
-            Puede enviar sus comentarios a: Andersen en Argentina. Talcahuano
-            833. 10th floor. (54 11) 4390-9700 - info@ar.Andersen.com ©
-            Copyright 2020, ANDERSEN GSRC y MODO LAW. Todos los derechos
-            reservados.
+            Puede enviar sus comentarios a: Andersen en Argentina. <br />
+            Talcahuano 833. Piso 10
+            <br />
+            (C1013AAQ)
+            <br />
+            (54 11) 4390-9700
+            <br />
+            info@ar.Andersen.com
+            <br />
+            <strong>
+              © Copyright 2020, ANDERSEN GSRC y MODO LAW. Todos los derechos
+              reservados.
+            </strong>
           </p>
         </div>
       </div>

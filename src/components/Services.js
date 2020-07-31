@@ -42,8 +42,8 @@ export default function Services() {
             <div className="text">
               <h1>Servicios</h1>
               <p>
-                Tributación, Outsourcing, Payroll, Sociedades, Consultoría
-                Organizacional y Sistemas
+                Tributación, Outsourcing, Sociedades, Consultoría y
+                Organizacional.
               </p>
             </div>
           </div>
@@ -86,11 +86,9 @@ export default function Services() {
               <div className="text">
                 <h3 className="title">Servicios Tributarios y Contables</h3>
                 <p>
-                  El departamento Tributario-Contable de la firma está integrado
-                  por contadores y abogados especializados en temas fiscales,
+                  Contamos con profesionales especializados en temas fiscales,
                   que brindan asesoramiento permanente en temas comerciales,
-                  garantizando soluciones fiscales eficientes en todas las
-                  áreas.
+                  garantizando soluciones fiscales eficientes en todas las áreas
                 </p>
 
                 <p>
@@ -116,9 +114,9 @@ export default function Services() {
               <div className="text">
                 <h3 className="title">Business Process Outsourcing (BPO)</h3>
                 <p>
-                  Preparamos valuaciones para clientes operando en todos los
-                  sectores, tanto para operaciones de M&A como para revisiones
-                  internas.
+                  Ponemos profesionales talentosos y bien entrenados al servicio
+                  de tu compañía ofreciendo mejoras en los procesos, creatividad
+                  y solución de problemas
                 </p>
 
                 <p>
@@ -134,17 +132,15 @@ export default function Services() {
             <li className="column small-12 medium-6">
               <div className="image">
                 <a href="javascript:;">
-                  <img src={legal4} alt="" />
+                  <img src={legal1} style={{ borderRadius: "50%" }} alt="" />
                 </a>
               </div>
               <div className="text">
-                <h3 className="title">
-                  Servicios de Wealth Management & Family Office
-                </h3>
+                <h3 className="title">Sociedades</h3>
                 <p>
-                  Nuestros expertos pueden ayudarlos con todas sus necesidades
-                  de riqueza personal, incluidas las de su familia, su negocio y
-                  sus activos.
+                  Contamos con expertos en constitución de sociedades,
+                  modificación de estatutos y ofrecemos asesoría en M&amp;A,
+                  escisiones y disolución de sociedades
                 </p>
 
                 <p>
@@ -161,10 +157,12 @@ export default function Services() {
         </div>
       </div>
       <div className="callout3">
-        <h1 style={{ color: "white" }}>Revolucionando la práctica legal</h1>
-        <h3 style={{ color: "white" }}>
+        <h1 style={{ color: "white", marginTop: "20px" }}>
+          Andersen, un nombre del pasado, la Firma del futuro
+        </h1>
+        {/* <h3 style={{ color: "white" }}>
           Integramos derecho, impuestos y tecnología
-        </h3>
+        </h3> */}
       </div>
 
       <div className="door"></div>

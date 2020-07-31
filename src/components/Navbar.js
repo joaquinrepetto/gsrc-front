@@ -149,11 +149,11 @@ export default function Navbar() {
                               <a>Sociedades</a>
                             </Link>
                           </li>
-                          <li style={{ width: "100%", fontSize: "15px" }}>
+                          {/* <li style={{ width: "100%", fontSize: "15px" }}>
                             <Link to="/servicioswealth">
                               <a>Wealth Management & Family Office</a>
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       )}
                     </li>

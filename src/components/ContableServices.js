@@ -78,8 +78,24 @@ export default function ContableServices() {
                         Consultoría y Compliance Tributario
                       </a>
                     </li>
-
                     <li>
+                      <a
+                        onClick={() => setTab(2)}
+                        style={{ color: tab === 2 ? "#AC0E20" : null }}
+                      >
+                        Asignaciones Internacionales
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(3)}
+                        style={{ color: tab === 2 ? "#AC0E20" : null }}
+                      >
+                        Wealth Managment &amp; Family Office
+                      </a>
+                    </li>
+
+                    {/* <li>
                       <a
                         onClick={() => setTab(2)}
                         style={{ color: tab === 2 ? "#AC0E20" : null }}
@@ -102,7 +118,7 @@ export default function ContableServices() {
                       >
                         Sociedades
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
               </ul>
@@ -215,9 +231,9 @@ export default function ContableServices() {
           <div className="column large-8 medium-8 small-12 top-story">
             {tab === 0 && (
               <div className="primary-intro">
-                <h2>Precios de transferencia</h2>
+                <h2>Precios de Transferencia</h2>
                 <p>
-                  El precio de transferencia se ha convertido en una de las
+                  Los Precios de Transferencia se ha convertido en una de las
                   áreas clave de los impuestos internacionales.
                 </p>
                 <p>
@@ -253,34 +269,42 @@ export default function ContableServices() {
                   productos básicos.
                 </p>
                 <h5>Cumplimiento con normativas de control:</h5>
-                <p>
-                  • Preparamos o revisamos los Estudios de Precios de
-                  Transferencia preparados por los clientes asegurando el
-                  cumplimiento de la normativa aplicable. Los Estudios incluyen
-                  el proceso de comparabilidad a cuyo efecto aplicamos la
-                  rigurosidad necesaria para minimizar posibles controversias
-                  con la autoridad fiscal.
-                </p>
-                <p>
-                  Los Estudios comprenden la preparación del local file y del
-                  master file y de las declaraciones juradas que correspondan
-                  ser presentadas.
-                </p>
-                <p>
-                  Asistimos sobre las obligaciones a completar en operaciones de
-                  triangulación de importaciones y exportaciones y en la
-                  registración de operaciones con commodities.
-                </p>
-                <p>
-                  Preparamos informes preliminares para asistir en el diseño de
-                  las políticas de precios de transferencia del grupo
-                  multinacional.
-                </p>
-                <p>
-                  Asistimos en la preparación del “Informe país por país” y en
-                  el cumplimiento de las obligaciones de información que deben
-                  observar las empresas subsidiarias de grupos multinacionales.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Preparamos o revisamos los Estudios de Precios de
+                    Transferencia preparados por los clientes asegurando el
+                    cumplimiento de la normativa aplicable. Los Estudios
+                    incluyen el proceso de comparabilidad a cuyo efecto
+                    aplicamos la rigurosidad necesaria para minimizar posibles
+                    controversias con la autoridad fiscal.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    {" "}
+                    Los Estudios comprenden la preparación del local file y del
+                    master file y de las declaraciones juradas que correspondan
+                    ser presentadas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    {" "}
+                    Asistimos sobre las obligaciones a completar en operaciones
+                    de triangulación de importaciones y exportaciones y en la
+                    registración de operaciones con commodities.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    {" "}
+                    Preparamos informes preliminares para asistir en el diseño
+                    de las políticas de precios de transferencia del grupo
+                    multinacional.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    {" "}
+                    Asistimos en la preparación del “Informe país por país” y en
+                    el cumplimiento de las obligaciones de información que deben
+                    observar las empresas subsidiarias de grupos
+                    multinacionales.
+                  </li>
+                </ul>
+
                 <h5>Coordinación regional:</h5>
                 <p>
                   Nuestra presencia regional nos permite obtener una visión
@@ -289,12 +313,15 @@ export default function ContableServices() {
                   aplicación de las políticas de Precios de Transferencia de
                   nuestros clientes.
                 </p>
-                <p>
-                  • En el caso de los servicios de asesoramiento regional, el
-                  análisis de comparabilidad incluye el equilibrio y la
-                  solvencia de los comparables para todos los países no
-                  involucrados.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    En el caso de los servicios de asesoramiento regional, el
+                    análisis de comparabilidad incluye el equilibrio y la
+                    solvencia de los comparables para todos los países no
+                    involucrados.
+                  </li>
+                </ul>
+
                 <p>
                   La coordinación regional nos permite tener una visión más
                   amplia de las operaciones internacionales, compartir
@@ -308,33 +335,45 @@ export default function ContableServices() {
                   el inicio de la inspección hasta su definición en el tribunal
                   en todas las etapas contenciosas.
                 </p>
-                <p>
-                  • Representación en defensa de ajustes ante la Administración
-                  Tributaria, el Tribunal Fiscal y la Justicia.
-                </p>
-                <p> • Preparación de informes técnicos expertos.</p>
-                <p> • Defensas de valor ante la Aduana.</p>
-                <p>
-                  • Acción en procedimientos de acuerdo mutuo en el marco de los
-                  acuerdos para evitar la doble imposición
-                </p>
-                <p>
-                  • Brindamos apoyo para enfrentar auditorías fiscales y
-                  defender a los clientes en los procesos de litigio, incluido
-                  el diseño de estrategias y la representación y asesoramiento
-                  ante las autoridades jurisdiccionales.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Representación en defensa de ajustes ante la Administración
+                    Tributaria, el Tribunal Fiscal y la Justicia.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Preparación de informes técnicos expertos.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Defensas de valor ante la Aduana.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Acción en procedimientos de acuerdo mutuo en el marco de los
+                    acuerdos para evitar la doble imposición.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Brindamos apoyo para enfrentar auditorías fiscales y
+                    defender a los clientes en los procesos de litigio, incluido
+                    el diseño de estrategias y la representación y asesoramiento
+                    ante las autoridades jurisdiccionales.
+                  </li>
+                </ul>
+
                 <h5>Acuerdos previos de Precios:</h5>
-                <p>
-                  • Brindamos asistencia en la presentación de la solicitud y
-                  tramitación de Determinaciones Conjuntas de Precios de
-                  Operaciones Internacionales (DCPOI).
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Brindamos asistencia en la presentación de la solicitud y
+                    tramitación de Determinaciones Conjuntas de Precios de
+                    Operaciones Internacionales (DCPOI).
+                  </li>
+                </ul>
+
                 <h5>Valoración empresarial:</h5>
-                <p>
-                  • Aplicamos técnicas de valoración financiera a las empresas y
-                  asesoramos sobre negociaciones en procesos de M&A.
-                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Aplicamos técnicas de valoración financiera a las empresas y
+                    asesoramos sobre negociaciones en procesos de M&A.
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 1 && (
@@ -349,91 +388,141 @@ export default function ContableServices() {
                   optimización impositiva.
                 </p>
                 <p>Ofrecemos:</p>
-
-                <p>
-                  • Asesoramiento jurídico-impositivo y planificación de
-                  negocios en asuntos vinculados con normativas y/o
-                  transacciones internacionales, nacionales, provinciales o
-                  municipales.
-                </p>
-                <p>
-                  • Asistencia y estrategias durante el desarrollo de
-                  inspecciones.
-                </p>
-                <p>
-                  • Confección y/o revisión de declaraciones juradas de
-                  cumplimiento mensual y/o anual.
-                </p>
-                <p>
-                  • Asesoramiento en gravámenes nacionales, provinciales y
-                  municipales.
-                </p>
-                <p>• Planificación fiscal internacional.</p>
-                <p>
-                  • Procedimientos de debida diligencia en adquisiciones de
-                  empresas.
-                </p>
-                <p>• Estructuración de reorganizaciones libres de impuestos.</p>
-                <p>• Cálculo del Impuesto Diferido</p>
-                <p>
-                  • Análisis de posiciones de impuestos de dudosa
-                  recuperabilidad.
-                </p>
-                <p>• Recupero de créditos fiscales.</p>
-                <p>• Recupero de saldos a favor de impuestos provinciales.</p>
-                <p>• Asesoramiento en materia previsional.</p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento jurídico-impositivo y planificación de
+                    negocios en asuntos vinculados con normativas y/o
+                    transacciones internacionales, nacionales, provinciales o
+                    municipales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asistencia y estrategias durante el desarrollo de
+                    inspecciones.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Confección y/o revisión de declaraciones juradas de
+                    cumplimiento mensual y/o anual.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en gravámenes nacionales, provinciales y
+                    municipales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Planificación fiscal internacional.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Procedimientos de debida diligencia en adquisiciones de
+                    empresas.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Estructuración de reorganizaciones libres de impuestos.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Cálculo del Impuesto Diferido.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Análisis de posiciones de impuestos de dudosa
+                    recuperabilidad.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Recupero de créditos fiscales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Recupero de saldos a favor de impuestos provinciales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en materia previsional.
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 2 && (
               <div className="primary-intro">
                 <h2>Asignaciones Internacionales</h2>
-                <p>
-                  • Entrevistas de entrada y de salida: asesoría fiscal para los
-                  expatriados frente a sus obligaciones tributarias derivadas
-                  del ingreso o salida de Argentina.
-                </p>
-                <p>
-                  • Elaboración de Declaraciones de Ingresos y Bienes
-                  Personales: preparación de Declaraciones anuales de Renta y
-                  Bienes Personales, de acuerdo con la legislación tributaria
-                  vigente.
-                </p>
-                <p>
-                  • Elaboración de cálculos de impuestos hipotéticos
-                  (Hypothetical Tax)
-                </p>
-                <p>• Elaboración de Tax Equalization</p>
-                <p>• Solicitud de Permisos de Trabajo</p>
-                <p>• Solicitud de Certificados de Movimientos Migratorios</p>
-                <p>• Preparación de cálculos de Gross Up</p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Entrevistas de entrada y de salida: asesoría fiscal para los
+                    expatriados frente a sus obligaciones tributarias derivadas
+                    del ingreso o salida de Argentina.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Elaboración de Declaraciones de Ingresos y Bienes
+                    Personales: preparación de Declaraciones anuales de Renta y
+                    Bienes Personales, de acuerdo con la legislación tributaria
+                    vigente.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Elaboración de cálculos de impuestos hipotéticos
+                    (Hypothetical Tax).
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Elaboración de Tax Equalization.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Solicitud de Permisos de Trabajo.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Solicitud de Certificados de Movimientos Migratorios.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Preparación de cálculos de Gross Up
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 3 && (
               <div className="primary-intro">
-                <h2>Sociedades</h2>
-                <h5>Consultoría y Asesoramiento:</h5>
+                <h2>Wealth Managment & Family Office</h2>
                 <p>
-                  {" "}
-                  • Opinión sobre los aspectos generales y particulares,
-                  ofreciendo alternativas y herramientas para la toma de
-                  decisiones.
-                </p>
-                <h5>Servicios:</h5>
-                <p>
-                  • Constitución e inscripción de sociedades, uniones
-                  transitorias de empresas y agrupaciones de colaboración
-                  empresarial.
-                </p>
-                <p>• Modificación de Estatutos Sociales.</p>
-                <p>
-                  • Fusiones, absorciones, escisiones y disoluciones de
-                  sociedades: preparación de la documentación y tramitación ante
-                  los Organismos de Control.
+                  Brindamos un servicio diseñado para que cada grupo familiar
+                  pueda confiarnos sus asuntos patrimoniales, ejerciendo de back
+                  office de su “familia empresaria”.
                 </p>
                 <p>
-                  • Redacción de actas de Directorio y Asambleas Accionistas.
+                  Integramos así en un mismo servicio, todos nuestros
+                  conocimientos, experiencia y especialidades, con el sólido
+                  objetivo de lograr:
                 </p>
-                <p>• Experiencia en Concursos Preventivos y Quiebras.</p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Un gobierno familiar efectivo, organizado y centralizado.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Una correcta y eficiente administración y preservación del
+                    patrimonio.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Una estrategia diseñada a la medida de cada “familia
+                    empresaria”, según sus propias metas de gestión patrimonial
+                    y de optimización y protección de su patrimonio.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Un acompañamiento estrecho por parte de profesionales
+                    experimentados interdisciplinarios, para el diseño e
+                    implementación de estructuras jurídico-fiscales eficaces.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Una atención exclusiva por parte de nuestros socios, en pos
+                    del bienestar económico y psico-social de la “familia
+                    empresaria”.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Apuntamos así a soluciones integrales y consensuadas con
+                    cada grupo familiar, estrategia fundamental para evitar
+                    contingencias y riesgos patrimoniales, a la par de optimizar
+                    la gestión de los patrimonios involucrados.
+                  </li>
+                </ul>
+
+                <p>
+                  A tales efectos, cumplimos con altísimos estándares de
+                  confidencialidad y protección de datos, aspectos que no sólo
+                  resultan garantizados desde un plano “de valores” (no
+                  divulgación) sino también en un plano informático, aspecto en
+                  el cual hemos adoptado medidas de avanzada, mediante el uso de
+                  herramientas de cloud computing, encriptación y acceso
+                  codificado.
+                </p>
               </div>
             )}
           </div>
@@ -441,10 +530,12 @@ export default function ContableServices() {
       </div>
 
       <div className="callout3">
-        <h1 style={{ color: "white" }}>Revolucionando la práctica legal</h1>
-        <h3 style={{ color: "white" }}>
+        <h1 style={{ color: "white", marginTop: "20px" }}>
+          Andersen, un nombre del pasado, la Firma del futuro
+        </h1>
+        {/* <h3 style={{ color: "white" }}>
           Integramos derecho, impuestos y tecnología
-        </h3>
+        </h3> */}
       </div>
       <div className="door"></div>
     </div>

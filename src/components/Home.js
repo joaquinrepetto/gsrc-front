@@ -243,6 +243,8 @@ export default function Home() {
 
               <nav className="orbit-bullets">
                 <button
+                  style={{ cursor: "pointer" }}
+                  onClick={() => setActiveSlide(0)}
                   className={activeSlide == 0 && "is-active"}
                   data-slide="0"
                 >
@@ -252,6 +254,8 @@ export default function Home() {
                   )}
                 </button>
                 <button
+                  style={{ cursor: "pointer" }}
+                  onClick={() => setActiveSlide(1)}
                   data-slide="1"
                   className={activeSlide == 1 && "is-active"}
                 >
@@ -261,6 +265,8 @@ export default function Home() {
                   )}
                 </button>
                 <button
+                  style={{ cursor: "pointer" }}
+                  onClick={() => setActiveSlide(2)}
                   data-slide="2"
                   className={activeSlide == 2 && "is-active"}
                 >

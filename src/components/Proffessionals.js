@@ -649,7 +649,7 @@ export default function Proffessionals() {
                             state: socio,
                           }}
                         >
-                          <a>{socio.name}</a>
+                          <a style={{ color: "#AD0D21" }}>{socio.name}</a>
                         </Link>
                       </td>
                       <td class="areas">
@@ -817,7 +817,7 @@ export default function Proffessionals() {
                             state: socio,
                           }}
                         >
-                          <a>{socio.name}</a>
+                          <a style={{ color: "#AD0D21" }}>{socio.name}</a>
                         </Link>
                       </td>
                       <td class="areas">

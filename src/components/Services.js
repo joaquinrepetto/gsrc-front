@@ -158,12 +158,24 @@ export default function Services() {
         </div>
       </div>
       <div className="callout3">
-        <h1 style={{ color: "white", marginTop: "20px" }}>
-          Andersen, un nombre del pasado, la Firma del futuro
-        </h1>
-        {/* <h3 style={{ color: "white" }}>
-          Integramos derecho, impuestos y tecnología
-        </h3> */}
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
+          <strong>Andersen,</strong> un nombre del pasado,
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
+          <strong>la firma del futuro</strong>
+        </p>
       </div>
 
       <div className="door"></div>

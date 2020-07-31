@@ -363,6 +363,7 @@ experiencia en tax due diligence, M&amp;A y asesoramiento fiscal.`,
   },
   {
     image: sinCara,
+    type: "socio",
     practice: "Precios de Transferencia y Valuaciones de Empresas",
     name: "Julieta Firpo",
     mail: "julieta.firpo@ar.Andersen.com",

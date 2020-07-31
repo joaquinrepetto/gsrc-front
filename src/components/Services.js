@@ -5,6 +5,7 @@ import legal1 from "../assets/placeholders/legal1.jpg";
 import legal2 from "../assets/placeholders/legal2.jpg";
 import legal3 from "../assets/placeholders/colleagues.png";
 import legal4 from "../assets/placeholders/family-bubbles.jpg";
+import legal5 from "../assets/img/legal.jpg";
 
 export default function Services() {
   useEffect(() => {
@@ -55,7 +56,7 @@ export default function Services() {
             <li className="column small-12 medium-6">
               <div className="image">
                 <a href="javascript:;">
-                  <img src={legal1} style={{ borderRadius: "50%" }} alt="" />
+                  <img src={legal5} style={{ borderRadius: "50%" }} alt="" />
                 </a>
               </div>
               <div className="text">

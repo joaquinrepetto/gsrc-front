@@ -64,7 +64,7 @@ export default function WorkWithUs() {
             <br />
             Nuestra gente es nuestra principal fortaleza. Nuestra gente y su
             experiencia es lo que nos distingue. Invertimos en ellos y nos
-            comproemetemos en sus avances en la organización.
+            comprometemos en sus avances en la organización.
           </p>
           <p>
             {" "}
@@ -75,7 +75,7 @@ export default function WorkWithUs() {
           <p>
             {" "}
             Envianos tu C.V a:
-            <span style={{ color: "#AD0D21" }}> info@ar.andersen.com</span>
+            <span style={{ color: "#AD0D21" }}> info@ar.Andersen.com</span>
           </p>
         </div>
         <div className="column medium-3"></div>

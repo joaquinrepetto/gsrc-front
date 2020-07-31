@@ -64,7 +64,7 @@ export default function ProfessionalProfile(props) {
                 <h6>(51 11) 4390-9700</h6>
                 <br />
                 <h5>Educacion</h5>
-                <h6>Contadora Pública y Licenciada en Administración</h6>
+                <h6>{props.location.state.education}</h6>
               </div>
             </div>
           </div>

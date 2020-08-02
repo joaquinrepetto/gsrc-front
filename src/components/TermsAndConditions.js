@@ -22,17 +22,20 @@ export default function Contact() {
         </div>
       </div>
       <div className="row">
-        <div className="column small-12 medium-12">
+        <div
+          className="column small-12 medium-12"
+          style={{ textAlign: "justify", textJustify: "auto" }}
+        >
           <h4>Términos &amp; Condiciones</h4>
           <h6 style={{ fontSize: "1.3rem" }}>
             1. Condiciones generales de uso y su aceptación
           </h6>
-          <br />
+
           <p>
             El presente aviso legal regula el acceso y el uso de los contenidos
             del Sitio Web https://www.ar.Andersen.com (en adelante, el “Sitio
-            Web”) del que Andersen GSRC SRL and MODO SRL es titular y
-            administrador. Su uso está sujeto a los términos y condiciones que
+            Web”) del que Andersen GSRC SRL y MODO LAW SRL son titulares y
+            administradores. Su uso está sujeto a los términos y condiciones que
             se especifican a continuación. Al utilizar este Sitio Web, usted
             acepta tales términos y condiciones y se somete a los mismos. Si no
             está de acuerdo con estos términos, le rogamos no utilice este Sitio
@@ -123,10 +126,13 @@ export default function Contact() {
             pudiera causar daño, perjuicio o inducir a error a los Usuarios.
             Para ello apelamos a su colaboración cuando tenga conocimiento de
             estos aspectos, solicitándole que nos remita un correo electrónico a
-            la dirección info@www.ar.Andersen.com Las firmas miembros de
-            Andersen Global no pueden obligarse mutuamente ni son responsables
-            por los actos u omisiones otras que pudieran causar. Andersen Global
-            no presta ningún servicio por sí misma.
+            la dirección info@ar.Andersen.com.
+          </p>
+          <p>
+            Las firmas miembros de Andersen Global no pueden obligarse
+            mutuamente ni son responsables por los actos u omisiones otras que
+            pudieran causar. Andersen Global no presta ningún servicio por sí
+            misma.
           </p>
 
           <h6 style={{ fontSize: "1.3rem" }}>
@@ -146,7 +152,7 @@ export default function Contact() {
             GSRC and/or MODO Law.. Asimismo, los textos, fotografías, gráficos,
             imágenes, iconos, tecnología, software, así como su diseño gráfico y
             código fuente, constituyen una obra cuya propiedad pertenece a
-            Andersen Tax LLC, Andersen GSRC and/or MODO Law. y están sujetos a
+            Andersen Tax LLC, Andersen GSRC y MODO Law. y están sujetos a
             derechos de propiedad intelectual. Asimismo, queda prohibida, salvo
             en aquellos casos en los que se haya obtenido previamente la
             autorización expresa de Andersen, la reproducción, copia,
@@ -159,7 +165,7 @@ export default function Contact() {
             misma, cualquiera que fuera su finalidad y el medio utilizado para
             ello. En caso de que quiera formular alguna sugerencia o comentario
             puede contactar con nosotros mediante un correo electrónico
-            a info@www.ar.andersen.com
+            a info@ar.Andersen.com
           </p>
           <h6 style={{ fontSize: "1.3rem" }}>6. Legislación aplicable</h6>
           <p>
@@ -178,7 +184,7 @@ export default function Contact() {
           </p>
           <h6 style={{ fontSize: "1.3rem" }}>8. Protección datos personales</h6>
           <p>
-            LA AGENCIA DE ACCESO A LA INFORMACIÓN PÚBLICA, en su carácter de
+            La Agencia de Acceso a la Información Pública, en su carácter de
             Órgano de Control de la Ley N° 25.326, tiene la atribución de
             atender las denuncias y reclamos que interpongan quienes resulten
             afectados en sus derechos por incumplimiento de las normas vigentes
@@ -189,7 +195,7 @@ export default function Contact() {
             Puede enviar sus comentarios a: Andersen en Argentina. <br />
             Talcahuano 833. Piso 10
             <br />
-            (C1013AAQ)
+            [C1013AAQ] - CABA
             <br />
             (54 11) 4390-9700
             <br />

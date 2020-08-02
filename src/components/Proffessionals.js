@@ -16,8 +16,11 @@ const socios = [
     type: "socio",
     image: socio1,
     name: "Cecilia Goldemberg",
-    practice:
-      "Precios de Transferencia, Impuestos Internacionales y Wealth Managment Office",
+    practice: [
+      "Precios de Transferencia",
+      "Impuestos Internacionales",
+      "Wealth Managment Office",
+    ],
     mail: "cecilia.goldemberg@ar.Andersen.com",
     // desc1:
     //   "Cecilia Goldenberg has experience in national and international tax planning, with special focus on the definition and follow-up of tax litigation strategies. She specializes in transfer pricing and international taxation.",
@@ -41,7 +44,8 @@ const socios = [
     id: 2,
     type: "socio",
     image: socio2,
-    practice: "Impuestos y Contabilidad",
+    practice: " y ",
+    practice: ["Impuestos", "Contabilidad"],
     name: "Andrés Carlos Saladino",
     mail: "andres.saladino@ar.Andersen.com",
     // desc1:
@@ -65,8 +69,7 @@ const socios = [
     id: 3,
     type: "socio",
     image: socio3,
-
-    practice: "Impuestos y Contabilidad",
+    practice: ["Impuestos", "Contabilidad"],
     name: "Félix José Rolando",
     mail: "felix.rolando@ar.Andersen.com",
     // desc1:
@@ -109,7 +112,7 @@ materia tributaria en la Facultad de Ciencias Económicas de la UBA y UADE.`,
     type: "socio",
     image: socio4,
 
-    practice: "Impuestos y Contabilidad",
+    practice: ["Impuestos", "Contabilidad"],
     name: "Gabriela Clerc",
     mail: "gabriela.clerc@ar.Andersen.com",
     // desc1:
@@ -138,7 +141,7 @@ Celdeiro. Es miembro de la Asociación Argentina de Estudios Fiscales.`,
     id: 25,
     type: "manager",
     image: socio5,
-    practice: "Outsorcing contable y de nóminas",
+    practice: ["Outsorcing contable y de nóminas"],
     name: "Carmen Susana Vaccaro",
     mail: "susana.vaccaro@ar.Andersen.com",
     // desc1:
@@ -160,7 +163,7 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     id: 9,
     type: "socio",
     image: sinCara,
-    practice: "Legal",
+    practice: ["Legal"],
     name: "Juan Astibia",
     mail: "juan.astibia@ar.Andersen.com",
     desc1: "",
@@ -175,7 +178,7 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     id: 6,
     type: "socio",
     image: sinCara,
-    practice: "Legal",
+    practice: ["Legal"],
     name: "Juan Manuel de Cabo",
     mail: "juan.decabo@ar.Andersen.com",
     desc1: "",
@@ -189,7 +192,7 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     id: 7,
     type: "socio",
     image: sinCara,
-    practice: "Legal",
+    practice: ["Legal"],
     name: "Luis Maria Flores Gimenez",
     mail: "juan.fischer@uy.Andersen.com",
     desc1: "",
@@ -203,7 +206,7 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     id: 11,
     type: "socio",
     image: sinCara,
-    practice: "Legal",
+    practice: ["Legal"],
     name: "Bartolome Homar Mas",
     mail: "juan.fischer@ar.Andersen.com",
     desc1: "",
@@ -217,7 +220,7 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     id: 5,
     type: "socio",
     image: sinCara,
-    practice: "Legal",
+    practice: ["Legal"],
     name: "Martin Jandula",
     mail: "juan.fischer@uy.Andersen.com",
     desc1: "",
@@ -231,7 +234,7 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     id: 12,
     type: "socio",
     image: sinCara,
-    practice: "Impuestos",
+    practice: ["Impuestos"],
     name: "Diego Kelln",
     mail: "juan.fischer@ar.Andersen.com",
     desc1: `Cuenta con más de 19 años de experiencia en asesoramiento fiscal, brindando
@@ -258,7 +261,7 @@ Profesional de Ciencias Económicas de la Ciudad Autónoma de Buenos Aires`,
     id: 13,
     type: "manager",
     image: sinCara,
-    practice: "Impuestos",
+    practice: ["Impuestos"],
     name: "Pablo Lo Vento",
     mail: "pablo.lovento@ar.Andersen.com",
     // desc1:
@@ -278,7 +281,7 @@ externos de capacitación en el área impositiva.`,
     id: 26,
     type: "manager",
     image: sinCara,
-    practice: "Outsourcing Contablef",
+    practice: ["Outsourcing Contable"],
     name: "Edith Mazzer",
     mail: "edith.mazzer@ar.Andersen.com",
     // desc1:
@@ -300,7 +303,7 @@ capacitación.`,
     id: 19,
     type: "manager",
     image: sinCara,
-    practice: "Outsourcing de Nóminas",
+    practice: ["Outsourcing de Nóminas"],
     name: "Victor del Valle",
     mail: "victor.delvalle@ar.Andersen.com",
     // desc1:
@@ -326,7 +329,7 @@ Sociales, Auditorias, Peritajes).`,
     id: 18,
     type: "manager",
     image: sinCara,
-    practice: "Sociedades",
+    practice: ["Sociedades"],
     name: "Zulema Gouveia",
     mail: "zulema.gouveia@ar.Andersen.com",
     // desc1:
@@ -346,7 +349,7 @@ emanadas de los organismos de control.`,
     id: 27,
     type: "manager",
     image: sinCara,
-    practice: "Asignaciones Internacionales, Impuestos",
+    practice: ["Asignaciones Internacionales", "Impuestos"],
     name: "Amanda Julca",
     mail: "amanda.julca@ar.Andersen.com",
     // desc1:
@@ -364,7 +367,7 @@ experiencia en tax due diligence, M&amp;A y asesoramiento fiscal.`,
   {
     image: sinCara,
     type: "manager",
-    practice: "Precios de Transferencia y Valuaciones de Empresas",
+    practice: ["Precios de Transferencia", "Valuaciones de Empresas"],
     name: "Julieta Firpo",
     mail: "julieta.firpo@ar.Andersen.com",
     // desc1:
@@ -382,14 +385,14 @@ mercado.`,
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Licenciada en Economía",
+    education: "Licenciada en Economía - Mágister en Finanzas",
   },
 
   {
     id: 28,
     type: "manager",
     image: sinCara,
-    practice: "Impuestos",
+    practice: ["Impuestos"],
     name: "Sofía Paulucci",
     mail: "sofia.paulucci@ar.Andersen.com",
     // desc1:
@@ -407,7 +410,7 @@ mercado.`,
     id: 14,
     type: "manager",
     image: sinCara,
-    practice: "Legal",
+    practice: ["Legal"],
     name: "Romina Caceres Villagra",
     mail: "",
     desc1: "",
@@ -449,7 +452,7 @@ mercado.`,
     id: 17,
     type: "manager",
     image: sinCara,
-    practice: "Legal",
+    practice: ["Legal"],
     name: "Francisco Peris",
     mail: "",
     desc1: "",
@@ -464,7 +467,7 @@ mercado.`,
     id: 20,
     type: "manager",
     image: sinCara,
-    practice: "Aduana",
+    practice: ["Aduana"],
     name: "Pedro Negri Aranguren",
     mail: "",
     desc1: "",
@@ -478,7 +481,7 @@ mercado.`,
     id: 21,
     type: "manager",
     image: sinCara,
-    practice: "Aduana",
+    practice: ["Aduana"],
     name: "Valentina Kripper",
     mail: "",
     desc1: "",
@@ -492,7 +495,7 @@ mercado.`,
     id: 21,
     type: "socio",
     image: sinCara,
-    practice: "Impuestos",
+    practice: ["Impuestos"],
     name: "Mariano Federico del Amo",
     mail: "",
     desc1: `Es Contador Público, graduado en la Universidad de Buenos Aires (UBA) y ha
@@ -513,7 +516,7 @@ recuperos de IVA por Exportación, determinación coeficientes CM y DDJJ CM
     id: 21,
     type: "manager",
     image: sinCara,
-    practice: "Impuestos",
+    practice: ["Impuestos"],
     name: "Mariana Vallejo",
     mail: "",
     desc1:
@@ -530,7 +533,7 @@ de impuestos nacionales, y provinciales.`,
     id: 21,
     type: "manager",
     image: sinCara,
-    practice: "Impuestos",
+    practice: ["Impuestos"],
     name: "Martín Depaola",
     mail: "",
     desc1:
@@ -552,7 +555,7 @@ impositiva. Auxiliar docente a cargo de “Teoría y Técnica Impositiva II” y
     id: 21,
     type: "manager",
     image: sinCara,
-    practice: "Impuestos",
+    practice: ["Impuestos"],
     name: "Maria José Ermocida",
     mail: "",
     desc1:
@@ -627,7 +630,7 @@ export default function Proffessionals() {
                 <tr>
                   <th></th>
                   <th></th>
-                  <th>Practice</th>
+                  <th>Especialidad</th>
                   <th>E-mail</th>
                   <th></th>
                 </tr>
@@ -653,8 +656,10 @@ export default function Proffessionals() {
                           <a style={{ color: "#AD0D21" }}>{socio.name}</a>
                         </Link>
                       </td>
-                      <td class="areas">
-                        {socio.practice}
+                      <td class="areas" style={{ verticalAlign: "middle" }}>
+                        {socio.practice.map((p) => (
+                          <li>{p}</li>
+                        ))}
                         <br />
                       </td>
                       <td class="correo">
@@ -795,7 +800,7 @@ export default function Proffessionals() {
                 <tr>
                   <th></th>
                   <th></th>
-                  <th>Practice</th>
+                  <th>Especialidad</th>
                   <th>E-mail</th>
                   <th></th>
                 </tr>

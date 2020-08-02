@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 import banner1 from "../assets/img/imag-slider-3-home.jpg";
 import banner2 from "../assets/img/imag-slider-1-home.jpg";
@@ -76,7 +77,17 @@ export default function Home() {
 
   const loadNews = async () => {
     try {
-      setNews(hardcodedNews);
+      axios
+        .get("http://localhost:5000/api/publications")
+        .then(function (response) {
+          // handle success
+          console.log(response.data.publications);
+          setNews(response.data.publications);
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+        });
     } catch (error) {
       console.log(error);
     }
@@ -338,20 +349,16 @@ export default function Home() {
 
         <div className="row">
           <div className="column medium-3">
-            <p>
-              {news[0] ? news[0].description.slice(0, 120) + " [...]" : null}
-            </p>
+            <p>{news[0] ? news[0].shortDesc.slice(0, 120) + " [...]" : null}</p>
           </div>
           <div className="column medium-3">
-            <p>
-              {news[1] ? news[1].description.slice(0, 120) + " [...]" : null}
-            </p>
+            <p>{news[1] ? news[1].shortDesc.slice(0, 120) + " [...]" : null}</p>
           </div>
           <div className="column medium-3">
-            {news[2] ? news[2].description.slice(0, 120) + " [...]" : null}
+            {news[2] ? news[2].shortDesc.slice(0, 120) + " [...]" : null}
           </div>
           <div className="column medium-3">
-            {news[3] ? news[3].description.slice(0, 120) + " [...]" : null}
+            {news[3] ? news[3].shortDesc.slice(0, 120) + " [...]" : null}
           </div>
         </div>
 

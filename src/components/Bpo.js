@@ -59,7 +59,7 @@ export default function Bpo() {
               <ul className="lvl-1 veritcal-menu" data-accordion-menu>
                 <li>
                   <a style={{ color: "#AC0E20" }}>
-                    Business Process Outsourciong (BPO)
+                    Business Process Outsourcing (BPO)
                   </a>
                   <ul className="lvl-2 vertical nested">
                     <li>

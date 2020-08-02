@@ -233,7 +233,7 @@ export default function ContableServices() {
               <div className="primary-intro">
                 <h2>Precios de Transferencia</h2>
                 <p>
-                  Los Precios de Transferencia se ha convertido en una de las
+                  Los Precios de Transferencia se han convertido en una de las
                   áreas clave de los impuestos internacionales.
                 </p>
                 <p>

@@ -60,10 +60,10 @@ export default function ProfessionalProfile(props) {
                   {props.location.state.mail}
                 </h6>
                 <br />
-                <h5>Telefono</h5>
+                <h5>Teléfono</h5>
                 <h6>(51 11) 4390-9700</h6>
                 <br />
-                <h5>Educacion</h5>
+                <h5>Educación</h5>
                 <h6>{props.location.state.education}</h6>
               </div>
             </div>

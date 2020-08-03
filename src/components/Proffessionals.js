@@ -9,6 +9,26 @@ import socio2 from "../assets/partners/AndresSaladino.jpg";
 import socio3 from "../assets/partners/felixRolando.jpg";
 import socio4 from "../assets/partners/GabrielaClerc.jpg";
 import socio5 from "../assets/partners/SusanaCarlassara.jpg";
+import socio6 from "../assets/partners/Amanda-Julca.jpg";
+import socio7 from "../assets/partners/Bartolome- homar-mas.jpg";
+import socio8 from "../assets/partners/Diego-Kelln.jpg";
+import socio9 from "../assets/partners/Edith-Mazzer.jpg";
+import socio10 from "../assets/partners/Francisco-Peris.jpg";
+import socio11 from "../assets/partners/juan-astibia.jpg";
+import socio12 from "../assets/partners/juan-de-cabo.jpg";
+import socio13 from "../assets/partners/Julieta-Firpo.jpg";
+import socio14 from "../assets/partners/luis-maria-flores-gomez.jpg";
+import socio15 from "../assets/partners/maria-jose-ermocida.jpg";
+import socio16 from "../assets/partners/Mariano-del-amo.jpg";
+import socio17 from "../assets/partners/martin_dapaola.jpg";
+import socio18 from "../assets/partners/Martin-Jandula.jpg";
+import socio19 from "../assets/partners/pablo-lovento.jpg";
+import socio20 from "../assets/partners/Pedro-Negri-Atanguren.jpg";
+import socio21 from "../assets/partners/Romina-caceres.jpg";
+import socio22 from "../assets/partners/Sofia-palucci.jpg";
+import socio23 from "../assets/partners/Valentina-Kripper.jpg";
+import socio24 from "../assets/partners/Victor-del-valle.jpg";
+import socio25 from "../assets/partners/zulema-gouveia.jpg";
 
 const socios = [
   {
@@ -210,7 +230,7 @@ parte y Comunicaciones del BCRA.`,
   {
     id: 9,
     type: "socio",
-    image: sinCara,
+    image: socio11,
     practice: ["Legal"],
     name: "Juan Astibia",
     mail: "juan.astibia@ar.Andersen.com",
@@ -239,7 +259,7 @@ asesoramiento de grandes proyectos de inversión en Argentina.`,
   {
     id: 6,
     type: "socio",
-    image: sinCara,
+    image: socio12,
     practice: ["Legal"],
     name: "Juan Manuel de Cabo",
     mail: "juan.decabo@ar.Andersen.com",
@@ -267,7 +287,7 @@ CEMA.`,
   {
     id: 7,
     type: "socio",
-    image: sinCara,
+    image: socio14,
     practice: ["Legal"],
     name: "Luis Maria Flores Gimenez",
     mail: "luismaria.floresgimenez@ar.Andersen.com",
@@ -298,7 +318,7 @@ Luis María ha tenido derecho a litigar ante los tribunales.`,
   {
     id: 11,
     type: "socio",
-    image: sinCara,
+    image: socio7,
     practice: ["Legal"],
     name: "Bartolome Homar Mas",
     mail: "bartolome.homarmas@ar.Andersen.com",
@@ -349,7 +369,7 @@ Unido`,
   {
     id: 5,
     type: "socio",
-    image: sinCara,
+    image: socio18,
     practice: ["Legal"],
     name: "Martin Jandula",
     mail: "juan.fischer@uy.Andersen.com",
@@ -370,7 +390,7 @@ como asesoramiento corporativo general.`,
   {
     id: 12,
     type: "socio",
-    image: sinCara,
+    image: socio8,
     practice: ["Impuestos"],
     name: "Diego Kelln",
     mail: "diego.kelln@ar.Andersen.com",
@@ -407,7 +427,7 @@ Ciudad Autónoma de Buenos Aires.`,
   {
     id: 13,
     type: "manager",
-    image: sinCara,
+    image: socio19,
     practice: ["Impuestos"],
     name: "Pablo Lo Vento",
     mail: "pablo.lovento@ar.Andersen.com",
@@ -432,7 +452,7 @@ externos de capacitación en el área impositiva.`,
   {
     id: 26,
     type: "manager",
-    image: sinCara,
+    image: socio9,
     practice: ["Outsourcing Contable"],
     name: "Edith Mazzer",
     mail: "edith.mazzer@ar.Andersen.com",
@@ -454,7 +474,7 @@ cursos internos de capacitación.`,
   {
     id: 19,
     type: "manager",
-    image: sinCara,
+    image: socio24,
     practice: ["Outsourcing de Nóminas"],
     name: "Victor del Valle",
     mail: "victor.delvalle@ar.Andersen.com",
@@ -479,7 +499,7 @@ Sociales, Auditorias, Peritajes).`,
   {
     id: 18,
     type: "manager",
-    image: sinCara,
+    image: socio25,
     practice: ["Sociedades"],
     name: "Zulema Gouveia",
     mail: "zulema.gouveia@ar.Andersen.com",
@@ -499,7 +519,7 @@ emanadas de los organismos de control.`,
   {
     id: 27,
     type: "manager",
-    image: sinCara,
+    image: socio6,
     practice: ["Asignaciones Internacionales", "Impuestos"],
     name: "Amanda Julca",
     mail: "amanda.julca@ar.Andersen.com",
@@ -522,7 +542,7 @@ regional de impuestos para American Express.`,
     specializations: ["Due diligence", "M&A", "Asignaciones Internacionales"],
   },
   {
-    image: sinCara,
+    image: socio13,
     type: "manager",
     practice: ["Precios de Transferencia", "Valuaciones de Empresas"],
     name: "Julieta Firpo",
@@ -550,9 +570,9 @@ tasas de interés y rentabilidades de mercado.`,
   {
     id: 28,
     type: "manager",
-    image: sinCara,
+    image: socio22,
     practice: ["Impuestos"],
-    name: "Sofía Paulucci",
+    name: "Sofía Palucci",
     mail: "sofia.paulucci@ar.Andersen.com",
     // desc1:
     //   "A Sofía Paulucci is a tax consultant and has high expertise in federal, provincial and municipal tax analysis and review.",
@@ -569,7 +589,7 @@ tasas de interés y rentabilidades de mercado.`,
   {
     id: 14,
     type: "manager",
-    image: sinCara,
+    image: socio21,
     practice: ["Legal"],
     name: "Romina Caceres Villagra",
     mail: "romina.caceresvillagra@ar.Andersen.com",
@@ -631,7 +651,7 @@ tributario); Abogada especializado en derecho fiscal y mercantil. Licenciado.`,
   {
     id: 17,
     type: "manager",
-    image: sinCara,
+    image: socio10,
     practice: ["Legal"],
     name: "Francisco Peris",
     mail: "Francisco.peris@ar.andersen.com",
@@ -664,7 +684,7 @@ derecho a litigar ante los tribunales federales.`,
   {
     id: 20,
     type: "manager",
-    image: sinCara,
+    image: socio20,
     practice: ["Aduana"],
     name: "Pedro Negri Aranguren",
     mail: "pedro.negri@ar.andersen.com",
@@ -692,7 +712,7 @@ cualquier procedimiento administrativo y / o judicial.`,
   {
     id: 21,
     type: "manager",
-    image: sinCara,
+    image: socio23,
     practice: ["Aduana"],
     name: "Valentina Kripper",
     mail: "valentina.kripper@andersen.com",
@@ -717,7 +737,7 @@ organizada por la Asociación mencionada, habiendo presentado documentos en 2011
   {
     id: 21,
     type: "socio",
-    image: sinCara,
+    image: socio16,
     practice: ["Impuestos"],
     name: "Mariano Federico del Amo",
     mail: "mariano.delamo@ar.Andersen.com",
@@ -757,7 +777,7 @@ nacionales, y provinciales.`,
   {
     id: 21,
     type: "manager",
-    image: sinCara,
+    image: socio17,
     practice: ["Impuestos"],
     name: "Martín Depaola",
     mail: "martin.depaola@ar.Andersen.com",
@@ -781,7 +801,7 @@ Ciencias Económicas.`,
   {
     id: 21,
     type: "manager",
-    image: sinCara,
+    image: socio15,
     practice: ["Impuestos"],
     name: "Maria José Ermocida",
     mail: "mariajose.ermocida@ar.Andersen.com",

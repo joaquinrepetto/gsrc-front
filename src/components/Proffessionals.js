@@ -15,7 +15,7 @@ import socio8 from "../assets/partners/Diego-Kelln.jpg";
 import socio9 from "../assets/partners/Edith-Mazzer.jpg";
 import socio10 from "../assets/partners/Francisco-Peris.jpg";
 import socio11 from "../assets/partners/juan-astibia.jpg";
-import socio12 from "../assets/partners/juan-de-cabo.jpg";
+import socio12 from "../assets/partners/Juan de Cabo.jpg";
 import socio13 from "../assets/partners/Julieta-Firpo.jpg";
 import socio14 from "../assets/partners/luis-maria-flores-gomez.jpg";
 import socio15 from "../assets/partners/maria-jose-ermocida.jpg";
@@ -27,7 +27,7 @@ import socio20 from "../assets/partners/Pedro-Negri-Atanguren.jpg";
 import socio21 from "../assets/partners/Romina-caceres.jpg";
 import socio22 from "../assets/partners/Sofia-palucci.jpg";
 import socio23 from "../assets/partners/Valentina-Kripper.jpg";
-import socio24 from "../assets/partners/Victor-del-valle.jpg";
+import socio24 from "../assets/partners/Victor del Valle.jpg";
 import socio25 from "../assets/partners/zulema-gouveia.jpg";
 
 const socios = [

@@ -891,6 +891,7 @@ export default function Proffessionals() {
                           onClick={() =>
                             (window.location.href = `mailto:${socio.mail}`)
                           }
+                          style={{ cursor: "pointer" }}
                           src={sobre}
                           alt="juan.fischer@uy.Andersen.com"
                         />

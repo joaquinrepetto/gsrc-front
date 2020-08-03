@@ -887,9 +887,13 @@ export default function Proffessionals() {
                         <br />
                       </td>
                       <td class="correo">
-                        <a href={socio.mail}>
-                          <img src={sobre} alt="juan.fischer@uy.Andersen.com" />
-                        </a>
+                        <img
+                          onClick={() =>
+                            (window.location.href = `mailto:${props.location.state.mail}`)
+                          }
+                          src={sobre}
+                          alt="juan.fischer@uy.Andersen.com"
+                        />
                       </td>
                     </tr>
                   ))}

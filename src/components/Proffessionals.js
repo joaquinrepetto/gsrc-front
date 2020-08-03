@@ -887,7 +887,7 @@ export default function Proffessionals() {
                         <br />
                       </td>
                       <td class="correo">
-                        <a href="mailto:juan.fischer@uy.Andersen.com">
+                        <a href={socio.mail}>
                           <img src={sobre} alt="juan.fischer@uy.Andersen.com" />
                         </a>
                       </td>

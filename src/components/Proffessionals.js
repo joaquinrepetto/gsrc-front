@@ -31,14 +31,32 @@ const socios = [
     // desc4:
     //   "She has published various articles in specialized journals and was editor of the Manual de Precios de Transferencia en Argentina (Handbook of Transfer Pricing in Argentina).",
     // desc5: "",
-    desc1: "Áreas principales de desempeño:",
-    desc2: `Precios de Transferencia | Estructuraciones fiscales internacionales | Auditorías fiscales y controversias fiscales | Asesoría tributaria`,
-    desc3: "Experiencia en proyectos (experto)",
-    desc4:
-      "Implementación de Precios de Transferencia y resolución de disputas | Diseño y dirección de estructuras fiscales internacionales | Gestión de cuestiones fiscales locales e internacionales | Centramiento en definición y seguimiento de las estrategias de litigio fiscal.",
+    desc1: `Cecilia tiene amplia experiencia en Precios de Transferencia y resolución de disputas, diseño y
+liderazgo de estructuras fiscales internacionales. También cuenta con experiencia en temas
+fiscales complejos locales e internacionales y define y realiza el seguimiento a las estrategias de
+litigio fiscal.`,
+    desc2: `En su carrera profesional se destaca en asesoría de empresas multinacionales con presencia en
+América Latina, ha dado exposiciones en seminarios y conferencias tanto en Argentina como en el
+extranjero, incluidos varios congresos de la Asociación Fiscal Internacional.`,
+    desc3: `Es autora de numerosos artículos en publicaciones especializadas, habiendo obtenido dos veces el
+primer premio de la Asociación Argentina de Estudios Fiscales por el mejor artículo publicado. Fue
+directora del &quot;Manual de Precios de Transferencia en Argentina&quot;.`,
+    desc4: `Es ex coordinadora de la Comisión de Precios de Transferencia en la Asociación Argentina de
+Estudios Fiscales y ex profesora de la Universidad de Buenos Aires.`,
     desc5: "",
     desc6: "",
-    education: "Contadora Pública y Licenciada en Administración",
+    afiliations: [
+      "Miembro activo de la Asociación Argentina de Estudios Fiscales",
+      "Comisión de Estudios Tributarios de la Junta Profesional de Ciencias Económicas de la Ciudad de Buenos Aires",
+      "Comisión de Asuntos Tributarios de la Cámara de Sociedades Anónimas y la Unión Industrial Argentina",
+    ],
+    specializations: [
+      "Precios de Transferencia",
+      "Estructuraciones fiscales internacionales",
+      "Auditorías y controversias fiscales",
+      "Asesoría Tributaria",
+    ],
+    education: ["Contadora Pública y Licenciada en Administración"],
   },
   {
     id: 2,
@@ -52,18 +70,28 @@ const socios = [
     //   "Andres Saldino was previously an advisor for the Ministry of Economy of the Nation Cabinet. He has vast experience in national and international tax planning, with special focus in companies dedicated to social media. He has published a variety of articles specialized in public tax.",
     // desc2:
     //   "He was expositor in the Professional Board of Economic Science in the City of Buenos Aires (CPCECABA) and the province of Buenos Aires. Andres gives lectures on postgraduate courses on taxation at the University Austral of Business Science. He teaches Teoria y Tecnica Impositiva II at the Economic Science University of Buenos Aires (UBA), is an active member of the Graduate School at the Science Economics in Capital Federal and co-presenter of the television program Actualidad Impositiva.",
-    desc1:
-      "Es Contador Público egresado de la Universidad de Buenos Aires y ex presidente del Colegio de Graduados en Ciencias Económicas de CABA.",
-    desc2:
-      "Ha sido asesor de gabinete del Ministerio de Economía de la Nación.",
-    desc3:
-      "Se destaca su experiencia profesional y académica sobre la problemática tributaria internacional y nacional, sobre todo en empresas relacionados con los medios de comunicación.",
-    desc4: "Ha escrito numerosos artículos sobre temas tributarios públicas.",
-    desc5:
-      "Es profesor adjunto en la materia Teoría y Técnica Impositiva II de la Facultad de Ciencias Económicas de la Universidad de Buenos Aires (UBA) y profesor adjunto en las materias Impuestos II y III de la Facultad de Ciencias Empresariales de la Universidad Austral.",
-    desc6:
-      "Ha sido expositor en el Consejo Profesional de Ciencias Económicas de CABA, provincia de Buenos Aires y en Consejos Profesionales del interior del país; dicta cursos de posgrado en materia tributaria en la Facultad de Ciencias Económicas de la UBA. Es miembro de la Comisión de Estudios Impositivos del Colegio de Graduados en Ciencias Económicas de la Capital Federal; es co-conductor del programa de televisión “Actualidad Impositiva”",
-    education: "Contador Público",
+    desc1: `Ex presidente del Colegio de Graduados en Ciencias Económicas de CABA. Ha sido asesor de
+gabinete del Ministerio de Economía de la Nación. Se destaca su experiencia profesional y
+académica sobre la problemática tributaria internacional y nacional, sobre todo en empresas
+relacionados con los medios de comunicación.`,
+    desc2: "Ha escrito numerosos artículos sobre temas tributarios públicas.",
+    desc3: `Es profesor adjunto en la materia Teoría y Técnica Impositiva II de la Facultad de Ciencias
+Económicas de la Universidad de Buenos Aires (UBA) y profesor adjunto en las materias Impuestos
+II y III de la Facultad de Ciencias Empresariales de la Universidad Austral.`,
+    desc4: `Ha sido expositor en el Consejo Profesional de Ciencias Económicas de CABA, provincia de Buenos
+Aires y en Consejos Profesionales del interior del país; dicta cursos de posgrado en materia
+tributaria en la Facultad de Ciencias Económicas de la UBA; es co-conductor del programa de
+televisión “Actualidad Impositiva”`,
+    education: ["Contador Público - Universidad de Buenos Aires"],
+    afiliations: [
+      `Comisión de Estudios Impositivos del Colegio de Graduados en Ciencias Económicas de la
+Capital Federal`,
+    ],
+    specializations: [
+      "Impuestos Internacionales",
+      "Impuestos corporativos",
+      "Estructuraciones fiscales",
+    ],
   },
   {
     id: 3,
@@ -83,21 +111,19 @@ const socios = [
     // desc5:
     //   "He lectures on post graduate courses on taxation issues at the Economic Science University of Buenos Aires and UADE.",
     // desc6: "",
-    desc1: "Es Contador Público egresado de la Universidad de Buenos Aires.",
-    desc2: `Ha sido asesor de gabinete del Ministerio de Economía de la Nación; miembro del
-Consejo Consultivo en el área tributaria de la A.F.I.P. en representación del Colegio de
-Graduados en Ciencias Económicas de CABA, y miembro de la Comisión de Estudios
-Impositivos de la misma entidad. Se destaca su experiencia profesional y académica sobre
-la problemática tributaria internacional y nacional, su impacto en los distintos negocios
-empresariales y el desarrollo de planificaciones fiscales. Ha escrito numerosos artículos
-sobre temas tributarios públicos, es coautor de los siguientes libros: Sociedades de Hecho
-y Empresas Unipersonales publicado por Editorial La Ley en el año 2012; Introducción al
-Régimen Tributario Argentino publicado por Editorial Errepar en el año 2010, con
-posteriores reediciones. Ha sido expositor en el Consejo Profesional de Ciencias
-Económicas de la Ciudad de Buenos Aires, en los Consejos Profesionales del interior del
-país y actualmente, en el Colegio de Graduados en Ciencias Económicas de la Capital
-Federal y en la Asociación Argentina de Estudios Fiscales. Dicta cursos de posgrado en
-materia tributaria en la Facultad de Ciencias Económicas de la UBA y UADE.`,
+    desc1: `Ha sido asesor de gabinete del Ministerio de Economía de la Nación. Se destaca su experiencia
+profesional y académica sobre la problemática tributaria internacional y nacional, su impacto en
+los distintos negocios empresariales y el desarrollo de planificaciones fiscales. Ha escrito
+numerosos artículos sobre temas tributarios públicos, es coautor de los siguientes libros:
+Sociedades de Hecho y Empresas Unipersonales publicado por Editorial La Ley en el año 2012;
+Introducción al Régimen Tributario Argentino publicado por Editorial Errepar en el año 2010, con
+
+posteriores reediciones. Ha sido expositor en el Consejo Profesional de Ciencias Económicas de la
+Ciudad de Buenos Aires, en los Consejos Profesionales del interior del país y actualmente, en el
+Colegio de Graduados en Ciencias Económicas de la Capital Federal y en la Asociación Argentina de
+Estudios Fiscales. Dicta cursos de posgrado en materia tributaria en la Facultad de Ciencias
+Económicas de la UBA y UADE.`,
+
     // desc3:
     //   "He was the editor of various articles on taxation issues, and co-author of books, including Sociedades de Hecho y Empresas Unipersonales published by La Ley in 2012 and Introducción al Regimen Tributario Argentino published by Errepar in 2010.",
     // desc4:
@@ -105,7 +131,17 @@ materia tributaria en la Facultad de Ciencias Económicas de la UBA y UADE.`,
     // desc5:
     //   "He lectures on post graduate courses on taxation issues at the Economic Science University of Buenos Aires and UADE.",
     desc6: "",
-    education: "Contador Público",
+    education: ["Contador Público - Universidad de Buenos Aires"],
+    afiliations: [
+      `Consejo Consultivo en el área tributaria de la A.F.I.P. en representación del Colegio de
+Graduados en Ciencias Económicas de CABA`,
+      `Comisión de Estudios Impositivos`,
+    ],
+    specializations: [
+      "Tributación Internacional",
+      "Impuestos Directos e Indirectos Nacionales",
+      "Estructuraciones Fiscales",
+    ],
   },
   {
     id: 4,
@@ -120,22 +156,28 @@ materia tributaria en la Facultad de Ciencias Económicas de la UBA y UADE.`,
     // desc2:
     //   "Gabriela has co-authored the book Procedimiento Tributario I (Tax Procedure I) with exercises and material review, and she also assisted in the revision of Tomo III, Impuestos Comentados (Volume III, Taxes: A Comment) published by Errepar - both written by Dr. Carlos Ernesto Celdeiro. Gabriela is a member of the Argentine Association of Fiscal Studies (Asociación Argentina de Estudios Fiscales).",
     // desc3: "",
-    desc1: "Es Contadora Pública egresada de la U.B.A.",
-    desc2: `Posee una amplia experiencia en asesoramiento en materia impositiva y
-previsional, análisis y revisión de impuestos nacionales, provinciales y municipales,
-participación en auditorías impositivas y previsionales y tax planning adquirida en una
-especializada Firma internacional, donde se desempeñó como Gerente de Impuestos. En
-el ámbito docente se desempeñó como ayudante de la materia “Teoría y Técnica
-Impositiva II” designada por concurso. También dictó cursos internos de capacitación
-estando a cargo de la capacitación del Staff Técnico. Ha prestado colaboración en la
-preparación de ejercitaciones y revisiones del libro, “Procedimiento Tributario I” y en la
-revisión del Tomo III, Impuestos Comentados de Errepar, ambos del Dr. Carlos Ernesto
+    desc1: `Posee una amplia experiencia en asesoramiento en materia impositiva y previsional, análisis y
+revisión de impuestos nacionales, provinciales y municipales, participación en auditorías
+impositivas y previsionales y tax planning adquirida en una especializada Firma internacional,
+donde se desempeñó como Gerente de Impuestos. En el ámbito docente se desempeñó como
+ayudante de la materia “Teoría y Técnica Impositiva II” designada por concurso. También dictó
+cursos internos de capacitación estando a cargo de la capacitación del Staff Técnico. Ha prestado
+colaboración en la preparación de ejercitaciones y revisiones del libro, “Procedimiento Tributario
+I” y en la revisión del Tomo III, Impuestos Comentados de Errepar, ambos del Dr. Carlos Ernesto
 Celdeiro. Es miembro de la Asociación Argentina de Estudios Fiscales.`,
+    desc2: "",
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contadora Pública",
+    education: ["Contadora Pública - Universidad de Buenos Aires"],
+    afiliations: [`Asociación Argentina de Estudios Fiscales (AAEF)`],
+    specializations: [
+      "Impuestos Nacionales, Provinciales y Municipales",
+      "Auditorías Impositivas y Previsionales",
+      "Planeamientos Tributarios",
+      "Compliance",
+    ],
   },
   {
     id: 25,
@@ -146,18 +188,24 @@ Celdeiro. Es miembro de la Asociación Argentina de Estudios Fiscales.`,
     mail: "susana.vaccaro@ar.Andersen.com",
     // desc1:
     //   "Carmen Vaccaro actively participates in corporate transformation and due diligence processes, and she is an expert in Anti-Money Laundering and Counter Terrorism Financing Regulations issued by the Argentine UIF (Financial Information Unit). She is specialized in accounting and payroll reports and communications to the BCRA (Central Bank of the Argentine Republic).   ",
-    desc1: `Es Contadora Pública egresada de la Universidad de Buenos Aires.`,
-    desc2: `Cursó el Posgrado en “Nuevas Normas Contables Nacionales e Internacionales”
-U.B.A. - Facultad de Ciencias Económicas. Tiene sólida experiencia en Auditoría, armado y
-análisis de Estados Contables confeccionados según Normas Nacionales e Internacionales
-de Contabilidad. Participa en procesos de Transformaciones societarias, Due Dilligences,
-Normas UIF sobre Lavado de Activos y Financiación del Terrorismo. Realiza Certificaciones
-e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
+    desc1: `Lidera el área de Business Process Solutions (BPS), tiene sólida experiencia en armado y análisis de
+Estados Contables confeccionados según Normas Nacionales e Internacionales de Contabilidad.
+Participa en procesos de Transformaciones societarias, Due Diligence, Normas UIF sobre Lavado de
+Activos y Financiación del Terrorismo. Realiza Certificaciones e Informes contables, Pericias de
+parte y Comunicaciones del BCRA.`,
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contadora Pública",
+    education: [
+      "Contadora Pública - Universidad de Buenos Aires",
+      "Posgrado en Nuevas Normas Contables Nacionales e Internacionales – Universidad de Buenos Aires.",
+    ],
+    specializations: [
+      "Análisis de Estados Contables",
+      "Outsourcing Contable",
+      "Outsourcing Contable",
+    ],
   },
   {
     id: 9,
@@ -166,12 +214,26 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     practice: ["Legal"],
     name: "Juan Astibia",
     mail: "juan.astibia@ar.Andersen.com",
-    desc1: "",
-    desc2: "",
+    desc1: `Hasta marzo de 2015, se desempeñó como Gerente Senior a cargo de la División Legal de Deloitte
+Argentina. Después de trabajar para Deloitte, él y sus colegas fundaron MODO LAW, una firma
+innovadora de servicios legales.`,
+    desc2: `Ha realizado numerosas adquisiciones, reorganizaciones corporativas y participa en el
+asesoramiento de grandes proyectos de inversión en Argentina.`,
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
+    education: [
+      "Abogado - Universidad de Buenos Aires",
+      "Máster en Derecho Financiero y Tributario- Universidad de Valencia",
+      "Idiomas: español, inglés y portugués",
+    ],
+    afiliations: [
+      `Colegio de Abogados de Capital Federal de Buenos Aires`,
+      "Colegio de Abogados de la Ciudad de La Plata",
+      "Asociación Argentina de Estudios Tributarios",
+    ],
+    specializations: ["Derecho Fiscal y Corporativo"],
   },
 
   {
@@ -181,12 +243,26 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     practice: ["Legal"],
     name: "Juan Manuel de Cabo",
     mail: "juan.decabo@ar.Andersen.com",
-    desc1: "",
-    desc2: "",
-    desc3: "",
+    desc1: `Juan Manuel es abogado y licenciado en tributación en la Universidad de Buenos Aires.
+Actualmente está estudiando para convertirse en contador público en la Universidad de Buenos
+Aires. Tiene un certificado internacional en Cumplimiento de la Asociación Argentina de Ética y
+Cumplimiento.`,
+    desc2: `Trabajó en Deloitte Argentina durante 8 años como especialista fiscal y corporativo.`,
+    desc3: `Enseñó cursos de procedimientos tributarios en la Universidad de Buenos Aires y en la Universidad
+CEMA.`,
     desc4: "",
     desc5: "",
     desc6: "",
+    education: ["Abogado - Universidad de Buenos Aires"],
+    afiliations: [
+      `Asociación de Ética y Cumplimiento (AAEC)`,
+      "Asociación Argentina de Estudios Fiscales (AAEF)",
+    ],
+    specializations: [
+      "M&A",
+      "Due diligence",
+      "Asesoramiento fiscal y corporativo",
+    ],
   },
   {
     id: 7,
@@ -194,13 +270,30 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     image: sinCara,
     practice: ["Legal"],
     name: "Luis Maria Flores Gimenez",
-    mail: "juan.fischer@uy.Andersen.com",
-    desc1: "",
-    desc2: "",
-    desc3: "",
-    desc4: "",
-    desc5: "",
+    mail: "luismaria.floresgimenez@ar.Andersen.com",
+    desc1: `Luis María Flores Giménez es un abogado graduado de la Universidad de Belgrano con estudios de
+posgrado en Derecho Tributario en la Universidad Católica de Argentina.`,
+    desc2: `Después de trabajar para Deloitte Argentina, donde había estado a cargo de la práctica de
+servicios de controversia fiscal, él y sus colegas fundaron MODO LAW; Una innovadora firma de
+servicios legales.`,
+    desc3: `Luis María tiene una amplia experiencia en consultoría legal en diversos campos, atendiendo a
+clientes nacionales e internacionales en la implementación de una variedad de proyectos.`,
+    desc4: `Se especializa en asuntos administrativos y fiscales, y tiene una amplia experiencia en litigios ante
+tribunales y oficinas de impuestos federales, provinciales y municipales. Como litigante, ha estado
+involucrado en varios casos que sientan un precedente en asuntos administrativos y fiscales.
+Luis María ha tenido derecho a litigar ante los tribunales.`,
+    desc5: `Ha impartido clases de procedimientos fiscales en la Universidad CEMA`,
     desc6: "",
+    education: [
+      "Abogado - Universidad de Belgrano",
+      "Universidad Católica de Argentina (estudios de posgrado)",
+      "Idiomas: español, inglés e italiano.",
+    ],
+    afiliations: [
+      `Colegio de Abogados de la Capital Federal (Ciudad de Buenos Aires)`,
+      `Asociación Argentina de Estudios Tributarios`,
+    ],
+    specializations: ["Derecho Tributario y Administrativo", "Litigio"],
   },
   {
     id: 11,
@@ -208,13 +301,50 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     image: sinCara,
     practice: ["Legal"],
     name: "Bartolome Homar Mas",
-    mail: "juan.fischer@ar.Andersen.com",
-    desc1: "",
+    mail: "bartolome.homarmas@ar.Andersen.com",
+    desc1: `Comenzó su carrera en 1997 trabajando como paralegal en Maciel Norman Martelli &amp; Beretta, una
+firma de abogados boutique especializada en petróleo y gas. En el año 2000 se graduó como
+abogado de la Universidad de Buenos Aires. En el 2003 obtuvo una Maestría en International
+Commercial and Business Law de la Universidad de East Anglia (Norwich - Reino Unido). Entre los
+años 2004 y 2005 trabajó en KPMG y en C’M’S’ Bureau Francis Lefebvre – Mercosur. En el año
+2006 asumió la dirección de los departamentos de Impuestos y Petróleo y Gas de Maciel Norman
+and Asociados. En el 2007 obtuvo un posgrado en Derecho Tributario de la Universidad Austral
+(Buenos Aires - Argentina). En 2010 cursó el programa de Petróleo y Gas de la Universidad de
+Buenos Aires. Entre 2011 y 2017 trabajó para Central Resources Inc., una empresa petrolera
+independiente de EE.UU., donde ocupó cargos como Gerente de Asuntos Legales, Nuevos
+Negocios y Relaciones Institucionales. Durante más de 4 años se involucró y dirigió procesos de
+adquisiciones y farm-outs, asesorando a la compañía desde un punto de vista legal, pero también
+con una fuerte perspectiva de negociación. Adicionalmente realizó negociaciones contractuales
+con socios de Uniones Transitorias (JV), autoridades provinciales, proveedores, sindicatos, entre
+otros. En 2016 asumió como Gerente General liderando 10 gerentes con más de 100 empleados
+divididos en 3 provincias. A partir de julio de 2018 se unió a MODO LAW ejerciendo como abogado
+y abogado en los campos de Contratos, Derecho Corporativo y Fiscal con una fuerte perspectiva
+internacional.`,
     desc2: "",
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
+    education: [
+      "Abogado - Universidad de Buenos Aires",
+      `International Commercial and Business Law - Universidad de East Anglia – Norwich – Reino
+Unido`,
+      `Estudios de posgrado en Derecho Tributario- Universidad Austral de Buenos Aires`,
+      `Idiomas: español - inglés`,
+    ],
+    afiliations: [
+      `Colegio Público de Abogados de la Capital Federal`,
+      `Colegio Público de Abogados de Neuquén`,
+      `Asociación Argentina de Estudio Fiscales`,
+      `Club del Petróleo de Buenos Aires`,
+    ],
+    specializations: [
+      "Derecho Comercial",
+      "Derecho Corporativo",
+      "M&A",
+      "Petróleo y Gas",
+      "Impuestos.",
+    ],
   },
   {
     id: 5,
@@ -223,12 +353,19 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     practice: ["Legal"],
     name: "Martin Jandula",
     mail: "juan.fischer@uy.Andersen.com",
-    desc1: "",
-    desc2: "",
+    desc1: `Martín es abogado con amplia experiencia en servicios generales de asesoría corporativa para
+compañías multinacionales, corporaciones cercanas y pequeñas y medianas empresas.`,
+    desc2: `Después de haber trabajado para Deloitte Argentina durante 8 años, él y sus colegas fundaron
+MODO LAW; Una innovadora firma de servicios legales. Brindó asesoramiento en todos los
+asuntos de derecho corporativo con respecto a las inversiones internas por parte de inversionistas
+extranjeros, redacción e implementación de contratos, reestructuraciones corporativas y
+escisiones, M&amp;A, procesos de due diligence, propiedad intelectual y planificación de software, así
+como asesoramiento corporativo general.`,
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
+    education: [],
   },
   {
     id: 12,
@@ -236,26 +373,36 @@ e Informes contables, Pericias de parte y Comunicaciones del BCRA.`,
     image: sinCara,
     practice: ["Impuestos"],
     name: "Diego Kelln",
-    mail: "juan.fischer@ar.Andersen.com",
-    desc1: `Cuenta con más de 19 años de experiencia en asesoramiento fiscal, brindando
-servicios tanto a compañía locales como internacionales de diferentes industrias tales
-como agronegocios, seguros, retail, servicios y software.`,
-    desc2: `La trayectoria de Diego incluye el asesoramiento en la estructuración jurídica de
-empresas y clientes individuales con el objetivo reducir el costo tributario de sus
-operaciones, así como también la planificación fiscal de operaciones de fusiones y
-adquisiciones locales e internacionales de sociedades, restructuraciones de pasivos, etc.`,
-    desc3: `Previo a unirse a Andersen, entre los años 2011 y 2013 Diego trabajó como
-representante argentino del International Core of Excellence de Deloitte LLP en New York.
-En el año 2012 asistió al US Tax Planning and Reporting Program dictado por la NYU.`,
-    desc4: `Se ha desempeñado como miembro del Consejo Asesor Tributario de la Fundación
-para el desarrollo de la Minería Argentina (FUNDAMIN) y docente auxiliar de Impuestos
-Nacionales en la Universidad de Buenos Aires. Actualmente es miembro de la Comisión de
-Impuestos Nacionales e Internacionales de la Asociación Argentina de Estudios Fiscales y
-de la Comisión de Impuestos Internacionales y Precios de Transferencia del Consejo
-Profesional de Ciencias Económicas de la Ciudad Autónoma de Buenos Aires`,
+    mail: "diego.kelln@ar.Andersen.com",
+    desc1: `Cuenta con más de 19 años de experiencia en asesoramiento fiscal, brindando servicios tanto a
+compañía locales como internacionales de diferentes industrias tales como agronegocios, seguros,
+retail, servicios y software.`,
+    desc2: `La trayectoria de Diego incluye el asesoramiento en la estructuración jurídica de empresas y
+clientes individuales con el objetivo reducir el costo tributario de sus operaciones, así como
+también la planificación fiscal de operaciones de fusiones y adquisiciones locales e internacionales
+de sociedades, restructuraciones de pasivos, etc.`,
+    desc3: `Previo a unirse a Andersen, entre los años 2011 y 2013 Diego trabajó como representante
+argentino del International Core of Excellence de Deloitte LLP en New York. En el año 2012 asistió
+al US Tax Planning and Reporting Program dictado por la NYU.`,
+    desc4: `Se ha desempeñado como miembro del Consejo Asesor Tributario de la Fundación para el
+desarrollo de la Minería Argentina (FUNDAMIN) y docente auxiliar de Impuestos Nacionales en la
+Universidad de Buenos Aires. Actualmente es miembro de la Comisión de Impuestos Nacionales e
+Internacionales de la Asociación Argentina de Estudios Fiscales y de la Comisión de Impuestos
+Internacionales y Precios de Transferencia del Consejo Profesional de Ciencias Económicas de la
+Ciudad Autónoma de Buenos Aires.`,
     desc5: "",
     desc6: "",
-    education: "Contador Público- Universidad de Buenos Aires",
+    education: [
+      "Contador Público - Universidad de Buenos Aires",
+      "Tax Law Specialist – Universidad de Buenos Aires",
+      "Idiomas: Español | Inglés",
+    ],
+    specializations: [
+      "Impuestos internacionales",
+      "Impuestos Corporativos",
+      "M&A",
+      "Cross-border tax",
+    ],
   },
   {
     id: 13,
@@ -266,7 +413,7 @@ Profesional de Ciencias Económicas de la Ciudad Autónoma de Buenos Aires`,
     mail: "pablo.lovento@ar.Andersen.com",
     // desc1:
     //   "Pablo Lo Vento has experience in tax counseling, and in federal, provincial and municipal tax analysis and revision. He is an adhering member of the Argentine Association of Fiscal Studies (Asociación Argentina de Estudios Fiscales – AAEF) and has taught internal and external training courses on tax issues.",
-    desc1: `Es Contador Público, graduado en la U.B.A. con mención especial “Magna Cum-Laude”.
+    desc1: `
 Posee amplia experiencia en el asesoramiento en materia impositiva, análisis y revisión de
 impuestos nacionales, provinciales y municipales. Es miembro adherente de la Asociación
 Argentina de Estudios Fiscales (AAEF). Ha participado en el dictado de cursos internos y
@@ -275,7 +422,12 @@ externos de capacitación en el área impositiva.`,
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contador Público",
+    education: [
+      "Contador Público - Universidad de Buenos Aires",
+      "Idiomas: español e italiano",
+    ],
+    afiliations: ["Asociación Argentina de Estudios Fiscales (AAEF)"],
+    specializations: ["Impuestos"],
   },
   {
     id: 26,
@@ -286,18 +438,18 @@ externos de capacitación en el área impositiva.`,
     mail: "edith.mazzer@ar.Andersen.com",
     // desc1:
     //   "Edith Mazzer has experience in outsourcing for companies of different sizes. She has also specialized in the preparation of local and international reports, and auditing financial statements prepared pursuant to Argentine accounting principles, U.S. GAAP and International Accounting Standards (IASs). She has experience in mergers and demergers, due diligence processes, integral audits, internal controls and processes analysis. She has given in-company training courses.",
-    desc1: `Es Contadora Pública egresada de Universidad Nacional de Quilmes.Posee amplia experiencia en
-Outsourcing en empresas de distinta envergadura, Confección de reportes nacionales e
-internacionales, Auditoría de Estados Contables confeccionados bajo normas contables
-argentinas, US GAAP y normas IAS, fusiones y escisiones, Due Diligence, Auditoría Integral, de
-Controles Internos y análisis de procesos. Ha participado en el dictado de cursos internos de
-capacitación.`,
+    desc1: `Posee amplia experiencia en Outsourcing en empresas de distinta envergadura, Confección de
+reportes nacionales e internacionales, Auditoría de Estados Contables confeccionados bajo
+normas contables argentinas, US GAAP y normas IAS, fusiones y escisiones, Due Diligence,
+Auditoría Integral, de Controles Internos y análisis de procesos. Ha participado en el dictado de
+cursos internos de capacitación.`,
     desc2: "",
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contadora Pública",
+    education: ["Contadora Pública - Universidad Nacional de Quilmes"],
+    specializations: ["Outsourcing Contable e Impositivo"],
   },
   {
     id: 19,
@@ -308,8 +460,6 @@ capacitación.`,
     mail: "victor.delvalle@ar.Andersen.com",
     // desc1:
     //   "Victor Adrian Del Valle has experience in the design and implementation of Human Resources policies and procedures and also in the analysis of wage and salary structures. He has vast knowledge of the work and labor laws in force and of applicable quality standards. Victor has directed payroll processes, benefit and compensation policies and personnel administration at international and Argentine companies and also SMEs and renowned firms. He has successfully implemented IT systems for Human Resources management and administration. He has given in-company training courses for employees on wage and salaries, taxes and legal issues, among others. ",
-    desc1:
-      "Es Licenciado en Administración graduado de la Universidad de la Matanza.",
     desc2: `Se destaca por su experiencia en el diseño e implementación de políticas y procedimientos de
 RRHH así como también en el análisis de las estructuras salariales. Posee amplio conocimiento de
 la legislación laboral vigente y de las normas de calidad. Ha liderado los procesos de Payroll,
@@ -323,7 +473,8 @@ Sociales, Auditorias, Peritajes).`,
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Licenciado en Administración",
+    education: ["Licenciado en Administración - Universidad de La Matanza"],
+    specializations: ["Outsourcing de Nóminas"],
   },
   {
     id: 18,
@@ -335,7 +486,6 @@ Sociales, Auditorias, Peritajes).`,
     // desc1:
     //   "Zulema has large experience in corporate aspects, with specific focus in the constitution of companies, modifications of financial statement, norms made by control. ",
     // desc2: "",
-    desc1: "Es Contadora Pública egresada de la Universidad de La Plata",
     desc2: `Posee una amplia experiencia sobre aspectos societarios, en especial los relacionados con la
 constitución de sociedades, modificación de estatutos sociales, fusiones y escisiones, y normas
 emanadas de los organismos de control.`,
@@ -343,7 +493,8 @@ emanadas de los organismos de control.`,
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contadora Pública",
+    education: ["Contadora Pública - Universidad Nacional de La Plata"],
+    specializations: ["Sociedades"],
   },
   {
     id: 27,
@@ -354,15 +505,21 @@ emanadas de los organismos de control.`,
     mail: "amanda.julca@ar.Andersen.com",
     // desc1:
     //   "Amanda is a Public Accountant and previously worked at Deloitte Peru and Deloitte Argentina for 10 years as a tax specialist. She also participated in the V.I.T.A program for the IRS. She has experience in tax due diligence, merger and acquisitions and tax counseling.",
-    desc1: `Es contadora pública y ha trabajado en Deloitte Perú y Deloitte Argentina durante 10 años
-como especialista en impuestos. También participó del programa V.I.T.A para IRS. Tiene
-experiencia en tax due diligence, M&amp;A y asesoramiento fiscal.`,
+    desc1: `Ha trabajado en Deloitte Perú y Deloitte Argentina durante 10 años como especialista en
+impuestos. También participó del programa V.I.T.A para IRS de Estados Unidos y fue gerente
+regional de impuestos para American Express.`,
     desc2: "",
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contadora Pública",
+    education: [
+      "Contadora Pública - Universidad de Lima",
+      "L.L.M en Impuestos- Universidad Torcuato Di Tella",
+      "Posgrado en Administración - New York University",
+      "Idiomas: español e inglés",
+    ],
+    specializations: ["Due diligence", "M&A", "Asignaciones Internacionales"],
   },
   {
     image: sinCara,
@@ -374,18 +531,20 @@ experiencia en tax due diligence, M&amp;A y asesoramiento fiscal.`,
     //   "Julieta Firpo has vast experience in the preparation and filing of reports and counseling documents on Transfer Pricing, tax planning, supervisory issues, sector economic and macroeconomic reports, cost analysis, industry analysis, intra-group transaction structuring, profitability analysis per production line, interest rate determination and market profitability.",
     // desc2:
     //   "In the academic field, she has held a position at the University of Buenos Aires as Assistant Professor.",
-    desc1: `Es Magíster en Finanzas egresada de la Universidad del CEMA y Licenciada en
-Economía egresada de la Universidad de Buenos Aires (UBA).`,
-    desc2: `Posee una amplia experiencia en elaboración y presentación de informes y reportes de asesoría en materia
-de Precios de Transferencia, planning impositivo, fiscalizaciones, informes económicos sectoriales y
-macroeconómicos, análisis de costos, análisis por industrias, estructuración de transacciones intragrupo,
-análisis de rentabilidades por líneas de producción, determinación de tasas de interés y rentabilidades de
-mercado.`,
+    desc1: `Posee una amplia experiencia en elaboración y presentación de informes y reportes de asesoría en
+materia de Precios de Transferencia, planning impositivo, fiscalizaciones, informes económicos
+sectoriales y macroeconómicos, análisis de costos, análisis por industrias, estructuración de
+transacciones intragrupo, análisis de rentabilidades por líneas de producción, determinación de
+tasas de interés y rentabilidades de mercado.`,
     desc3: "Fue Auxiliar Docente en la Universidad de Buenos Aires",
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Licenciada en Economía - Mágister en Finanzas",
+    education: [
+      "Licenciada en Economía - Universidad de Buenos Aires",
+      "Mágister en Finanzas - Universidad del CEMA",
+    ],
+    specializations: ["Precios de Transferencia", "Valuaciones de Empresas"],
   },
 
   {
@@ -404,7 +563,8 @@ mercado.`,
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contadora Pública",
+    education: ["Contadora Pública - Universidad de Buenos Aires"],
+    specializations: ["Impuestos"],
   },
   {
     id: 14,
@@ -412,13 +572,33 @@ mercado.`,
     image: sinCara,
     practice: ["Legal"],
     name: "Romina Caceres Villagra",
-    mail: "",
-    desc1: "",
-    desc2: "",
-    desc3: "",
+    mail: "romina.caceresvillagra@ar.Andersen.com",
+    desc1:
+      "Romina es Gerente de Impuestos y Asuntos Legales en Andersen Argentina.",
+    desc2: `Trabajó durante más de 5 años en Techint, una de las empresas más grandes de Argentina y
+también trabajó durante 5 años en PWC.`,
+    desc3: `Asiste a cursos de formación jurídica para abogados en diferentes universidades, asociaciones
+profesionales o centros de estudios, sobre derecho contractual, impuestos, negocios, etc.`,
     desc4: "",
     desc5: "",
     desc6: "",
+    education: [
+      `Universidad de Buenos Aires: maestría (en curso) y posgrado (ambas en derecho
+tributario); Abogada especializado en derecho fiscal y mercantil. Licenciado.`,
+      "Idiomas: español e inglés",
+    ],
+    afiliations: [
+      "Colegio de Abogados de la Ciudad de Buenos Aires",
+      "A.A.E.F",
+    ],
+    specializations: [
+      "Contratos",
+      "M&A",
+      "Derecho empresarial",
+      "Derecho comercial",
+      "Programas gubernamentales de cumplimiento legal",
+      "Due diligence",
+    ],
   },
   // {
   //   id: 15,
@@ -454,13 +634,31 @@ mercado.`,
     image: sinCara,
     practice: ["Legal"],
     name: "Francisco Peris",
-    mail: "",
-    desc1: "",
+    mail: "Francisco.peris@ar.andersen.com",
+    desc1: `Tiene una vasta experiencia en servicios administrativos y de controversia tributaria,
+especializándose en litigios ante tribunales y oficinas fiscales federales, provinciales y municipales.
+Como litigante, ha estado involucrado en varios casos que sientan un precedente en asuntos
+administrativos y fiscales. Es profesor asistente regular en la Universidad de Buenos Aires. Tiene
+derecho a litigar ante los tribunales federales.`,
     desc2: "",
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
+    education: [
+      "Abogado - Universidad de Buenos Aires",
+      "Posgrado en Derecho Tributario y Derecho Concursal- Universidad de Buenos Aires",
+      "Idiomas: español e inglés",
+    ],
+    afiliations: [
+      "Colegio de Abogados de la Ciudad de Buenos Aires",
+      "Asociación Argentina de Estudios Fiscales",
+    ],
+    specializations: [
+      "Derecho Tributario y Administrativo",
+      "Litigio",
+      "Concursos y Quiebra",
+    ],
   },
 
   {
@@ -469,13 +667,27 @@ mercado.`,
     image: sinCara,
     practice: ["Aduana"],
     name: "Pedro Negri Aranguren",
-    mail: "",
-    desc1: "",
-    desc2: "",
-    desc3: "",
+    mail: "pedro.negri@ar.andersen.com",
+    desc1: `Tiene estudios de posgrado en impuestos, en la Universidad de Buenos Aires, y estudios de
+posgrado en aduanas, en la Universidad de Buenos Aires.`,
+    desc2: `Obtuvo su experiencia en el Departamento de Impuestos de Estudio Negri &amp; Teijeiro Abogados, y
+en el Departamento de Comercio Exterior y Aduanas de Estudio Bruchou, Fernández Madero &amp;
+Lombardi, centrándose en el asesoramiento y litigios generales de comercio exterior y aduanas.`,
+    desc3: `En su práctica, brinda asesoramiento aduanero durante todos los pasos del proceso de
+importación y exportación, y representa a los clientes ante todas las oficinas de aduanas, en
+cualquier procedimiento administrativo y / o judicial.`,
     desc4: "",
     desc5: "",
     desc6: "",
+    education: [
+      "Abogado - Universidad Católica Argentina",
+      "Estudios de posgrado en aduanas y en impuestos - Universidad de Buenos Aires",
+    ],
+    afiliations: [
+      "Asociación Argentina de Estudios Fiscales (AAEF)",
+      "Instituto Argentino de Estudios Aduaneros (IAEA).",
+    ],
+    specializations: ["Derecho Aduanero"],
   },
   {
     id: 21,
@@ -483,13 +695,24 @@ mercado.`,
     image: sinCara,
     practice: ["Aduana"],
     name: "Valentina Kripper",
-    mail: "",
-    desc1: "",
-    desc2: "",
-    desc3: "",
+    mail: "valentina.kripper@andersen.com",
+    desc1: `Ha sido miembro del Departamento de Aduanas y Comercio Exterior en reconocidas firmas de
+abogados como O'Farrell, Bruchou Fernández Madero y Lombardi, Petersen y Cotter Moine.`,
+    desc2: `Tiene una vasta experiencia asesorando a las empresas sobre operaciones de importación y
+exportación; representando a las empresas en los procedimientos aduaneros; asesorar sobre las
+Regulaciones de Cambio; Investigaciones.`,
+    desc3: `Desde 2008 ha participado en los cursos y reuniones periódicas sobre Aduanas de la Asociación
+Argentina de Estudios Fiscales. Participó en la Reunión Internacional sobre Derecho Aduanero,
+organizada por la Asociación mencionada, habiendo presentado documentos en 2011, 2012 y
+2015.`,
     desc4: "",
     desc5: "",
     desc6: "",
+    education: [
+      "Abogada - Universidad Nacional de Tucumán",
+      "Máster en Comercio Internacional - Universidad Nacional de Tres de Febrero",
+    ],
+    specializations: ["Derecho Aduanero", "Comercio Exterior"],
   },
   {
     id: 21,
@@ -497,20 +720,20 @@ mercado.`,
     image: sinCara,
     practice: ["Impuestos"],
     name: "Mariano Federico del Amo",
-    mail: "",
-    desc1: `Es Contador Público, graduado en la Universidad de Buenos Aires (UBA) y ha
-realizado un postgrado de Especialización en Impuestos en la Universidad
-de Belgrano.`,
-    desc2: `Posee amplio conocimiento para el asesoramiento impositivo tanto
-nacional como provincial. Se destaca por su amplia experiencia en la
-confección de declaraciones juradas mensuales y anuales; confección de
-recuperos de IVA por Exportación, determinación coeficientes CM y DDJJ CM
-05, atención de inspecciones, entre otros.`,
+    mail: "mariano.delamo@ar.Andersen.com",
+    desc1: `Posee amplio conocimiento para el asesoramiento impositivo tanto nacional como provincial. Se
+destaca por su amplia experiencia en la confección de declaraciones juradas mensuales y anuales;
+confección de recuperos de IVA por Exportación, determinación coeficientes CM y DDJJ CM 05,
+atención de inspecciones, entre otros.`,
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contador Público",
+    education: [
+      "Contador Público - Universidad de Buenos Aires",
+      "Posgrado en impuestos - Universidad de Belgrano",
+    ],
+    specializations: ["Impuestos"],
   },
   {
     id: 21,
@@ -518,16 +741,18 @@ recuperos de IVA por Exportación, determinación coeficientes CM y DDJJ CM
     image: sinCara,
     practice: ["Impuestos"],
     name: "Mariana Vallejo",
-    mail: "",
-    desc1:
-      "Es Contadora Publica graduada en la Universidad Nacional de La Plata (U.N.L.P.).",
-    desc2: `Posee amplia experiencia en asesoramiento en materia tributaria, análisis y revisión
-de impuestos nacionales, y provinciales.`,
-    desc3: `Ha participado en el dictado de cursos internos de capacitación en el área impositiva.`,
+    mail: "mariana.vallejo@ar.Andersen.com",
+    desc1: `Posee amplia experiencia en asesoramiento en materia tributaria, análisis y revisión de impuestos
+nacionales, y provinciales.`,
+    desc2: `Ha participado en el dictado de cursos internos de capacitación en el área impositiva.`,
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contadora Publica",
+    education: [
+      "Contadora Pública - Universidad Nacional de La Plata",
+      "Idiomas: español, inglés",
+    ],
+    specializations: ["Impuestos"],
   },
   {
     id: 21,
@@ -535,20 +760,22 @@ de impuestos nacionales, y provinciales.`,
     image: sinCara,
     practice: ["Impuestos"],
     name: "Martín Depaola",
-    mail: "",
-    desc1:
-      "Es Contador Publico egresado de la Universidad de Buenos Aires (UBA).",
-    desc2: `Posee amplia experiencia en asesoramiento en materia impositiva, análisis y
-revisión de impuestos nacionales, y provinciales adquirida en Estudios de diversas
-envergaduras. Es miembro adherente de la Asociación Argentina de Estudios
-Fiscales (AAEF).`,
-    desc3: `Ha participado en el dictado de cursos internos de capacitación en el área
-impositiva. Auxiliar docente a cargo de “Teoría y Técnica Impositiva II” y
-“Régimen Tributario” en la UBA Facultad de Ciencias Económicas.`,
+    mail: "martin.depaola@ar.Andersen.com",
+    desc1: `Posee amplia experiencia en asesoramiento en materia impositiva, análisis y revisión de impuestos
+nacionales, y provinciales adquirida en Estudios de diversas envergaduras`,
+    desc2: `Ha participado en el dictado de cursos internos de capacitación en el área impositiva. Auxiliar
+docente a cargo de “Teoría y Técnica Impositiva II” y “Régimen Tributario” en la UBA Facultad de
+Ciencias Económicas.`,
+    desc3: ``,
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contador Público",
+    education: [
+      "Contador Público - Universidad de Buenos Aires",
+      "Idiomas: español, inglés y alemán",
+    ],
+    afiliations: ["Asociación Argentina de Estudios Fiscales (AAEF)"],
+    specializations: ["Impuestos"],
   },
 
   {
@@ -557,19 +784,16 @@ impositiva. Auxiliar docente a cargo de “Teoría y Técnica Impositiva II” y
     image: sinCara,
     practice: ["Impuestos"],
     name: "Maria José Ermocida",
-    mail: "",
-    desc1:
-      "Es Contadora Publica graduada en la Universidad de Buenos Aires (UBA).",
-    desc2: `Posee amplia experiencia en asesoramiento en materia impositiva, análisis y
-revisión de impuestos nacionales, y provinciales adquirida en Estudios de diversas
-envergaduras.`,
-    desc3: `Es miembro adherente de la Asociación Argentina de Estudios Fiscales (AAEF).
-Ha participado en el dictado de cursos internos de capacitación en el área
-impositiva.`,
+    mail: "mariajose.ermocida@ar.Andersen.com",
+    desc1: `Posee amplia experiencia en asesoramiento en materia impositiva, análisis y revisión de impuestos
+nacionales, y provinciales adquirida en Estudios de diversas envergaduras. Ha participado en el
+dictado de cursos internos de capacitación en el área impositiva.`,
     desc4: "",
     desc5: "",
     desc6: "",
-    education: "Contadora Publica",
+    education: ["Contadora Publica - Universidad de Buenos Aires"],
+    afiliations: ["Asociación Argentina de Estudios Fiscales (AAEF)"],
+    specializations: ["Impuestos"],
   },
 ];
 

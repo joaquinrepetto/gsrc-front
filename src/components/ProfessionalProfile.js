@@ -49,6 +49,88 @@ export default function ProfessionalProfile(props) {
               <div className="row hero-image" style={{ padding: "0px 20px" }}>
                 <img src={props.location.state.image} alt="" />
               </div>
+              <div className="row">
+                <div className="column medium-12">
+                  <div
+                    className="row hero-image"
+                    style={{ padding: "0px 20px" }}
+                  >
+                    <div className="row">
+                      <div className="column medium-10">
+                        <h2>{props.location.state.name}</h2>
+                      </div>
+                      <div className="column medium-2">
+                        <div className="row">
+                          <div
+                            className="column small-6"
+                            style={{ display: "flex" }}
+                          >
+                            <img
+                              src={linkedin}
+                              onClick={() =>
+                                window.location.replace(
+                                  props.location.state.linkedin
+                                )
+                              }
+                              style={{ width: "70%", cursor: "pointer" }}
+                            />
+                            <img
+                              src={email}
+                              onClick={() =>
+                                (window.location.href = `mailto:${props.location.state.mail}`)
+                              }
+                              style={{
+                                width: "70%",
+                                marginLeft: "20px",
+                                cursor: "pointer",
+                              }}
+                            />
+                          </div>
+                          <div className="column small-6"></div>
+                        </div>
+                      </div>
+                      <div className="column medium-12">
+                        <h4 style={{ color: "#67737E" }}>
+                          {props.location.state.type === "socio"
+                            ? "Socio"
+                            : "Manager"}{" "}
+                        </h4>
+                      </div>
+                      <div className="column medium-12">
+                        <p>
+                          {props.location.state.desc1 &&
+                            props.location.state.desc1}
+                        </p>
+
+                        <p>
+                          {props.location.state.desc2 &&
+                            props.location.state.desc2}
+                        </p>
+
+                        <p>
+                          {props.location.state.desc3 &&
+                            props.location.state.desc3}
+                        </p>
+
+                        <p>
+                          {props.location.state.desc4 &&
+                            props.location.state.desc4}
+                        </p>
+
+                        <p>
+                          {props.location.state.desc5 &&
+                            props.location.state.desc5}
+                        </p>
+
+                        <p>
+                          {props.location.state.desc6 &&
+                            props.location.state.desc6}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="column medium-4" style={{ padding: "0px" }}>
               <div className="cuadrado">
@@ -61,69 +143,43 @@ export default function ProfessionalProfile(props) {
                 </h6>
                 <br />
                 <h5>Teléfono</h5>
-                <h6>(51 11) 4390-9700</h6>
+                <h6>+ 54 11 4390-9700</h6>
                 <br />
                 <h5>Educación</h5>
-                <h6>{props.location.state.education}</h6>
-              </div>
-            </div>
-          </div>
+                <h6>
+                  {props.location.state.education
+                    ? props.location.state.education.map((e) => (
+                        <ul>
+                          <li style={{ listStyleType: "disc" }}>{e}</li>
+                        </ul>
+                      ))
+                    : null}
+                </h6>
 
-          <div className="row">
-            <div className="column medium-8">
-              <div className="row hero-image" style={{ padding: "0px 20px" }}>
-                <div className="row">
-                  <div className="column medium-10">
-                    <h2>{props.location.state.name}</h2>
-                  </div>
-                  <div className="column medium-2">
-                    <div className="row">
-                      <div
-                        className="column small-6"
-                        style={{ display: "flex" }}
-                      >
-                        <img src={linkedin} style={{ width: "70%" }} />
-                        <img
-                          src={email}
-                          style={{ width: "70%", marginLeft: "20px" }}
-                        />
-                      </div>
-                      <div className="column small-6"></div>
-                    </div>
-                  </div>
-                  <div className="column medium-12">
-                    <h4 style={{ color: "#67737E" }}>
-                      {props.location.state.type === "socio"
-                        ? "Socio"
-                        : "Manager"}{" "}
-                    </h4>
-                  </div>
-                  <div className="column medium-12">
-                    <p>
-                      {props.location.state.desc1 && props.location.state.desc1}
-                    </p>
-
-                    <p>
-                      {props.location.state.desc2 && props.location.state.desc2}
-                    </p>
-
-                    <p>
-                      {props.location.state.desc3 && props.location.state.desc3}
-                    </p>
-
-                    <p>
-                      {props.location.state.desc4 && props.location.state.desc4}
-                    </p>
-
-                    <p>
-                      {props.location.state.desc5 && props.location.state.desc5}
-                    </p>
-
-                    <p>
-                      {props.location.state.desc6 && props.location.state.desc6}
-                    </p>
-                  </div>
-                </div>
+                {props.location.state.specializations ? (
+                  <h5>Afiliaciones</h5>
+                ) : null}
+                <h6>
+                  {props.location.state.afiliations
+                    ? props.location.state.afiliations.map((a) => (
+                        <ul>
+                          <li style={{ listStyleType: "disc" }}>{a}</li>
+                        </ul>
+                      ))
+                    : null}
+                </h6>
+                {props.location.state.specializations ? (
+                  <h5>Áreas de especialización</h5>
+                ) : null}
+                <h6>
+                  {props.location.state.specializations
+                    ? props.location.state.specializations.map((s) => (
+                        <ul>
+                          <li style={{ listStyleType: "disc" }}>{s}</li>
+                        </ul>
+                      ))
+                    : null}
+                </h6>
               </div>
             </div>
             <div className="column medium-4" style={{ padding: "0px" }}>

@@ -1076,7 +1076,9 @@ export default function Proffessionals() {
                         </Link>
                       </td>
                       <td class="areas">
-                        {socio.practice}
+                        {socio.practice.map((p) => (
+                          <li>{p}</li>
+                        ))}
                         <br />
                       </td>
                       <td class="correo">

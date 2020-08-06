@@ -637,7 +637,7 @@ impuestos. She has worked at Deloitte Peru and Deloitte Argentina for 10 years a
   },
   {
     id: 21,
-    type: "socio",
+    type: "manager",
     image: socio16,
     practice: ["Tax"],
     name: "Mariano Federico del Amo",

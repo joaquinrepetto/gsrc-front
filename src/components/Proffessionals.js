@@ -759,7 +759,7 @@ organizada por la Asociación mencionada, habiendo presentado documentos en 2011
   },
   {
     id: 21,
-    type: "socio",
+    type: "manager",
     image: socio16,
     practice: ["Impuestos"],
     name: "Mariano Federico del Amo",

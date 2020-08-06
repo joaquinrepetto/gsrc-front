@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { lang } from "moment";
 
 const locations = [
   "Brazil",
@@ -148,25 +149,55 @@ export default function Navbar() {
                           }}
                         >
                           <li style={{ width: "100%", fontSize: "15px" }}>
-                            <Link to="/servicioslegales">
-                              <a>Servicios Legales</a>
+                            <Link
+                              to={
+                                language === "es"
+                                  ? "/servicioslegales"
+                                  : "/legalservices"
+                              }
+                            >
+                              <a>
+                                {language === "es"
+                                  ? "Servicios Legales"
+                                  : "Legal Services"}
+                              </a>
                             </Link>
                           </li>
                           <li style={{ width: "100%", fontSize: "15px" }}>
-                            <Link to="/servicioscontables">
-                              <a>Servicios Tributarios y Contables</a>
+                            <Link
+                              to={
+                                language === "es"
+                                  ? "/servicioscontables"
+                                  : "/contable-services"
+                              }
+                            >
+                              <a>
+                                {language === "es"
+                                  ? "Servicios Tributarios y Contables"
+                                  : "Tax and Accounting Services"}
+                              </a>
                             </Link>
                           </li>
                           <li style={{ width: "100%", fontSize: "15px" }}>
-                            <Link to="/bpo">
-                              {" "}
+                            <Link
+                              to={language === "es" ? "/bpo" : "/bpo-english"}
+                            >
                               <a>Business Process Outsourcing (BPO)</a>
                             </Link>
                           </li>
                           <li style={{ width: "100%", fontSize: "15px" }}>
-                            <Link to="/sociedades">
-                              {" "}
-                              <a>Sociedades</a>
+                            <Link
+                              to={
+                                language === "es"
+                                  ? "/sociedades"
+                                  : "/corporations"
+                              }
+                            >
+                              <a>
+                                {language === "es"
+                                  ? "Sociedades"
+                                  : "Corporations"}
+                              </a>
                             </Link>
                           </li>
                           {/* <li style={{ width: "100%", fontSize: "15px" }}>

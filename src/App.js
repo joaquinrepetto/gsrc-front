@@ -90,7 +90,7 @@ class App extends React.Component {
               exact
             />
             <Route path="/services-english" component={ServicesEnglish} exact />
-            <Route path="/soc-english" component={SocEnglish} exact />
+            <Route path="/corporations" component={SocEnglish} exact />
             <Route path="/work-english" component={WorkWithUsEnglish} exact />
           </Switch>
           <Footer />

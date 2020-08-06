@@ -31,7 +31,7 @@ export default function LegalServices() {
 
           <div class="column medium-4">
             <ul class="social-links inner">
-              <p class="share-label">Share:</p>
+              <p class="share-label">Compartir:</p>
               <li class="social-link facebook">
                 <a href="#">Facebook</a>
               </li>

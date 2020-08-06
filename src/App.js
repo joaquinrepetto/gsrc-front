@@ -20,6 +20,18 @@ import News from "./components/News";
 import Contact from "./components/Contact";
 import TermsAndConditions from "./components/TermsAndConditions";
 import ProfessionalProfile from "./components/ProfessionalProfile";
+import HomeEnglish from "./components/english/HomeEnglish";
+import BpoEnglish from "./components/english/BpoEnglish";
+import ContableServicesEnglish from "./components/english/ContableServicesEnglish";
+import ContactEnglish from "./components/english/ContactEnglish";
+import GlobalPresenceEnglish from "./components/english/GlobalPresenceEnglish";
+import LegalServicesEnglish from "./components/english/LegalServicesEnglish";
+import OurFirmEnglish from "./components/english/OurFirmEnglish";
+import ProfessionalProfileEnglish from "./components/english/ProfessionalProfileEnglish";
+import ProffessionalsEnglish from "./components/english/ProffessionalsEnglish";
+import ServicesEnglish from "./components/english/ServicesEnglish";
+import WorkWithUsEnglish from "./components/english/WorkWithUsEnglish";
+import SocEnglish from "./components/english/SocEnglish";
 
 class App extends React.Component {
   render() {
@@ -48,6 +60,38 @@ class App extends React.Component {
             <Route path="/trabaja" component={WorkWithUs} exact />
             <Route path="/contacto" component={Contact} exact />
             <Route path="/terminos" component={TermsAndConditions} exact />
+            <Route path="/home-english" component={HomeEnglish} exact />
+            <Route
+              path="/contable-services"
+              component={ContableServicesEnglish}
+              exact
+            />
+            <Route path="/contact" component={ContactEnglish} exact />
+            <Route
+              path="/globalpresence"
+              component={GlobalPresenceEnglish}
+              exact
+            />
+            <Route path="/bpo-english" component={BpoEnglish} exact />
+            <Route
+              path="/legalservices"
+              component={LegalServicesEnglish}
+              exact
+            />
+            <Route path="/ourfirm" component={OurFirmEnglish} exact />
+            <Route
+              path="/professionalprofile"
+              component={ProfessionalProfileEnglish}
+              exact
+            />
+            <Route
+              path="/proffessionals"
+              component={ProffessionalsEnglish}
+              exact
+            />
+            <Route path="/services-english" component={ServicesEnglish} exact />
+            <Route path="/soc-english" component={SocEnglish} exact />
+            <Route path="/work-english" component={WorkWithUsEnglish} exact />
           </Switch>
           <Footer />
         </BrowserRouter>

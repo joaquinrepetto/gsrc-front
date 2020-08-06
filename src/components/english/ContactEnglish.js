@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-export default function Contact() {
+export default function ContactEnglish() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -13,15 +13,15 @@ export default function Contact() {
             <div class="top">
               <div class="breadcrumbs ">
                 <span class="crumb home">
-                  <a href="/">Inicio</a>
+                  <a href="/home-english">Home</a>
                 </span>
                 <span class="crumb interior">
-                  <a href="#">Contáctenos</a>
+                  <a href="#">Contact Us</a>
                 </span>
               </div>
 
               <ul class="social-links social-hero">
-                <p class="share-label">Compartir:</p>
+                <p class="share-label">Share:</p>
                 <li class="social-link facebook">
                   <a href="#">Facebook</a>
                 </li>
@@ -35,7 +35,7 @@ export default function Contact() {
             </div>
 
             <div class="text">
-              <h1>Contáctenos</h1>
+              <h1>Contac Us</h1>
             </div>
           </div>
         </div>
@@ -44,25 +44,25 @@ export default function Contact() {
         <div className="column small-12 medium-6">
           <form>
             <label>
-              Nombre
+              Name
               <input type="text" name="name" />
             </label>
 
             <form>
               <label>
-                Email (OBLIGATORIO)
+                E-mail (REQUIRED)
                 <input type="text" name="name" />
               </label>
             </form>
             <form>
               <label>
-                Asunto
+                Subject
                 <input type="text" name="name" />
               </label>
             </form>
             <form>
               <label>
-                Mensaje (OBLIGATORIO)
+                Message (REQUIRED)
                 <input style={{ height: "12rem" }} type="text" name="name" />
               </label>
               <input
@@ -73,7 +73,7 @@ export default function Contact() {
                   border: "none",
                 }}
                 type="submit"
-                value="Enviar"
+                value="Send"
               />
             </form>
           </form>
@@ -83,7 +83,7 @@ export default function Contact() {
             <div className="row">
               <div className="column medium-12">
                 <h6 style={{ color: "#AC0E20", fontWeight: "600" }}>
-                  OFICINAS EN BUENOS AIRES
+                  OFFICES EN BUENOS AIRES
                 </h6>
               </div>
             </div>
@@ -91,9 +91,9 @@ export default function Contact() {
               <div className="column medium-6">
                 <p style={{ margin: "0px" }}>Talcahuano 833 - Piso 10</p>
                 <p style={{ margin: "0px" }}>
-                  C1013AAQ - Buenos Aires - Argentina
+                  C1013AAQ - Buenos Aires City - Argentina
                 </p>
-                <p style={{ margin: "0px" }}>Tel: (54 11) 4390 9700</p>
+                <p style={{ margin: "0px" }}>Ph: (54 11) 4390 9700</p>
               </div>
               <div className="column medium-6">
                 <div className="row">

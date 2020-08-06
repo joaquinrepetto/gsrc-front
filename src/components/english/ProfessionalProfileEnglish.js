@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import linkedin from "../assets/img/linkedin.png";
-import email from "../assets/img/email.png";
+import linkedin from "../../assets/img/linkedin.png";
+import email from "../../assets/img/email.png";
 
 export default function ProfessionalProfile(props) {
   useEffect(() => {

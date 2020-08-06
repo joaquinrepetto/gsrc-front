@@ -15,7 +15,7 @@ import socio8 from "../assets/partners/Diego-Kelln.jpg";
 import socio9 from "../assets/partners/Edith-Mazzer.jpg";
 import socio10 from "../assets/partners/Francisco-Peris.jpg";
 import socio11 from "../assets/partners/juan-astibia.jpg";
-import socio12 from "../assets/partners/Juan de Cabo.jpg";
+import socio12 from "../assets/partners/juan-de-cabo-ok.jpg";
 import socio13 from "../assets/partners/Julieta-Firpo.jpg";
 import socio14 from "../assets/partners/luis-maria-flores-gomez.jpg";
 import socio15 from "../assets/partners/maria-jose-ermocida.jpg";
@@ -27,7 +27,7 @@ import socio20 from "../assets/partners/Pedro-Negri-Atanguren.jpg";
 import socio21 from "../assets/partners/Romina-caceres.jpg";
 import socio22 from "../assets/partners/Sofia-palucci.jpg";
 import socio23 from "../assets/partners/Valentina-Kripper.jpg";
-import socio24 from "../assets/partners/Victor del Valle.jpg";
+import socio24 from "../assets/partners/victor-del-valle-ok.jpg";
 import socio25 from "../assets/partners/zulema-gouveia.jpg";
 
 const socios = [
@@ -42,6 +42,7 @@ const socios = [
       "Wealth Managment Office",
     ],
     mail: "cecilia.goldemberg@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/cecilia-goldemberg-44765719",
     // desc1:
     //   "Cecilia Goldenberg has experience in national and international tax planning, with special focus on the definition and follow-up of tax litigation strategies. She specializes in transfer pricing and international taxation.",
     // desc2:
@@ -86,6 +87,7 @@ Estudios Fiscales y ex profesora de la Universidad de Buenos Aires.`,
     practice: ["Impuestos", "Contabilidad"],
     name: "Andrés Carlos Saladino",
     mail: "andres.saladino@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/andres-c-saladino-02898b3",
     // desc1:
     //   "Andres Saldino was previously an advisor for the Ministry of Economy of the Nation Cabinet. He has vast experience in national and international tax planning, with special focus in companies dedicated to social media. He has published a variety of articles specialized in public tax.",
     // desc2:
@@ -120,6 +122,7 @@ Capital Federal`,
     practice: ["Impuestos", "Contabilidad"],
     name: "Félix José Rolando",
     mail: "felix.rolando@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/felix-jose-rolando-62662a26",
     // desc1:
     //   "Felix Rolando was previously an advisor for the Ministry of Economy of the Nation Cabinet. He is an active member of the advisor committee of taxation at the A.F.I.P in representation of the Graduate School at the Science Economics in CABA. He is also a member of the Taxation Studies Commission at the same entity.",
     // desc2:
@@ -171,6 +174,7 @@ Graduados en Ciencias Económicas de CABA`,
     practice: ["Impuestos", "Contabilidad"],
     name: "Gabriela Clerc",
     mail: "gabriela.clerc@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/maria-gabriela-clerc-36105142",
     // desc1:
     //   "Gabriela Clerc is has experience in tax and retirement counseling, and analysis and revision of federal, provincial and municipal taxes. She has conducted tax and retirement audits, and tax planning. She gained her expertise at an international specialized firm where she served as Tax Manager. Her academic experience includes a tenured position as assistant professor for the Taxes: Theory and Techniques course; she also taught internal training courses for the technical staff.",
     // desc2:
@@ -206,6 +210,7 @@ Celdeiro. Es miembro de la Asociación Argentina de Estudios Fiscales.`,
     practice: ["Outsorcing contable y de nóminas"],
     name: "Carmen Susana Vaccaro",
     mail: "susana.vaccaro@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/carmen-susana-vaccaro-b7965185",
     // desc1:
     //   "Carmen Vaccaro actively participates in corporate transformation and due diligence processes, and she is an expert in Anti-Money Laundering and Counter Terrorism Financing Regulations issued by the Argentine UIF (Financial Information Unit). She is specialized in accounting and payroll reports and communications to the BCRA (Central Bank of the Argentine Republic).   ",
     desc1: `Lidera el área de Business Process Solutions (BPS), tiene sólida experiencia en armado y análisis de
@@ -234,6 +239,7 @@ parte y Comunicaciones del BCRA.`,
     practice: ["Legal"],
     name: "Juan Astibia",
     mail: "juan.astibia@ar.Andersen.com",
+    linkedin: "https://www.linkedin.com/in/juanastibia/",
     desc1: `Hasta marzo de 2015, se desempeñó como Gerente Senior a cargo de la División Legal de Deloitte
 Argentina. Después de trabajar para Deloitte, él y sus colegas fundaron MODO LAW, una firma
 innovadora de servicios legales.`,
@@ -263,6 +269,7 @@ asesoramiento de grandes proyectos de inversión en Argentina.`,
     practice: ["Legal"],
     name: "Juan Manuel de Cabo",
     mail: "juan.decabo@ar.Andersen.com",
+    linkedin: "https://www.linkedin.com/in/juan-manuel-de-cabo/",
     desc1: `Juan Manuel es abogado y licenciado en tributación en la Universidad de Buenos Aires.
 Actualmente está estudiando para convertirse en contador público en la Universidad de Buenos
 Aires. Tiene un certificado internacional en Cumplimiento de la Asociación Argentina de Ética y
@@ -291,6 +298,8 @@ CEMA.`,
     practice: ["Legal"],
     name: "Luis Maria Flores Gimenez",
     mail: "luismaria.floresgimenez@ar.Andersen.com",
+    linkedin:
+      "https://www.linkedin.com/in/luis-mar%C3%ADa-flores-gimenez-b6a35a54/",
     desc1: `Luis María Flores Giménez es un abogado graduado de la Universidad de Belgrano con estudios de
 posgrado en Derecho Tributario en la Universidad Católica de Argentina.`,
     desc2: `Después de trabajar para Deloitte Argentina, donde había estado a cargo de la práctica de
@@ -322,6 +331,7 @@ Luis María ha tenido derecho a litigar ante los tribunales.`,
     practice: ["Legal"],
     name: "Bartolome Homar Mas",
     mail: "bartolome.homarmas@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/bartolomé-homar-más-03b73a8",
     desc1: `Comenzó su carrera en 1997 trabajando como paralegal en Maciel Norman Martelli &amp; Beretta, una
 firma de abogados boutique especializada en petróleo y gas. En el año 2000 se graduó como
 abogado de la Universidad de Buenos Aires. En el 2003 obtuvo una Maestría en International
@@ -373,6 +383,7 @@ Unido`,
     practice: ["Legal"],
     name: "Martin Jandula",
     mail: "juan.fischer@uy.Andersen.com",
+    linkedin: "https://www.linkedin.com/in/martin-miguel-j%C3%A1ndula-1a16658/",
     desc1: `Martín es abogado con amplia experiencia en servicios generales de asesoría corporativa para
 compañías multinacionales, corporaciones cercanas y pequeñas y medianas empresas.`,
     desc2: `Después de haber trabajado para Deloitte Argentina durante 8 años, él y sus colegas fundaron
@@ -394,6 +405,7 @@ como asesoramiento corporativo general.`,
     practice: ["Impuestos"],
     name: "Diego Kelln",
     mail: "diego.kelln@ar.Andersen.com",
+    linkedin: "https://www.linkedin.com/in/diego-kelln-340662b/",
     desc1: `Cuenta con más de 19 años de experiencia en asesoramiento fiscal, brindando servicios tanto a
 compañía locales como internacionales de diferentes industrias tales como agronegocios, seguros,
 retail, servicios y software.`,
@@ -431,6 +443,7 @@ Ciudad Autónoma de Buenos Aires.`,
     practice: ["Impuestos"],
     name: "Pablo Lo Vento",
     mail: "pablo.lovento@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/pablo-lo-vento-438b942b",
     // desc1:
     //   "Pablo Lo Vento has experience in tax counseling, and in federal, provincial and municipal tax analysis and revision. He is an adhering member of the Argentine Association of Fiscal Studies (Asociación Argentina de Estudios Fiscales – AAEF) and has taught internal and external training courses on tax issues.",
     desc1: `
@@ -455,6 +468,7 @@ externos de capacitación en el área impositiva.`,
     image: socio9,
     practice: ["Outsourcing Contable"],
     name: "Edith Mazzer",
+    linkedin: "",
     mail: "edith.mazzer@ar.Andersen.com",
     // desc1:
     //   "Edith Mazzer has experience in outsourcing for companies of different sizes. She has also specialized in the preparation of local and international reports, and auditing financial statements prepared pursuant to Argentine accounting principles, U.S. GAAP and International Accounting Standards (IASs). She has experience in mergers and demergers, due diligence processes, integral audits, internal controls and processes analysis. She has given in-company training courses.",
@@ -478,6 +492,7 @@ cursos internos de capacitación.`,
     practice: ["Outsourcing de Nóminas"],
     name: "Victor del Valle",
     mail: "victor.delvalle@ar.Andersen.com",
+    linkedin: "https://www.linkedin.com/in/victor-adrian-del-valle-60240b15/",
     // desc1:
     //   "Victor Adrian Del Valle has experience in the design and implementation of Human Resources policies and procedures and also in the analysis of wage and salary structures. He has vast knowledge of the work and labor laws in force and of applicable quality standards. Victor has directed payroll processes, benefit and compensation policies and personnel administration at international and Argentine companies and also SMEs and renowned firms. He has successfully implemented IT systems for Human Resources management and administration. He has given in-company training courses for employees on wage and salaries, taxes and legal issues, among others. ",
     desc2: `Se destaca por su experiencia en el diseño e implementación de políticas y procedimientos de
@@ -503,6 +518,7 @@ Sociales, Auditorias, Peritajes).`,
     practice: ["Sociedades"],
     name: "Zulema Gouveia",
     mail: "zulema.gouveia@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/maría-zulema-gouveia-b30b57b8",
     // desc1:
     //   "Zulema has large experience in corporate aspects, with specific focus in the constitution of companies, modifications of financial statement, norms made by control. ",
     // desc2: "",
@@ -523,6 +539,7 @@ emanadas de los organismos de control.`,
     practice: ["Asignaciones Internacionales", "Impuestos"],
     name: "Amanda Julca",
     mail: "amanda.julca@ar.Andersen.com",
+    linkedin: "https://www.linkedin.com/in/amanda-julca-06a66613/",
     // desc1:
     //   "Amanda is a Public Accountant and previously worked at Deloitte Peru and Deloitte Argentina for 10 years as a tax specialist. She also participated in the V.I.T.A program for the IRS. She has experience in tax due diligence, merger and acquisitions and tax counseling.",
     desc1: `Ha trabajado en Deloitte Perú y Deloitte Argentina durante 10 años como especialista en
@@ -547,6 +564,7 @@ regional de impuestos para American Express.`,
     practice: ["Precios de Transferencia", "Valuaciones de Empresas"],
     name: "Julieta Firpo",
     mail: "julieta.firpo@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/julieta-mariana-firpo-0a228526",
     // desc1:
     //   "Julieta Firpo has vast experience in the preparation and filing of reports and counseling documents on Transfer Pricing, tax planning, supervisory issues, sector economic and macroeconomic reports, cost analysis, industry analysis, intra-group transaction structuring, profitability analysis per production line, interest rate determination and market profitability.",
     // desc2:
@@ -574,6 +592,7 @@ tasas de interés y rentabilidades de mercado.`,
     practice: ["Impuestos"],
     name: "Sofía Palucci",
     mail: "sofia.paulucci@ar.Andersen.com",
+    linkedin: "https://www.linkedin.com/in/sofia-victoria-paulucci-65424144/",
     // desc1:
     //   "A Sofía Paulucci is a tax consultant and has high expertise in federal, provincial and municipal tax analysis and review.",
     // desc2:
@@ -593,6 +612,7 @@ tasas de interés y rentabilidades de mercado.`,
     practice: ["Legal"],
     name: "Romina Caceres Villagra",
     mail: "romina.caceresvillagra@ar.Andersen.com",
+    linkedin: "https://www.linkedin.com/in/rpcaceresvillagra/",
     desc1:
       "Romina es Gerente de Impuestos y Asuntos Legales en Andersen Argentina.",
     desc2: `Trabajó durante más de 5 años en Techint, una de las empresas más grandes de Argentina y
@@ -655,6 +675,7 @@ tributario); Abogada especializado en derecho fiscal y mercantil. Licenciado.`,
     practice: ["Legal"],
     name: "Francisco Peris",
     mail: "Francisco.peris@ar.andersen.com",
+    linkedin: "https://www.linkedin.com/in/francisco-peris-7a32518a/",
     desc1: `Tiene una vasta experiencia en servicios administrativos y de controversia tributaria,
 especializándose en litigios ante tribunales y oficinas fiscales federales, provinciales y municipales.
 Como litigante, ha estado involucrado en varios casos que sientan un precedente en asuntos
@@ -688,6 +709,7 @@ derecho a litigar ante los tribunales federales.`,
     practice: ["Aduana"],
     name: "Pedro Negri Aranguren",
     mail: "pedro.negri@ar.andersen.com",
+    linkedin: "https://www.linkedin.com/in/pedro-negri-aranguren-b844b66a/",
     desc1: `Tiene estudios de posgrado en impuestos, en la Universidad de Buenos Aires, y estudios de
 posgrado en aduanas, en la Universidad de Buenos Aires.`,
     desc2: `Obtuvo su experiencia en el Departamento de Impuestos de Estudio Negri &amp; Teijeiro Abogados, y
@@ -716,6 +738,7 @@ cualquier procedimiento administrativo y / o judicial.`,
     practice: ["Aduana"],
     name: "Valentina Kripper",
     mail: "valentina.kripper@andersen.com",
+    linkedin: "https://www.linkedin.com/in/valentina-kripper-6a00b14a/",
     desc1: `Ha sido miembro del Departamento de Aduanas y Comercio Exterior en reconocidas firmas de
 abogados como O'Farrell, Bruchou Fernández Madero y Lombardi, Petersen y Cotter Moine.`,
     desc2: `Tiene una vasta experiencia asesorando a las empresas sobre operaciones de importación y
@@ -741,6 +764,7 @@ organizada por la Asociación mencionada, habiendo presentado documentos en 2011
     practice: ["Impuestos"],
     name: "Mariano Federico del Amo",
     mail: "mariano.delamo@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/mariano-federico-del-amo-4983321b",
     desc1: `Posee amplio conocimiento para el asesoramiento impositivo tanto nacional como provincial. Se
 destaca por su amplia experiencia en la confección de declaraciones juradas mensuales y anuales;
 confección de recuperos de IVA por Exportación, determinación coeficientes CM y DDJJ CM 05,
@@ -762,6 +786,7 @@ atención de inspecciones, entre otros.`,
     practice: ["Impuestos"],
     name: "Mariana Vallejo",
     mail: "mariana.vallejo@ar.Andersen.com",
+    linkedin: "",
     desc1: `Posee amplia experiencia en asesoramiento en materia tributaria, análisis y revisión de impuestos
 nacionales, y provinciales.`,
     desc2: `Ha participado en el dictado de cursos internos de capacitación en el área impositiva.`,
@@ -781,6 +806,7 @@ nacionales, y provinciales.`,
     practice: ["Impuestos"],
     name: "Martín Depaola",
     mail: "martin.depaola@ar.Andersen.com",
+    linkedin: "https://linkedin.com/in/martín-depaola-51635892",
     desc1: `Posee amplia experiencia en asesoramiento en materia impositiva, análisis y revisión de impuestos
 nacionales, y provinciales adquirida en Estudios de diversas envergaduras`,
     desc2: `Ha participado en el dictado de cursos internos de capacitación en el área impositiva. Auxiliar
@@ -805,6 +831,7 @@ Ciencias Económicas.`,
     practice: ["Impuestos"],
     name: "Maria José Ermocida",
     mail: "mariajose.ermocida@ar.Andersen.com",
+    linkedin: "",
     desc1: `Posee amplia experiencia en asesoramiento en materia impositiva, análisis y revisión de impuestos
 nacionales, y provinciales adquirida en Estudios de diversas envergaduras. Ha participado en el
 dictado de cursos internos de capacitación en el área impositiva.`,

@@ -7,7 +7,7 @@ export default function Footer() {
       <div class="footer-columns">
         <div class="row">
           <nav class="column large-3 medium-3 small-6">
-            <h5>Seguinos</h5>
+            <h5 style={{ fontSize: "18px" }}>Seguinos</h5>
 
             <ul class="social footer">
               <li class="social-link linkedin">
@@ -32,7 +32,7 @@ export default function Footer() {
           </nav>
 
           <nav class="column large-3 medium-3 small-6">
-            <h5>Menú</h5>
+            <h5 style={{ fontSize: "18px" }}>Menú</h5>
             <ul>
               <li>
                 <Link to="/nuestrafirma">
@@ -81,16 +81,22 @@ export default function Footer() {
             </ul>
           </nav>
           <nav class="column large-3 medium-3 small-6">
-            <h5>Contacto</h5>
+            <h5 style={{ fontSize: "18px" }}>Oficinas de Buenos Aires</h5>
             <ul>
               <li>
                 <a href="#">Talcahuano 833 - Piso 10º</a>
               </li>
               <li>
-                <a href="#">[C1013AAQ] - CABA - Argentina</a>
+                <a href="#">[C1013AAQ] - Ciudad de Buenos Aires - Argentina</a>
               </li>
               <li>
-                <a href="#">(54 11) 4390-9700 - info@ar.Andersen.com</a>
+                <a href="#">Tel: +54 11 4390-9700</a>
+              </li>
+
+              <li>
+                <Link to="/contacto">
+                  <a>info@ar.Andersen.com</a>
+                </Link>
               </li>
             </ul>
           </nav>

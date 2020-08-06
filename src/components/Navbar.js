@@ -23,6 +23,7 @@ const locations = [
 
 export default function Navbar() {
   const [showServices, setShowServices] = useState(false);
+  const [language, setLanguage] = useState("es");
 
   return (
     <div>
@@ -62,9 +63,20 @@ export default function Navbar() {
 
               <ul className="language-nav">
                 <li>
-                  <a href="#" className="selected">
-                    EN
-                  </a>
+                  <Link to={language === "es" ? "/home-english" : "/"}>
+                    <a
+                      onClick={() => {
+                        if (language === "es") {
+                          setLanguage("en");
+                        } else {
+                          setLanguage("es");
+                        }
+                      }}
+                      className="selected"
+                    >
+                      {language === "es" ? "EN" : "ES"}
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -101,20 +113,28 @@ export default function Navbar() {
                 <div>
                   <ul className="lvl-1 dropdown menu" data-dropdown-menu>
                     <li className="item-1" style={{ fontSize: "15px" }}>
-                      <Link to="/nuestrafirma">
+                      <Link
+                        to={language === "es" ? "/nuestrafirma" : "/ourfirm"}
+                      >
                         {" "}
-                        <a>Nuestra Firma</a>
+                        <a>
+                          {language === "es" ? "Nuestra Firma" : "The Firm"}
+                        </a>
                       </Link>
                       <span></span>
                     </li>
                     <li className="item-2" style={{ fontSize: "15px" }}>
-                      <Link to="/servicios">
+                      <Link
+                        to={
+                          language === "es" ? "/servicios" : "/services-english"
+                        }
+                      >
                         <a
                           onMouseOver={() => setShowServices(true)}
                           // onMouseLeave={() => setShowServices(false)}
                           onClick={() => setShowServices(!showServices)}
                         >
-                          Servicios
+                          {language === "es" ? "Servicios" : "Services"}
                         </a>
                       </Link>
                       {showServices && (
@@ -158,39 +178,60 @@ export default function Navbar() {
                       )}
                     </li>
                     <li className="item-2" style={{ fontSize: "15px" }}>
-                      <Link to="/profesionales">
+                      <Link
+                        to={
+                          language === "es"
+                            ? "/profesionales"
+                            : "/proffessionals"
+                        }
+                      >
                         {" "}
-                        <a>Profesionales</a>{" "}
+                        <a>
+                          {language === "es"
+                            ? "Profesionales"
+                            : "Professionals"}
+                        </a>
                       </Link>
                     </li>
                     <li className="item-3" style={{ fontSize: "15px" }}>
-                      <Link to="/noticias">
-                        {" "}
-                        <a>Noticias</a>
+                      <Link to={language === "es" ? "/noticias" : "/news"}>
+                        <a>{language === "es" ? "Noticias" : "News"}</a>
                       </Link>
                     </li>
                     <li className="item-4" style={{ fontSize: "15px" }}>
-                      <Link to="/trabaja">
-                        {" "}
-                        <a>Trabaja en Andersen</a>
+                      <Link
+                        to={language === "es" ? "/trabaja" : "/work-english"}
+                      >
+                        <a>
+                          {language === "es"
+                            ? "Trabaja en Andersen"
+                            : "Work with us"}
+                        </a>
                       </Link>
                     </li>
                     <li className="item-5" style={{ fontSize: "15px" }}>
-                      <Link to="/oficinas">
-                        {" "}
-                        <a>Oficinas</a>
-                      </Link>{" "}
+                      <Link to={language === "es" ? "/oficinas" : "/oficinas"}>
+                        <a>{language === "es" ? "Oficinas" : "Offices"}</a>
+                      </Link>
                     </li>
                     <li className="item-5" style={{ fontSize: "15px" }}>
-                      <Link to="/presenciaGlobal">
-                        {" "}
-                        <a>Presencia Global</a>
-                      </Link>{" "}
+                      <Link
+                        to={
+                          language === "es"
+                            ? "/presenciaGlobal"
+                            : "/globalpresence"
+                        }
+                      >
+                        <a>
+                          {language === "es" ? "Presencia Global" : "Presence"}
+                        </a>
+                      </Link>
                     </li>
                     <li className="item-5" style={{ fontSize: "15px" }}>
-                      <Link to="/contacto">
-                        {" "}
-                        <a>Contáctenos</a>
+                      <Link to={language === "es" ? "/contacto" : "/contact"}>
+                        <a>
+                          {language === "es" ? "Contáctenos" : "Contact Us"}
+                        </a>
                       </Link>
                     </li>
                   </ul>

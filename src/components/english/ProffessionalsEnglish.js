@@ -757,7 +757,7 @@ export default function ProffessionalsEnglish() {
       <div class="headline-scroller orbit" data-orbit>
         <div class="row large-collapse">
           <div class="column">
-            <h2>Socios</h2>
+            <h2>Partners</h2>
           </div>
         </div>
       </div>
@@ -945,7 +945,7 @@ export default function ProffessionalsEnglish() {
                 <tr>
                   <th></th>
                   <th></th>
-                  <th>Especialidad</th>
+                  <th>Specializations</th>
                   <th>E-mail</th>
                   <th></th>
                 </tr>

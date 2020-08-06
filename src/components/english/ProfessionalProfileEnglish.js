@@ -92,7 +92,7 @@ export default function ProfessionalProfile(props) {
                       <div className="column medium-12">
                         <h4 style={{ color: "#67737E" }}>
                           {props.location.state.type === "socio"
-                            ? "Socio"
+                            ? "Partner"
                             : "Manager"}{" "}
                         </h4>
                       </div>
@@ -134,7 +134,7 @@ export default function ProfessionalProfile(props) {
             </div>
             <div className="column medium-4" style={{ padding: "0px" }}>
               <div className="cuadrado">
-                <h5>Oficina</h5>
+                <h5>Office</h5>
                 <h6>Buenos Aires</h6>
                 <br />
                 <h5>Email</h5>
@@ -142,10 +142,10 @@ export default function ProfessionalProfile(props) {
                   {props.location.state.mail}
                 </h6>
                 <br />
-                <h5>Teléfono</h5>
+                <h5>Phone</h5>
                 <h6>+ 54 11 4390-9700</h6>
                 <br />
-                <h5>Educación</h5>
+                <h5>Education</h5>
                 <h6>
                   {props.location.state.education
                     ? props.location.state.education.map((e) => (
@@ -157,7 +157,7 @@ export default function ProfessionalProfile(props) {
                 </h6>
 
                 {props.location.state.specializations ? (
-                  <h5>Afiliaciones</h5>
+                  <h5>Afiliations</h5>
                 ) : null}
                 <h6>
                   {props.location.state.afiliations
@@ -169,7 +169,7 @@ export default function ProfessionalProfile(props) {
                     : null}
                 </h6>
                 {props.location.state.specializations ? (
-                  <h5>Áreas de especialización</h5>
+                  <h5>Specializations</h5>
                 ) : null}
                 <h6>
                   {props.location.state.specializations

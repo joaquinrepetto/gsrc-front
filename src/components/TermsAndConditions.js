@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-export default function Contact() {
+export default function TermsAndConditions() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

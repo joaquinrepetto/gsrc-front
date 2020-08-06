@@ -67,7 +67,7 @@ export default function ServicesEnglish() {
                 </p>
 
                 <p>
-                  <Link to="/servicioslegales">
+                  <Link to="/legalservices">
                     <a className="learn-more button cta hollow-dark">
                       More information
                       <span className="fa fa-arrow-right"></span>
@@ -91,7 +91,7 @@ export default function ServicesEnglish() {
                 </p>
 
                 <p>
-                  <Link to="/servicioscontables">
+                  <Link to="/contable-services">
                     <a
                       href="servicesLearnMore.html"
                       className="learn-more button cta hollow-dark"
@@ -118,7 +118,7 @@ export default function ServicesEnglish() {
                 </p>
 
                 <p>
-                  <Link to="/bpo">
+                  <Link to="/bpo-english">
                     <a className="learn-more button cta hollow-dark">
                       More information
                       <span className="fa fa-arrow-right"></span>
@@ -142,7 +142,7 @@ export default function ServicesEnglish() {
                 </p>
 
                 <p>
-                  <Link to="/servicioswealth">
+                  <Link to="/corporations">
                     <a className="learn-more button cta hollow-dark">
                       More information
                       <span className="fa fa-arrow-right"></span>

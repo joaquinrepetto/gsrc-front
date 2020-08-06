@@ -90,7 +90,7 @@ export default function Navbar() {
           <div className="column small-2">
             <div>
               <h1 className="logo">
-                <Link to="/">
+                <Link to={language === "es" ? "/" : "/home-english"}>
                   <a>Andersen</a>
                 </Link>
               </h1>

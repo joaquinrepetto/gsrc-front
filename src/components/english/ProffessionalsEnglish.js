@@ -797,7 +797,10 @@ export default function ProffessionalsEnglish() {
                           <a style={{ color: "#AD0D21" }}>{socio.name}</a>
                         </Link>
                       </td>
-                      <td class="areas" style={{ verticalAlign: "middle" }}>
+                      <td
+                        class="areas"
+                        style={{ verticalAlign: "middle", paddingTop: "15px" }}
+                      >
                         {socio.practice.map((p) => (
                           <li>{p}</li>
                         ))}

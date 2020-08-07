@@ -21,7 +21,7 @@ export default function WorkWithUsEnglish() {
               </div>
 
               <ul class="social-links social-hero">
-                <p class="share-label">Compartir:</p>
+                <p class="share-label">Share:</p>
                 <li class="social-link facebook">
                   <a href="#">Facebook</a>
                 </li>
@@ -69,7 +69,15 @@ export default function WorkWithUsEnglish() {
           </p>
           <p>
             Send us your CV to:
-            <span style={{ color: "#AD0D21" }}> info@ar.Andersen.com</span>
+            <span style={{ color: "#AD0D21" }}>
+              <a
+                onClick={() =>
+                  (window.location.href = `mailto:info@ar.Andersen.com`)
+                }
+              >
+                info@ar.Andersen.com
+              </a>
+            </span>
           </p>
         </div>
         <div className="column medium-3"></div>

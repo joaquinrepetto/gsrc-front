@@ -39,7 +39,7 @@ const socios = [
     practice: [
       "Transfer Pricing",
       "International Tax",
-      "Wealth Managment Office",
+      "Wealth Management Office",
     ],
     mail: "cecilia.goldemberg@ar.Andersen.com",
     linkedin: "https://linkedin.com/in/cecilia-goldemberg-44765719",
@@ -309,7 +309,7 @@ He specializes in administrative and tax matters, and has broad experience in li
     image: socio18,
     practice: ["Legal"],
     name: "Martin Jandula",
-    mail: "juan.fischer@uy.Andersen.com",
+    mail: "jmartin.jandula@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/martin-miguel-j%C3%A1ndula-1a16658/",
     desc1: `Martín is a Lawyer with extensive experience in general corporate advisory services for multinational companies, closely-held corporations and small & medium sized companies.`,
     desc2: `After having worked for Deloitte Argentina for 8 years he and colleagues founded MODO LAW; an innovative legal services firm. In this capacity, he advised on all corporate law matter with respect to inward investments by foreign investors, drafting and implementation of contracts, corporate restructurings and spin-offs, mergers and acquisitions, due diligences processes, intellectual property and software planning, as well as general corporate counseling.`,
@@ -444,8 +444,9 @@ He specializes in administrative and tax matters, and has broad experience in li
     linkedin: "https://www.linkedin.com/in/amanda-julca-06a66613/",
     // desc1:
     //   "Amanda is a Public Accountant and previously worked at Deloitte Peru and Deloitte Argentina for 10 years as a tax specialist. She also participated in the V.I.T.A program for the IRS. She has experience in tax due diligence, merger and acquisitions and tax counseling.",
-    desc1: `Ha trabajado en Deloitte Perú y Deloitte Argentina durante 10 años como especialista en
-impuestos. She has worked at Deloitte Peru and Deloitte Argentina for 10 years as a tax specialist. She also participated in the V.I.T.A program for the United States IRS and was Regional Tax Manager for American Express.`,
+    desc1: `She has worked at Deloitte Peru and Deloitte Argentina for 10 years as a tax specialist. She
+also participated in the V.I.T.A program for the United States IRS and was Regional Tax
+Manager for American Express`,
     desc2: "",
     desc3: "",
     desc4: "",
@@ -633,14 +634,14 @@ impuestos. She has worked at Deloitte Peru and Deloitte Argentina for 10 years a
       "Lawyer - National University of Tucuman",
       "Master in International Trade - National University of Tres de Febrero",
     ],
-    specializations: ["Customs Law", "Customs Law"],
+    specializations: ["Customs Law", "Foreign Trade"],
   },
   {
     id: 21,
     type: "manager",
     image: socio16,
     practice: ["Tax"],
-    name: "Mariano Federico del Amo",
+    name: "Mariano del Amo",
     mail: "mariano.delamo@ar.Andersen.com",
     linkedin: "https://linkedin.com/in/mariano-federico-del-amo-4983321b",
     desc1: `He has extensive knowledge for both national and provincial tax advice. He stands out for his extensive experience in preparing monthly and annual declared jurisdictions; Preparation of export VAT recoveries, determination of CM and DDJJ CM 05 coefficients, attention to inspections, among others.`,
@@ -770,7 +771,7 @@ export default function ProffessionalsEnglish() {
                 <tr>
                   <th></th>
                   <th></th>
-                  <th>Especialidad</th>
+                  <th>Practice</th>
                   <th>E-mail</th>
                   <th></th>
                 </tr>
@@ -789,7 +790,7 @@ export default function ProffessionalsEnglish() {
                       <td class="nombre" style={{ paddingLeft: "15px" }}>
                         <Link
                           to={{
-                            pathname: "/perfil",
+                            pathname: "/profile",
                             state: socio,
                           }}
                         >
@@ -964,7 +965,7 @@ export default function ProffessionalsEnglish() {
                       <td class="nombre" style={{ paddingLeft: "15px" }}>
                         <Link
                           to={{
-                            pathname: "/perfil",
+                            pathname: "/profile",
                             state: socio,
                           }}
                         >

@@ -113,7 +113,7 @@ export default function GlobalPresenceEnglish() {
                   </a>
                 </div>
                 <div class="text">
-                  <h3 class="title">Share values</h3>
+                  <h3 class="title">Share Values</h3>
                   <p>
                     Each and every one of the professionals and member firms
                     that are a part of Andersen Global share our core values
@@ -129,7 +129,7 @@ export default function GlobalPresenceEnglish() {
                   </a>
                 </div>
                 <div class="text">
-                  <h3 class="title">One firm</h3>
+                  <h3 class="title">One Firm</h3>
                   <p>
                     We are building Andersen Global to create an enduring place
                     – ONE FIRM where clients across the globe are afforded the

@@ -39,7 +39,7 @@ const socios = [
     practice: [
       "Precios de Transferencia",
       "Impuestos Internacionales",
-      "Wealth Managment Office",
+      "Wealth Management Office",
     ],
     mail: "cecilia.goldemberg@ar.Andersen.com",
     linkedin: "https://linkedin.com/in/cecilia-goldemberg-44765719",

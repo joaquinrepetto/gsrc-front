@@ -20,17 +20,17 @@ export default function ProfessionalProfile(props) {
             <div className="column medium-8">
               <div className="breadcrumbs service-sub">
                 <span className="crumb home">
-                  <a href="/">Inicio</a>
+                  <a href="/home-english">Home</a>
                 </span>
                 <span className="crumb interior">
-                  <a href="#">Profesionales</a>
+                  <a href="#">Proffessionals</a>
                 </span>
               </div>
             </div>
 
             <div className="column medium-4">
               <ul className="social-links inner">
-                <p className="share-label">Compartir:</p>
+                <p className="share-label">Share:</p>
                 <li className="social-link facebook">
                   <a href="#">Facebook</a>
                 </li>
@@ -139,7 +139,13 @@ export default function ProfessionalProfile(props) {
                 <br />
                 <h5>Email</h5>
                 <h6 style={{ color: "#BF1229" }}>
-                  {props.location.state.mail}
+                  <a
+                    onClick={() =>
+                      (window.location.href = `mailto:${props.location.state.mail}`)
+                    }
+                  >
+                    {props.location.state.mail}
+                  </a>
                 </h6>
                 <br />
                 <h5>Phone</h5>
@@ -156,9 +162,7 @@ export default function ProfessionalProfile(props) {
                     : null}
                 </h6>
 
-                {props.location.state.specializations ? (
-                  <h5>Afiliations</h5>
-                ) : null}
+                {props.location.state.afiliations ? <h5>Afiliations</h5> : null}
                 <h6>
                   {props.location.state.afiliations
                     ? props.location.state.afiliations.map((a) => (
@@ -169,7 +173,7 @@ export default function ProfessionalProfile(props) {
                     : null}
                 </h6>
                 {props.location.state.specializations ? (
-                  <h5>Specializations</h5>
+                  <h5>Areas of Specialization</h5>
                 ) : null}
                 <h6>
                   {props.location.state.specializations

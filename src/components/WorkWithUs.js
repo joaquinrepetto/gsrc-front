@@ -67,15 +67,21 @@ export default function WorkWithUs() {
             comprometemos en sus avances en la organización.
           </p>
           <p>
-            {" "}
             Contratamos personas inteligentes, apasionadas y motivadas. Buscamos
             profesionales dedicados y creativos, que aporten experiencias que
             generen los mejores resultados para nuestros clientes.
           </p>
           <p>
-            {" "}
             Envianos tu C.V a:
-            <span style={{ color: "#AD0D21" }}> info@ar.Andersen.com</span>
+            <span style={{ color: "#AD0D21" }}>
+              <a
+                onClick={() =>
+                  (window.location.href = `mailto:info@ar.Andersen.com`)
+                }
+              >
+                info@ar.Andersen.com
+              </a>
+            </span>
           </p>
         </div>
         <div className="column medium-3"></div>

@@ -69,6 +69,7 @@ class App extends React.Component {
               component={ContableServicesEnglish}
               exact
             />
+            <Route path="/profile" component={ProfessionalProfileEnglish} />
             <Route path="/contact" component={ContactEnglish} exact />
             <Route
               path="/globalpresence"

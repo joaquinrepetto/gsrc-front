@@ -80,7 +80,7 @@ export default function SocEnglish() {
             {tab === 0 && (
               <div className="primary-intro">
                 <h2>Corporate Solutions</h2>
-                <h5>Consulting and y Advisory Services:</h5>
+                <h5>Consulting and Advisory Services:</h5>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     Offering opinions on general and specific matters,

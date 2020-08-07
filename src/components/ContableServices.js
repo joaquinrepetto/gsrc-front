@@ -91,7 +91,7 @@ export default function ContableServices() {
                         onClick={() => setTab(3)}
                         style={{ color: tab === 2 ? "#AC0E20" : null }}
                       >
-                        Wealth Managment &amp; Family Office
+                        Wealth Management &amp; Family Office
                       </a>
                     </li>
 
@@ -322,12 +322,12 @@ export default function ContableServices() {
                   </li>
                 </ul>
 
-                <p>
+                <li style={{ listStyleType: "disc" }}>
                   La coordinación regional nos permite tener una visión más
                   amplia de las operaciones internacionales, compartir
                   experiencias entre países y lograr coherencia en las políticas
                   de precios de transferencia de las compañías multinacionales.
-                </p>
+                </li>
                 <h5>Resolución de controversias:</h5>
                 <p>
                   Defendemos la posición del contribuyente contra posibles
@@ -472,7 +472,7 @@ export default function ContableServices() {
             )}
             {tab === 3 && (
               <div className="primary-intro">
-                <h2>Wealth Managment & Family Office</h2>
+                <h2>Wealth Management & Family Office</h2>
                 <p>
                   Brindamos un servicio diseñado para que cada grupo familiar
                   pueda confiarnos sus asuntos patrimoniales, ejerciendo de back

@@ -139,7 +139,13 @@ export default function ProfessionalProfile(props) {
                 <br />
                 <h5>Email</h5>
                 <h6 style={{ color: "#BF1229" }}>
-                  {props.location.state.mail}
+                  <a
+                    onClick={() =>
+                      (window.location.href = `mailto:${props.location.state.mail}`)
+                    }
+                  >
+                    {props.location.state.mail}
+                  </a>
                 </h6>
                 <br />
                 <h5>Teléfono</h5>
@@ -156,7 +162,7 @@ export default function ProfessionalProfile(props) {
                     : null}
                 </h6>
 
-                {props.location.state.specializations ? (
+                {props.location.state.afiliations ? (
                   <h5>Afiliaciones</h5>
                 ) : null}
                 <h6>

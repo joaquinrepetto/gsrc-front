@@ -89,9 +89,9 @@ export default function ContableServicesEnglish() {
                     <li>
                       <a
                         onClick={() => setTab(3)}
-                        style={{ color: tab === 2 ? "#AC0E20" : null }}
+                        style={{ color: tab === 3 ? "#AC0E20" : null }}
                       >
-                        Wealth Managment &amp; Family Office
+                        Wealth Management &amp; Family Office
                       </a>
                     </li>
 
@@ -304,12 +304,12 @@ export default function ContableServicesEnglish() {
                     for all countries involved.
                   </li>
                 </ul>
-                <p>
+                <li style={{ listStyleType: "disc" }}>
                   Regional coordination allows us to get a wider view of
                   international operations, sharing experiences across countries
                   and achieving consistency in the transfer pricing policies of
                   multinational companies.
-                </p>
+                </li>
                 <h5>Dispute Resolution:</h5>
                 <p>
                   We defend the taxpayer's position against possible adjustments
@@ -451,7 +451,7 @@ export default function ContableServicesEnglish() {
             )}
             {tab === 3 && (
               <div className="primary-intro">
-                <h2>Wealth Managment & Family Office</h2>
+                <h2>Wealth Management & Family Office</h2>
                 <p>
                   We provide services designed for each family group to trust
                   the firm with their wealth management, acting as back office

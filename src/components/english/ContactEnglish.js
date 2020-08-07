@@ -83,17 +83,17 @@ export default function ContactEnglish() {
             <div className="row">
               <div className="column medium-12">
                 <h6 style={{ color: "#AC0E20", fontWeight: "600" }}>
-                  OFFICES EN BUENOS AIRES
+                  BUENOS AIRES OFFICE
                 </h6>
               </div>
             </div>
             <div className="row">
               <div className="column medium-6">
-                <p style={{ margin: "0px" }}>Talcahuano 833 - Piso 10</p>
+                <p style={{ margin: "0px" }}>Talcahuano 833 - 10th floor</p>
                 <p style={{ margin: "0px" }}>
                   C1013AAQ - Buenos Aires City - Argentina
                 </p>
-                <p style={{ margin: "0px" }}>Ph: (54 11) 4390 9700</p>
+                <p style={{ margin: "0px" }}>Ph: +54 11 4390 9700</p>
               </div>
               <div className="column medium-6">
                 <div className="row">
@@ -113,7 +113,15 @@ export default function ContactEnglish() {
                 </div>
                 <div>
                   <p style={{ margin: "0px" }}>www.ar.Andersen.com</p>
-                  <p>info@ar.Andersen.com</p>
+                  <p>
+                    <a
+                      onClick={() =>
+                        (window.location.href = `mailto:info@ar.Andersen.com`)
+                      }
+                    >
+                      info@ar.Andersen.com
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>

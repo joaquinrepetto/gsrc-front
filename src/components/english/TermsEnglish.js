@@ -15,7 +15,7 @@ export default function TermsEnglish() {
                 <a href="/home-english">Home</a>
               </span>
               <span class="crumb interior">
-                <a href="#">Terms y conditions</a>
+                <a href="#">Terms and conditions</a>
               </span>
             </div>
           </div>
@@ -26,7 +26,7 @@ export default function TermsEnglish() {
           className="column small-12 medium-12"
           style={{ textAlign: "justify", textJustify: "auto" }}
         >
-          <h4>Términos &amp; Condiciones</h4>
+          <h4>Terms &amp; Conditions</h4>
           <h6 style={{ fontSize: "1.3rem" }}>
             1. General conditions of use and acceptance
           </h6>

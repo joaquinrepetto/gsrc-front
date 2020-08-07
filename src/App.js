@@ -33,6 +33,7 @@ import ServicesEnglish from "./components/english/ServicesEnglish";
 import WorkWithUsEnglish from "./components/english/WorkWithUsEnglish";
 import SocEnglish from "./components/english/SocEnglish";
 import WealthServicesEnglish from "./components/english/WealthServicesEnglish";
+import TermsEnglish from "./components/english/TermsEnglish";
 
 class App extends React.Component {
   render() {
@@ -61,6 +62,7 @@ class App extends React.Component {
             <Route path="/trabaja" component={WorkWithUs} exact />
             <Route path="/contacto" component={Contact} exact />
             <Route path="/terminos" component={TermsAndConditions} exact />
+            <Route path="/terms" component={TermsEnglish} exact />
             <Route path="/home-english" component={HomeEnglish} exact />
             <Route
               path="/contable-services"

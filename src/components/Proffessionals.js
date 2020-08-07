@@ -61,7 +61,7 @@ América Latina, ha dado exposiciones en seminarios y conferencias tanto en Arge
 extranjero, incluidos varios congresos de la Asociación Fiscal Internacional.`,
     desc3: `Es autora de numerosos artículos en publicaciones especializadas, habiendo obtenido dos veces el
 primer premio de la Asociación Argentina de Estudios Fiscales por el mejor artículo publicado. Fue
-directora del &quot;Manual de Precios de Transferencia en Argentina&quot;.`,
+directora del "Manual de Precios de Transferencia en Argentina".`,
     desc4: `Es ex coordinadora de la Comisión de Precios de Transferencia en la Asociación Argentina de
 Estudios Fiscales y ex profesora de la Universidad de Buenos Aires.`,
     desc5: "",
@@ -77,7 +77,11 @@ Estudios Fiscales y ex profesora de la Universidad de Buenos Aires.`,
       "Auditorías y controversias fiscales",
       "Asesoría Tributaria",
     ],
-    education: ["Contadora Pública y Licenciada en Administración"],
+    education: [
+      "Contadora Pública - Universidad de Buenos Aires",
+      "Licenciada en Administración - Universidad de Buenos Aires",
+      "Idiomas: Español e Inglés",
+    ],
   },
   {
     id: 2,
@@ -96,7 +100,7 @@ Estudios Fiscales y ex profesora de la Universidad de Buenos Aires.`,
 gabinete del Ministerio de Economía de la Nación. Se destaca su experiencia profesional y
 académica sobre la problemática tributaria internacional y nacional, sobre todo en empresas
 relacionados con los medios de comunicación.`,
-    desc2: "Ha escrito numerosos artículos sobre temas tributarios públicas.",
+    desc2: "Ha escrito numerosos artículos sobre temas tributarios públicos.",
     desc3: `Es profesor adjunto en la materia Teoría y Técnica Impositiva II de la Facultad de Ciencias
 Económicas de la Universidad de Buenos Aires (UBA) y profesor adjunto en las materias Impuestos
 II y III de la Facultad de Ciencias Empresariales de la Universidad Austral.`,
@@ -229,7 +233,7 @@ parte y Comunicaciones del BCRA.`,
     specializations: [
       "Análisis de Estados Contables",
       "Outsourcing Contable",
-      "Outsourcing Contable",
+      "Outsourcing de Nóminas",
     ],
   },
   {
@@ -252,7 +256,7 @@ asesoramiento de grandes proyectos de inversión en Argentina.`,
     education: [
       "Abogado - Universidad de Buenos Aires",
       "Máster en Derecho Financiero y Tributario- Universidad de Valencia",
-      "Idiomas: español, inglés y portugués",
+      "Idiomas: Español, Inglés y Portugués",
     ],
     afiliations: [
       `Colegio de Abogados de Capital Federal de Buenos Aires`,
@@ -316,7 +320,7 @@ Luis María ha tenido derecho a litigar ante los tribunales.`,
     education: [
       "Abogado - Universidad de Belgrano",
       "Universidad Católica de Argentina (estudios de posgrado)",
-      "Idiomas: español, inglés e italiano.",
+      "Idiomas: Español, Inglés e Italiano.",
     ],
     afiliations: [
       `Colegio de Abogados de la Capital Federal (Ciudad de Buenos Aires)`,
@@ -332,7 +336,7 @@ Luis María ha tenido derecho a litigar ante los tribunales.`,
     name: "Bartolome Homar Mas",
     mail: "bartolome.homarmas@ar.Andersen.com",
     linkedin: "https://linkedin.com/in/bartolomé-homar-más-03b73a8",
-    desc1: `Comenzó su carrera en 1997 trabajando como paralegal en Maciel Norman Martelli &amp; Beretta, una
+    desc1: `Comenzó su carrera en 1997 trabajando como paralegal en Maciel Norman Martelli & Beretta, una
 firma de abogados boutique especializada en petróleo y gas. En el año 2000 se graduó como
 abogado de la Universidad de Buenos Aires. En el 2003 obtuvo una Maestría en International
 Commercial and Business Law de la Universidad de East Anglia (Norwich - Reino Unido). Entre los
@@ -360,7 +364,7 @@ internacional.`,
       `International Commercial and Business Law - Universidad de East Anglia – Norwich – Reino
 Unido`,
       `Estudios de posgrado en Derecho Tributario- Universidad Austral de Buenos Aires`,
-      `Idiomas: español - inglés`,
+      `Idiomas: Español - Inglés`,
     ],
     afiliations: [
       `Colegio Público de Abogados de la Capital Federal`,
@@ -382,7 +386,7 @@ Unido`,
     image: socio18,
     practice: ["Legal"],
     name: "Martin Jandula",
-    mail: "juan.fischer@uy.Andersen.com",
+    mail: "martin.jandula@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/martin-miguel-j%C3%A1ndula-1a16658/",
     desc1: `Martín es abogado con amplia experiencia en servicios generales de asesoría corporativa para
 compañías multinacionales, corporaciones cercanas y pequeñas y medianas empresas.`,
@@ -390,13 +394,21 @@ compañías multinacionales, corporaciones cercanas y pequeñas y medianas empre
 MODO LAW; Una innovadora firma de servicios legales. Brindó asesoramiento en todos los
 asuntos de derecho corporativo con respecto a las inversiones internas por parte de inversionistas
 extranjeros, redacción e implementación de contratos, reestructuraciones corporativas y
-escisiones, M&amp;A, procesos de due diligence, propiedad intelectual y planificación de software, así
+escisiones, M&A, procesos de due diligence, propiedad intelectual y planificación de software, así
 como asesoramiento corporativo general.`,
     desc3: "",
     desc4: "",
     desc5: "",
     desc6: "",
-    education: [],
+    education: [
+      "Abogado de la Universidad Católica de Salta",
+      "Idiomas: Español e Inglés",
+    ],
+    afiliations: [
+      "Colegio Público de Abogados de la Ciudad de Buenos Aires (CPACF)",
+      "Asociación Argentina de Estudios Fiscales (o AAEF)",
+    ],
+    specializations: ["Derecho Corporativo General", "M&A"],
   },
   {
     id: 12,
@@ -457,7 +469,7 @@ externos de capacitación en el área impositiva.`,
     desc6: "",
     education: [
       "Contador Público - Universidad de Buenos Aires",
-      "Idiomas: español e italiano",
+      "Idiomas: Español e Italiano",
     ],
     afiliations: ["Asociación Argentina de Estudios Fiscales (AAEF)"],
     specializations: ["Impuestos"],
@@ -554,7 +566,7 @@ regional de impuestos para American Express.`,
       "Contadora Pública - Universidad de Lima",
       "L.L.M en Impuestos- Universidad Torcuato Di Tella",
       "Posgrado en Administración - New York University",
-      "Idiomas: español e inglés",
+      "Idiomas: Español e Inglés",
     ],
     specializations: ["Due diligence", "M&A", "Asignaciones Internacionales"],
   },
@@ -625,11 +637,11 @@ profesionales o centros de estudios, sobre derecho contractual, impuestos, negoc
     education: [
       `Universidad de Buenos Aires: maestría (en curso) y posgrado (ambas en derecho
 tributario); Abogada especializado en derecho fiscal y mercantil. Licenciado.`,
-      "Idiomas: español e inglés",
+      "Idiomas: Español e Inglés",
     ],
     afiliations: [
       "Colegio de Abogados de la Ciudad de Buenos Aires",
-      "A.A.E.F",
+      "Asociación Argentina de Estudios Fiscales (AAEF)",
     ],
     specializations: [
       "Contratos",
@@ -689,7 +701,7 @@ derecho a litigar ante los tribunales federales.`,
     education: [
       "Abogado - Universidad de Buenos Aires",
       "Posgrado en Derecho Tributario y Derecho Concursal- Universidad de Buenos Aires",
-      "Idiomas: español e inglés",
+      "Idiomas: Español e Inglés",
     ],
     afiliations: [
       "Colegio de Abogados de la Ciudad de Buenos Aires",
@@ -712,8 +724,8 @@ derecho a litigar ante los tribunales federales.`,
     linkedin: "https://www.linkedin.com/in/pedro-negri-aranguren-b844b66a/",
     desc1: `Tiene estudios de posgrado en impuestos, en la Universidad de Buenos Aires, y estudios de
 posgrado en aduanas, en la Universidad de Buenos Aires.`,
-    desc2: `Obtuvo su experiencia en el Departamento de Impuestos de Estudio Negri &amp; Teijeiro Abogados, y
-en el Departamento de Comercio Exterior y Aduanas de Estudio Bruchou, Fernández Madero &amp;
+    desc2: `Obtuvo su experiencia en el Departamento de Impuestos de Estudio Negri & Teijeiro Abogados, y
+en el Departamento de Comercio Exterior y Aduanas de Estudio Bruchou, Fernández Madero &
 Lombardi, centrándose en el asesoramiento y litigios generales de comercio exterior y aduanas.`,
     desc3: `En su práctica, brinda asesoramiento aduanero durante todos los pasos del proceso de
 importación y exportación, y representa a los clientes ante todas las oficinas de aduanas, en
@@ -762,7 +774,7 @@ organizada por la Asociación mencionada, habiendo presentado documentos en 2011
     type: "manager",
     image: socio16,
     practice: ["Impuestos"],
-    name: "Mariano Federico del Amo",
+    name: "Mariano del Amo",
     mail: "mariano.delamo@ar.Andersen.com",
     linkedin: "https://linkedin.com/in/mariano-federico-del-amo-4983321b",
     desc1: `Posee amplio conocimiento para el asesoramiento impositivo tanto nacional como provincial. Se
@@ -795,7 +807,7 @@ nacionales, y provinciales.`,
     desc6: "",
     education: [
       "Contadora Pública - Universidad Nacional de La Plata",
-      "Idiomas: español, inglés",
+      "Idiomas: Español, Inglés",
     ],
     specializations: ["Impuestos"],
   },
@@ -818,7 +830,7 @@ Ciencias Económicas.`,
     desc6: "",
     education: [
       "Contador Público - Universidad de Buenos Aires",
-      "Idiomas: español, inglés y alemán",
+      "Idiomas: Español, Inglés y Alemán",
     ],
     afiliations: ["Asociación Argentina de Estudios Fiscales (AAEF)"],
     specializations: ["Impuestos"],

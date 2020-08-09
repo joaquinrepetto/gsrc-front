@@ -29,6 +29,7 @@ import socio22 from "../../assets/partners/Sofia-palucci.jpg";
 import socio23 from "../../assets/partners/Valentina-Kripper.jpg";
 import socio24 from "../../assets/partners/victor-del-valle-ok.jpg";
 import socio25 from "../../assets/partners/zulema-gouveia.jpg";
+import socio26 from "../../assets/partners/Mariana-Vallejo.jpg";
 
 const socios = [
   {
@@ -309,7 +310,7 @@ He specializes in administrative and tax matters, and has broad experience in li
     image: socio18,
     practice: ["Legal"],
     name: "Martin Jandula",
-    mail: "jmartin.jandula@ar.Andersen.com",
+    mail: "martin.jandula@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/martin-miguel-j%C3%A1ndula-1a16658/",
     desc1: `Martín is a Lawyer with extensive experience in general corporate advisory services for multinational companies, closely-held corporations and small & medium sized companies.`,
     desc2: `After having worked for Deloitte Argentina for 8 years he and colleagues founded MODO LAW; an innovative legal services firm. In this capacity, he advised on all corporate law matter with respect to inward investments by foreign investors, drafting and implementation of contracts, corporate restructurings and spin-offs, mergers and acquisitions, due diligences processes, intellectual property and software planning, as well as general corporate counseling.`,
@@ -658,7 +659,7 @@ Manager for American Express`,
   {
     id: 21,
     type: "manager",
-    image: sinCara,
+    image: socio26,
     practice: ["Tax"],
     name: "Mariana Vallejo",
     mail: "mariana.vallejo@ar.Andersen.com",
@@ -801,9 +802,11 @@ export default function ProffessionalsEnglish() {
                         class="areas"
                         style={{ verticalAlign: "middle", paddingTop: "15px" }}
                       >
-                        {socio.practice.map((p) => (
-                          <li>{p}</li>
-                        ))}
+                        <div style={{ textAlign: "left", paddingLeft: "40%" }}>
+                          {socio.practice.map((p) => (
+                            <li>{p}</li>
+                          ))}
+                        </div>
                         <br />
                       </td>
                       <td class="correo">

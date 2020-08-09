@@ -18,7 +18,8 @@ export default function Footer() {
     location.pathname === "/contact-english" ||
     location.pathname === "/corporations" ||
     location.pathname === "/profile" ||
-    location.pathname === "/contact"
+    location.pathname === "/contact" ||
+    location.pathname === "/terms"
   ) {
     return (
       <footer class="footer">
@@ -102,7 +103,7 @@ export default function Footer() {
               <h5 style={{ fontSize: "18px" }}>Offices in Buenos Aires</h5>
               <ul>
                 <li>
-                  <a href="#">Talcahuano 833 - 10º floor</a>
+                  <a href="#">Talcahuano 833 - 10th floor</a>
                 </li>
                 <li>
                   <a href="#">[C1013AAQ] - Buenos Aires City - Argentina</a>

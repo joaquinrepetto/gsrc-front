@@ -126,7 +126,8 @@ export default function TermsAndConditions() {
             pudiera causar daño, perjuicio o inducir a error a los Usuarios.
             Para ello apelamos a su colaboración cuando tenga conocimiento de
             estos aspectos, solicitándole que nos remita un correo electrónico a
-            la dirección info@ar.Andersen.com.
+            la dirección 
+            <a href="mailto:info@ar.Andersen.com">info@ar.Andersen.com.</a>
           </p>
           <p>
             Las firmas miembros de Andersen Global no pueden obligarse
@@ -149,7 +150,7 @@ export default function TermsAndConditions() {
             titularidad o propiedad corresponda a Andersen. Todos los contenidos
             que se muestran en el presente Sitio Web, están sujetos a derechos
             de propiedad industrial titularidad de Andersen Tax LLC, Andersen
-            GSRC and/or MODO Law.. Asimismo, los textos, fotografías, gráficos,
+            GSRC y MODO Law.. Asimismo, los textos, fotografías, gráficos,
             imágenes, iconos, tecnología, software, así como su diseño gráfico y
             código fuente, constituyen una obra cuya propiedad pertenece a
             Andersen Tax LLC, Andersen GSRC y MODO Law. y están sujetos a
@@ -164,8 +165,8 @@ export default function TermsAndConditions() {
             selección y forma de presentación de los materiales incluidos en la
             misma, cualquiera que fuera su finalidad y el medio utilizado para
             ello. En caso de que quiera formular alguna sugerencia o comentario
-            puede contactar con nosotros mediante un correo electrónico
-            a info@ar.Andersen.com
+            puede contactar con nosotros mediante un correo electrónico a{" "}
+            <a href="mailto:info@ar.Andersen.com">info@ar.Andersen.com.</a>
           </p>
           <h6 style={{ fontSize: "1.3rem" }}>6. Legislación aplicable</h6>
           <p>
@@ -197,9 +198,9 @@ export default function TermsAndConditions() {
             <br />
             [C1013AAQ] - CABA
             <br />
-            (54 11) 4390-9700
+            Tel: +54 11 4390 9700
             <br />
-            info@ar.Andersen.com
+            <a href="mailto:info@ar.Andersen.com">info@ar.Andersen.com.</a>
             <br />
             <strong>
               © Copyright 2020, ANDERSEN GSRC y MODO LAW. Todos los derechos

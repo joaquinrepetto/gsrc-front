@@ -72,9 +72,10 @@ export default function WorkWithUs() {
             generen los mejores resultados para nuestros clientes.
           </p>
           <p>
-            Envianos tu C.V a:
+            Envianos tu C.V a:{" "}
             <span style={{ color: "#AD0D21" }}>
               <a
+                style={{ color: "#AD0D21" }}
                 onClick={() =>
                   (window.location.href = `mailto:info@ar.Andersen.com`)
                 }

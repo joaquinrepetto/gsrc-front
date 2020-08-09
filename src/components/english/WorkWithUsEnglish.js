@@ -68,12 +68,13 @@ export default function WorkWithUsEnglish() {
             generate the best results for our clients.
           </p>
           <p>
-            Send us your CV to:
+            Send us your CV to:{" "}
             <span style={{ color: "#AD0D21" }}>
               <a
                 onClick={() =>
                   (window.location.href = `mailto:info@ar.Andersen.com`)
                 }
+                style={{ color: "#AD0D21" }}
               >
                 info@ar.Andersen.com
               </a>

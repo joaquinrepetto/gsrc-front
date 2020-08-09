@@ -254,7 +254,9 @@ export default function Navbar() {
                         }
                       >
                         <a>
-                          {language === "es" ? "Presencia Global" : "Presence"}
+                          {language === "es"
+                            ? "Presencia Global"
+                            : "Global Presence"}
                         </a>
                       </Link>
                     </li>

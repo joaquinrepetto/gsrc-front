@@ -91,9 +91,9 @@ export default function Contact() {
               <div className="column medium-6">
                 <p style={{ margin: "0px" }}>Talcahuano 833 - Piso 10</p>
                 <p style={{ margin: "0px" }}>
-                  C1013AAQ - Buenos Aires - Argentina
+                  C1013AAQ - Ciudad de Buenos Aires - Argentina
                 </p>
-                <p style={{ margin: "0px" }}>Tel: (54 11) 4390 9700</p>
+                <p style={{ margin: "0px" }}>Tel:+54 11 4390 9700</p>
               </div>
               <div className="column medium-6">
                 <div className="row">

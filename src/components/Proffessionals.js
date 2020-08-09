@@ -29,6 +29,7 @@ import socio22 from "../assets/partners/Sofia-palucci.jpg";
 import socio23 from "../assets/partners/Valentina-Kripper.jpg";
 import socio24 from "../assets/partners/victor-del-valle-ok.jpg";
 import socio25 from "../assets/partners/zulema-gouveia.jpg";
+import socio26 from "../assets/partners/Mariana-Vallejo.jpg";
 
 const socios = [
   {
@@ -794,7 +795,7 @@ atención de inspecciones, entre otros.`,
   {
     id: 21,
     type: "manager",
-    image: sinCara,
+    image: socio26,
     practice: ["Impuestos"],
     name: "Mariana Vallejo",
     mail: "mariana.vallejo@ar.Andersen.com",
@@ -943,9 +944,11 @@ export default function Proffessionals() {
                         class="areas"
                         style={{ verticalAlign: "middle", paddingTop: "15px" }}
                       >
-                        {socio.practice.map((p) => (
-                          <li>{p}</li>
-                        ))}
+                        <div style={{ textAlign: "left", paddingLeft: "40%" }}>
+                          {socio.practice.map((p) => (
+                            <li>{p}</li>
+                          ))}
+                        </div>
                         <br />
                       </td>
                       <td class="correo">

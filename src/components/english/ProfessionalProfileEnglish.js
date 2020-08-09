@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import linkedin from "../../assets/img/linkedin.png";
 import email from "../../assets/img/email.png";
 
@@ -187,7 +187,7 @@ export default function ProfessionalProfile(props) {
               </div>
             </div>
             <div className="column medium-4" style={{ padding: "0px" }}>
-              <div
+              {/* <div
                 className="sidebar-block connect"
                 style={{ marginTop: "20px", marginBottom: "30px" }}
               >
@@ -198,17 +198,21 @@ export default function ProfessionalProfile(props) {
                   <span className="fa fa-caret-right" aria-hidden="true"></span>
                   Subscríbase a nuestros newsletters
                 </a>
-              </div>
+              </div> */}
 
               <div className="sidebar-block contact">
                 <h4 style={{ color: "white", fontWeight: "900" }}>
-                  Contáctenos
+                  Contact Us
                 </h4>
-                <a href="oficinas.html" className="link">
-                  <span className="fa fa-caret-right" aria-hidden="true"></span>
-                  Encuentre su oficina más cercana
-                </a>
-
+                <Link to="/offices">
+                  <a className="link">
+                    <span
+                      className="fa fa-caret-right"
+                      aria-hidden="true"
+                    ></span>
+                    Find your nearest office
+                  </a>
+                </Link>
                 <div className="triangle" aria-hidden="true"></div>
               </div>
             </div>

@@ -89,7 +89,7 @@ export default function ContableServices() {
                     <li>
                       <a
                         onClick={() => setTab(3)}
-                        style={{ color: tab === 2 ? "#AC0E20" : null }}
+                        style={{ color: tab === 3 ? "#AC0E20" : null }}
                       >
                         Wealth Management &amp; Family Office
                       </a>
@@ -328,6 +328,7 @@ export default function ContableServices() {
                   experiencias entre países y lograr coherencia en las políticas
                   de precios de transferencia de las compañías multinacionales.
                 </li>
+                <br />
                 <h5>Resolución de controversias:</h5>
                 <p>
                   Defendemos la posición del contribuyente contra posibles

@@ -180,11 +180,11 @@ export default function TermsEnglish() {
           <h6 style={{ fontSize: "1.3rem" }}>9. Contact information</h6>
           <p>
             Send your comments to:. <br />
-            Talcahuano 833. Piso 10
+            Talcahuano 833. 10th floor
             <br />
-            [C1013AAQ] - CABA
+            [C1013AAQ] - Buenos Aires City
             <br />
-            (54 11) 4390-9700
+            +54 11 4390 9700
             <br />
             info@ar.Andersen.com
             <br />

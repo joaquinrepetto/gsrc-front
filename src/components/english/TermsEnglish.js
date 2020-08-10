@@ -119,10 +119,11 @@ export default function TermsEnglish() {
             personal dignity and that could cause damage, prejudice or mislead
             Users. For this we appeal to your collaboration when you have
             knowledge of these aspects, requesting that you send us an email to
-            the address info@ar.Andersen.com. Andersen Global member firms
-            cannot be mutually obligated and they are not responsible for any
-            other acts or omissions that they may cause. Andersen Global does
-            not provide any service on its own.
+            the address{" "}
+            <a href="mailto:info@ar.andersen.com"> info@ar.Andersen.com </a>.
+            Andersen Global member firms cannot be mutually obligated and they
+            are not responsible for any other acts or omissions that they may
+            cause. Andersen Global does not provide any service on its own.
           </p>
 
           <h6 style={{ fontSize: "1.3rem" }}>
@@ -152,7 +153,7 @@ export default function TermsEnglish() {
             presentation of the materials included in the itself, whatever its
             purpose and the means used for it. In case you want to make a
             suggestion or comment, you can contact us by email
-            info@ar.Andersen.com
+            <a href="mailto:info@ar.andersen.com"> info@ar.Andersen.com </a>
           </p>
           <h6 style={{ fontSize: "1.3rem" }}>6. Applicable legislation</h6>
           <p>
@@ -186,7 +187,7 @@ export default function TermsEnglish() {
             <br />
             +54 11 4390 9700
             <br />
-            info@ar.Andersen.com
+            <a href="mailto:info@ar.andersen.com"> info@ar.Andersen.com </a>
             <br />
             <strong>
               © Copyright 2020, ANDERSEN GSRC and MODO LAW. All the rights

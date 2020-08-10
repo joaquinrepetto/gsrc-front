@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import linkedin from "../assets/img/linkedin.png";
 import email from "../assets/img/email.png";
 
@@ -206,10 +206,15 @@ export default function ProfessionalProfile(props) {
                 <h4 style={{ color: "white", fontWeight: "900" }}>
                   Contáctenos
                 </h4>
-                <a href="oficinas.html" className="link">
-                  <span className="fa fa-caret-right" aria-hidden="true"></span>
-                  Encuentre su oficina más cercana
-                </a>
+                <Link to="/oficinas">
+                  <a className="link">
+                    <span
+                      className="fa fa-caret-right"
+                      aria-hidden="true"
+                    ></span>
+                    Encuentre su oficina más cercana
+                  </a>
+                </Link>
 
                 <div className="triangle" aria-hidden="true"></div>
               </div>

@@ -958,7 +958,6 @@ export default function Proffessionals() {
                           }
                           style={{ cursor: "pointer" }}
                           src={sobre}
-                          alt="juan.fischer@uy.Andersen.com"
                         />
                       </td>
                     </tr>
@@ -1121,15 +1120,21 @@ export default function Proffessionals() {
                         </Link>
                       </td>
                       <td class="areas">
-                        {socio.practice.map((p) => (
-                          <li>{p}</li>
-                        ))}
+                        <div style={{ textAlign: "left", paddingLeft: "40%" }}>
+                          {socio.practice.map((p) => (
+                            <li>{p}</li>
+                          ))}
+                        </div>
                         <br />
                       </td>
                       <td class="correo">
-                        <a href="mailto:juan.fischer@uy.Andersen.com">
-                          <img src={sobre} alt="juan.fischer@uy.Andersen.com" />
-                        </a>
+                        <img
+                          onClick={() =>
+                            (window.location.href = `mailto:${socio.mail}`)
+                          }
+                          style={{ cursor: "pointer" }}
+                          src={sobre}
+                        />
                       </td>
                     </tr>
                   ))}

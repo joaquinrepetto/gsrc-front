@@ -802,7 +802,7 @@ export default function ProffessionalsEnglish() {
                         class="areas"
                         style={{ verticalAlign: "middle", paddingTop: "15px" }}
                       >
-                        <div style={{ textAlign: "left", paddingLeft: "40%" }}>
+                        <div style={{ textAlign: "left", paddingLeft: "42%" }}>
                           {socio.practice.map((p) => (
                             <li>{p}</li>
                           ))}
@@ -979,9 +979,11 @@ export default function ProffessionalsEnglish() {
                         </Link>
                       </td>
                       <td class="areas">
-                        {socio.practice.map((p) => (
-                          <li>{p}</li>
-                        ))}
+                        <div style={{ textAlign: "left", paddingLeft: "39%" }}>
+                          {socio.practice.map((p) => (
+                            <li>{p}</li>
+                          ))}
+                        </div>
                         <br />
                       </td>
                       <td class="correo">

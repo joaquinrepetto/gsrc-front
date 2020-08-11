@@ -6,7 +6,6 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "add": "^2.0.6",
     "animate.css": "^4.1.0",
     "axios": "^0.19.2",
     "moment": "^2.27.0",

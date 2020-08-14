@@ -106,31 +106,36 @@ export default function Services() {
                 </p>
               </div>
             </li>
-            <li className="column small-12 medium-6">
-              <div className="image">
-                <a href="javascript:;">
-                  <img src={legal3} alt="" />
-                </a>
-              </div>
-              <div className="text">
-                <h3 className="title">Business Process Outsourcing (BPO)</h3>
-                <p>
-                  Ponemos profesionales talentosos y bien entrenados al servicio
-                  de tu compañía ofreciendo mejoras en los procesos, creatividad
-                  y solución de problemas
-                </p>
 
-                <p>
-                  <Link to="/bpo">
-                    <a className="learn-more button cta hollow-dark">
-                      Más información{" "}
-                      <span className="fa fa-arrow-right"></span>
-                    </a>
-                  </Link>
-                </p>
-              </div>
-            </li>
-            <li className="column small-12 medium-6">
+            <div className="row">
+              <li className="column small-12 medium-4"></li>
+              <li className="column small-12 medium-6">
+                <div className="image">
+                  <a href="javascript:;">
+                    <img src={legal3} alt="" />
+                  </a>
+                </div>
+                <div className="text">
+                  <h3 className="title">Business Process Outsourcing (BPO)</h3>
+                  <p>
+                    Ponemos profesionales talentosos y bien entrenados al
+                    servicio de tu compañía ofreciendo mejoras en los procesos,
+                    creatividad y solución de problemas
+                  </p>
+
+                  <p>
+                    <Link to="/bpo">
+                      <a className="learn-more button cta hollow-dark">
+                        Más información{" "}
+                        <span className="fa fa-arrow-right"></span>
+                      </a>
+                    </Link>
+                  </p>
+                </div>
+              </li>
+              <li className="column small-12 medium-4"></li>
+            </div>
+            {/* <li className="column small-12 medium-6">
               <div className="image">
                 <a href="javascript:;">
                   <img src={legal1} style={{ borderRadius: "50%" }} alt="" />
@@ -153,7 +158,7 @@ export default function Services() {
                   </Link>
                 </p>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -165,7 +170,8 @@ export default function Services() {
             fontSize: "30px",
           }}
         >
-          <strong>Andersen,</strong> un nombre del pasado,
+          <strong>Andersen,</strong> es la firma miembro argentina de Andersen
+          Global®,
         </p>
         <p
           style={{
@@ -174,8 +180,14 @@ export default function Services() {
             fontSize: "30px",
           }}
         >
-          <strong>la firma del futuro</strong>
+          <strong>
+            una asociación internacional de firmas miembro compuesta por
+            profesionales legales y fiscales de todo el mundo.
+          </strong>
         </p>
+        {/* <h3 style={{ color: "white" }}>
+          Integramos derecho, impuestos y tecnología
+        </h3> */}
       </div>
 
       <div className="door"></div>

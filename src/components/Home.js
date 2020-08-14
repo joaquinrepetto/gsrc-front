@@ -137,7 +137,7 @@ export default function Home() {
                     </nav>
 
                     <div className="detail-text">
-                      <h1>Andersen Argentina</h1>
+                      <h1>Andersen en Argentina</h1>
                       <p>
                         Desde el 2020 somos el producto de la unión de dos
                         prestigiosos estudios en Argentina: GSRC y MODO Law.
@@ -291,7 +291,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="headline-scroller orbit" data-orbit>
+        {/* NEWS */}
+        {/* <div className="headline-scroller orbit" data-orbit>
           <div className="row large-collapse">
             <div className="column small-4">
               <hr />
@@ -403,7 +404,8 @@ export default function Home() {
               </a>
             </p>
           </div>
-        </div>
+        </div> */}
+        {/* NEWS */}
 
         <div className="headline-scroller orbit" data-orbit>
           <div className="row large-collapse">
@@ -509,12 +511,12 @@ export default function Home() {
         </div>
 
         <div class="callout" style={{ marginTop: "50px" }}>
-          <p>Nuestra firma ha sido reconocida como</p>
+          <p> Andersen es la firma miembro argentina de Andersen Global®,</p>
           <p style={{ fontWeight: "900" }}>
-            Empresa Líder Mundial en Impuestos y
+            una asociación internacional de firmas miembro
           </p>
           <p style={{ fontWeight: "900" }}>
-            Empresa Líder en Precios de Transferencia
+            compuesta por profesionales legales y fiscales de todo el mundo.
           </p>
         </div>
       </div>

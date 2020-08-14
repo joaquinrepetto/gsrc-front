@@ -6,7 +6,7 @@ export default function LegalServicesEnglish() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const [tab, setTab] = useState(0);
+  const [tab, setTab] = useState(1);
 
   return (
     <div>
@@ -56,14 +56,14 @@ export default function LegalServicesEnglish() {
                 <li>
                   <a style={{ color: "#AC0E20" }}>Legal Services</a>
                   <ul class="lvl-2 vertical nested is-active">
-                    <li>
+                    {/* <li>
                       <a
                         onClick={() => setTab(0)}
                         style={{ color: tab === 0 ? "#AC0E20" : null }}
                       >
                         Legal
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         onClick={() => setTab(1)}
@@ -80,7 +80,7 @@ export default function LegalServicesEnglish() {
                         onClick={() => setTab(2)}
                         style={{ color: tab === 2 ? "#AC0E20" : null }}
                       >
-                        International trade and Custom Law
+                        International Trade and Custom Law
                       </a>
                     </li>
                     <li>
@@ -89,6 +89,46 @@ export default function LegalServicesEnglish() {
                         style={{ color: tab === 3 ? "#AC0E20" : null }}
                       >
                         Tech
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(4)}
+                        style={{ color: tab === 4 ? "#AC0E20" : null }}
+                      >
+                        Corporate solutions
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(5)}
+                        style={{ color: tab === 5 ? "#AC0E20" : null }}
+                      >
+                        Labor Law
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(6)}
+                        style={{ color: tab === 6 ? "#AC0E20" : null }}
+                      >
+                        Legal Consultancy and Legal Compliance
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(7)}
+                        style={{ color: tab === 7 ? "#AC0E20" : null }}
+                      >
+                        Litigation and Other Processes
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(8)}
+                        style={{ color: tab === 8 ? "#AC0E20" : null }}
+                      >
+                        Industrial and Intellectual Property Rights
                       </a>
                     </li>
                   </ul>
@@ -126,55 +166,55 @@ export default function LegalServicesEnglish() {
                   <li style={{ listStyleType: "disc" }}>
                     Defense of taxpayers before the imposition of penalties
                     (fines, business suspensions, registry exclusions, etc.) by
-                    tax authorities.
+                    tax authorities
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Carrying out proceedings before national, provincial and
-                    municipal revenue agencies.
+                    municipal revenue agencies
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Carrying out proceedings before the Argentine National Tax
                     Court and the Tax Court of Appeals from the Province of
-                    Buenos Aires.
+                    Buenos Aires
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Carrying out proceedings before federal and provincial law
-                    courts in all instances.
+                    courts in all instances
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Submitting claims and proceedings for the recovery of
-                    overly-paid taxes.
+                    overly-paid taxes
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Carrying out proceedings before the Argentine General
-                    Customs Office and judicial courts on customs matters.
+                    Customs Office and judicial courts on customs matters
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Advice on regimes for the promotion of certain industries by
-                    the award of tax benefits and related matters.
+                    the award of tax benefits and related matters
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Support on currency exchange matters.
+                    Support on currency exchange matters
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Support on proceedings related to criminal-tax and
-                    criminal-currency exchange matters.
+                    criminal-currency exchange matters
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Design of strategies involving special procedural actions,
                     such as seeking declaratory judgements, injunctions, legal
                     protection proceedings for payment in arrears (amparo) and
-                    other protection proceedings.
+                    other protection proceedings
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Defense against claims for the enforcement of taxes.
+                    Defense against claims for the enforcement of taxes
                   </li>
                 </ul>
               </div>
             )}
             {tab === 2 && (
               <div class="primary-intro">
-                <h2>International trade and Custom Law </h2>
+                <h2>International Trade and Custom Law </h2>
                 <h5>Customs Law:</h5>
                 <p>
                   We provide advice to local and international companies in its
@@ -203,27 +243,27 @@ export default function LegalServicesEnglish() {
                 <h5>Our services include:</h5>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Anti-dumping proceedings.
+                    Anti-dumping proceedings
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Customs procedures, classification and customs value.
+                    Customs procedures, classification and customs value
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Rules of Origin and Tariff Preferences.
+                    Rules of Origin and Tariff Preferences
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Quantitative quotas and restrictions.
+                    Quantitative quotas and restrictions
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Import licenses and import licensing procedures.
+                    Import licenses and import licensing procedures
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Temporary import and export regime.
+                    Temporary import and export regime
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Customs and disciplinary infractions.
+                    Customs and disciplinary infractions
                   </li>
-                  <li style={{ listStyleType: "disc" }}>Export refunds.</li>
+                  <li style={{ listStyleType: "disc" }}>Export refunds</li>
                 </ul>
               </div>
             )}
@@ -238,6 +278,175 @@ export default function LegalServicesEnglish() {
                 </p>
               </div>
             )}
+            {tab === 4 && (
+              <div class="primary-intro">
+                <h2>Corporate Solutions</h2>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Company agreements, shareholders agreements
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Drafting and negotiation of corporate agreemets, joint
+                    ventures and business and industry associations
+                  </li>
+                </ul>
+                <h5>MERGER & AQUISITIONS</h5>
+                <li style={{ listStyleType: "disc" }}>
+                  Legal assistance with corporate documentation
+                </li>
+                <li style={{ listStyleType: "disc" }}>
+                  Tax efficiency in the M&A process and risk analysis
+                </li>
+                <li style={{ listStyleType: "disc" }}>
+                  Contract drafting and negotiation
+                </li>
+                <li style={{ listStyleType: "disc" }}>
+                  Legal and tax due diligence
+                </li>
+              </div>
+            )}
+            {tab === 5 && (
+              <div class="primary-intro">
+                <h2>Labor Law</h2>
+                <p>
+                  Our labor practice covers a wide range of matters, as a
+                  general labor and social security matters, planning and
+                  strategy to restructuring, collective bargaining and
+                  negotiations with unions and the government. Our team has a
+                  great and extensive experience:
+                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Labor-related litigation and dispute resolution
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Advising on labor and employment matters that are part of
+                    all sort of due diligence efforts
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Advising clients in collective conflicts, dealing with
+                    unions in case of force measures
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Advising on restructuring and reengineering of labor forces
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Representing employers in all claims and procedures before
+                    the Labor Ministry
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Advising on situations concerning particular employees and
+                    on general compliance with increasingly complex domestic and
+                    foreign employment laws
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Advising companies on how to avoid labor claims
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Assisting clients in their matters before government
+                    entities, trade and labor unions
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Assisting employers before Chambers of the business
+                  </li>
+                </ul>
+              </div>
+            )}
+            {tab === 6 && (
+              <div class="primary-intro">
+                <h2>Legal Consultancy and Legal Compliance</h2>
+                <p>
+                  We offer advice on legal consulting and implementation of
+                  compliance programs in order to identify risks, mitigate them,
+                  and take care of your reputation and business. We particularly
+                  provide assistance in:
+                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Legal and tax advice, and business planning on matters
+                    related to regulations and/or international, national,
+                    provincial or municipal transactions.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Specialized assistance in legal consulting.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Implementation of compliance programs.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Review of implemented compliance programs.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Drafting and review of codes of conducts and ethics.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Design of risk management programs.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Due Diligence regarding compliance and internal
+                    investigations. Risk and contingency analysis.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Implementation of complaint lines.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Developing in-house training programs for companies.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Advice on the responsibility of directors, managers,
+                    administrators, compliance officers and criminal compliance
+                    on organizations.
+                  </li>
+                </ul>
+              </div>
+            )}
+            {tab === 7 && (
+              <div class="primary-intro">
+                <h2>Litigation and Other Processes</h2>
+                <p>
+                  We have a team of professional that offers support and
+                  representation before all judicial instances of both, local
+                  and federal justice. Our services include:
+                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Assistance at extrajudicial negotiations and mediations
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Administrative and Tax Litigation
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Civil, Commercial and Intellectual property litigation
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Labor law litigation  Insolvency and Restructuring
+                    processes
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Arbitration</li>
+                </ul>
+              </div>
+            )}
+            {tab === 8 && (
+              <div class="primary-intro">
+                <h2>Industrial and Intellectual Property Rights</h2>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>Legal assistance</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Organization and filing of application and prosecution of
+                    Trademarks, Patents and Utility Models and Industrial
+                    Designs procedures
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Background searches</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Filing of oppositions
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Copyright</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Personal Data Protection
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -249,7 +458,8 @@ export default function LegalServicesEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>Andersen,</strong> name from the past,
+          <strong>Andersen,</strong> is the Argentinian member firm of Andersen
+          Global®,
         </p>
         <p
           style={{
@@ -258,7 +468,10 @@ export default function LegalServicesEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>The Firm of the future</strong>
+          <strong>
+            an international association of member firms comprised of tax and
+            legal professionals worldwide.
+          </strong>
         </p>
       </div>
       <div class="door"></div>

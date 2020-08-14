@@ -60,17 +60,17 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link to="/services">
-                    <a>Servicios</a>
+                    <a>Services</a>
                   </Link>
                 </li>
                 <li>
                   <Link to="/proffesionals-english">
-                    <a>Proffessionals</a>
+                    <a>Professionals</a>
                   </Link>
                 </li>
                 <li>
                   <Link to="/noticias">
-                    <a>Noticias</a>
+                    <a>News</a>
                   </Link>
                 </li>
               </ul>
@@ -123,17 +123,16 @@ export default function Footer() {
 
           <div class="row column">
             <p class="site-copyright">
-              © Andersen Tax LLC, ANDERSEN GSRC and MODO LAW. ANDERSEN GSRC and
-              MODO LAW are the Argentinian member firms of Andersen Global, a
-              Swiss 'verein' made up of member firms that are independent legal
-              entities, located around the world and that provide services under
-              their own name or the brands "Andersen Tax" or "Andersen Tax &
-              Legal" . Andersen Global does not provide services and has no
-              responsibility for the actions of other member firms, which also
-              have no responsibility for any actions taken by Andersen Global.
-              The use of this website is subject to its own terms and
-              conditions. Please read the terms and conditions before using this
-              website.
+              © Andersen Tax LLC, are the member firms of Andersen Global, a
+              Swiss &#39;verein&#39; made up of member firms that are
+              independent legal entities, located around the world and that
+              provide services under their own name or the brands &quot;Andersen
+              Tax&quot; or &quot;Andersen Tax &amp; Legal&quot;. Andersen Global
+              does not provide services and has no responsibility for the
+              actions of other member firms, which also have no responsibility
+              for any actions taken by Andersen Global. The use of this website
+              is subject to its own terms and conditions. Please read the terms
+              and conditions before using this website.
             </p>
 
             <p class="site-copyright">
@@ -249,17 +248,16 @@ export default function Footer() {
 
         <div class="row column">
           <p class="site-copyright">
-            © Andersen Tax LLC, ANDERSEN GSRC y MODO LAW son las firmas
-            argentinas miembros de Andersen Global, una &#39;verein&#39; suiza
-            compuesta por entidades jurídicas independientes, localizadas
-            alrededor del mundo y que proporcionan servicios bajo su propio
-            nombre o las marcas “Andersen Tax” o “Andersen Tax &amp; Legal”.
-            Andersen Global no presta servicios y no tiene responsabilidad sobre
-            las acciones de otras firmas miembro, que tampoco poseen
-            responsabilidad por ninguna acción realizada por Andersen Global. El
-            uso de esta página web, está sujeto a sus propios términos y
-            condiciones. Por favor, lea los términos y condiciones, antes del
-            uso de esta página web.
+            © Andersen Tax LLC, son las firmas miembros de Andersen Global, una
+            &#39;verein&#39; suiza compuesta por entidades jurídicas
+            independientes, localizadas alrededor del mundo y que proporcionan
+            servicios bajo su propio nombre o las marcas “Andersen Tax” o
+            “Andersen Tax &amp; Legal”. Andersen Global no presta servicios y no
+            tiene responsabilidad sobre las acciones de otras firmas miembro,
+            que tampoco poseen responsabilidad por ninguna acción realizada por
+            Andersen Global. El uso de esta página web, está sujeto a sus
+            propios términos y condiciones. Por favor, lea los términos y
+            condiciones, antes del uso de esta página web.
           </p>
 
           <p class="site-copyright">

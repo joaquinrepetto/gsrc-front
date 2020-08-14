@@ -379,7 +379,6 @@ export default function ContableServices() {
             )}
             {tab === 1 && (
               <div className="primary-intro">
-                <h2>Consultoría y Compliance Tributario</h2>
                 <p>
                   Entendemos el asesoramiento como actitud proactiva para
                   procurar ahorros fiscales oportunos, dentro del marco legal.
@@ -390,12 +389,6 @@ export default function ContableServices() {
                 </p>
                 <p>Ofrecemos:</p>
                 <ul>
-                  <li style={{ listStyleType: "disc" }}>
-                    Asesoramiento jurídico-impositivo y planificación de
-                    negocios en asuntos vinculados con normativas y/o
-                    transacciones internacionales, nacionales, provinciales o
-                    municipales.
-                  </li>
                   <li style={{ listStyleType: "disc" }}>
                     Asistencia y estrategias durante el desarrollo de
                     inspecciones.
@@ -529,7 +522,6 @@ export default function ContableServices() {
           </div>
         </div>
       </div>
-
       <div className="callout3">
         <p
           style={{
@@ -538,7 +530,8 @@ export default function ContableServices() {
             fontSize: "30px",
           }}
         >
-          <strong>Andersen,</strong> un nombre del pasado,
+          <strong>Andersen,</strong> es la firma miembro argentina de Andersen
+          Global®,
         </p>
         <p
           style={{
@@ -547,8 +540,14 @@ export default function ContableServices() {
             fontSize: "30px",
           }}
         >
-          <strong>la firma del futuro</strong>
+          <strong>
+            una asociación internacional de firmas miembro compuesta por
+            profesionales legales y fiscales de todo el mundo.
+          </strong>
         </p>
+        {/* <h3 style={{ color: "white" }}>
+          Integramos derecho, impuestos y tecnología
+        </h3> */}
       </div>
       <div className="door"></div>
     </div>

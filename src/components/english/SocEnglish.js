@@ -124,7 +124,8 @@ export default function SocEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>Andersen,</strong> name from the past,
+          <strong>Andersen,</strong> is the Argentinian member firm of Andersen
+          Global®,
         </p>
         <p
           style={{
@@ -133,7 +134,10 @@ export default function SocEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>The Firm of the future</strong>
+          <strong>
+            an international association of member firms comprised of tax and
+            legal professionals worldwide.
+          </strong>
         </p>
       </div>
       <div className="door"></div>

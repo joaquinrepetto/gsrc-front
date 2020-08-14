@@ -154,21 +154,21 @@ export default function OurFirmEnglish() {
                   </p>
                   <ul>
                     <li style={{ listStyleType: "disc" }}>
-                      Timely providing practical solutions;
+                      Timely providing practical solutions
                     </li>
                     <li style={{ listStyleType: "disc" }}>
-                      Quickly solving any request made by clients;
+                      Quickly solving any request made by clients
                     </li>
                     <li style={{ listStyleType: "disc" }}>
                       Maintaining a kind relation to enable effective
-                      communication;
+                      communication
                     </li>
                     <li style={{ listStyleType: "disc" }}>
-                      Professional ethics;
+                      Professional ethics
                     </li>
                     <li style={{ listStyleType: "disc" }}>
                       Keeping a fluent relation to develop objectives in the
-                      best way;
+                      best way
                     </li>
                   </ul>
                 </div>

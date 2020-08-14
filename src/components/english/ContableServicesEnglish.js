@@ -316,28 +316,28 @@ export default function ContableServicesEnglish() {
                   We defend the taxpayer's position against possible adjustments
                   by the tax authority, accompanying him from the start of the
                   inspection to its definition in court in all contentious
-                  stages.
+                  stages
                 </p>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     Representation in defense of adjustments before the Tax
-                    Administration, the Tax Court and Justice.
+                    Administration, the Tax Court and Justice
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Preparation of technical expert reports.
+                    Preparation of technical expert reports
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Defenses of value before Customs.
+                    Defenses of value before Customs
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Action in Mutual Agreement Procedures within the framework
-                    of the Agreements to Avoid Double Taxation.
+                    of the Agreements to Avoid Double Taxation
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     We provide support to face tax examinations/audits and
                     defend clients in litigation processes, including the design
                     of strategies and the representation and advise before
-                    jurisdictional authorities.
+                    jurisdictional authorities
                   </li>
                 </ul>
 
@@ -346,7 +346,7 @@ export default function ContableServicesEnglish() {
                   <li style={{ listStyleType: "disc" }}>
                     We provide assistance to clients who file and apply for
                     Joint Assessments for International Transaction Prices
-                    (DCPOI).
+                    (DCPOI)
                   </li>
                 </ul>
 
@@ -354,14 +354,13 @@ export default function ContableServicesEnglish() {
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     We apply financial valuation techniques to companies and
-                    advise on negotiations in M&A processes.
+                    advise on negotiations in M&A processes
                   </li>
                 </ul>
               </div>
             )}
             {tab === 1 && (
               <div className="primary-intro">
-                <h2>Andersen Consulting and Tax Compliance</h2>
                 <p>
                   Our firm believes that providing advisory services requires a
                   proactive attitude towards seeking timely tax savings within a
@@ -373,48 +372,43 @@ export default function ContableServicesEnglish() {
                 <p>Our Services:</p>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Legal and tax advice, and business planning on matters
-                    related to regulations and/or international, national,
-                    provincial or municipal transactions.
-                  </li>
-                  <li style={{ listStyleType: "disc" }}>
-                    Support and strategy design during inspections.
+                    Support and strategy design during inspections
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Preparation and / or review of sworn statements of monthly
-                    and / or annual compliance.
+                    and / or annual compliance
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Advice on national, provincial and municipal levies.
+                    Advice on national, provincial and municipal levies
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    International tax structuring.
+                    International tax structuring
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Due diligence procedures related to the acquisition of
-                    companies.
+                    companies
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Structuring of tax-free reorganizations.
+                    Structuring of tax-free reorganizations
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Deferred tax calculations.
+                    Deferred tax calculations
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Legal defense and litigations.
+                    Legal defense and litigations
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Analysis of tax positions for which recoverability is not
-                    deemed to be assured.
+                    deemed to be assured
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Recoverability of tax credits.
+                    Recoverability of tax credits
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Recoverability of the balance of provincial taxes.
+                    Recoverability of the balance of provincial taxes
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Advices on social security issues.
+                    Advices on social security issues
                   </li>
                 </ul>
               </div>
@@ -424,28 +418,28 @@ export default function ContableServicesEnglish() {
                 <h2>International Assignments</h2>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Tax planning on the global mobility policy.
+                    Tax planning on the global mobility policy
                   </li>
-                  <li style={{ listStyleType: "disc" }}>Tax equalizations.</li>
+                  <li style={{ listStyleType: "disc" }}>Tax equalizations</li>
                   <li style={{ listStyleType: "disc" }}>
                     Advise on corporate and payroll taxes on home and host
-                    country.
+                    country
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Advise on individual taxes in home and host country.
+                    Advise on individual taxes in home and host country
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Global Mobility policies advisory.
+                    Global Mobility policies advisory
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Labor and Social security planification.
+                    Labor and Social security planification
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Work permit assistance
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Compliance on withholding taxes of the global mobility
-                    transactions.
+                    transactions
                   </li>
                 </ul>
               </div>
@@ -456,7 +450,7 @@ export default function ContableServicesEnglish() {
                 <p>
                   We provide services designed for each family group to trust
                   the firm with their wealth management, acting as back office
-                  for their “corporate family”..
+                  for their “corporate family”
                 </p>
                 <p>
                   Therefore, the firm provides a comprehensive service that
@@ -466,25 +460,25 @@ export default function ContableServicesEnglish() {
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     Effective organized and centralized familiar corporate
-                    governance.
+                    governance
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Proper and efficient administration and preservation of
-                    assets.
+                    assets
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Strategies designed specifically for each “corporate family”
                     according to their own objectives on asset management and
-                    optimization and protection of their assets.
+                    optimization and protection of their assets
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Close guidance by experienced multidisciplinary
                     professionals for the design and implementation of efficient
-                    legal and fiscal structures.
+                    legal and fiscal structures
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Exclusive attention from our partners to achieve economic
-                    and psycho-social welfare of the “corporate family”.
+                    and psycho-social welfare of the “corporate family”
                   </li>
                 </ul>
 
@@ -516,7 +510,8 @@ export default function ContableServicesEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>Andersen,</strong> name from the past,
+          <strong>Andersen,</strong> is the Argentinian member firm of Andersen
+          Global®,
         </p>
         <p
           style={{
@@ -525,7 +520,10 @@ export default function ContableServicesEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>The Firm of the future</strong>
+          <strong>
+            an international association of member firms comprised of tax and
+            legal professionals worldwide.
+          </strong>
         </p>
       </div>
       <div className="door"></div>

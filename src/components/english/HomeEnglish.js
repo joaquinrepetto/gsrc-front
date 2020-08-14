@@ -137,7 +137,7 @@ export default function HomeEnglish() {
                     </nav>
 
                     <div className="detail-text">
-                      <h1>Andersen Argentina</h1>
+                      <h1>Andersen in Argentina</h1>
                       <p>
                         Since 2020 we are the product of the merger of two
                         prestigious studios in Argentina: GSRC and MODO Law.
@@ -290,7 +290,8 @@ export default function HomeEnglish() {
           </div>
         </div>
 
-        <div className="headline-scroller orbit" data-orbit>
+        {/* NEWS */}
+        {/* <div className="headline-scroller orbit" data-orbit>
           <div className="row large-collapse">
             <div className="column small-4">
               <hr />
@@ -402,7 +403,8 @@ export default function HomeEnglish() {
               </a>
             </p>
           </div>
-        </div>
+        </div> */}
+        {/* NEWS */}
 
         <div className="headline-scroller orbit" data-orbit>
           <div className="row large-collapse">
@@ -507,9 +509,13 @@ export default function HomeEnglish() {
         </div>
 
         <div class="callout" style={{ marginTop: "50px" }}>
-          <p>Our firm has been recognized as a</p>
-          <p style={{ fontWeight: "900" }}>World Tax Leading Firm and</p>
-          <p style={{ fontWeight: "900" }}>Leading Transfer Pricing</p>
+          <p>Andersen is the Argentinian member firm of Andersen Global®,</p>
+          <p style={{ fontWeight: "900" }}>
+            an international association of member firms
+          </p>
+          <p style={{ fontWeight: "900" }}>
+            comprised of tax and legal professionals worldwide.
+          </p>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ export default function LegalServices() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const [tab, setTab] = useState(0);
+  const [tab, setTab] = useState(1);
 
   return (
     <div>
@@ -56,14 +56,14 @@ export default function LegalServices() {
                 <li>
                   <a style={{ color: "#AC0E20" }}>Servicios Legales</a>
                   <ul class="lvl-2 vertical nested is-active">
-                    <li>
+                    {/* <li>
                       <a
                         onClick={() => setTab(0)}
                         style={{ color: tab === 0 ? "#AC0E20" : null }}
                       >
                         Legal
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         onClick={() => setTab(1)}
@@ -91,6 +91,46 @@ export default function LegalServices() {
                         Tecnología
                       </a>
                     </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(4)}
+                        style={{ color: tab === 4 ? "#AC0E20" : null }}
+                      >
+                        Sociedades
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(5)}
+                        style={{ color: tab === 5 ? "#AC0E20" : null }}
+                      >
+                        Derecho Laboral
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(6)}
+                        style={{ color: tab === 6 ? "#AC0E20" : null }}
+                      >
+                        Consultoría y Compliance Legal
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(7)}
+                        style={{ color: tab === 7 ? "#AC0E20" : null }}
+                      >
+                        Litigios y Otros Procesos
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setTab(8)}
+                        style={{ color: tab === 8 ? "#AC0E20" : null }}
+                      >
+                        Propiedad Industrial e Intelectual
+                      </a>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -98,7 +138,7 @@ export default function LegalServices() {
           </div>
 
           <div class="column large-8 medium-8 small-12 top-story">
-            {tab === 0 && (
+            {/* {tab === 0 && (
               <div class="primary-intro">
                 <h2>Legal</h2>
                 <p>
@@ -107,7 +147,7 @@ export default function LegalServices() {
                   corporativo.
                 </p>
               </div>
-            )}
+            )} */}
             {tab === 1 && (
               <div class="primary-intro">
                 <h2>Asuntos Fiscales, Legales y Contenciosos</h2>
@@ -250,6 +290,191 @@ export default function LegalServices() {
                 </p>
               </div>
             )}
+            {tab === 4 && (
+              <div class="primary-intro">
+                <h2>Sociedades</h2>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Contratos societarios, acuerdos de accionistas
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Redacción y negociación de contratos corporativos, uniones
+                    transitorias y agrupaciones de colaboración empresaria
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Resolución de conflictos societarios
+                  </li>
+                </ul>
+                <h5>FUSIONES Y ADIQUISICIONES</h5>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asistencia legal en la toma de decisiones y preparación de
+                    documentación societaria
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Eficiencia fiscal del proceso de M&amp;A y análisis de
+                    riesgos
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Redacción y negociación de contratos
+                  </li>
+                </ul>
+              </div>
+            )}
+            {tab === 5 && (
+              <div class="primary-intro">
+                <h2>Derecho Laboral</h2>
+                <p>
+                  Nuestro equipo de Derecho Laboral tiene experiencia en asuntos
+                  laborales generales, planificación de reestructuraciones,
+                  acuerdos colectivos y negociaciones con sindicatos y
+                  gobiernos.  Particularmente brindamos asistencia en:
+                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asuntos laborales contenciosos y solución de controversias
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Intervención en due diligences
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Negociación con entidades gremiales en caso de huelgas y
+                    todo otro tipo de medidas de fuerza
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en reestructuraciones y reingenierías de la
+                    fuerza de trabajo
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Representación de empresas ante el Ministerio de Trabajo,
+                    Empleo y Seguridad Social de la Nación y sus delegaciones
+                    regionales
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en situaciones que involucran a determinados
+                    empleados en particular y sobre el cumplimiento general de
+                    las leyes labores locales y extranjeras
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento a empresas sobre la manera de evitar reclamos
+                    laborales  Asistencia a clientes en sus relaciones con
+                    organismos gubernamentales y entidades gremiales
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asistencia a clientes frente a conflictos colectivos de
+                    trabajo
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en negociación de convenios colectivos de
+                    trabajo
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Representación de empresas en cámaras de la actividad
+                  </li>
+                </ul>
+              </div>
+            )}{" "}
+            {tab === 6 && (
+              <div class="primary-intro">
+                <h2>Consultoría y Compliance Legal</h2>
+                <p>
+                  Ofrecemos asesoramiento en consultoría legal e implementación
+                  de programas de compliance a efectos de identificar riesgos,
+                  mitigarlos, cuidar su reputación y negocio.  Particularmente
+                  brindamos asistencia en:
+                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento jurídico-impositivo y planificación de
+                    negocios en asuntos vinculados con normativas y/o
+                    transacciones internacionales, nacionales, provinciales o
+                    municipales.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asistencia especializada en consultoría legal
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Implementación de programas de compliance
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Revisión de programas de integridad ya implementados
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Redacción y revisión de códigos de ética
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    iseño de mapas de riesgos
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Due Diligence en materia de compliance e investigaciones
+                    internas. Análisis de riesgos y contingencias
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Implementación de líneas de denuncia
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Capacitación in-house en compliance
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asesoramiento en materia de responsabilidad de directores,
+                    gerentes, administradores, oficiales de cumplimiento y
+                    responsabilidad penal de las organizaciones
+                  </li>
+                </ul>
+              </div>
+            )}
+            {tab === 7 && (
+              <div class="primary-intro">
+                <h2>Litigios y Otros Procesos</h2>
+                <p>
+                  Contamos con un equipo de profesionales que brinda asistencia
+                  y patrocinio ante todas las instancias judiciales locales y
+                  federales. Nuestros servicios incluyen:
+                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Asistencia en negociaciones extrajudiciales y mediaciones
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Litigios contencioso administrativos y tributarios
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Litigios civiles, comerciales y de propiedad intelectual
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Litigios laborales </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Litigios en materia regulatoria
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Concursos y Quiebras
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Arbitraje</li>
+                </ul>
+              </div>
+            )}
+            {tab === 8 && (
+              <div class="primary-intro">
+                <h2>Propiedad Industrial e Intelectual</h2>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>Asesoramiento legal</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Organización y presentación de solicitudes y prosecución de
+                    trámites de Marcas, Patentes y Modelos de Utilidad, Modelos
+                    y Diseños Industriales
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Realización de búsquedas de antecedentes
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Presentación de oposiciones
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Derecho de autor</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Protección de datos personales
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -261,7 +486,8 @@ export default function LegalServices() {
             fontSize: "30px",
           }}
         >
-          <strong>Andersen,</strong> un nombre del pasado,
+          <strong>Andersen,</strong> es la firma miembro argentina de Andersen
+          Global®,
         </p>
         <p
           style={{
@@ -270,8 +496,14 @@ export default function LegalServices() {
             fontSize: "30px",
           }}
         >
-          <strong>la firma del futuro</strong>
+          <strong>
+            una asociación internacional de firmas miembro compuesta por
+            profesionales legales y fiscales de todo el mundo.
+          </strong>
         </p>
+        {/* <h3 style={{ color: "white" }}>
+          Integramos derecho, impuestos y tecnología
+        </h3> */}
       </div>
       <div class="door"></div>
     </div>

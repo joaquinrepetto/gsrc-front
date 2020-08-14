@@ -142,7 +142,8 @@ export default function WealthServices() {
             fontSize: "30px",
           }}
         >
-          <strong>Andersen,</strong> un nombre del pasado,
+          <strong>Andersen,</strong> es la firma miembro argentina de Andersen
+          Global®,
         </p>
         <p
           style={{
@@ -151,8 +152,14 @@ export default function WealthServices() {
             fontSize: "30px",
           }}
         >
-          <strong>la firma del futuro</strong>
+          <strong>
+            una asociación internacional de firmas miembro compuesta por
+            profesionales legales y fiscales de todo el mundo.
+          </strong>
         </p>
+        {/* <h3 style={{ color: "white" }}>
+          Integramos derecho, impuestos y tecnología
+        </h3> */}
       </div>
       <div className="door"></div>
     </div>

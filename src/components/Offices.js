@@ -59,7 +59,7 @@ export default function Offices() {
               <p>This will provide the address for each location.</p>
               <p>
                 <select name="country" id="country_select">
-                  <option value="World">Choose</option>
+                  <option value="World">Seleccionar</option>
                 </select>
                 <ScriptTag
                   type="text/javascript"

@@ -202,32 +202,32 @@ export default function Bpo() {
                 </h5>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Liquidación de sueldos y sus cargas sociales y fiscales.
+                    Liquidación de sueldos y sus cargas sociales y fiscales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Preparación de nóminas confidenciales.
+                    Preparación de nóminas confidenciales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Confección y emisión de los recibos de haberes.
+                    Confección y emisión de los recibos de haberes
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Emisión del libro de sueldos rubricado.
+                    Emisión del libro de sueldos rubricado
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Confección de asientos contables.
+                    Confección de asientos contables
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Emisión de reportes especiales a pedido de las empresas.
+                    Emisión de reportes especiales a pedido de las empresas
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Asesoramiento en caso de desvinculación laboral.
+                    Asesoramiento en caso de desvinculación laboral
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Proyecciones de costos laborales y/o remuneraciones.
+                    Proyecciones de costos laborales y/o remuneraciones
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Atención de inspecciones y/o contestación de requerimientos
-                    de organismos de control.
+                    de organismos de control
                   </li>
                 </ul>
               </div>
@@ -243,30 +243,28 @@ export default function Bpo() {
                 <h5>Procesos Administrativos:</h5>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Establecimiento de circuitos administrativos.
+                    Establecimiento de circuitos administrativos
                   </li>
-                  <li style={{ listStyleType: "disc" }}>Facturación.</li>
-                  <li style={{ listStyleType: "disc" }}>Tesorería.</li>
-                  <li style={{ listStyleType: "disc" }}>
-                    Toma de inventarios.
-                  </li>
+                  <li style={{ listStyleType: "disc" }}>Facturación</li>
+                  <li style={{ listStyleType: "disc" }}>Tesorería</li>
+                  <li style={{ listStyleType: "disc" }}>Toma de inventarios</li>
                 </ul>
 
                 <h5>Aspectos Contables, Laborales e Impositivos:</h5>
                 <ul>
-                  <li style={{ listStyleType: "disc" }}>Contabilidad.</li>
+                  <li style={{ listStyleType: "disc" }}>Contabilidad</li>
                   <li style={{ listStyleType: "disc" }}>
-                    Análisis de cuentas y conciliaciones.
+                    Análisis de cuentas y conciliaciones
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Control presupuestario.
+                    Control presupuestario
                   </li>
-                  <li style={{ listStyleType: "disc" }}>Reportes mensuales.</li>
+                  <li style={{ listStyleType: "disc" }}>Reportes mensuales</li>
                   <li style={{ listStyleType: "disc" }}>
-                    Liquidación de impuestos y tasas.
+                    Liquidación de impuestos y tasas
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Liquidación de nómina y obligaciones de la Seguridad Social.
+                    Liquidación de nómina y obligaciones de la Seguridad Social
                   </li>
                 </ul>
               </div>
@@ -293,14 +291,19 @@ export default function Bpo() {
             fontSize: "30px",
           }}
         >
+          <strong>una asociación internacional de firmas miembro</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
           <strong>
-            una asociación internacional de firmas miembro compuesta por
-            profesionales legales y fiscales de todo el mundo.
+            compuesta por profesionales legales y fiscales de todo el mundo.
           </strong>
         </p>
-        {/* <h3 style={{ color: "white" }}>
-          Integramos derecho, impuestos y tecnología
-        </h3> */}
       </div>
 
       <div className="door"></div>

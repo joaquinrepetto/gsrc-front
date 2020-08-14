@@ -19,7 +19,7 @@ export default function ServicesEnglish() {
             <div className="top">
               <div className="breadcrumbs ">
                 <span className="crumb home">
-                  <a href="/">Home</a>
+                  <a href="/home-english">Home</a>
                 </span>
                 <span className="crumb interior">
                   <a href="#">Services</a>
@@ -176,10 +176,16 @@ export default function ServicesEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>
-            an international association of member firms comprised of tax and
-            legal professionals worldwide.
-          </strong>
+          <strong>an international association of member firms</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
+          <strong>comprised of tax and legal professionals worldwide.</strong>
         </p>
       </div>
 

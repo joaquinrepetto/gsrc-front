@@ -169,50 +169,50 @@ export default function LegalServices() {
                   <li style={{ listStyleType: "disc" }}>
                     Defensa de los contribuyentes antes de la imposición de
                     sanciones (multas, suspensiones comerciales, exclusiones de
-                    registro, etc.) por parte de las autoridades fiscales.
+                    registro, etc.) por parte de las autoridades fiscales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Realización de trámites ante organismos fiscales nacionales,
-                    provinciales y municipales.
+                    provinciales y municipales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Realización de trámites ante el Tribunal Fiscal Nacional de
                     Argentina y el Tribunal Fiscal de Apelaciones de la
-                    Provincia de Buenos Aires.
+                    Provincia de Buenos Aires
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Llevar a cabo procedimientos ante tribunales federales y
-                    provinciales en todos los casos.
+                    provinciales en todos los casos
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Presentación de reclamos y procedimientos para la
-                    recuperación de impuestos pagados en exceso.
+                    recuperación de impuestos pagados en exceso
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Realización de trámites ante la Dirección General de Aduanas
-                    y tribunales judiciales argentinos en materia aduanera.
+                    y tribunales judiciales argentinos en materia aduanera
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Asesoramiento sobre regímenes para la promoción de ciertas
                     industrias mediante la concesión de beneficios fiscales y
-                    asuntos relacionados.
+                    asuntos relacionados
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Apoyo en materia de cambio de divisas.
+                    Apoyo en materia de cambio de divisas
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Apoyo en procedimientos relacionados con asuntos penales,
-                    fiscales y cambiarios de divisas.
+                    fiscales y cambiarios de divisas
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Diseño de estrategias que involucren acciones procesales
                     especiales, tales como la búsqueda de sentencias
                     declaratorias, medidas cautelares, procedimientos de
                     protección legal para pagos atrasados ​​(amparo) y otros
-                    procedimientos de protección.
+                    procedimientos de protección
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Defensa contra reclamos por aplicación de impuestos.
+                    Defensa contra reclamos por aplicación de impuestos
                   </li>
                 </ul>
               </div>
@@ -250,31 +250,31 @@ export default function LegalServices() {
                 <h5>Otros servicios:</h5>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Régimen de Origen y Preferencias Arancelarias.
+                    Régimen de Origen y Preferencias Arancelarias
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Clasificación Arancelaria y Valoración Aduanera.
+                    Clasificación Arancelaria y Valoración Aduanera
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Certificados de importación y trámites de licencias de
-                    importación.
+                    importación
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Régimen de importaciones y exportaciones temporarias.
+                    Régimen de importaciones y exportaciones temporarias
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Infracciones Aduaneras y Disciplinarias.
+                    Infracciones Aduaneras y Disciplinarias
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Asesoramiento en prácticas desleales del comercio,
-                    investigaciones de dumping subsidios y salvaguardias.
+                    investigaciones de dumping subsidios y salvaguardias
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Repeticiones y Reintegros.
+                    Repeticiones y Reintegros
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Temas Cambiarios. Seguimiento de sumarios en el Banco
-                    Central de la República Argentina.
+                    Central de la República Argentina
                   </li>
                 </ul>
               </div>
@@ -293,7 +293,28 @@ export default function LegalServices() {
             {tab === 4 && (
               <div class="primary-intro">
                 <h2>Sociedades</h2>
+                <h5>SERVICIOS DE CONSULTORÍA Y ASESORÍA:</h5>
                 <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Ofreciendo opiniones sobre asuntos generales y específicos,
+                    presentando alternativas y herramientas para la toma de
+                    decisiones
+                  </li>
+                </ul>
+                <h5>SERVICIOS:</h5>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Constitución y registro de empresas, joint ventures y
+                    asociaciones empresariales e industriales
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Modificación de los estatutos sociales
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Fusiones corporativas, adquisiciones, desinversiones y
+                    disoluciones: preparación de documentos y realización de
+                    procedimientos ante Organismos Reguladores
+                  </li>
                   <li style={{ listStyleType: "disc" }}>
                     Contratos societarios, acuerdos de accionistas
                   </li>
@@ -496,14 +517,19 @@ export default function LegalServices() {
             fontSize: "30px",
           }}
         >
+          <strong>una asociación internacional de firmas miembro</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
           <strong>
-            una asociación internacional de firmas miembro compuesta por
-            profesionales legales y fiscales de todo el mundo.
+            compuesta por profesionales legales y fiscales de todo el mundo.
           </strong>
         </p>
-        {/* <h3 style={{ color: "white" }}>
-          Integramos derecho, impuestos y tecnología
-        </h3> */}
       </div>
       <div class="door"></div>
     </div>

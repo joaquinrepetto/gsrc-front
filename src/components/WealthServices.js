@@ -195,32 +195,32 @@ export default function WealthServices() {
                 </p>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Un gobierno familiar efectivo, organizado y centralizado.
+                    Un gobierno familiar efectivo, organizado y centralizado
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Una correcta y eficiente administración y preservación del
-                    patrimonio.
+                    patrimonio
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Una estrategia diseñada a la medida de cada “familia
                     empresaria”, según sus propias metas de gestión patrimonial
-                    y de optimización y protección de su patrimonio.
+                    y de optimización y protección de su patrimonio
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Un acompañamiento estrecho por parte de profesionales
                     experimentados interdisciplinarios, para el diseño e
-                    implementación de estructuras jurídico-fiscales eficaces.
+                    implementación de estructuras jurídico-fiscales eficaces
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Una atención exclusiva por parte de nuestros socios, en pos
                     del bienestar económico y psico-social de la “familia
-                    empresaria”.
+                    empresaria”
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Apuntamos así a soluciones integrales y consensuadas con
                     cada grupo familiar, estrategia fundamental para evitar
                     contingencias y riesgos patrimoniales, a la par de optimizar
-                    la gestión de los patrimonios involucrados.
+                    la gestión de los patrimonios involucrados
                   </li>
                 </ul>
 
@@ -256,14 +256,19 @@ export default function WealthServices() {
             fontSize: "30px",
           }}
         >
+          <strong>una asociación internacional de firmas miembro</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
           <strong>
-            una asociación internacional de firmas miembro compuesta por
-            profesionales legales y fiscales de todo el mundo.
+            compuesta por profesionales legales y fiscales de todo el mundo.
           </strong>
         </p>
-        {/* <h3 style={{ color: "white" }}>
-          Integramos derecho, impuestos y tecnología
-        </h3> */}
       </div>
       <div className="door"></div>
     </div>

@@ -234,19 +234,19 @@ export default function ContableServices() {
                 <h2>Precios de Transferencia</h2>
                 <p>
                   Los Precios de Transferencia se han convertido en una de las
-                  áreas clave de los impuestos internacionales.
+                  áreas clave de los impuestos internacionales
                 </p>
                 <p>
                   Por lo tanto, la mayoría de los países tienen reglas y
                   regulaciones de PT muy estrictas para que las autoridades
                   fiscales puedan asegurarse de que se cumpla el estándar de
                   plena competencia en las transacciones realizadas entre partes
-                  relacionadas.
+                  relacionadas
                 </p>
                 <p>
                   Casi todos los países latinoamericanos, excepto Paraguay,
                   aplican los principios y lineamientos desarrollados por la
-                  OCDE.
+                  OCDE
                 </p>
                 <p>
                   Las leyes argentinas han adoptado parámetros similares, pero
@@ -256,7 +256,7 @@ export default function ContableServices() {
                   son partes relacionadas. También incluye algunos controles
                   especiales sobre exportaciones e importaciones enrutadas
                   (triangulaciones) y un Registro especial para exportaciones de
-                  productos básicos.
+                  productos básicos
                 </p>
                 <p>
                   Las leyes argentinas han adoptado parámetros similares, pero
@@ -266,7 +266,7 @@ export default function ContableServices() {
                   son partes relacionadas. También incluye algunos controles
                   especiales sobre exportaciones e importaciones enrutadas
                   (triangulaciones) y un Registro especial para exportaciones de
-                  productos básicos.
+                  productos básicos
                 </p>
                 <h5>Cumplimiento con normativas de control:</h5>
                 <ul>
@@ -276,32 +276,31 @@ export default function ContableServices() {
                     cumplimiento de la normativa aplicable. Los Estudios
                     incluyen el proceso de comparabilidad a cuyo efecto
                     aplicamos la rigurosidad necesaria para minimizar posibles
-                    controversias con la autoridad fiscal.
+                    controversias con la autoridad fiscal
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     {" "}
                     Los Estudios comprenden la preparación del local file y del
                     master file y de las declaraciones juradas que correspondan
-                    ser presentadas.
+                    ser presentadas
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     {" "}
                     Asistimos sobre las obligaciones a completar en operaciones
                     de triangulación de importaciones y exportaciones y en la
-                    registración de operaciones con commodities.
+                    registración de operaciones con commodities
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     {" "}
                     Preparamos informes preliminares para asistir en el diseño
                     de las políticas de precios de transferencia del grupo
-                    multinacional.
+                    multinacional
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     {" "}
                     Asistimos en la preparación del “Informe país por país” y en
                     el cumplimiento de las obligaciones de información que deben
-                    observar las empresas subsidiarias de grupos
-                    multinacionales.
+                    observar las empresas subsidiarias de grupos multinacionales
                   </li>
                 </ul>
 
@@ -311,14 +310,14 @@ export default function ContableServices() {
                   amplia de las operaciones internacionales, transfiriendo
                   experiencias entre países y logrando coherencia en la
                   aplicación de las políticas de Precios de Transferencia de
-                  nuestros clientes.
+                  nuestros clientes
                 </p>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     En el caso de los servicios de asesoramiento regional, el
                     análisis de comparabilidad incluye el equilibrio y la
                     solvencia de los comparables para todos los países no
-                    involucrados.
+                    involucrados
                   </li>
 
                   <li style={{ listStyleType: "disc" }}>
@@ -326,7 +325,7 @@ export default function ContableServices() {
                     amplia de las operaciones internacionales, compartir
                     experiencias entre países y lograr coherencia en las
                     políticas de precios de transferencia de las compañías
-                    multinacionales.
+                    multinacionales
                   </li>
                 </ul>
                 <br />
@@ -335,28 +334,28 @@ export default function ContableServices() {
                   Defendemos la posición del contribuyente contra posibles
                   ajustes por parte de la autoridad fiscal, acompañándolo desde
                   el inicio de la inspección hasta su definición en el tribunal
-                  en todas las etapas contenciosas.
+                  en todas las etapas contenciosas
                 </p>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     Representación en defensa de ajustes ante la Administración
-                    Tributaria, el Tribunal Fiscal y la Justicia.
+                    Tributaria, el Tribunal Fiscal y la Justicia
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Preparación de informes técnicos expertos.
+                    Preparación de informes técnicos expertos
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Defensas de valor ante la Aduana.
+                    Defensas de valor ante la Aduana
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Acción en procedimientos de acuerdo mutuo en el marco de los
-                    acuerdos para evitar la doble imposición.
+                    acuerdos para evitar la doble imposición
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Brindamos apoyo para enfrentar auditorías fiscales y
                     defender a los clientes en los procesos de litigio, incluido
                     el diseño de estrategias y la representación y asesoramiento
-                    ante las autoridades jurisdiccionales.
+                    ante las autoridades jurisdiccionales
                   </li>
                 </ul>
 
@@ -365,7 +364,7 @@ export default function ContableServices() {
                   <li style={{ listStyleType: "disc" }}>
                     Brindamos asistencia en la presentación de la solicitud y
                     tramitación de Determinaciones Conjuntas de Precios de
-                    Operaciones Internacionales (DCPOI).
+                    Operaciones Internacionales (DCPOI)
                   </li>
                 </ul>
 
@@ -373,7 +372,7 @@ export default function ContableServices() {
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     Aplicamos técnicas de valoración financiera a las empresas y
-                    asesoramos sobre negociaciones en procesos de M&A.
+                    asesoramos sobre negociaciones en procesos de M&A
                   </li>
                 </ul>
               </div>
@@ -438,26 +437,26 @@ export default function ContableServices() {
                   <li style={{ listStyleType: "disc" }}>
                     Entrevistas de entrada y de salida: asesoría fiscal para los
                     expatriados frente a sus obligaciones tributarias derivadas
-                    del ingreso o salida de Argentina.
+                    del ingreso o salida de Argentina
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Elaboración de Declaraciones de Ingresos y Bienes
                     Personales: preparación de Declaraciones anuales de Renta y
                     Bienes Personales, de acuerdo con la legislación tributaria
-                    vigente.
+                    vigente
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Elaboración de cálculos de impuestos hipotéticos
-                    (Hypothetical Tax).
+                    (Hypothetical Tax)
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Elaboración de Tax Equalization.
+                    Elaboración de Tax Equalization
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Solicitud de Permisos de Trabajo.
+                    Solicitud de Permisos de Trabajo
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Solicitud de Certificados de Movimientos Migratorios.
+                    Solicitud de Certificados de Movimientos Migratorios
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Preparación de cálculos de Gross Up
@@ -541,14 +540,19 @@ export default function ContableServices() {
             fontSize: "30px",
           }}
         >
+          <strong>una asociación internacional de firmas miembro</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
           <strong>
-            una asociación internacional de firmas miembro compuesta por
-            profesionales legales y fiscales de todo el mundo.
+            compuesta por profesionales legales y fiscales de todo el mundo.
           </strong>
         </p>
-        {/* <h3 style={{ color: "white" }}>
-          Integramos derecho, impuestos y tecnología
-        </h3> */}
       </div>
       <div className="door"></div>
     </div>

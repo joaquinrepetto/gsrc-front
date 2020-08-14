@@ -20,7 +20,7 @@ export default function WealthServices() {
                 <a href="/home-english">Home</a>
               </span>
               <span className="crumb interior">
-                <a href="#">Services</a>
+                <a href="/services-english">Services</a>
               </span>
               <span className="crumb child">
                 <a href="#">Wealth Management & Family Office</a>
@@ -152,14 +152,19 @@ export default function WealthServices() {
             fontSize: "30px",
           }}
         >
+          <strong>una asociación internacional de firmas miembro</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
           <strong>
-            una asociación internacional de firmas miembro compuesta por
-            profesionales legales y fiscales de todo el mundo.
+            compuesta por profesionales legales y fiscales de todo el mundo.
           </strong>
         </p>
-        {/* <h3 style={{ color: "white" }}>
-          Integramos derecho, impuestos y tecnología
-        </h3> */}
       </div>
       <div className="door"></div>
     </div>

@@ -816,7 +816,6 @@ export default function ProffessionalsEnglish() {
                           }
                           style={{ cursor: "pointer" }}
                           src={sobre}
-                          alt="juan.fischer@uy.Andersen.com"
                         />
                       </td>
                     </tr>
@@ -987,9 +986,13 @@ export default function ProffessionalsEnglish() {
                         <br />
                       </td>
                       <td class="correo">
-                        <a href="mailto:juan.fischer@uy.Andersen.com">
-                          <img src={sobre} alt="juan.fischer@uy.Andersen.com" />
-                        </a>
+                        <img
+                          onClick={() =>
+                            (window.location.href = `mailto:${socio.mail}`)
+                          }
+                          style={{ cursor: "pointer" }}
+                          src={sobre}
+                        />
                       </td>
                     </tr>
                   ))}

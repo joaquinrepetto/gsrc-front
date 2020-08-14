@@ -193,7 +193,7 @@ export default function HomeEnglish() {
                         advice to companies and individuals locally and
                         internationally.
                       </p>
-                      <Link to="/servicios">
+                      <Link to="/services-english">
                         <a className="button cta hollow-light">
                           More information{" "}
                         </a>
@@ -241,7 +241,7 @@ export default function HomeEnglish() {
                         economists and tax accountants who provide comprehensive
                         services to the needs of clients.
                       </p>
-                      <Link to="/profesionales">
+                      <Link to="/proffessionals">
                         <a className="button cta hollow-light">
                           More information
                         </a>

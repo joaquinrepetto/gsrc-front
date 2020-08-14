@@ -5,7 +5,7 @@ export default function OurFirmEnglish() {
     window.scrollTo(0, 0);
   }, []);
 
-  const [activeText, setActiveText] = useState("qnd");
+  const [tab, setTab] = useState(9);
 
   return (
     <div>
@@ -17,11 +17,24 @@ export default function OurFirmEnglish() {
                 <div className="top">
                   <div className="breadcrumbs ">
                     <span className="crumb home">
-                      <a href="/">Home</a>
+                      <a href="/home-english">Home</a>
                     </span>
                     <span className="crumb interior">
-                      <a href="#">The Firm</a>
+                      <a href="#">About Us</a>
                     </span>
+                    {tab !== 9 && (
+                      <span className="crumb interior">
+                        <a href="#">
+                          {tab === 0
+                            ? "What makes us different"
+                            : tab === 1
+                            ? "Commitment"
+                            : tab === 2
+                            ? "Our mission"
+                            : null}
+                        </a>
+                      </span>
+                    )}
                   </div>
 
                   <ul className="social-links social-hero">
@@ -38,7 +51,7 @@ export default function OurFirmEnglish() {
                   </ul>
                 </div>
                 <div className="text">
-                  <h1>The Firm</h1>
+                  <h1>About Us</h1>
                   <p>
                     We are a member firm of Andersen Global providing Financial
                     Consulting, Transfer Pricing, Accounting and Tax
@@ -51,196 +64,189 @@ export default function OurFirmEnglish() {
         </div>
 
         <div className="row">
-          <div className="column large-12 medium-12 small-12 top-story">
-            <div className="column large-6 medium-6 small-6">
-              <div className="tab">
-                <button
-                  className="tablinks"
-                  style={{
-                    backgroundColor: activeText === "qnd" ? "#ac0e20" : null,
-                    color: activeText === "qnd" ? "white" : null,
-                    fontWeight: activeText === "qnd" ? "900" : null,
-                  }}
-                  onClick={() => setActiveText("qnd")}
-                >
-                  What makes us different
-                </button>
-              </div>
-              <div className="tab">
-                <button
-                  className="tablinks"
-                  style={{
-                    backgroundColor: activeText === "compr" ? "#ac0e20" : null,
-                    color: activeText === "compr" ? "white" : null,
-                    fontWeight: activeText === "compr" ? "900" : null,
-                  }}
-                  onClick={() => setActiveText("compr")}
-                >
-                  Commitment
-                </button>
-              </div>
-              <div className="tab">
-                <button
-                  className="tablinks"
-                  style={{
-                    backgroundColor: activeText === "misi" ? "#ac0e20" : null,
-                    color: activeText === "misi" ? "white" : null,
-                    fontWeight: activeText === "misi" ? "900" : null,
-                  }}
-                  onClick={() => setActiveText("misi")}
-                >
-                  Our mission
-                </button>
-              </div>
-              {/* <div className="tab">
-                <button
-                  className="tablinks"
-                  style={{
-                    backgroundColor: activeText === "vcentr" ? "#ac0e20" : null,
-                    color: activeText === "vcentr" ? "white" : null,
-                    fontWeight: activeText === "vcentr" ? "900" : null,
-                  }}
-                  onClick={() => setActiveText("vcentr")}
-                >
-                  Valores centrales
-                </button>
-              </div> */}
-            </div>
-            <div className="column large-6 medium-6 small-6">
-              {activeText === "qnd" && (
-                <div className="tabcontent" style={{ display: "block" }}>
-                  <h3 style={{ color: "#AD0D21" }}>What makes us different</h3>
-                  <ul>
-                    <li style={{ listStyleType: "disc" }}>
-                      The vast knowledge on matters on which we provide our
-                      advice, and the local and international business
-                      environment where our clients develop.
+          <div className="sidebar-container column large-3 medium-4 small-12">
+            <nav className="sidebar full">
+              <ul className="lvl-1 veritcal-menu" data-accordion-menu>
+                <li>
+                  <a style={{ color: "#AC0E20" }}>About Us</a>
+                  <ul className="lvl-2 vertical nested">
+                    <li>
+                      <a
+                        onClick={() => setTab(0)}
+                        style={{ color: tab === 0 ? "#AC0E20" : null }}
+                      >
+                        What makes us different
+                      </a>
                     </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      A working methodology which includes carrying out detailed
-                      analyses at affordable costs.
+                    <li>
+                      <a
+                        onClick={() => setTab(1)}
+                        style={{ color: tab === 1 ? "#AC0E20" : null }}
+                      >
+                        Commitment
+                      </a>
                     </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Efficient and timely personalized assistance. Instead of
-                      providing an impersonal and standardized structure, we
-                      offer an organized service controlled by our partners,
-                      focused on complying with specific needs applying a
-                      criterion of optimization of results.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      In order to offer high-quality professional services, we
-                      have adopted a culture driven by the pursuit of
-                      excellence: enjoying our work as best as we can and acting
-                      always anticipating the needs and problems our clients may
-                      have.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      A professional qualified team of Public Accountants,
-                      Lawyers and Economists who develop their work and are
-                      constantly being trained. Our team of more than 100
-                      professional experts is committed to continuously
-                      searching alternatives and making intelligent analyses to
-                      use their conclusions in their daily practice.
+                    <li>
+                      <a
+                        onClick={() => setTab(2)}
+                        style={{ color: tab === 2 ? "#AC0E20" : null }}
+                      >
+                        Our mission
+                      </a>
                     </li>
                   </ul>
-                </div>
-              )}
-              {activeText === "compr" && (
-                <div className="tabcontent" style={{ display: "block" }}>
-                  <h3 style={{ color: "#AD0D21" }}>Commitment</h3>
-                  <p>
-                    The following distinctive elements and qualities that
-                    support our broad experience need to be listed:
-                  </p>
-                  <ul>
-                    <li style={{ listStyleType: "disc" }}>
-                      Timely providing practical solutions
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Quickly solving any request made by clients
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Maintaining a kind relation to enable effective
-                      communication
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Professional ethics
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Keeping a fluent relation to develop objectives in the
-                      best way
-                    </li>
-                  </ul>
-                </div>
-              )}
+                </li>
+              </ul>
+            </nav>
+          </div>
 
-              {activeText === "misi" && (
-                <div className="tabcontent" style={{ display: "block" }}>
-                  <h3 style={{ color: "#AD0D21" }}>Our Mission</h3>
-                  <p>
-                    Providing effective and reliable solutions of the highest
-                    professional quality.
-                  </p>
-                  <p>
-                    Achieving our mission with integrity and respecting the
-                    individuality of our professional staff.
-                  </p>
-                </div>
-              )}
+          <div className="column large-8 medium-8 small-12 top-story">
+            {tab === 9 && (
+              <p>
+                Under the Andersen brand we provide independent legal and tax
+                advice to our clients. As a member of Andersen Global, we have a
+                worldwide presence through its member and collaborating firms.
+                We are experts at what we do, and our comprehensive
+                understanding of the market helps us be exclusively committed to
+                our clients&#39; interests. Our role is purely that of a
+                consultant and as a matter of principle, we do not offer the
+                auditing of financial statements. This helps us avoid conflicts
+                of interest. We are a team of dedicated professionals who uphold
+                the integrity and values associated with the Andersen brand
+                worldwide.
+              </p>
+            )}
+            {tab === 0 && (
+              <div className="primary-intro">
+                <h3 style={{ color: "#AD0D21" }}>What makes us different</h3>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    The vast knowledge on matters on which we provide our
+                    advice, and the local and international business environment
+                    where our clients develop.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    A working methodology which includes carrying out detailed
+                    analyses at affordable costs.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Efficient and timely personalized assistance. Instead of
+                    providing an impersonal and standardized structure, we offer
+                    an organized service controlled by our partners, focused on
+                    complying with specific needs applying a criterion of
+                    optimization of results.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    In order to offer high-quality professional services, we
+                    have adopted a culture driven by the pursuit of excellence:
+                    enjoying our work as best as we can and acting always
+                    anticipating the needs and problems our clients may have.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    A professional qualified team of Public Accountants, Lawyers
+                    and Economists who develop their work and are constantly
+                    being trained. Our team of more than 100 professional
+                    experts is committed to continuously searching alternatives
+                    and making intelligent analyses to use their conclusions in
+                    their daily practice.
+                  </li>
+                </ul>
+              </div>
+            )}
+            {tab === 1 && (
+              <div className="primary-intro">
+                <h3 style={{ color: "#AD0D21" }}>Commitment</h3>
+                <p>
+                  The following distinctive elements and qualities that support
+                  our broad experience need to be listed:
+                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Timely providing practical solutions
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Quickly solving any request made by clients
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Maintaining a kind relation to enable effective
+                    communication
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>Professional ethics</li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Keeping a fluent relation to develop objectives in the best
+                    way
+                  </li>
+                </ul>
+              </div>
+            )}
+            {tab === 2 && (
+              <div className="primary-intro">
+                <h3 style={{ color: "#AD0D21" }}>Our Mission</h3>
+                <p>
+                  Providing effective and reliable solutions of the highest
+                  professional quality.
+                </p>
+                <p>
+                  Achieving our mission with integrity and respecting the
+                  individuality of our professional staff.
+                </p>
+              </div>
+            )}
+            {tab === 3 && (
+              <div className="primary-intro">
+                <h2>Wealth Management & Family Office</h2>
+                <p>
+                  Brindamos un servicio diseñado para que cada grupo familiar
+                  pueda confiarnos sus asuntos patrimoniales, ejerciendo de back
+                  office de su “familia empresaria”.
+                </p>
+                <p>
+                  Integramos así en un mismo servicio, todos nuestros
+                  conocimientos, experiencia y especialidades, con el sólido
+                  objetivo de lograr:
+                </p>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Un gobierno familiar efectivo, organizado y centralizado.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Una correcta y eficiente administración y preservación del
+                    patrimonio.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Una estrategia diseñada a la medida de cada “familia
+                    empresaria”, según sus propias metas de gestión patrimonial
+                    y de optimización y protección de su patrimonio.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Un acompañamiento estrecho por parte de profesionales
+                    experimentados interdisciplinarios, para el diseño e
+                    implementación de estructuras jurídico-fiscales eficaces.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Una atención exclusiva por parte de nuestros socios, en pos
+                    del bienestar económico y psico-social de la “familia
+                    empresaria”.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Apuntamos así a soluciones integrales y consensuadas con
+                    cada grupo familiar, estrategia fundamental para evitar
+                    contingencias y riesgos patrimoniales, a la par de optimizar
+                    la gestión de los patrimonios involucrados.
+                  </li>
+                </ul>
 
-              {activeText === "vcentr" && (
-                <div className="tabcontent" style={{ display: "block" }}>
-                  <h3 style={{ color: "#AD0D21" }}>Valores centrales</h3>
-                  <p>
-                    Estamos convencidos que la clave para crear una firma
-                    profesional verdaderamente confiable está en los valores que
-                    guían a la gente que conforma nuestro equipo de trabajo.
-                    Estos son nuestros valores clave:
-                  </p>
-                  <ul>
-                    {" "}
-                    <li style={{ listStyleType: "disc" }}>
-                      Somos leales a nuestros compromisos. Brindamos más
-                      servicio del que nos comprometemos.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Siempre brindamos respuestas sin demoras. Sentimos la
-                      necesidad de atender con urgencia cualquier cuestión
-                      relacionada con nuestros clientes.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Requerimos completa honestidad e integridad en todo lo que
-                      hacemos.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Creemos que el trabajo es una parte importante de nuestra
-                      vida y que debe realizarse con alegría.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Nos gusta competir y creemos que ello genera lo mejor de
-                      nosotros.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Insistimos en brindar siempre nuestro mejor esfuerzo.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      No toleramos que se incurra en errores por desidia o falta
-                      de esfuerzo suficiente.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Respetamos la individualidad y creemos que las personas a
-                      las que se las trata con respeto y se les asigna
-                      responsabilidad, responden con su mejor parte.
-                    </li>
-                    <li style={{ listStyleType: "disc" }}>
-                      Creemos que un claro entendimiento de nuestra misión,
-                      nuestros valores centrales y lo que esperamos de cada uno
-                      de nosotros es central para nuestro éxito.
-                    </li>
-                  </ul>
-                </div>
-              )}
-            </div>
+                <p>
+                  A tales efectos, cumplimos con altísimos estándares de
+                  confidencialidad y protección de datos, aspectos que no sólo
+                  resultan garantizados desde un plano “de valores” (no
+                  divulgación) sino también en un plano informático, aspecto en
+                  el cual hemos adoptado medidas de avanzada, mediante el uso de
+                  herramientas de cloud computing, encriptación y acceso
+                  codificado.
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </div>

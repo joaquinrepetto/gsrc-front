@@ -25,7 +25,7 @@ export default function SocEnglish() {
                 </Link>
               </span>
               <span className="crumb interior">
-                <Link to="/servicios">
+                <Link to="/services-english">
                   <a>Services</a>
                 </Link>
               </span>
@@ -115,7 +115,6 @@ export default function SocEnglish() {
           </div>
         </div>
       </div>
-
       <div className="callout3">
         <p
           style={{
@@ -134,10 +133,16 @@ export default function SocEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>
-            an international association of member firms comprised of tax and
-            legal professionals worldwide.
-          </strong>
+          <strong>an international association of member firms</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
+          <strong>comprised of tax and legal professionals worldwide.</strong>
         </p>
       </div>
       <div className="door"></div>

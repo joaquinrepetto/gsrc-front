@@ -20,7 +20,8 @@ export default function Footer() {
     location.pathname === "/profile" ||
     location.pathname === "/contact" ||
     location.pathname === "/terms" ||
-    location.pathname === "/news"
+    location.pathname === "/news" ||
+    location.pathname === "/offices"
   ) {
     return (
       <footer class="footer">
@@ -60,20 +61,20 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services">
+                  <Link to="/services-english">
                     <a>Services</a>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/proffesionals-english">
+                  <Link to="/proffessionals">
                     <a>Professionals</a>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/noticias">
                     <a>News</a>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
             <nav class="column large-3 medium-3 small-6">
@@ -84,7 +85,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/oficinas">
+                  <Link to="/offices">
                     <a>Offices</a>
                   </Link>
                 </li>
@@ -194,11 +195,11 @@ export default function Footer() {
                   <a>Profesionales</a>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/noticias">
                   <a>Noticias</a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <nav class="column large-3 medium-3 small-6">

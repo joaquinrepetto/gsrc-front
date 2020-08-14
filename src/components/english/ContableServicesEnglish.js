@@ -18,12 +18,12 @@ export default function ContableServicesEnglish() {
           <div className="column medium-8">
             <div className="breadcrumbs service-sub">
               <span className="crumb home">
-                <Link to="/">
+                <Link to="/home-english">
                   <a>Home</a>
                 </Link>
               </span>
               <span className="crumb interior">
-                <Link to="/servicios">
+                <Link to="/services-english">
                   <a>Services</a>
                 </Link>
               </span>
@@ -268,25 +268,25 @@ export default function ContableServicesEnglish() {
                     clients to ensure compliance with applicable rules and
                     regulations. Studies include the comparability process, to
                     which we apply the necessary rigor in order to minimize
-                    potential controversies with the tax authority.
+                    potential controversies with the tax authority
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Studies involve preparing the local file and the master file
-                    and the tax returns that should be filed.
+                    and the tax returns that should be filed
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     We provide assistance with the obligations that should be
                     complied with in routed import and export transactions and
-                    in registering transactions with commodities.
+                    in registering transactions with commodities
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     We prepare preliminary reports to assist in the design of
-                    transfer pricing policies for multinational groups.
+                    transfer pricing policies for multinational groups
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     We provide assistance in preparing the each “Country Report”
                     and in fulfilling the reporting obligations applicable to
-                    the subsidiaries of multinational groups.
+                    the subsidiaries of multinational groups
                   </li>
                 </ul>
 
@@ -295,19 +295,19 @@ export default function ContableServicesEnglish() {
                   Our regional presence allows us to obtain a broad vision of
                   international operations, transferring experiences between
                   countries and achieving coherence in the application of the
-                  Transfer Pricing policies of our clients.
+                  Transfer Pricing policies of our clients
                 </p>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     In the case of regional advisory services, the comparability
                     analysis includes the balance and solvency of comparables
-                    for all countries involved.
+                    for all countries involved
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Regional coordination allows us to get a wider view of
                     international operations, sharing experiences across
                     countries and achieving consistency in the transfer pricing
-                    policies of multinational companies.
+                    policies of multinational companies
                   </li>
                 </ul>
                 <br />
@@ -520,10 +520,16 @@ export default function ContableServicesEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>
-            an international association of member firms comprised of tax and
-            legal professionals worldwide.
-          </strong>
+          <strong>an international association of member firms</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
+          <strong>comprised of tax and legal professionals worldwide.</strong>
         </p>
       </div>
       <div className="door"></div>

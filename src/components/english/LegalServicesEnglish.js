@@ -18,10 +18,10 @@ export default function LegalServicesEnglish() {
           <div class="column medium-8">
             <div class="breadcrumbs service-sub">
               <span class="crumb home">
-                <a href="/">Home</a>
+                <a href="/home-english">Home</a>
               </span>
               <span class="crumb interior">
-                <a href="#">Services</a>
+                <a href="/services-english">Services</a>
               </span>
               <span class="crumb child">
                 <a href="#">Legal Services</a>
@@ -281,7 +281,34 @@ export default function LegalServicesEnglish() {
             {tab === 4 && (
               <div class="primary-intro">
                 <h2>Corporate Solutions</h2>
+                <h5>CONSULTING AND ADVISORY SERVICES:</h5>
                 <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Offering opinions on general and specific matters,
+                    presenting alternatives and tools to take decisions
+                  </li>
+                </ul>
+                <h5>SERVICES:</h5>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Companies incorporation and registration, joint ventures and
+                    business and industry associations
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Modification of corporate Bylaws
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Corporate mergers, acquisitions, divestitures and
+                    dissolutions: document preparation and carryng out of
+                    proceedings before Regulatory Agencies
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Writing of minutes of Meetings of Boards of Directors and
+                    Shareholders Meetings
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Experience on bankruptcy proceedings
+                  </li>
                   <li style={{ listStyleType: "disc" }}>
                     Company agreements, shareholders agreements
                   </li>
@@ -468,10 +495,16 @@ export default function LegalServicesEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>
-            an international association of member firms comprised of tax and
-            legal professionals worldwide.
-          </strong>
+          <strong>an international association of member firms</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
+          <strong>comprised of tax and legal professionals worldwide.</strong>
         </p>
       </div>
       <div class="door"></div>

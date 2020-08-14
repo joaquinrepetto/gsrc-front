@@ -23,7 +23,7 @@ export default function BpoEnglish() {
                 </Link>
               </span>
               <span className="crumb interior">
-                <Link to="/servicios">
+                <Link to="/services-english">
                   <a>Services</a>
                 </Link>
               </span>
@@ -99,33 +99,33 @@ export default function BpoEnglish() {
                 </h5>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Wage settlement and their social and tax contributions.
+                    Wage settlement and their social and tax contributions
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Preparation of confidential payrolls.
+                    Preparation of confidential payrolls
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Preparation and issuance of pay slips.
+                    Preparation and issuance of pay slips
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Issuance of signed and sealed payroll ledger.
+                    Issuance of signed and sealed payroll ledger
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Preparation of accounting entries.
+                    Preparation of accounting entries
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Issuance of special reports at companies’ request.
+                    Issuance of special reports at companies’ request
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Support in case of employment termination.
+                    Support in case of employment termination
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Projection of employment expenses and/or payments.
+                    Projection of employment expenses and/or payments
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Advice to companies on inspections carried out by tax
                     agencies and/or answer to filing requirements of regulatory
-                    agencies.
+                    agencies
                   </li>
                 </ul>
               </div>
@@ -140,26 +140,26 @@ export default function BpoEnglish() {
                 <h5>Administrative Processes:</h5>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Setting administrative circuits.
+                    Setting administrative circuits
                   </li>
-                  <li style={{ listStyleType: "disc" }}>Invoicing.</li>
-                  <li style={{ listStyleType: "disc" }}>Treasury.</li>
-                  <li style={{ listStyleType: "disc" }}>Inventory taking.</li>
+                  <li style={{ listStyleType: "disc" }}>Invoicing</li>
+                  <li style={{ listStyleType: "disc" }}>Treasury</li>
+                  <li style={{ listStyleType: "disc" }}>Inventory taking</li>
                 </ul>
 
                 <h5>Accounting, Employment and Tax Matters:</h5>
                 <ul>
-                  <li style={{ listStyleType: "disc" }}>Accounting.</li>
+                  <li style={{ listStyleType: "disc" }}>Accounting</li>
                   <li style={{ listStyleType: "disc" }}>
-                    Financial analyses and settlements.
+                    Financial analyses and settlements
                   </li>
-                  <li style={{ listStyleType: "disc" }}>Budget control.</li>
-                  <li style={{ listStyleType: "disc" }}>Monthly reports.</li>
+                  <li style={{ listStyleType: "disc" }}>Budget control</li>
+                  <li style={{ listStyleType: "disc" }}>Monthly reports</li>
                   <li style={{ listStyleType: "disc" }}>
-                    Tax and duty settlement.
+                    Tax and duty settlement
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Payroll and social security duties settlement.
+                    Payroll and social security duties settlement
                   </li>
                 </ul>
               </div>
@@ -186,10 +186,16 @@ export default function BpoEnglish() {
             fontSize: "30px",
           }}
         >
-          <strong>
-            an international association of member firms comprised of tax and
-            legal professionals worldwide.
-          </strong>
+          <strong>an international association of member firms</strong>
+        </p>
+        <p
+          style={{
+            color: "white",
+            marginTop: "30px",
+            fontSize: "30px",
+          }}
+        >
+          <strong>comprised of tax and legal professionals worldwide.</strong>
         </p>
       </div>
       <div className="door"></div>

@@ -7113,7 +7113,7 @@ div.panel.show {
     font-size: 1.6875rem;
     line-height: 2.4375rem;
     color: #fefefe;
-    max-width: 46.875rem;
+    /* max-width: 46.875rem; */
     margin: 0 auto 0rem auto; }
     @media screen and (max-width: 39.9375em) {
       .callout p {

@@ -391,41 +391,41 @@ export default function ContableServices() {
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
                     Asistencia y estrategias durante el desarrollo de
-                    inspecciones.
+                    inspecciones
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Confección y/o revisión de declaraciones juradas de
-                    cumplimiento mensual y/o anual.
+                    cumplimiento mensual y/o anual
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Asesoramiento en gravámenes nacionales, provinciales y
-                    municipales.
+                    municipales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Planificación fiscal internacional.
+                    Planificación fiscal internacional
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Procedimientos de debida diligencia en adquisiciones de
-                    empresas.
+                    empresas
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Estructuración de reorganizaciones libres de impuestos.
+                    Estructuración de reorganizaciones libres de impuestos
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Cálculo del Impuesto Diferido.
+                    Cálculo del Impuesto Diferido
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Análisis de posiciones de impuestos de dudosa
-                    recuperabilidad.
+                    recuperabilidad
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Recupero de créditos fiscales.
+                    Recupero de créditos fiscales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Recupero de saldos a favor de impuestos provinciales.
+                    Recupero de saldos a favor de impuestos provinciales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Asesoramiento en materia previsional.
+                    Asesoramiento en materia previsional
                   </li>
                 </ul>
               </div>
@@ -479,32 +479,32 @@ export default function ContableServices() {
                 </p>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Un gobierno familiar efectivo, organizado y centralizado.
+                    Un gobierno familiar efectivo, organizado y centralizado
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Una correcta y eficiente administración y preservación del
-                    patrimonio.
+                    patrimonio
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Una estrategia diseñada a la medida de cada “familia
                     empresaria”, según sus propias metas de gestión patrimonial
-                    y de optimización y protección de su patrimonio.
+                    y de optimización y protección de su patrimonio
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Un acompañamiento estrecho por parte de profesionales
                     experimentados interdisciplinarios, para el diseño e
-                    implementación de estructuras jurídico-fiscales eficaces.
+                    implementación de estructuras jurídico-fiscales eficaces
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Una atención exclusiva por parte de nuestros socios, en pos
                     del bienestar económico y psico-social de la “familia
-                    empresaria”.
+                    empresaria”
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Apuntamos así a soluciones integrales y consensuadas con
                     cada grupo familiar, estrategia fundamental para evitar
                     contingencias y riesgos patrimoniales, a la par de optimizar
-                    la gestión de los patrimonios involucrados.
+                    la gestión de los patrimonios involucrados
                   </li>
                 </ul>
 

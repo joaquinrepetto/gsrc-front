@@ -206,45 +206,45 @@ export default function ConsultorServices() {
                     Asesoramiento jurídico-impositivo y planificación de
                     negocios en asuntos vinculados con normativas y/o
                     transacciones internacionales, nacionales, provinciales o
-                    municipales.
+                    municipales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Asistencia y estrategias durante el desarrollo de
-                    inspecciones.
+                    inspecciones
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Confección y/o revisión de declaraciones juradas de
-                    cumplimiento mensual y/o anual.
+                    cumplimiento mensual y/o anual
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Asesoramiento en gravámenes nacionales, provinciales y
-                    municipales.
+                    municipales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Planificación fiscal internacional.
+                    Planificación fiscal internacional
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Procedimientos de debida diligencia en adquisiciones de
-                    empresas.
+                    empresas
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Estructuración de reorganizaciones libres de impuestos.
+                    Estructuración de reorganizaciones libres de impuestos
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Cálculo del Impuesto Diferido.
+                    Cálculo del Impuesto Diferido
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Análisis de posiciones de impuestos de dudosa
-                    recuperabilidad.
+                    recuperabilidad
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Recupero de créditos fiscales.
+                    Recupero de créditos fiscales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Recupero de saldos a favor de impuestos provinciales.
+                    Recupero de saldos a favor de impuestos provinciales
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Asesoramiento en materia previsional.
+                    Asesoramiento en materia previsional
                   </li>
                 </ul>
               </div>

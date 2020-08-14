@@ -118,6 +118,7 @@ export default function ContactEnglish() {
                       onClick={() =>
                         (window.location.href = `mailto:info@ar.Andersen.com`)
                       }
+                      style={{ color: "#AC0E20" }}
                     >
                       info@ar.Andersen.com
                     </a>

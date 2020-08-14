@@ -303,13 +303,13 @@ export default function ContableServicesEnglish() {
                     analysis includes the balance and solvency of comparables
                     for all countries involved.
                   </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Regional coordination allows us to get a wider view of
+                    international operations, sharing experiences across
+                    countries and achieving consistency in the transfer pricing
+                    policies of multinational companies.
+                  </li>
                 </ul>
-                <li style={{ listStyleType: "disc" }}>
-                  Regional coordination allows us to get a wider view of
-                  international operations, sharing experiences across countries
-                  and achieving consistency in the transfer pricing policies of
-                  multinational companies.
-                </li>
                 <br />
                 <h5>Dispute Resolution:</h5>
                 <p>

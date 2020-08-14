@@ -249,15 +249,15 @@ const socios = [
     type: "socio",
     image: socio14,
     practice: ["Legal"],
-    name: "Luis Maria Flores Gimenez",
+    name: "Luis María Flores Gimenez",
     mail: "luismaria.floresgimenez@ar.Andersen.com",
     linkedin:
       "https://www.linkedin.com/in/luis-mar%C3%ADa-flores-gimenez-b6a35a54/",
-    desc1: `Luis Maria Flores Gimenez is a lawyer graduated from the University of Belgrano with postgraduates’ studies in Tax Law at the Catholic University of Argentina.
+    desc1: `Luis María Flores Gimenez is a lawyer graduated from the University of Belgrano with postgraduates’ studies in Tax Law at the Catholic University of Argentina.
 After working for Deloitte Argentina, where he had been in charge of the tax controversy services practice, he and his colleagues founded MODO LAW; an innovative legal services firm.`,
     desc2: `Luis María has extensive experience in legal consulting in various fields, attending national and international clients in the implementation of a variety of projects.  
 He specializes in administrative and tax matters, and has broad experience in litigation before federal, provincials and municipals courts and tax bureaus. As a litigator, he has been involved in several cases that set precedent in administrative and tax matters.`,
-    desc3: `Luis Maria has been entitled to litigate before Federal Courts and is member of the Bar Association of the Capital Federal (City of Buenos Aires) and the Argentine Association of Tax Studies. He has given classes in tax procedures at CEMA University.`,
+    desc3: `Luis María has been entitled to litigate before Federal Courts and is member of the Bar Association of the Capital Federal (City of Buenos Aires) and the Argentine Association of Tax Studies. He has given classes in tax procedures at CEMA University.`,
     desc6: "",
     education: [
       "Lawyer - University of Belgrano",
@@ -275,7 +275,7 @@ He specializes in administrative and tax matters, and has broad experience in li
     type: "socio",
     image: socio7,
     practice: ["Legal"],
-    name: "Bartolome Homar Mas",
+    name: "Bartolomé Homar Más",
     mail: "bartolome.homarmas@ar.Andersen.com",
     linkedin: "https://linkedin.com/in/bartolomé-homar-más-03b73a8",
     desc1: `He started his career in 1997 working as a trainee in Maciel Norman Martelli & Beretta, a boutique law-firm specialized in Oil & Gas. In 2000 he graduated as a lawyer from the University of Buenos Aires. In 2003 he obtained an LLM International Commercial and Business Law from the University of East Anglia (Norwich – UK). From 2004 and 2005 he worked at KPMG and C’M’S’ Bureau Francis Lefebvre – Mercosur. As from 2006 he led the Tax and Oil & Gas department of Maciel Norman and Asociados. In 2007 he achieved a postgraduate degree in Tax Law from the Austral University (Buenos Aires - Argentina). In 2010 he attended to the Oil & Gas course of the University of Buenos Aires. From 2011 to 2017 he worked for Central Resources Inc. – a US Independent Oil Company – where he occupied positions as Manager of Legal Affairs, New Businesses and Institutional Relationships. For over 4 years he got involved and led acquisitions and farm-outs processes, advising the company from a legal standpoint but also with a strong negotiating perspective. He also carried out contract negotiations with JV partners, provincial authorities, suppliers, unions, among others. In 2016 he became Country Manager leading 10 managers with more than 100 employees split in three provinces. As from July 2017 he joined MODO LAW practicing as counsel and lawyer in the fields of Contracts, Corporate and Tax Law with strong international perspective.`,
@@ -309,7 +309,7 @@ He specializes in administrative and tax matters, and has broad experience in li
     type: "socio",
     image: socio18,
     practice: ["Legal"],
-    name: "Martin Jandula",
+    name: "Martín Jándula",
     mail: "martin.jandula@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/martin-miguel-j%C3%A1ndula-1a16658/",
     desc1: `Martín is a Lawyer with extensive experience in general corporate advisory services for multinational companies, closely-held corporations and small & medium sized companies.`,
@@ -403,7 +403,7 @@ He specializes in administrative and tax matters, and has broad experience in li
     type: "manager",
     image: socio24,
     practice: ["Payroll Outsourcing"],
-    name: "Victor del Valle",
+    name: "Víctor del Valle",
     mail: "victor.delvalle@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/victor-adrian-del-valle-60240b15/",
     // desc1:
@@ -489,7 +489,7 @@ Manager for American Express`,
     type: "manager",
     image: socio22,
     practice: ["Tax"],
-    name: "Sofía Palucci",
+    name: "Sofía Paulucci",
     mail: "sofia.paulucci@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/sofia-victoria-paulucci-65424144/",
     // desc1:
@@ -509,7 +509,7 @@ Manager for American Express`,
     type: "manager",
     image: socio21,
     practice: ["Legal"],
-    name: "Romina Caceres Villagra",
+    name: "Romina Cáceres Villagra",
     mail: "romina.caceresvillagra@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/rpcaceresvillagra/",
     desc1: "Romina is a Tax & Legal Manager at Andersen in Argentina.",
@@ -569,7 +569,7 @@ Manager for American Express`,
     image: socio10,
     practice: ["Legal"],
     name: "Francisco Peris",
-    mail: "Francisco.peris@ar.andersen.com",
+    mail: "francisco.peris@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/francisco-peris-7a32518a/",
     desc1: `He has vast experience in administrative and tax controversy services, specializing in litigation before Federal, provincials and municipals courts and tax bureaus. As a litigator, he has been involved in several cases that set precedent in administrative and tax matters. ​He is a regular assistant professor at the University of Buenos Aires. ​He has been entitled to litigate before Federal Courts `,
     desc2: "",
@@ -599,7 +599,7 @@ Manager for American Express`,
     image: socio20,
     practice: ["Customs Law"],
     name: "Pedro Negri Aranguren",
-    mail: "pedro.negri@ar.andersen.com",
+    mail: "pedro.negri@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/pedro-negri-aranguren-b844b66a/",
     desc1: `He has a Postgraduate Studies in Tax, at the University of Buenos Aires, and a Posgraduate Studies in Customs, at University of Buenos Aires.`,
     desc2: `He gained his experience in the Tax Department of Estudio Negri & Teijeiro Abogados, and in the Foreign Trade and Customs Department of Estudio Bruchou, Fernández Madero & Lombardi, focusing in general foreign trade and customs advice and litigation.`,
@@ -623,7 +623,7 @@ Manager for American Express`,
     image: socio23,
     practice: ["Customs Law"],
     name: "Valentina Kripper",
-    mail: "valentina.kripper@andersen.com",
+    mail: "valentina.kripper@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/valentina-kripper-6a00b14a/",
     desc1: `She has been member of the Customs & Foreign Trade Department in renowned Law Firms such us O'Farrell, Bruchou Fernandez Madero & Lombardi, Petersen & Cotter Moine.`,
     desc2: `She has a vast experience counseling the firms about import and export operations; representing the firms in Customs procedures; advising about Exchange Regulations; and dumping Investigations. `,
@@ -702,7 +702,7 @@ Manager for American Express`,
     type: "manager",
     image: socio15,
     practice: ["Tax"],
-    name: "Maria José Ermocida",
+    name: "María José Ermocida",
     mail: "mariajose.ermocida@ar.Andersen.com",
     linkedin: "",
     desc1: `She has extensive experience in advising on tax matters, analysis and review of national and provincial taxes acquired in many Studies. She has participated in the dictation of internal training courses in the tax area.`,
@@ -730,7 +730,7 @@ export default function ProffessionalsEnglish() {
                   <a href="/home-english">Home</a>
                 </span>
                 <span class="crumb interior">
-                  <a href="#">Proffessionals</a>
+                  <a href="#">Professionals</a>
                 </span>
               </div>
 
@@ -749,7 +749,7 @@ export default function ProffessionalsEnglish() {
             </div>
 
             <div class="text">
-              <h1>Proffessionals</h1>
+              <h1>Professionals</h1>
               <p>Partners and Managers</p>
             </div>
           </div>
@@ -939,7 +939,7 @@ export default function ProffessionalsEnglish() {
       >
         <div class="row large-collapse">
           <div class="column">
-            <h2>Manager</h2>
+            <h2>Managers</h2>
           </div>
         </div>
       </div>

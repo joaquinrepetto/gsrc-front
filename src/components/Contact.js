@@ -83,7 +83,7 @@ export default function Contact() {
             <div className="row">
               <div className="column medium-12">
                 <h6 style={{ color: "#AC0E20", fontWeight: "600" }}>
-                  OFICINAS EN BUENOS AIRES
+                  OFICINA EN BUENOS AIRES
                 </h6>
               </div>
             </div>
@@ -113,7 +113,14 @@ export default function Contact() {
                 </div>
                 <div>
                   <p style={{ margin: "0px" }}>www.ar.Andersen.com</p>
-                  <p>info@ar.Andersen.com</p>
+                  <p>
+                    <a
+                      href="mailto:info@ar.Andersen.com"
+                      style={{ color: "#AC0E20" }}
+                    >
+                      info@ar.Andersen.com
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>

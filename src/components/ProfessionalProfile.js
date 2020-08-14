@@ -93,7 +93,7 @@ export default function ProfessionalProfile(props) {
                         <h4 style={{ color: "#67737E" }}>
                           {props.location.state.type === "socio"
                             ? "Socio"
-                            : "Manager"}{" "}
+                            : "Gerente"}{" "}
                         </h4>
                       </div>
                       <div className="column medium-12">

@@ -137,7 +137,9 @@ const locations = [
 
 export default function Navbar() {
   const [showServices, setShowServices] = useState(false);
-  const [language, setLanguage] = useState("es");
+  const [language, setLanguage] = useState(
+    localStorage.language ? localStorage.language : "es"
+  );
   const [showCountries, setShowCountries] = useState(false);
 
   useEffect(() => {
@@ -213,7 +215,8 @@ export default function Navbar() {
                   <Link to="/">
                     <a
                       onClick={() => {
-                        setLanguage("es");
+                        localStorage.language = "es";
+                        setLanguage(localStorage.language);
                       }}
                       className="selected"
                     >
@@ -226,7 +229,8 @@ export default function Navbar() {
                   <Link to="/home-english">
                     <a
                       onClick={() => {
-                        setLanguage("en");
+                        localStorage.language = "en";
+                        setLanguage(localStorage.language);
                       }}
                       className="selected"
                     >
@@ -403,7 +407,7 @@ export default function Navbar() {
                       </Link>
                     </li>
                     <li className="item-5" style={{ fontSize: "15px" }}>
-                      <Link to={language === "es" ? "/oficinas" : "/oficinas"}>
+                      <Link to={language === "es" ? "/oficinas" : "/offices"}>
                         <a>{language === "es" ? "Oficinas" : "Offices"}</a>
                       </Link>
                     </li>

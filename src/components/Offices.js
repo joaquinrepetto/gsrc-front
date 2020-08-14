@@ -55,7 +55,7 @@ export default function Offices() {
         <div id="map-container">
           <div class="map-filter-form">
             <form name="map-filter" id="map-filter">
-              <h3>Select a Country</h3>
+              <h3>Selecciona un País</h3>
               <p>This will provide the address for each location.</p>
               <p>
                 <select name="country" id="country_select">

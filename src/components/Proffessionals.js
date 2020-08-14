@@ -212,7 +212,7 @@ Celdeiro. Es miembro de la Asociación Argentina de Estudios Fiscales.`,
     id: 25,
     type: "manager",
     image: socio5,
-    practice: ["Outsorcing contable y de nóminas"],
+    practice: ["Outsorcing contable", "Outsourcing de Nóminas"],
     name: "Carmen Susana Vaccaro",
     mail: "susana.vaccaro@ar.Andersen.com",
     linkedin: "https://linkedin.com/in/carmen-susana-vaccaro-b7965185",
@@ -603,7 +603,7 @@ tasas de interés y rentabilidades de mercado.`,
     type: "manager",
     image: socio22,
     practice: ["Impuestos"],
-    name: "Sofía Palucci",
+    name: "Sofía Paulucci.",
     mail: "sofia.paulucci@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/sofia-victoria-paulucci-65424144/",
     // desc1:
@@ -687,7 +687,7 @@ tributario); Abogada especializado en derecho fiscal y mercantil. Licenciado.`,
     image: socio10,
     practice: ["Legal"],
     name: "Francisco Peris",
-    mail: "Francisco.peris@ar.andersen.com",
+    mail: "Francisco.peris@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/francisco-peris-7a32518a/",
     desc1: `Tiene una vasta experiencia en servicios administrativos y de controversia tributaria,
 especializándose en litigios ante tribunales y oficinas fiscales federales, provinciales y municipales.
@@ -721,7 +721,7 @@ derecho a litigar ante los tribunales federales.`,
     image: socio20,
     practice: ["Aduana"],
     name: "Pedro Negri Aranguren",
-    mail: "pedro.negri@ar.andersen.com",
+    mail: "pedro.negri@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/pedro-negri-aranguren-b844b66a/",
     desc1: `Tiene estudios de posgrado en impuestos, en la Universidad de Buenos Aires, y estudios de
 posgrado en aduanas, en la Universidad de Buenos Aires.`,
@@ -750,7 +750,7 @@ cualquier procedimiento administrativo y / o judicial.`,
     image: socio23,
     practice: ["Aduana"],
     name: "Valentina Kripper",
-    mail: "valentina.kripper@andersen.com",
+    mail: "valentina.kripper@ar.Andersen.com",
     linkedin: "https://www.linkedin.com/in/valentina-kripper-6a00b14a/",
     desc1: `Ha sido miembro del Departamento de Aduanas y Comercio Exterior en reconocidas firmas de
 abogados como O'Farrell, Bruchou Fernández Madero y Lombardi, Petersen y Cotter Moine.`,
@@ -1080,7 +1080,7 @@ export default function Proffessionals() {
       >
         <div class="row large-collapse">
           <div class="column">
-            <h2>Manager</h2>
+            <h2>Gerentes</h2>
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ export default function ProfessionalProfile(props) {
                   <a href="/home-english">Home</a>
                 </span>
                 <span className="crumb interior">
-                  <a href="#">Proffessionals</a>
+                  <a href="#">Professionals</a>
                 </span>
               </div>
             </div>
@@ -162,7 +162,9 @@ export default function ProfessionalProfile(props) {
                     : null}
                 </h6>
 
-                {props.location.state.afiliations ? <h5>Afiliations</h5> : null}
+                {props.location.state.afiliations ? (
+                  <h5>Affiliations</h5>
+                ) : null}
                 <h6>
                   {props.location.state.afiliations
                     ? props.location.state.afiliations.map((a) => (

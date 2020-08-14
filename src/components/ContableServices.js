@@ -320,14 +320,15 @@ export default function ContableServices() {
                     solvencia de los comparables para todos los países no
                     involucrados.
                   </li>
-                </ul>
 
-                <li style={{ listStyleType: "disc" }}>
-                  La coordinación regional nos permite tener una visión más
-                  amplia de las operaciones internacionales, compartir
-                  experiencias entre países y lograr coherencia en las políticas
-                  de precios de transferencia de las compañías multinacionales.
-                </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    La coordinación regional nos permite tener una visión más
+                    amplia de las operaciones internacionales, compartir
+                    experiencias entre países y lograr coherencia en las
+                    políticas de precios de transferencia de las compañías
+                    multinacionales.
+                  </li>
+                </ul>
                 <br />
                 <h5>Resolución de controversias:</h5>
                 <p>

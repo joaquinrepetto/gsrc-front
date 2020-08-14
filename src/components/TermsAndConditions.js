@@ -127,7 +127,9 @@ export default function TermsAndConditions() {
             Para ello apelamos a su colaboración cuando tenga conocimiento de
             estos aspectos, solicitándole que nos remita un correo electrónico a
             la dirección 
-            <a href="mailto:info@ar.Andersen.com">info@ar.Andersen.com.</a>
+            <a style={{ color: "#AC0E20" }} href="mailto:info@ar.Andersen.com">
+              info@ar.Andersen.com.
+            </a>
           </p>
           <p>
             Las firmas miembros de Andersen Global no pueden obligarse
@@ -166,7 +168,9 @@ export default function TermsAndConditions() {
             misma, cualquiera que fuera su finalidad y el medio utilizado para
             ello. En caso de que quiera formular alguna sugerencia o comentario
             puede contactar con nosotros mediante un correo electrónico a{" "}
-            <a href="mailto:info@ar.Andersen.com">info@ar.Andersen.com.</a>
+            <a style={{ color: "#AC0E20" }} href="mailto:info@ar.Andersen.com">
+              info@ar.Andersen.com.
+            </a>
           </p>
           <h6 style={{ fontSize: "1.3rem" }}>6. Legislación aplicable</h6>
           <p>
@@ -200,7 +204,9 @@ export default function TermsAndConditions() {
             <br />
             Tel: +54 11 4390 9700
             <br />
-            <a href="mailto:info@ar.Andersen.com">info@ar.Andersen.com.</a>
+            <a style={{ color: "#AC0E20" }} href="mailto:info@ar.Andersen.com">
+              info@ar.Andersen.com.
+            </a>
             <br />
             <strong>
               © Copyright 2020, ANDERSEN GSRC y MODO LAW. Todos los derechos

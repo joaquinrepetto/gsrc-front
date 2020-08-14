@@ -19,7 +19,8 @@ export default function Footer() {
     location.pathname === "/corporations" ||
     location.pathname === "/profile" ||
     location.pathname === "/contact" ||
-    location.pathname === "/terms"
+    location.pathname === "/terms" ||
+    location.pathname === "/news"
   ) {
     return (
       <footer class="footer">
@@ -100,7 +101,7 @@ export default function Footer() {
               </ul>
             </nav>
             <nav class="column large-3 medium-3 small-6">
-              <h5 style={{ fontSize: "18px" }}>Offices in Buenos Aires</h5>
+              {/* <h5 style={{ fontSize: "18px" }}>Offices in Buenos Aires</h5>
               <ul>
                 <li>
                   <a href="#">Talcahuano 833 - 10th floor</a>
@@ -114,10 +115,10 @@ export default function Footer() {
 
                 <li>
                   <Link to="/contacto">
-                    <a>info@ar.Andersen.com</a>
+                    <a style={{ color: "#AC0E20" }}>info@ar.Andersen.com</a>
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </nav>
           </div>
 
@@ -219,13 +220,13 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/contacto">
-                  <a>Contactános</a>
+                  <a>Contáctenos</a>
                 </Link>
               </li>
             </ul>
           </nav>
           <nav class="column large-3 medium-3 small-6">
-            <h5 style={{ fontSize: "18px" }}>Oficinas de Buenos Aires</h5>
+            {/* <h5 style={{ fontSize: "18px" }}>Oficinas de Buenos Aires</h5>
             <ul>
               <li>
                 <a href="#">Talcahuano 833 - Piso 10º</a>
@@ -242,7 +243,7 @@ export default function Footer() {
                   <a>info@ar.Andersen.com</a>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </nav>
         </div>
 

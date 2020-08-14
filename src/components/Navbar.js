@@ -390,11 +390,11 @@ export default function Navbar() {
                         </a>
                       </Link>
                     </li>
-                    <li className="item-3" style={{ fontSize: "15px" }}>
+                    {/* <li className="item-3" style={{ fontSize: "15px" }}>
                       <Link to={language === "es" ? "/noticias" : "/news"}>
                         <a>{language === "es" ? "Noticias" : "News"}</a>
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="item-4" style={{ fontSize: "15px" }}>
                       <Link
                         to={language === "es" ? "/trabaja" : "/work-english"}

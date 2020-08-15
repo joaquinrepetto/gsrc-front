@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { lang } from "moment";
+import { useLocation } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const locations = [
   { country: "Angola", path: "https://global.andersen.com/locations2/#AO" },
@@ -136,6 +137,9 @@ const locations = [
 ];
 
 export default function Navbar() {
+  let location = useLocation();
+  let history = useHistory();
+
   const [showServices, setShowServices] = useState(false);
   const [language, setLanguage] = useState(
     localStorage.language ? localStorage.language : "es"
@@ -146,6 +150,46 @@ export default function Navbar() {
     document.title =
       language === "es" ? "Andersen en Argentina" : "Andersen in Argentina";
   }, [document.title]);
+
+  const handleChangeLanguage = (newLang) => {
+    if (newLang === "en") {
+      localStorage.language = "en";
+      setLanguage(localStorage.language);
+    } else {
+      localStorage.language = "es";
+      setLanguage(localStorage.language);
+    }
+
+    if (newLang === "es") {
+      switch (location.pathname) {
+        case "/home-english":
+          history.push("/");
+          break;
+        case "/ourfirm":
+          history.push("/nuestrafirma");
+          break;
+        case "/services-english":
+          history.push("/servicios");
+          break;
+        case "/proffessionals":
+          history.push("/profesionales");
+          break;
+        case "/work-english":
+          history.push("/trabaja");
+          break;
+        case "/services-english":
+          history.push("/trabaja");
+          break;
+        case "/offices":
+          history.push("/oficina");
+          break;
+
+        default:
+          break;
+      }
+    } else {
+    }
+  };
 
   return (
     <div>
@@ -212,31 +256,27 @@ export default function Navbar() {
 
               <ul className="language-nav">
                 <li>
-                  <Link to="/">
-                    <a
-                      onClick={() => {
-                        localStorage.language = "es";
-                        setLanguage(localStorage.language);
-                      }}
-                      className="selected"
-                    >
-                      ES
-                    </a>
-                  </Link>
+                  <a
+                    onClick={() => {
+                      handleChangeLanguage("es");
+                    }}
+                    className="selected"
+                  >
+                    ES
+                  </a>
+
                   <a>
                     {"    "} | {"    "}
                   </a>
-                  <Link to="/home-english">
-                    <a
-                      onClick={() => {
-                        localStorage.language = "en";
-                        setLanguage(localStorage.language);
-                      }}
-                      className="selected"
-                    >
-                      EN
-                    </a>
-                  </Link>
+
+                  <a
+                    onClick={() => {
+                      handleChangeLanguage("en");
+                    }}
+                    className="selected"
+                  >
+                    EN
+                  </a>
                 </li>
               </ul>
             </nav>

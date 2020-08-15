@@ -171,6 +171,18 @@ export default function Navbar() {
         case "/services-english":
           history.push("/servicios");
           break;
+        case "/legalservices":
+          history.push("/servicioslegales");
+          break;
+        case "/contable-services":
+          history.push("/servicioscontables");
+          break;
+        case "/bpo-english":
+          history.push("/bpo");
+          break;
+        case "/corporations":
+          history.push("/sociedades");
+          break;
         case "/proffessionals":
           history.push("/profesionales");
           break;
@@ -181,13 +193,62 @@ export default function Navbar() {
           history.push("/trabaja");
           break;
         case "/offices":
-          history.push("/oficina");
+          history.push("/oficinas");
+          break;
+        case "/globalpresence":
+          history.push("/presenciaGlobal");
+          break;
+        case "/contact":
+          history.push("/contacto");
+          break;
+        default:
+          break;
+      }
+    } else {
+      switch (location.pathname) {
+        case "/":
+          history.push("/home-english");
+          break;
+        case "/nuestrafirma":
+          history.push("/ourfirm");
+          break;
+        case "/servicios":
+          history.push("/services-english");
+          break;
+        case "/servicioslegales":
+          history.push("/legalservices");
+          break;
+        case "/servicioscontables":
+          history.push("/contable-services");
+          break;
+        case "/bpo":
+          history.push("/bpo-english");
+          break;
+        case "/sociedades":
+          history.push("/corporations");
+          break;
+        case "/profesionales":
+          history.push("/");
+          break;
+        case "/trabaja":
+          history.push("/work-english");
+          break;
+        case "/services-english":
+          history.push("/trabaja");
+          break;
+        case "/offices":
+          history.push("/oficinas");
+          break;
+        case "/globalpresence":
+          history.push("/presenciaGlobal");
+          break;
+        case "/contacto":
+          history.push("/contact");
           break;
 
         default:
           break;
       }
-    } else {
     }
   };
 

@@ -41,10 +41,8 @@ export default function ServicesEnglish() {
             </div>
 
             <div className="text">
-              <h1>Taxation and Accounting, Legal, BPO and Corporations</h1>
-              <p>
-                Tax, Outsourcing, Corporations and Organizational Consulting.
-              </p>
+              <h1>Services</h1>
+              <p>Taxation and Accounting, Legal, BPO and Corporations.</p>
             </div>
           </div>
         </div>

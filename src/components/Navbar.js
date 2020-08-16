@@ -452,7 +452,7 @@ export default function Navbar() {
                               <a>Business Process Outsourcing (BPO)</a>
                             </Link>
                           </li>
-                          <li style={{ width: "100%", fontSize: "15px" }}>
+                          {/* <li style={{ width: "100%", fontSize: "15px" }}>
                             <Link
                               to={
                                 language === "es"
@@ -466,7 +466,7 @@ export default function Navbar() {
                                   : "Corporations"}
                               </a>
                             </Link>
-                          </li>
+                          </li> */}
                           {/* <li style={{ width: "100%", fontSize: "15px" }}>
                             <Link to="/servicioswealth">
                               <a>Wealth Management & Family Office</a>

@@ -96,7 +96,7 @@ export default function LegalServicesEnglish() {
                         onClick={() => setTab(4)}
                         style={{ color: tab === 4 ? "#AC0E20" : null }}
                       >
-                        Corporate solutions
+                        Corporate Solutions
                       </a>
                     </li>
                     <li>
@@ -287,9 +287,7 @@ export default function LegalServicesEnglish() {
                     Offering opinions on general and specific matters,
                     presenting alternatives and tools to take decisions
                   </li>
-                </ul>
-                <h5>SERVICES:</h5>
-                <ul>
+
                   <li style={{ listStyleType: "disc" }}>
                     Companies incorporation and registration, joint ventures and
                     business and industry associations
@@ -317,19 +315,21 @@ export default function LegalServicesEnglish() {
                     ventures and business and industry associations
                   </li>
                 </ul>
-                <h5>MERGER & AQUISITIONS</h5>
-                <li style={{ listStyleType: "disc" }}>
-                  Legal assistance with corporate documentation
-                </li>
-                <li style={{ listStyleType: "disc" }}>
-                  Tax efficiency in the M&A process and risk analysis
-                </li>
-                <li style={{ listStyleType: "disc" }}>
-                  Contract drafting and negotiation
-                </li>
-                <li style={{ listStyleType: "disc" }}>
-                  Legal and tax due diligence
-                </li>
+                <h5>MERGER & ACQUISITIONS:</h5>
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Legal assistance with corporate documentation
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Tax efficiency in the M&A process and risk analysis
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Contract drafting and negotiation
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Legal and tax due diligence
+                  </li>
+                </ul>
               </div>
             )}
             {tab === 5 && (
@@ -390,9 +390,9 @@ export default function LegalServicesEnglish() {
                 </p>
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Legal and tax advice, and business planning on matters
-                    related to regulations and/or international, national,
-                    provincial or municipal transactions.
+                    Legal tax advice, and business planning on matters related
+                    to regulations and/or international, national, provincial or
+                    municipal transactions.
                   </li>
                   <li style={{ listStyleType: "disc" }}>
                     Specialized assistance in legal consulting.

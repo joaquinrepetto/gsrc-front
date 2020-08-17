@@ -17,6 +17,7 @@ import GlobalPresence from "./components/GlobalPresence";
 import WorkWithUs from "./components/WorkWithUs";
 import Soc from "./components/Soc";
 import News from "./components/News";
+import New from "./components/New";
 import Contact from "./components/Contact";
 import TermsAndConditions from "./components/TermsAndConditions";
 import ProfessionalProfile from "./components/ProfessionalProfile";
@@ -59,6 +60,7 @@ class App extends React.Component {
             <Route path="/perfil" component={ProfessionalProfile} />
             <Route path="/oficinas" component={Offices} exact />
             <Route path="/noticias" component={News} exact />
+            <Route path="/noticia/:id" component={New} exact />
             <Route path="/presenciaGlobal" component={GlobalPresence} exact />
             <Route path="/trabaja" component={WorkWithUs} exact />
             <Route path="/contacto" component={Contact} exact />

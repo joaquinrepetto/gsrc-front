@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
 
 import banner1 from "../assets/img/imag-slider-3-home.jpg";
 import banner2 from "../assets/img/imag-slider-1-home.jpg";
@@ -16,6 +15,10 @@ import value2 from "../assets/values/AT_Stewardship_icon.jpg";
 import value3 from "../assets/values/AT_Independence_icon (1).jpg";
 import value4 from "../assets/values/AT_Seamless_icon.jpg";
 import value5 from "../assets/values/AT_Transparency_icon.jpg";
+
+import axios from "axios";
+
+import Environment from "../Environment";
 
 const hardcodedNews = [
   {
@@ -78,7 +81,7 @@ export default function Home() {
   const loadNews = async () => {
     try {
       axios
-        .get("http://localhost:5000/api/publications")
+        .get(`${Environment.api}/publications`)
         .then(function (response) {
           // handle success
           console.log(response.data.publications);
@@ -292,7 +295,7 @@ export default function Home() {
         </div>
 
         {/* NEWS */}
-        {/* <div className="headline-scroller orbit" data-orbit>
+        <div className="headline-scroller orbit" data-orbit>
           <div className="row large-collapse">
             <div className="column small-4">
               <hr />
@@ -320,16 +323,28 @@ export default function Home() {
 
         <div className="row">
           <div className="column medium-3">
-            <img src={news[0] ? news[0].image : null} width="100%" />
+            <img
+              src={news[0] ? `${Environment.image}${news[0].image1}` : null}
+              width="100%"
+            />
           </div>
           <div className="column medium-3">
-            <img src={news[1] ? news[1].image : null} width="100%" />
+            <img
+              src={news[1] ? `${Environment.image}${news[1].image1}` : null}
+              width="100%"
+            />
           </div>
           <div className="column medium-3">
-            <img src={news[2] ? news[2].image : null} width="100%" />
+            <img
+              src={news[2] ? `${Environment.image}${news[2].image1}` : null}
+              width="100%"
+            />
           </div>
           <div className="column medium-3">
-            <img src={news[3] ? news[3].image : null} width="100%" />
+            <img
+              src={news[3] ? `${Environment.image}${news[3].image1}` : null}
+              width="100%"
+            />
           </div>
         </div>
 
@@ -365,46 +380,47 @@ export default function Home() {
 
         <div className="row" style={{ paddingBottom: "100px" }}>
           <div className="column medium-3">
-            <p>
-              <a
-                href="servicesLearnMore.html"
-                className="button cta hollow-dark"
-              >
-                Ver más{" "}
-              </a>
-            </p>
+            {news[0] && (
+              <Link to={`/noticia/${news[0] ? news[0]._id : null}`}>
+                <p>
+                  <a className="button cta hollow-dark">Ver más </a>
+                </p>
+              </Link>
+            )}
           </div>
           <div className="column medium-3">
-            <p>
-              <a
-                href="servicesLearnMore.html"
-                className="button cta hollow-dark"
-              >
-                Ver más{" "}
-              </a>
-            </p>
+            {news[1] && (
+              <Link to={`/noticia/${news[1] ? news[1]._id : null}`}>
+                <p>
+                  <a className="button cta hollow-dark">Ver más </a>
+                </p>
+              </Link>
+            )}
           </div>
           <div className="column medium-3">
-            <p>
-              <a
-                href="servicesLearnMore.html"
-                className="button cta hollow-dark"
-              >
-                Ver más{" "}
-              </a>
-            </p>
+            {news[2] && (
+              <Link to={`/noticia/${news[2] ? news[2]._id : null}`}>
+                <p>
+                  <a className="button cta hollow-dark">Ver más </a>
+                </p>
+              </Link>
+            )}
           </div>
           <div className="column medium-3">
-            <p>
-              <a
-                href="servicesLearnMore.html"
-                className="button cta hollow-dark"
-              >
-                Ver más{" "}
-              </a>
-            </p>
+            {news[3] && (
+              <Link to={`/noticia/${news[3] ? news[3]._id : null}`}>
+                <p>
+                  <a
+                    href="servicesLearnMore.html"
+                    className="button cta hollow-dark"
+                  >
+                    Ver más{" "}
+                  </a>
+                </p>
+              </Link>
+            )}
           </div>
-        </div> */}
+        </div>
         {/* NEWS */}
 
         <div className="headline-scroller orbit" data-orbit>

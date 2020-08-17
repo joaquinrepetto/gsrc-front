@@ -70,7 +70,7 @@ export default function Offices() {
           </div>
           <div id="mapdiv"></div>
           <form name="formx">
-            <input type="hidden" id="start_country" value="" />
+            <input type="hidden" id="start_country" value="AR" />
           </form>
           <div id="individual_offices"></div>
         </div>

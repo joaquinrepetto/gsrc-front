@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import parse from "html-react-parser";
 import axios from "axios";
 import moment from "moment";
 
@@ -77,7 +77,11 @@ export default function New({ match }) {
                 : publication.type === "Novedades"}
             </p>
             <h2 style={{ color: "#AC0E20" }}>{publication.title}</h2>
+            <div className="row">
+              <div>{publication.text ? parse(publication.text) : null}</div>
+            </div>
           </div>
+          <div className="row"></div>
 
           <div className="row">
             <hr style={{ border: "1px solid #c0c2c3" }} />

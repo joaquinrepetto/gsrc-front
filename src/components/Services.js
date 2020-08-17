@@ -41,7 +41,8 @@ export default function Services() {
             </div>
 
             <div className="text">
-              <h1>Tributación y Contables, Legales, BPO y Sociedades</h1>
+              {/* <h1>Tributación y Contables, Legales, BPO y Sociedades</h1> */}
+              <h1>Servicios</h1>
               <p>
                 Tributación, Outsourcing, Sociedades, Consultoría
                 Organizacional.
